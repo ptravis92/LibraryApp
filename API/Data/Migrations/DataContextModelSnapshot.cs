@@ -50,8 +50,8 @@ namespace API.Data.Migrations
                     b.Property<int?>("CheckedOutUser")
                         .HasColumnType("INTEGER");
 
-                    b.Property<int>("CoverImage")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("CoverImage")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("Description")
                         .IsRequired()
@@ -92,6 +92,48 @@ namespace API.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("Categories");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Mystery"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Historical Fiction"
+                        },
+                        new
+                        {
+                            Id = 3,
+                            Name = "Fantasy"
+                        },
+                        new
+                        {
+                            Id = 4,
+                            Name = "Science Fiction"
+                        },
+                        new
+                        {
+                            Id = 5,
+                            Name = "Horror"
+                        },
+                        new
+                        {
+                            Id = 6,
+                            Name = "NonFiction"
+                        },
+                        new
+                        {
+                            Id = 7,
+                            Name = "Adventure"
+                        },
+                        new
+                        {
+                            Id = 8,
+                            Name = "Romance"
+                        });
                 });
 
             modelBuilder.Entity("API.Models.Publisher", b =>
@@ -159,6 +201,18 @@ namespace API.Data.Migrations
                     b.HasKey("Id");
 
                     b.ToTable("UserTypes");
+
+                    b.HasData(
+                        new
+                        {
+                            Id = 1,
+                            Name = "Librarian"
+                        },
+                        new
+                        {
+                            Id = 2,
+                            Name = "Customer"
+                        });
                 });
 #pragma warning restore 612, 618
         }

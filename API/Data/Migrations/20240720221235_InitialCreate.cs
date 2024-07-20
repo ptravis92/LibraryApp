@@ -3,6 +3,8 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 #nullable disable
 
+#pragma warning disable CA1814 // Prefer jagged arrays over multidimensional
+
 namespace API.Data.Migrations
 {
     /// <inheritdoc />
@@ -33,7 +35,7 @@ namespace API.Data.Migrations
                     Title = table.Column<string>(type: "TEXT", nullable: false),
                     AuthorId = table.Column<int>(type: "INTEGER", nullable: false),
                     Description = table.Column<string>(type: "TEXT", nullable: false),
-                    CoverImage = table.Column<int>(type: "INTEGER", nullable: false),
+                    CoverImage = table.Column<string>(type: "TEXT", nullable: true),
                     PublisherId = table.Column<int>(type: "INTEGER", nullable: false),
                     PublicationDate = table.Column<int>(type: "INTEGER", nullable: false),
                     CategoryId = table.Column<int>(type: "INTEGER", nullable: false),
@@ -112,6 +114,30 @@ namespace API.Data.Migrations
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_UserTypes", x => x.Id);
+                });
+
+            migrationBuilder.InsertData(
+                table: "Categories",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Mystery" },
+                    { 2, "Historical Fiction" },
+                    { 3, "Fantasy" },
+                    { 4, "Science Fiction" },
+                    { 5, "Horror" },
+                    { 6, "NonFiction" },
+                    { 7, "Adventure" },
+                    { 8, "Romance" }
+                });
+
+            migrationBuilder.InsertData(
+                table: "UserTypes",
+                columns: new[] { "Id", "Name" },
+                values: new object[,]
+                {
+                    { 1, "Librarian" },
+                    { 2, "Customer" }
                 });
         }
 

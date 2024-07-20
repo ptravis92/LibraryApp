@@ -6,7 +6,7 @@ public class Book
  public required string Title { get; set; } 
  public int AuthorId { get; set; } 
  public required string Description { get; set; } 
- public int CoverImage { get; set; } 
+ public string? CoverImage { get; set; } 
  public int PublisherId { get; set; } 
  public int PublicationDate { get; set; }
  public int CategoryId { get; set; } 
