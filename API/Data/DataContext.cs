@@ -3,7 +3,7 @@ using Microsoft.EntityFrameworkCore;
 
 namespace API.Data;
 
-public class DataContext(DbContextOptions options) : DbContext(options)
+public class DataContext(DbContextOptions options, DataGenerator generator) : DbContext(options)
 {
     public DbSet<User> Users { get; set; }
     public DbSet<Book> Books { get; set; }
@@ -17,12 +17,12 @@ public class DataContext(DbContextOptions options) : DbContext(options)
     {
         modelBuilder.Entity<Review>()
             .HasKey(review => new {review.BookId, review.UserId});
-        new DbInitializer(modelBuilder).Seed();
+        new DbInitializer(modelBuilder, generator).Seed();
     }
 }
 
 
-public class DbInitializer(ModelBuilder modelBuilder)
+public class DbInitializer(ModelBuilder modelBuilder, DataGenerator generator)
 {
     public void Seed()
     {
@@ -41,6 +41,12 @@ public class DbInitializer(ModelBuilder modelBuilder)
             new Category() { Id = 7, Name = "Adventure" },
             new Category() { Id = 8, Name = "Romance" }
         );
+
+        modelBuilder.Entity<User>().HasData(generator.users);
+        modelBuilder.Entity<Book>().HasData(generator.books);
+        modelBuilder.Entity<Author>().HasData(generator.authors);
+        modelBuilder.Entity<Publisher>().HasData(generator.publishers);
+        modelBuilder.Entity<Review>().HasData(generator.reviews);
     }
 }
 
