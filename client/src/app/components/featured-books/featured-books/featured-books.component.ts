@@ -59,7 +59,7 @@ export class FeaturedBooksComponent implements OnInit, AfterViewInit, OnDestroy 
         return book.checkedOutUntil != null;
       } else {
         return book.title.toLocaleLowerCase().includes(cleanFilter)
-        //|| book.author.toLocaleLowerCase().includes(cleanFilter);
+        || book.author.toLocaleLowerCase().includes(cleanFilter);
       }
     }
 
