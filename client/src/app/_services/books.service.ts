@@ -11,7 +11,7 @@ export class BooksService {
 
     constructor(private http: HttpClient) { }
 
-    get(): Observable<Book[]> {
+    getRandom(): Observable<Book[]> {
         return this.http.get<Book[]>(`${this.baseUrl}/Books`);
     }
 

@@ -1,13 +1,16 @@
 export interface Book {
     id: number;
-    authorId: number;
+    author: string;
+    title: string;
+    description: string;
     coverImage: string;
-    publisherId: number;
+    publisher: string;
     publicationDate: number;
     categoryId: number;
     pageCount: number;
     checkedOutUser: number;
-    checkedOutUntil: string;
+    checkedOutUntil: Date;
+    rating: number;
 }
 
 
