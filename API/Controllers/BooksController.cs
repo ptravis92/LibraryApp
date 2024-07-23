@@ -1,5 +1,6 @@
 ﻿using API.Models;
 using API.Services;
+using API.ViewModels;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
@@ -9,17 +10,17 @@ namespace API.Controllers;
 public class BooksController(BooksService service) : ControllerBase
 {
     [HttpGet]
-    public ActionResult<IEnumerable<Book>> Get()
+    public ActionResult<IEnumerable<BookVM>> Get()
     {
-        IEnumerable<Book> books = service.Get();
+        IEnumerable<BookVM> books = service.Get();
         
         return books.ToList();
     }
 
     [HttpGet("{id:int}")]
-    public ActionResult<Book> Get(int id)
+    public ActionResult<BookVM> Get(int id)
     {
-        Book? book = service.Get(id);
+        BookVM? book = service.Get(id);
 
         if(book == null)
         {

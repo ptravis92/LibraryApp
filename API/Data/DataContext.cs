@@ -17,6 +17,13 @@ public class DataContext(DbContextOptions options, DataGenerator generator) : Db
     {
         modelBuilder.Entity<Review>()
             .HasKey(review => new {review.BookId, review.UserId});
+
+        modelBuilder.Entity<Book>()
+            .HasOne(book => book.Author)
+            .WithMany(author => author.Books)
+            .HasForeignKey(book => book.AuthorId)
+            .IsRequired();
+
         new DbInitializer(modelBuilder, generator).Seed();
     }
 }

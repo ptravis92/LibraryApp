@@ -10,6 +10,7 @@ builder.Services.AddScoped<BooksService>();
 builder.Services.AddScoped<BooksRepository>();
 
 builder.Services.AddControllers();
+builder.Services.AddTransient<DataGenerator>();
 builder.Services.AddDbContext<DataContext>(opt =>
 {
     opt.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection"));
@@ -19,7 +20,6 @@ builder.Services.AddCors();
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
-builder.Services.AddTransient<DataGenerator>();
 
 var app = builder.Build();
 

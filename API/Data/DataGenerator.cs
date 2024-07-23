@@ -45,11 +45,14 @@ public class DataGenerator
             .RuleFor(book => book.Title, faker => faker.Lorem.Sentence(1,5))
             .RuleFor(book => book.AuthorId, faker => faker.PickRandom(authors).Id)
             .RuleFor(book => book.Description, faker => faker.Lorem.Paragraph(2))
-            .RuleFor(book => book.CoverImage, faker => faker.Image.PlaceImgUrl())
+            .RuleFor(book => book.CoverImage, faker => $"https://picsum.photos/id/{faker.Random.Int(1, 500)}")
             .RuleFor(book => book.PublisherId, faker => faker.PickRandom(publishers).Id)
             .RuleFor(book => book.CategoryId, faker => faker.Random.Int(1, 8))
             .RuleFor(book => book.ISBN, faker => faker.Random.Digits(13).ToString())
-            .RuleFor(book => book.PageCount, faker => faker.Random.Int(100, 500));
+            .RuleFor(book => book.PageCount, faker => faker.Random.Int(100, 500))
+            .RuleFor(book => book.PublicationDate, faker => faker.Date.Between(DateTime.Now.AddYears(-100), DateTime.Now))
+            .RuleFor(book => book.CheckedOutUntil, faker => faker.Date.Between(DateTime.Now.AddDays(7), DateTime.Now.AddDays(12)).OrNull(faker, .7f))
+            ;
 
         books = book.Generate(500);
 
