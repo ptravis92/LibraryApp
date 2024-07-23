@@ -1,55 +1,78 @@
-
-<mat-form-field>
-    <mat-label>Title or Author Filter</mat-label>
-    <input [formControl]="filter" matInput>
-    <mat-hint>Hint</mat-hint>
-</mat-form-field>
-<table mat-table [dataSource]="books" matSort>
-    <!--- Note that these columns can be defined in any order.
+<mat-card appearance="outlined">
+    <mat-card-content>
+        <mat-form-field>
+            <mat-label>Title or Author Filter</mat-label>
+            <input [formControl]="filter"
+                   matInput>
+            <mat-hint>Hint</mat-hint>
+        </mat-form-field>
+        <table mat-table
+               [dataSource]="books"
+               matSort>
+            <!--- Note that these columns can be defined in any order.
     The actual rendered columns are set as a property on the row definition" -->
 
-    <!-- Title Column -->
-    <ng-container matColumnDef="title">
-        <th mat-sort-header mat-header-cell *matHeaderCellDef> Title </th>
-        <td mat-cell *matCellDef="let book"> {{ book?.title }} </td>
-    </ng-container>
-    
-    <!-- Author Column -->
-    <ng-container matColumnDef="author">
-        <th mat-sort-header mat-header-cell *matHeaderCellDef> Author </th>
-        <td mat-cell *matCellDef="let book"> {{ book?.author }} </td>
-    </ng-container>
-    
-    <!-- Description Column -->
-    <ng-container matColumnDef="description">
-        <th mat-header-cell *matHeaderCellDef> Description </th>
-        <td mat-cell *matCellDef="let book"> {{ book?.description?.substring(0, 100).trimEnd() }}... </td>
-    </ng-container>
-    
-    <!-- Cover Column -->
-    <ng-container matColumnDef="coverImage">
-        <th mat-header-cell *matHeaderCellDef> Cover </th>
-        <td mat-cell *matCellDef="let book">
-            <img src="{{book?.coverImage}}/55/75" />
-        </td>
-    </ng-container>
-    
-    <!-- Rating Column -->
-    <ng-container matColumnDef="rating">
-        <th mat-header-cell *matHeaderCellDef> Rating </th>
-        <td mat-cell *matCellDef="let book"> {{ book?.rating }} </td>
-    </ng-container>
-    
-    <!-- Available Column -->
-    <ng-container matColumnDef="checkedOutUntil">
-        <th mat-sort-header mat-header-cell *matHeaderCellDef> Available On </th>
-        <td mat-cell *matCellDef="let book"> {{ (book?.checkedOutUntil | date) ?? 'Now' }} </td>
-    </ng-container>
-    
-    <tr mat-header-row *matHeaderRowDef="displayedColumns"></tr>
-    <tr mat-row *matRowDef="let row; columns: displayedColumns;"></tr>
-</table>
-<mat-paginator [pageSize]="5"
-               [pageSizeOptions]="[5, 10, 25, 100]"
-                aria-label="Select page">
-</mat-paginator>
+            <!-- Title Column -->
+            <ng-container matColumnDef="title">
+                <th mat-sort-header
+                    mat-header-cell
+                    *matHeaderCellDef> Title </th>
+                <td mat-cell
+                    *matCellDef="let book"> {{ book?.title }} </td>
+            </ng-container>
+
+            <!-- Author Column -->
+            <ng-container matColumnDef="author">
+                <th mat-sort-header
+                    mat-header-cell
+                    *matHeaderCellDef> Author </th>
+                <td mat-cell
+                    *matCellDef="let book"> {{ book?.author }} </td>
+            </ng-container>
+
+            <!-- Description Column -->
+            <ng-container matColumnDef="description">
+                <th mat-header-cell
+                    *matHeaderCellDef> Description </th>
+                <td mat-cell
+                    *matCellDef="let book"> {{ book?.description?.substring(0, 100).trimEnd() }}... </td>
+            </ng-container>
+
+            <!-- Cover Column -->
+            <ng-container matColumnDef="coverImage">
+                <th mat-header-cell
+                    *matHeaderCellDef> Cover </th>
+                <td mat-cell
+                    *matCellDef="let book">
+                    <img src="{{book?.coverImage}}/55/75" />
+                </td>
+            </ng-container>
+
+            <!-- Rating Column -->
+            <ng-container matColumnDef="rating">
+                <th mat-header-cell
+                    *matHeaderCellDef> Rating </th>
+                <td mat-cell
+                    *matCellDef="let book"> {{ book?.rating }} </td>
+            </ng-container>
+
+            <!-- Available Column -->
+            <ng-container matColumnDef="checkedOutUntil">
+                <th mat-sort-header
+                    mat-header-cell
+                    *matHeaderCellDef> Available On </th>
+                <td mat-cell
+                    *matCellDef="let book"> {{ (book?.checkedOutUntil | date) ?? 'Now' }} </td>
+            </ng-container>
+
+            <tr mat-header-row
+                *matHeaderRowDef="displayedColumns"></tr>
+            <tr mat-row
+                *matRowDef="let row; columns: displayedColumns;"></tr>
+        </table>
+        <mat-paginator [pageSize]="5"
+                       [pageSizeOptions]="[5, 10, 25, 100]"
+                       aria-label="Select page">
+        </mat-paginator>
+    </mat-card-content>
+</mat-card>

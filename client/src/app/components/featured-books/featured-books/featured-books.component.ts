@@ -10,12 +10,13 @@ import { Subject, takeUntil } from 'rxjs';
 import { Book } from '../../../_models/book';
 import { BooksService } from '../../../_services/books.service';
 import { DatePipe } from '@angular/common';
+import { MatCardModule } from '@angular/material/card';
 
 @Component({
   selector: 'featured-books',
   standalone: true,
-  imports: [MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, MatSlideToggleModule, DatePipe],
-  providers:[BooksService],
+  imports: [MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, MatSlideToggleModule, DatePipe, MatCardModule],
+  providers: [BooksService],
   templateUrl: './featured-books.component.html',
   styleUrls: ['./featured-books.component.css']
 })
@@ -25,7 +26,7 @@ export class FeaturedBooksComponent implements OnInit, AfterViewInit, OnDestroy 
   @ViewChild(MatSort) private sort!: MatSort;
   @ViewChild(MatInput) private matInput!: MatSort;
 
-  filter = new FormControl<string|null>(''); 
+  filter = new FormControl<string | null>('');
 
   books = new MatTableDataSource<Book>([]);
   unsubscribe: Subject<void> = new Subject();
@@ -33,7 +34,7 @@ export class FeaturedBooksComponent implements OnInit, AfterViewInit, OnDestroy 
     'title',
     'author',
     'description',
-    'coverImage', 
+    'coverImage',
     'rating',
     'checkedOutUntil'
   ];
@@ -49,12 +50,12 @@ export class FeaturedBooksComponent implements OnInit, AfterViewInit, OnDestroy 
   ngAfterViewInit(): void {
     this.books.paginator = this.paginator;
     this.books.sort = this.sort;
-    
+
     this.books.filterPredicate = (book, filter) => {
       const cleanFilter = filter.trim().toLocaleLowerCase();
-      if(cleanFilter.includes('#available')) {
+      if (cleanFilter.includes('#available')) {
         return book.checkedOutUntil == null;
-      } else if(cleanFilter.includes('#unavailable')) {
+      } else if (cleanFilter.includes('#unavailable')) {
         return book.checkedOutUntil != null;
       } else {
         return book.title.toLocaleLowerCase().includes(cleanFilter)
