@@ -9,11 +9,12 @@ import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { Subject, takeUntil } from 'rxjs';
 import { Book } from '../../../_models/book';
 import { BooksService } from '../../../_services/books.service';
+import { DatePipe } from '@angular/common';
 
 @Component({
   selector: 'featured-books',
   standalone: true,
-  imports: [MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, MatSlideToggleModule],
+  imports: [MatTableModule, MatPaginatorModule, MatSortModule, MatFormFieldModule, ReactiveFormsModule, MatInputModule, MatSlideToggleModule, DatePipe],
   providers:[BooksService],
   templateUrl: './featured-books.component.html',
   styleUrls: ['./featured-books.component.css']
