@@ -1,8 +1,10 @@
-﻿namespace API.Models;
+﻿using Microsoft.AspNetCore.Identity;
 
-public class User
+namespace API.Models;
+
+public class User : IdentityUser<int>
 {
-    public int Id { get; set; }
     public required string Name { get; set; }
-    public int TypeId { get; set; }
+    public int RoleId { get; set; }
+    public required Role Role { get; set; }
 }

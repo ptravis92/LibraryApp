@@ -7,10 +7,10 @@ import { MatSlideToggleModule } from '@angular/material/slide-toggle';
 import { MatSort, MatSortModule } from '@angular/material/sort';
 import { MatTableDataSource, MatTableModule } from '@angular/material/table';
 import { Subject, takeUntil } from 'rxjs';
-import { Book } from '../../../_models/book';
-import { BooksService } from '../../../_services/books.service';
 import { DatePipe } from '@angular/common';
 import { MatCardModule } from '@angular/material/card';
+import { BooksService } from '../../_services/books.service';
+import { Book } from '../../_models/book';
 
 @Component({
   selector: 'featured-books',

@@ -1,11 +1,11 @@
 ﻿using API.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
 
 namespace API.Data;
 
-public class DataContext(DbContextOptions options, DataGenerator generator) : DbContext(options)
+public class DataContext(DbContextOptions options, DataGenerator generator) : IdentityDbContext<User, Role, int>(options)
 {
-    public DbSet<User> Users { get; set; }
     public DbSet<Book> Books { get; set; }
     public DbSet<Author> Authors { get; set; }
     public DbSet<Category> Categories { get; set; }
@@ -15,6 +15,18 @@ public class DataContext(DbContextOptions options, DataGenerator generator) : Db
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
+        modelBuilder.Entity<User>()
+            .HasOne(user => user.Role)
+            .WithMany(role => role.Users)
+            .HasForeignKey(user => user.RoleId)
+            .IsRequired();
+
+        modelBuilder.Entity<Role>()
+            .HasMany(role => role.Users)
+            .WithOne(user => user.Role)
+            .HasForeignKey(user => user.RoleId)
+            .IsRequired();
+
         modelBuilder.Entity<Review>()
             .HasKey(review => new {review.BookId, review.UserId});
 

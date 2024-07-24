@@ -1,10 +1,12 @@
 ﻿using API.Models;
 using API.Services;
 using API.ViewModels;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 namespace API.Controllers;
 
+[Authorize]
 [ApiController]
 [Route("[controller]")]
 public class BooksController(BooksService service) : ControllerBase
