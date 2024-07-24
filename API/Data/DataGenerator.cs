@@ -23,8 +23,9 @@ public class DataGenerator
 
         user = new Faker<User>()
             .RuleFor(user => user.Id, faker => id++)
-            .RuleFor(user => user.Name, faker => faker.Name.FullName())
-            .RuleFor(user => user.TypeId, 2);
+            .RuleFor(user => user.UserName, faker => faker.Name.FullName())
+            //.RuleFor(user => user.RoleId, 2)
+            ;
 
         users = user.Generate(50);
 

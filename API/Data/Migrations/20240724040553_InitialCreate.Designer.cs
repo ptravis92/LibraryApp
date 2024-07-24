@@ -11,7 +11,7 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace API.Data.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20240723033311_InitialCreate")]
+    [Migration("20240724040553_InitialCreate")]
     partial class InitialCreate
     {
         /// <inheritdoc />
@@ -601,7 +601,7 @@ namespace API.Data.Migrations
                             Description = "Quas fuga in labore occaecati sed. Eaque aut a fuga pariatur iure quos quo aut. Et ipsam magni.",
                             ISBN = "System.Int32[]",
                             PageCount = 124,
-                            PublicationDate = new DateTime(1954, 7, 9, 18, 55, 17, 464, DateTimeKind.Local).AddTicks(4384),
+                            PublicationDate = new DateTime(1954, 7, 10, 19, 28, 3, 314, DateTimeKind.Local).AddTicks(9638),
                             PublisherId = 188,
                             Title = "Necessitatibus hic laudantium."
                         },
@@ -610,12 +610,12 @@ namespace API.Data.Migrations
                             Id = 202,
                             AuthorId = 141,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 0, 25, 1, 175, DateTimeKind.Local).AddTicks(8116),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 0, 57, 47, 16, DateTimeKind.Local).AddTicks(4706),
                             CoverImage = "https://picsum.photos/id/226",
                             Description = "Fugiat quo quibusdam dolores a omnis ipsam omnis iusto et. Sit facilis aliquam. Excepturi voluptatem corrupti ducimus excepturi repudiandae illum sit. Ratione ratione et. Blanditiis ratione repellat deserunt vel rem voluptatem velit voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 203,
-                            PublicationDate = new DateTime(1925, 3, 23, 18, 3, 42, 544, DateTimeKind.Local).AddTicks(7883),
+                            PublicationDate = new DateTime(1925, 3, 24, 18, 36, 28, 385, DateTimeKind.Local).AddTicks(4493),
                             PublisherId = 198,
                             Title = "Suscipit sed laudantium sit expedita accusamus."
                         },
@@ -628,7 +628,7 @@ namespace API.Data.Migrations
                             Description = "Consequatur quia ut ullam adipisci vel. Neque fuga laborum tenetur et sapiente nisi. Voluptas explicabo repellendus facere et magni. Laudantium consequatur mollitia facilis laudantium dolores sequi.",
                             ISBN = "System.Int32[]",
                             PageCount = 401,
-                            PublicationDate = new DateTime(1995, 8, 15, 18, 23, 26, 17, DateTimeKind.Local).AddTicks(684),
+                            PublicationDate = new DateTime(1995, 8, 16, 18, 56, 11, 857, DateTimeKind.Local).AddTicks(6984),
                             PublisherId = 200,
                             Title = "Maiores consequatur magni totam corporis."
                         },
@@ -641,7 +641,7 @@ namespace API.Data.Migrations
                             Description = "Impedit tempora nihil unde aliquid voluptate aut sed et. Voluptas magnam et itaque eos rerum. Ipsum omnis eum et quasi.",
                             ISBN = "System.Int32[]",
                             PageCount = 192,
-                            PublicationDate = new DateTime(1967, 12, 31, 12, 39, 40, 261, DateTimeKind.Local).AddTicks(2658),
+                            PublicationDate = new DateTime(1968, 1, 1, 13, 12, 26, 101, DateTimeKind.Local).AddTicks(8684),
                             PublisherId = 193,
                             Title = "Autem sint sed."
                         },
@@ -654,7 +654,7 @@ namespace API.Data.Migrations
                             Description = "Consequatur quaerat corrupti necessitatibus. Veniam vero et provident et modi nesciunt eos. Et pariatur veniam magni id. Vel earum nisi sed quos exercitationem quaerat vero rem beatae.",
                             ISBN = "System.Int32[]",
                             PageCount = 356,
-                            PublicationDate = new DateTime(1958, 7, 21, 13, 5, 50, 979, DateTimeKind.Local).AddTicks(9934),
+                            PublicationDate = new DateTime(1958, 7, 22, 13, 38, 36, 820, DateTimeKind.Local).AddTicks(5976),
                             PublisherId = 178,
                             Title = "Nobis maiores praesentium quod esse."
                         },
@@ -667,7 +667,7 @@ namespace API.Data.Migrations
                             Description = "Hic in nisi voluptatem alias qui qui voluptatem nam nulla. Tempore quos earum omnis a et repellat et et. Totam eius et et quis eos dolorum.",
                             ISBN = "System.Int32[]",
                             PageCount = 410,
-                            PublicationDate = new DateTime(1991, 3, 23, 3, 48, 39, 458, DateTimeKind.Local).AddTicks(4346),
+                            PublicationDate = new DateTime(1991, 3, 24, 4, 21, 25, 299, DateTimeKind.Local).AddTicks(1114),
                             PublisherId = 154,
                             Title = "Quis dolores voluptas."
                         },
@@ -676,12 +676,12 @@ namespace API.Data.Migrations
                             Id = 207,
                             AuthorId = 99,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 14, 40, 21, 634, DateTimeKind.Local).AddTicks(5546),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 15, 13, 7, 475, DateTimeKind.Local).AddTicks(2397),
                             CoverImage = "https://picsum.photos/id/450",
                             Description = "Aut et minima eum amet id quis nihil. In reiciendis eius dolores occaecati odit.",
                             ISBN = "System.Int32[]",
                             PageCount = 291,
-                            PublicationDate = new DateTime(1940, 3, 5, 23, 27, 9, 534, DateTimeKind.Local).AddTicks(2177),
+                            PublicationDate = new DateTime(1940, 3, 6, 23, 59, 55, 374, DateTimeKind.Local).AddTicks(9018),
                             PublisherId = 200,
                             Title = "Voluptas debitis voluptas possimus dolor vel."
                         },
@@ -690,12 +690,12 @@ namespace API.Data.Migrations
                             Id = 208,
                             AuthorId = 86,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 0, 24, 10, 280, DateTimeKind.Local).AddTicks(9041),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 0, 56, 56, 121, DateTimeKind.Local).AddTicks(8351),
                             CoverImage = "https://picsum.photos/id/252",
                             Description = "Aliquid labore deserunt. Est adipisci ex id eos sit reprehenderit quam. Consequatur pariatur magnam dicta aut odio. Maxime id ea eligendi quas veritatis. Non nulla aut culpa quidem ut id non perferendis dolor.",
                             ISBN = "System.Int32[]",
                             PageCount = 252,
-                            PublicationDate = new DateTime(1955, 6, 24, 3, 38, 19, 928, DateTimeKind.Local).AddTicks(8448),
+                            PublicationDate = new DateTime(1955, 6, 25, 4, 11, 5, 769, DateTimeKind.Local).AddTicks(7728),
                             PublisherId = 152,
                             Title = "Necessitatibus esse."
                         },
@@ -708,7 +708,7 @@ namespace API.Data.Migrations
                             Description = "Est veniam fugiat totam. Vitae rerum officia at voluptates rem quis. Nostrum cum vel fugiat quia ad. Rerum molestiae repudiandae magni aut ipsam ea ea. Alias aut veniam.",
                             ISBN = "System.Int32[]",
                             PageCount = 307,
-                            PublicationDate = new DateTime(1969, 6, 1, 2, 3, 58, 802, DateTimeKind.Local).AddTicks(7974),
+                            PublicationDate = new DateTime(1969, 6, 2, 2, 36, 44, 643, DateTimeKind.Local).AddTicks(7494),
                             PublisherId = 196,
                             Title = "Amet fuga adipisci eum necessitatibus at."
                         },
@@ -721,7 +721,7 @@ namespace API.Data.Migrations
                             Description = "Officia ut cum non officia pariatur itaque consectetur. Provident dolorem quidem et nostrum doloribus illo est explicabo. Quia est aliquid similique quasi voluptas omnis rerum voluptas a.",
                             ISBN = "System.Int32[]",
                             PageCount = 453,
-                            PublicationDate = new DateTime(1962, 9, 5, 15, 31, 57, 836, DateTimeKind.Local).AddTicks(4934),
+                            PublicationDate = new DateTime(1962, 9, 6, 16, 4, 43, 677, DateTimeKind.Local).AddTicks(4594),
                             PublisherId = 183,
                             Title = "Eaque voluptatem."
                         },
@@ -734,7 +734,7 @@ namespace API.Data.Migrations
                             Description = "Ut cumque id nobis aperiam ut laborum ut veniam necessitatibus. Delectus blanditiis laboriosam eaque molestias.",
                             ISBN = "System.Int32[]",
                             PageCount = 304,
-                            PublicationDate = new DateTime(1987, 7, 26, 11, 20, 2, 93, DateTimeKind.Local).AddTicks(5152),
+                            PublicationDate = new DateTime(1987, 7, 27, 11, 52, 47, 934, DateTimeKind.Local).AddTicks(4772),
                             PublisherId = 195,
                             Title = "Ut dolorem."
                         },
@@ -747,7 +747,7 @@ namespace API.Data.Migrations
                             Description = "Molestiae nihil dolorum voluptas nesciunt minima aut porro voluptatum id. Nihil est eos porro earum. Aut velit mollitia qui eum dolorum temporibus. Quis porro distinctio quis cupiditate velit aperiam. Ipsa dolore omnis ab sint voluptatem velit dolor autem sequi.",
                             ISBN = "System.Int32[]",
                             PageCount = 415,
-                            PublicationDate = new DateTime(1980, 7, 5, 7, 35, 54, 519, DateTimeKind.Local).AddTicks(9008),
+                            PublicationDate = new DateTime(1980, 7, 6, 8, 8, 40, 360, DateTimeKind.Local).AddTicks(8588),
                             PublisherId = 196,
                             Title = "Illum ipsum nihil sequi voluptatibus iusto."
                         },
@@ -760,7 +760,7 @@ namespace API.Data.Migrations
                             Description = "Non vel distinctio. Molestias aut sit minima voluptate cum architecto explicabo. Sed cum in voluptatem sapiente eius porro ut rerum. Commodi quia impedit animi sint voluptate optio.",
                             ISBN = "System.Int32[]",
                             PageCount = 317,
-                            PublicationDate = new DateTime(1943, 8, 2, 11, 38, 26, 279, DateTimeKind.Local).AddTicks(2276),
+                            PublicationDate = new DateTime(1943, 8, 3, 12, 11, 12, 120, DateTimeKind.Local).AddTicks(1805),
                             PublisherId = 167,
                             Title = "Voluptate nemo porro nobis laborum tenetur."
                         },
@@ -773,7 +773,7 @@ namespace API.Data.Migrations
                             Description = "Ullam totam et veniam vel. Quo facilis facere corporis et esse quia est est. Ut pariatur est corrupti voluptatem consequatur aliquid dolorem. Voluptatum corporis ut eaque est officiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 232,
-                            PublicationDate = new DateTime(1998, 1, 10, 14, 37, 20, 506, DateTimeKind.Local).AddTicks(1018),
+                            PublicationDate = new DateTime(1998, 1, 11, 15, 10, 6, 347, DateTimeKind.Local).AddTicks(368),
                             PublisherId = 157,
                             Title = "Asperiores tempore et."
                         },
@@ -786,7 +786,7 @@ namespace API.Data.Migrations
                             Description = "Fugit quidem officiis laboriosam similique. Est odit et eius veniam molestiae.",
                             ISBN = "System.Int32[]",
                             PageCount = 196,
-                            PublicationDate = new DateTime(2004, 8, 24, 3, 54, 7, 799, DateTimeKind.Local).AddTicks(6770),
+                            PublicationDate = new DateTime(2004, 8, 25, 4, 26, 53, 640, DateTimeKind.Local).AddTicks(6060),
                             PublisherId = 189,
                             Title = "Consequuntur."
                         },
@@ -799,7 +799,7 @@ namespace API.Data.Migrations
                             Description = "Quo quasi delectus nostrum dolores quia impedit quos earum. Delectus ratione aut. Ipsa aperiam odit necessitatibus voluptatem. Labore qui mollitia aut eveniet et. Rerum ut et inventore molestiae quia aut vitae.",
                             ISBN = "System.Int32[]",
                             PageCount = 228,
-                            PublicationDate = new DateTime(1976, 12, 12, 18, 57, 7, 927, DateTimeKind.Local).AddTicks(2648),
+                            PublicationDate = new DateTime(1976, 12, 13, 19, 29, 53, 768, DateTimeKind.Local).AddTicks(1808),
                             PublisherId = 155,
                             Title = "Non."
                         },
@@ -812,7 +812,7 @@ namespace API.Data.Migrations
                             Description = "Ipsa qui alias. Accusantium hic ad voluptatibus.",
                             ISBN = "System.Int32[]",
                             PageCount = 139,
-                            PublicationDate = new DateTime(1978, 12, 20, 10, 11, 6, 156, DateTimeKind.Local).AddTicks(7568),
+                            PublicationDate = new DateTime(1978, 12, 21, 10, 43, 51, 997, DateTimeKind.Local).AddTicks(6678),
                             PublisherId = 194,
                             Title = "Rem doloribus qui harum quos voluptas."
                         },
@@ -825,7 +825,7 @@ namespace API.Data.Migrations
                             Description = "Quos maxime iusto suscipit quia et quidem laboriosam debitis animi. Molestiae dolor unde et sed reprehenderit. Eaque eaque voluptatem. Sapiente facere sunt deleniti vero quo nihil laudantium.",
                             ISBN = "System.Int32[]",
                             PageCount = 405,
-                            PublicationDate = new DateTime(1979, 1, 23, 16, 39, 59, 811, DateTimeKind.Local).AddTicks(2562),
+                            PublicationDate = new DateTime(1979, 1, 24, 17, 12, 45, 652, DateTimeKind.Local).AddTicks(1508),
                             PublisherId = 161,
                             Title = "Dolor assumenda."
                         },
@@ -834,12 +834,12 @@ namespace API.Data.Migrations
                             Id = 219,
                             AuthorId = 129,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 9, 25, 45, 765, DateTimeKind.Local).AddTicks(5433),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 9, 58, 31, 606, DateTimeKind.Local).AddTicks(4283),
                             CoverImage = "https://picsum.photos/id/188",
                             Description = "Qui quia quibusdam harum. Excepturi aliquam quas alias animi deleniti. Fuga unde rerum soluta. Sed cumque ut sint quisquam enim totam et cum.",
                             ISBN = "System.Int32[]",
                             PageCount = 405,
-                            PublicationDate = new DateTime(2019, 2, 16, 6, 28, 56, 360, DateTimeKind.Local).AddTicks(378),
+                            PublicationDate = new DateTime(2019, 2, 17, 7, 1, 42, 200, DateTimeKind.Local).AddTicks(9228),
                             PublisherId = 168,
                             Title = "Porro pariatur mollitia facilis pariatur."
                         },
@@ -852,7 +852,7 @@ namespace API.Data.Migrations
                             Description = "Minus beatae impedit voluptas aut saepe sit alias id. Saepe cum eos et. Saepe aut est itaque quia aspernatur aut tenetur. Dolore a consequatur in omnis molestias. Reprehenderit voluptates ea consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 257,
-                            PublicationDate = new DateTime(1927, 6, 22, 3, 59, 35, 403, DateTimeKind.Local).AddTicks(6098),
+                            PublicationDate = new DateTime(1927, 6, 23, 4, 32, 21, 244, DateTimeKind.Local).AddTicks(4798),
                             PublisherId = 181,
                             Title = "Dolorem."
                         },
@@ -865,7 +865,7 @@ namespace API.Data.Migrations
                             Description = "Molestiae et assumenda quas. Tenetur quis voluptates consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 358,
-                            PublicationDate = new DateTime(1984, 5, 4, 15, 11, 21, 320, DateTimeKind.Local).AddTicks(1272),
+                            PublicationDate = new DateTime(1984, 5, 5, 15, 44, 7, 160, DateTimeKind.Local).AddTicks(9908),
                             PublisherId = 195,
                             Title = "Consequuntur ad vitae ab non."
                         },
@@ -878,7 +878,7 @@ namespace API.Data.Migrations
                             Description = "Enim voluptatem est sequi iure qui. Ut vitae repellendus voluptatum eum asperiores est iure blanditiis repellendus.",
                             ISBN = "System.Int32[]",
                             PageCount = 365,
-                            PublicationDate = new DateTime(1985, 8, 9, 21, 16, 40, 837, DateTimeKind.Local).AddTicks(6046),
+                            PublicationDate = new DateTime(1985, 8, 10, 21, 49, 26, 678, DateTimeKind.Local).AddTicks(4576),
                             PublisherId = 157,
                             Title = "Cupiditate voluptatum occaecati eos est."
                         },
@@ -891,7 +891,7 @@ namespace API.Data.Migrations
                             Description = "Consequatur at minima est sint sunt veritatis. In repellat in sunt qui. Minus ex aspernatur dolor atque provident culpa dolores illum et.",
                             ISBN = "System.Int32[]",
                             PageCount = 401,
-                            PublicationDate = new DateTime(1939, 1, 13, 16, 27, 50, 607, DateTimeKind.Local).AddTicks(5385),
+                            PublicationDate = new DateTime(1939, 1, 14, 17, 0, 36, 448, DateTimeKind.Local).AddTicks(3834),
                             PublisherId = 200,
                             Title = "Molestiae eius."
                         },
@@ -904,7 +904,7 @@ namespace API.Data.Migrations
                             Description = "Iusto id et maiores cum. Voluptatum qui sint. Cumque et saepe vitae ratione vitae ut commodi et. Provident suscipit sequi omnis iusto inventore sequi ex et. Sunt alias omnis aliquid.",
                             ISBN = "System.Int32[]",
                             PageCount = 456,
-                            PublicationDate = new DateTime(2007, 12, 20, 16, 2, 0, 41, DateTimeKind.Local).AddTicks(88),
+                            PublicationDate = new DateTime(2007, 12, 21, 16, 34, 45, 881, DateTimeKind.Local).AddTicks(8404),
                             PublisherId = 185,
                             Title = "Dicta temporibus adipisci."
                         },
@@ -917,7 +917,7 @@ namespace API.Data.Migrations
                             Description = "Impedit quo cumque ipsam. Animi blanditiis qui sapiente quos error quibusdam.",
                             ISBN = "System.Int32[]",
                             PageCount = 366,
-                            PublicationDate = new DateTime(1963, 2, 2, 5, 32, 56, 888, DateTimeKind.Local).AddTicks(2170),
+                            PublicationDate = new DateTime(1963, 2, 3, 6, 5, 42, 729, DateTimeKind.Local).AddTicks(402),
                             PublisherId = 191,
                             Title = "Aut culpa voluptatem omnis et."
                         },
@@ -930,7 +930,7 @@ namespace API.Data.Migrations
                             Description = "Molestiae laboriosam ipsum nemo odio nostrum hic. Qui quod nemo architecto voluptates. Blanditiis et accusamus asperiores modi nisi. In et vel debitis laboriosam asperiores illum autem. Ut animi sed quidem.",
                             ISBN = "System.Int32[]",
                             PageCount = 137,
-                            PublicationDate = new DateTime(1989, 1, 13, 19, 5, 28, 482, DateTimeKind.Local).AddTicks(8674),
+                            PublicationDate = new DateTime(1989, 1, 14, 19, 38, 14, 323, DateTimeKind.Local).AddTicks(6756),
                             PublisherId = 196,
                             Title = "Voluptatem illum vel aliquid sapiente rerum."
                         },
@@ -939,12 +939,12 @@ namespace API.Data.Migrations
                             Id = 227,
                             AuthorId = 64,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 10, 53, 35, 960, DateTimeKind.Local).AddTicks(4117),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 11, 26, 21, 801, DateTimeKind.Local).AddTicks(2026),
                             CoverImage = "https://picsum.photos/id/488",
                             Description = "Molestias impedit accusamus enim. Ut suscipit qui rerum magni sit consequatur officia minus quas. Tempora similique praesentium. Aspernatur deserunt voluptas optio voluptas quae. Nemo impedit aut autem accusantium dignissimos temporibus alias dolorem.",
                             ISBN = "System.Int32[]",
                             PageCount = 371,
-                            PublicationDate = new DateTime(1971, 8, 31, 9, 7, 58, 753, DateTimeKind.Local).AddTicks(3808),
+                            PublicationDate = new DateTime(1971, 9, 1, 9, 40, 44, 594, DateTimeKind.Local).AddTicks(1722),
                             PublisherId = 193,
                             Title = "Ut aspernatur temporibus molestiae aspernatur exercitationem."
                         },
@@ -953,12 +953,12 @@ namespace API.Data.Migrations
                             Id = 228,
                             AuthorId = 138,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 2, 52, 40, 992, DateTimeKind.Local).AddTicks(5723),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 3, 25, 26, 833, DateTimeKind.Local).AddTicks(3517),
                             CoverImage = "https://picsum.photos/id/71",
                             Description = "Molestiae et qui laboriosam. Iure dolores rerum. Id eum eius autem quaerat quis qui voluptatem ipsam.",
                             ISBN = "System.Int32[]",
                             PageCount = 333,
-                            PublicationDate = new DateTime(2020, 7, 3, 19, 43, 29, 404, DateTimeKind.Local).AddTicks(2548),
+                            PublicationDate = new DateTime(2020, 7, 4, 20, 16, 15, 245, DateTimeKind.Local).AddTicks(348),
                             PublisherId = 154,
                             Title = "Ipsum molestias rerum est doloremque voluptatem."
                         },
@@ -971,7 +971,7 @@ namespace API.Data.Migrations
                             Description = "Dicta facilis autem magnam distinctio. Aut nihil minus enim vel. Fugit rerum ipsa quaerat illo est perspiciatis enim qui earum. Numquam cum voluptas illum beatae maiores expedita voluptatum enim consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 129,
-                            PublicationDate = new DateTime(1967, 9, 7, 0, 16, 17, 920, DateTimeKind.Local).AddTicks(1434),
+                            PublicationDate = new DateTime(1967, 9, 8, 0, 49, 3, 760, DateTimeKind.Local).AddTicks(9054),
                             PublisherId = 151,
                             Title = "Atque deserunt."
                         },
@@ -984,7 +984,7 @@ namespace API.Data.Migrations
                             Description = "Sit blanditiis non quisquam architecto quibusdam quas. Quibusdam rerum iure magnam ut dolorem quisquam. Possimus temporibus et eos quae atque qui quia repudiandae. Provident illum architecto ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 284,
-                            PublicationDate = new DateTime(1936, 3, 25, 7, 19, 49, 444, DateTimeKind.Local).AddTicks(4356),
+                            PublicationDate = new DateTime(1936, 3, 26, 7, 52, 35, 285, DateTimeKind.Local).AddTicks(1786),
                             PublisherId = 198,
                             Title = "Aut qui."
                         },
@@ -997,7 +997,7 @@ namespace API.Data.Migrations
                             Description = "Quidem possimus aut pariatur voluptatem nobis excepturi qui omnis. Qui laudantium voluptas ex ratione quo. Impedit aut repellat odio laudantium distinctio sunt voluptas. Quae ut magni molestias sequi impedit.",
                             ISBN = "System.Int32[]",
                             PageCount = 255,
-                            PublicationDate = new DateTime(1962, 3, 5, 22, 12, 23, 264, DateTimeKind.Local).AddTicks(9734),
+                            PublicationDate = new DateTime(1962, 3, 6, 22, 45, 9, 105, DateTimeKind.Local).AddTicks(7086),
                             PublisherId = 183,
                             Title = "Ex repellendus."
                         },
@@ -1006,12 +1006,12 @@ namespace API.Data.Migrations
                             Id = 232,
                             AuthorId = 59,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 29, 23, 22, 29, 729, DateTimeKind.Local).AddTicks(219),
+                            CheckedOutUntil = new DateTime(2024, 7, 30, 23, 55, 15, 569, DateTimeKind.Local).AddTicks(7389),
                             CoverImage = "https://picsum.photos/id/154",
                             Description = "Ut quia enim quis aut atque soluta fuga. Qui voluptatum possimus nulla laudantium. Necessitatibus officia dicta assumenda et harum voluptatem facere eos. Alias ducimus et. Omnis qui qui odit non error enim.",
                             ISBN = "System.Int32[]",
                             PageCount = 227,
-                            PublicationDate = new DateTime(1946, 3, 26, 16, 32, 5, 325, DateTimeKind.Local).AddTicks(2972),
+                            PublicationDate = new DateTime(1946, 3, 27, 17, 4, 51, 166, DateTimeKind.Local).AddTicks(152),
                             PublisherId = 190,
                             Title = "Non voluptate ipsum aspernatur porro."
                         },
@@ -1024,7 +1024,7 @@ namespace API.Data.Migrations
                             Description = "Suscipit sit est voluptatem ut culpa culpa. Adipisci aliquam occaecati quo ab odit est facere eos.",
                             ISBN = "System.Int32[]",
                             PageCount = 331,
-                            PublicationDate = new DateTime(1956, 1, 22, 14, 10, 17, 300, DateTimeKind.Local).AddTicks(3288),
+                            PublicationDate = new DateTime(1956, 1, 23, 14, 43, 3, 141, DateTimeKind.Local).AddTicks(380),
                             PublisherId = 185,
                             Title = "Velit non aut aperiam."
                         },
@@ -1037,7 +1037,7 @@ namespace API.Data.Migrations
                             Description = "Dolorem assumenda laudantium quisquam praesentium aut est facere. Enim similique quas omnis et nesciunt debitis soluta labore.",
                             ISBN = "System.Int32[]",
                             PageCount = 241,
-                            PublicationDate = new DateTime(2021, 12, 13, 8, 10, 46, 944, DateTimeKind.Local).AddTicks(6406),
+                            PublicationDate = new DateTime(2021, 12, 14, 8, 43, 32, 785, DateTimeKind.Local).AddTicks(3436),
                             PublisherId = 189,
                             Title = "Neque reiciendis cumque optio."
                         },
@@ -1050,7 +1050,7 @@ namespace API.Data.Migrations
                             Description = "Nemo maxime sit repudiandae quod alias aut sit blanditiis sit. Voluptas inventore ullam tempore accusamus. Autem nihil quae velit quo et. Error ducimus amet quidem molestias magni est tenetur. Sequi neque quae occaecati dolorem vero modi id natus aspernatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 217,
-                            PublicationDate = new DateTime(2006, 4, 12, 5, 5, 44, 415, DateTimeKind.Local).AddTicks(9924),
+                            PublicationDate = new DateTime(2006, 4, 13, 5, 38, 30, 256, DateTimeKind.Local).AddTicks(7472),
                             PublisherId = 175,
                             Title = "Aut."
                         },
@@ -1059,12 +1059,12 @@ namespace API.Data.Migrations
                             Id = 236,
                             AuthorId = 141,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 20, 9, 6, 497, DateTimeKind.Local).AddTicks(4421),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 20, 41, 52, 338, DateTimeKind.Local).AddTicks(2001),
                             CoverImage = "https://picsum.photos/id/272",
                             Description = "Fuga aliquid numquam occaecati. Dignissimos rerum et non. Numquam nesciunt molestias quasi velit. Dolor unde et ea similique ut. Illum error ea eos quae est ut sequi dignissimos iure.",
                             ISBN = "System.Int32[]",
                             PageCount = 470,
-                            PublicationDate = new DateTime(1947, 9, 8, 6, 51, 13, 122, DateTimeKind.Local).AddTicks(2839),
+                            PublicationDate = new DateTime(1947, 9, 9, 7, 23, 58, 963, DateTimeKind.Local).AddTicks(419),
                             PublisherId = 198,
                             Title = "Voluptate sit."
                         },
@@ -1073,12 +1073,12 @@ namespace API.Data.Migrations
                             Id = 237,
                             AuthorId = 90,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 3, 18, 46, 990, DateTimeKind.Local).AddTicks(5269),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 3, 51, 32, 831, DateTimeKind.Local).AddTicks(3219),
                             CoverImage = "https://picsum.photos/id/200",
                             Description = "Nemo deserunt voluptas doloremque aspernatur assumenda assumenda delectus consequuntur. Rerum ut aliquid rerum. Deserunt ut qui nobis molestiae. Quod id pariatur. Autem id rerum reiciendis vero non sed a.",
                             ISBN = "System.Int32[]",
                             PageCount = 490,
-                            PublicationDate = new DateTime(1936, 1, 9, 23, 2, 44, 669, DateTimeKind.Local).AddTicks(7804),
+                            PublicationDate = new DateTime(1936, 1, 10, 23, 35, 30, 510, DateTimeKind.Local).AddTicks(5736),
                             PublisherId = 156,
                             Title = "Error vitae molestiae."
                         },
@@ -1091,7 +1091,7 @@ namespace API.Data.Migrations
                             Description = "Aut doloribus ut porro. Nemo hic cupiditate est blanditiis molestiae ut quia veritatis. Rem libero consequatur nihil rerum ea soluta alias maxime. Velit molestiae optio unde nam eos sit sint.",
                             ISBN = "System.Int32[]",
                             PageCount = 138,
-                            PublicationDate = new DateTime(1943, 4, 2, 12, 17, 22, 144, DateTimeKind.Local).AddTicks(7600),
+                            PublicationDate = new DateTime(1943, 4, 3, 12, 50, 7, 985, DateTimeKind.Local).AddTicks(5621),
                             PublisherId = 175,
                             Title = "Cumque similique vero asperiores."
                         },
@@ -1100,12 +1100,12 @@ namespace API.Data.Migrations
                             Id = 239,
                             AuthorId = 86,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 2, 7, 40, 530, DateTimeKind.Local).AddTicks(6457),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 2, 40, 26, 371, DateTimeKind.Local).AddTicks(4567),
                             CoverImage = "https://picsum.photos/id/241",
                             Description = "Reiciendis aut ipsam et fugiat. Culpa ea totam voluptatem. Quae totam minus magnam corrupti inventore velit. Delectus placeat qui. Tenetur cupiditate id iusto veniam consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 344,
-                            PublicationDate = new DateTime(1955, 8, 8, 16, 22, 25, 268, DateTimeKind.Local).AddTicks(9522),
+                            PublicationDate = new DateTime(1955, 8, 9, 16, 55, 11, 109, DateTimeKind.Local).AddTicks(7632),
                             PublisherId = 167,
                             Title = "Omnis sed maiores cupiditate accusantium."
                         },
@@ -1118,7 +1118,7 @@ namespace API.Data.Migrations
                             Description = "Quidem ea quisquam aspernatur eligendi exercitationem aperiam. Asperiores dolorum enim dolore aperiam non veniam laborum sed omnis. Sed qui est. Sint nihil ea sit accusamus.",
                             ISBN = "System.Int32[]",
                             PageCount = 235,
-                            PublicationDate = new DateTime(1931, 1, 1, 1, 53, 1, 778, DateTimeKind.Local).AddTicks(8133),
+                            PublicationDate = new DateTime(1931, 1, 2, 2, 25, 47, 619, DateTimeKind.Local).AddTicks(8264),
                             PublisherId = 175,
                             Title = "Totam eum sit."
                         },
@@ -1127,12 +1127,12 @@ namespace API.Data.Migrations
                             Id = 241,
                             AuthorId = 107,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 13, 56, 10, 421, DateTimeKind.Local).AddTicks(4502),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 14, 28, 56, 262, DateTimeKind.Local).AddTicks(5012),
                             CoverImage = "https://picsum.photos/id/82",
                             Description = "Nihil doloremque ab aut tempore. Delectus dolorem ut et eaque. Non et et dignissimos necessitatibus aut. Corrupti optio quia minus. Culpa ea velit nemo et.",
                             ISBN = "System.Int32[]",
                             PageCount = 471,
-                            PublicationDate = new DateTime(1978, 2, 15, 22, 47, 31, 494, DateTimeKind.Local).AddTicks(7670),
+                            PublicationDate = new DateTime(1978, 2, 16, 23, 20, 17, 335, DateTimeKind.Local).AddTicks(8166),
                             PublisherId = 161,
                             Title = "At nostrum."
                         },
@@ -1145,7 +1145,7 @@ namespace API.Data.Migrations
                             Description = "Modi ipsam debitis distinctio sint aut exercitationem accusantium iure. In officia et. Dicta repudiandae et ex dolores ex ullam et dolorem veniam.",
                             ISBN = "System.Int32[]",
                             PageCount = 131,
-                            PublicationDate = new DateTime(2020, 9, 3, 11, 30, 37, 361, DateTimeKind.Local).AddTicks(7434),
+                            PublicationDate = new DateTime(2020, 9, 4, 12, 3, 23, 202, DateTimeKind.Local).AddTicks(8004),
                             PublisherId = 195,
                             Title = "Sapiente ipsam autem ut id."
                         },
@@ -1154,12 +1154,12 @@ namespace API.Data.Migrations
                             Id = 243,
                             AuthorId = 99,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 8, 48, 51, 181, DateTimeKind.Local).AddTicks(5372),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 9, 21, 37, 22, DateTimeKind.Local).AddTicks(5953),
                             CoverImage = "https://picsum.photos/id/265",
                             Description = "Itaque totam sunt. Deserunt magni harum est velit iure. Corporis laudantium tempora et enim excepturi molestias ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 322,
-                            PublicationDate = new DateTime(1937, 1, 6, 21, 1, 54, 155, DateTimeKind.Local).AddTicks(6240),
+                            PublicationDate = new DateTime(1937, 1, 7, 21, 34, 39, 996, DateTimeKind.Local).AddTicks(6820),
                             PublisherId = 182,
                             Title = "Consectetur sed asperiores tempora praesentium."
                         },
@@ -1168,12 +1168,12 @@ namespace API.Data.Migrations
                             Id = 244,
                             AuthorId = 77,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 14, 2, 23, 110, DateTimeKind.Local).AddTicks(389),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 14, 35, 8, 951, DateTimeKind.Local).AddTicks(993),
                             CoverImage = "https://picsum.photos/id/382",
                             Description = "Quisquam porro tenetur culpa est velit. Magni praesentium dicta eaque temporibus et ea facere. Excepturi maxime error aut. Ratione molestiae optio. Suscipit ea est.",
                             ISBN = "System.Int32[]",
                             PageCount = 410,
-                            PublicationDate = new DateTime(1929, 3, 4, 22, 9, 48, 501, DateTimeKind.Local).AddTicks(911),
+                            PublicationDate = new DateTime(1929, 3, 5, 22, 42, 34, 342, DateTimeKind.Local).AddTicks(1511),
                             PublisherId = 164,
                             Title = "Adipisci ut libero in fugiat sed."
                         },
@@ -1186,7 +1186,7 @@ namespace API.Data.Migrations
                             Description = "Excepturi reprehenderit illo ab consequatur. Aut placeat velit officia. Consequatur maiores saepe repudiandae architecto quae et atque et et.",
                             ISBN = "System.Int32[]",
                             PageCount = 384,
-                            PublicationDate = new DateTime(1929, 12, 17, 0, 6, 45, 867, DateTimeKind.Local).AddTicks(4392),
+                            PublicationDate = new DateTime(1929, 12, 18, 0, 39, 31, 708, DateTimeKind.Local).AddTicks(5003),
                             PublisherId = 151,
                             Title = "Consequatur voluptatem autem cumque sequi velit."
                         },
@@ -1195,12 +1195,12 @@ namespace API.Data.Migrations
                             Id = 246,
                             AuthorId = 125,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 9, 52, 12, 413, DateTimeKind.Local).AddTicks(5929),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 10, 24, 58, 254, DateTimeKind.Local).AddTicks(6549),
                             CoverImage = "https://picsum.photos/id/131",
                             Description = "Eum nihil praesentium. Aut possimus sunt vero suscipit quos iure natus. Aut modi eveniet neque amet. Perferendis sequi sit temporibus totam rerum suscipit animi. Labore eveniet eum.",
                             ISBN = "System.Int32[]",
                             PageCount = 132,
-                            PublicationDate = new DateTime(1950, 9, 17, 5, 49, 3, 175, DateTimeKind.Local).AddTicks(5985),
+                            PublicationDate = new DateTime(1950, 9, 18, 6, 21, 49, 16, DateTimeKind.Local).AddTicks(6597),
                             PublisherId = 178,
                             Title = "Quidem."
                         },
@@ -1213,7 +1213,7 @@ namespace API.Data.Migrations
                             Description = "Maiores omnis nesciunt sunt dolorum iusto odit consequuntur consequatur assumenda. Nobis qui sed architecto est velit ea iure quia esse. Voluptatibus occaecati quod earum eaque itaque labore fuga quidem. Eveniet blanditiis aut suscipit hic est dolor adipisci.",
                             ISBN = "System.Int32[]",
                             PageCount = 419,
-                            PublicationDate = new DateTime(1988, 9, 22, 3, 0, 28, 797, DateTimeKind.Local).AddTicks(9814),
+                            PublicationDate = new DateTime(1988, 9, 23, 3, 33, 14, 639, DateTimeKind.Local).AddTicks(458),
                             PublisherId = 197,
                             Title = "Accusantium non hic."
                         },
@@ -1226,7 +1226,7 @@ namespace API.Data.Migrations
                             Description = "Repellat incidunt quod distinctio voluptatum sit consectetur distinctio atque. In in neque aut eum error qui saepe quae tempore. Debitis facere ut nemo quis et.",
                             ISBN = "System.Int32[]",
                             PageCount = 227,
-                            PublicationDate = new DateTime(1964, 5, 5, 23, 52, 3, 953, DateTimeKind.Local).AddTicks(2640),
+                            PublicationDate = new DateTime(1964, 5, 7, 0, 24, 49, 794, DateTimeKind.Local).AddTicks(3260),
                             PublisherId = 168,
                             Title = "Dolorem rerum eum."
                         },
@@ -1239,7 +1239,7 @@ namespace API.Data.Migrations
                             Description = "Quia voluptatum sed aliquid aut. Iure voluptatem odio quam rerum officia autem aliquam. Recusandae et rerum quidem rerum quidem dolor iusto eos et. Et temporibus quod reiciendis.",
                             ISBN = "System.Int32[]",
                             PageCount = 425,
-                            PublicationDate = new DateTime(1956, 8, 5, 20, 46, 0, 266, DateTimeKind.Local).AddTicks(5138),
+                            PublicationDate = new DateTime(1956, 8, 6, 21, 18, 46, 107, DateTimeKind.Local).AddTicks(5716),
                             PublisherId = 169,
                             Title = "Aut id et corrupti."
                         },
@@ -1248,12 +1248,12 @@ namespace API.Data.Migrations
                             Id = 250,
                             AuthorId = 96,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 19, 14, 46, 858, DateTimeKind.Local).AddTicks(959),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 19, 47, 32, 699, DateTimeKind.Local).AddTicks(1532),
                             CoverImage = "https://picsum.photos/id/485",
                             Description = "Nisi eaque veritatis quis repudiandae possimus mollitia culpa. Molestiae qui esse itaque provident aut. Expedita atque et atque sequi quia sed. Voluptate autem id id architecto reiciendis qui repudiandae. Quisquam vel voluptates commodi quia labore.",
                             ISBN = "System.Int32[]",
                             PageCount = 187,
-                            PublicationDate = new DateTime(1974, 9, 6, 15, 1, 43, 665, DateTimeKind.Local).AddTicks(3668),
+                            PublicationDate = new DateTime(1974, 9, 7, 15, 34, 29, 506, DateTimeKind.Local).AddTicks(4242),
                             PublisherId = 191,
                             Title = "Pariatur."
                         },
@@ -1262,12 +1262,12 @@ namespace API.Data.Migrations
                             Id = 251,
                             AuthorId = 79,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 10, 52, 44, 474, DateTimeKind.Local).AddTicks(5228),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 11, 25, 30, 315, DateTimeKind.Local).AddTicks(5818),
                             CoverImage = "https://picsum.photos/id/318",
                             Description = "Eius sequi aspernatur qui sed et itaque soluta aliquam molestiae. Dolorem dolorem et. Eligendi repudiandae harum omnis consequatur ratione nesciunt neque velit. Et cumque vel rerum qui quo consectetur adipisci et et.",
                             ISBN = "System.Int32[]",
                             PageCount = 441,
-                            PublicationDate = new DateTime(1975, 2, 4, 18, 22, 53, 399, DateTimeKind.Local).AddTicks(8928),
+                            PublicationDate = new DateTime(1975, 2, 5, 18, 55, 39, 240, DateTimeKind.Local).AddTicks(9518),
                             PublisherId = 198,
                             Title = "Sequi eos molestias atque."
                         },
@@ -1280,7 +1280,7 @@ namespace API.Data.Migrations
                             Description = "Perspiciatis quia id vero numquam. Et molestiae pariatur sit maxime eveniet dolorem expedita omnis omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 446,
-                            PublicationDate = new DateTime(1975, 10, 1, 19, 57, 57, 167, DateTimeKind.Local).AddTicks(7980),
+                            PublicationDate = new DateTime(1975, 10, 2, 20, 30, 43, 8, DateTimeKind.Local).AddTicks(7534),
                             PublisherId = 194,
                             Title = "Doloribus."
                         },
@@ -1289,12 +1289,12 @@ namespace API.Data.Migrations
                             Id = 253,
                             AuthorId = 66,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 2, 19, 1, 289, DateTimeKind.Local).AddTicks(9801),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 2, 51, 47, 130, DateTimeKind.Local).AddTicks(9231),
                             CoverImage = "https://picsum.photos/id/397",
                             Description = "Accusantium pariatur ut ullam numquam quia quo impedit. Aut et a inventore ex adipisci id ut aliquam. Atque aperiam ipsam vitae minima optio in.",
                             ISBN = "System.Int32[]",
                             PageCount = 401,
-                            PublicationDate = new DateTime(1993, 11, 16, 23, 49, 38, 467, DateTimeKind.Local).AddTicks(9394),
+                            PublicationDate = new DateTime(1993, 11, 18, 0, 22, 24, 308, DateTimeKind.Local).AddTicks(8824),
                             PublisherId = 171,
                             Title = "Qui beatae natus et dolor consectetur."
                         },
@@ -1303,12 +1303,12 @@ namespace API.Data.Migrations
                             Id = 254,
                             AuthorId = 75,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 20, 4, 26, 256, DateTimeKind.Local).AddTicks(3882),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 20, 37, 12, 97, DateTimeKind.Local).AddTicks(3132),
                             CoverImage = "https://picsum.photos/id/283",
                             Description = "Recusandae distinctio quo assumenda quaerat animi vel. Ullam amet aut velit suscipit. Tenetur cupiditate ea eum qui debitis sit. Aut error iure ducimus et consequatur quasi ab laboriosam molestias. Optio nihil dignissimos quia quasi sunt corrupti.",
                             ISBN = "System.Int32[]",
                             PageCount = 412,
-                            PublicationDate = new DateTime(1939, 5, 28, 16, 23, 24, 301, DateTimeKind.Local).AddTicks(6792),
+                            PublicationDate = new DateTime(1939, 5, 29, 16, 56, 10, 142, DateTimeKind.Local).AddTicks(6051),
                             PublisherId = 160,
                             Title = "Quisquam consequatur sit."
                         },
@@ -1317,12 +1317,12 @@ namespace API.Data.Migrations
                             Id = 255,
                             AuthorId = 138,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 11, 30, 55, 771, DateTimeKind.Local).AddTicks(5480),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 12, 3, 41, 612, DateTimeKind.Local).AddTicks(4580),
                             CoverImage = "https://picsum.photos/id/345",
                             Description = "Molestias ea nostrum exercitationem. Enim eum est voluptates qui odit tenetur et similique officiis. Ut quo voluptatum. Molestiae nam aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 399,
-                            PublicationDate = new DateTime(2001, 10, 28, 1, 40, 54, 767, DateTimeKind.Local).AddTicks(8116),
+                            PublicationDate = new DateTime(2001, 10, 29, 2, 13, 40, 608, DateTimeKind.Local).AddTicks(7216),
                             PublisherId = 164,
                             Title = "Consequatur quaerat dolore nulla quas."
                         },
@@ -1331,12 +1331,12 @@ namespace API.Data.Migrations
                             Id = 256,
                             AuthorId = 81,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 22, 1, 56, 562, DateTimeKind.Local).AddTicks(443),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 22, 34, 42, 402, DateTimeKind.Local).AddTicks(9575),
                             CoverImage = "https://picsum.photos/id/352",
                             Description = "Quia corporis temporibus in unde facere. Et animi perferendis minima iste eveniet nobis temporibus officia.",
                             ISBN = "System.Int32[]",
                             PageCount = 308,
-                            PublicationDate = new DateTime(1979, 6, 11, 6, 26, 40, 486, DateTimeKind.Local).AddTicks(5498),
+                            PublicationDate = new DateTime(1979, 6, 12, 6, 59, 26, 327, DateTimeKind.Local).AddTicks(4632),
                             PublisherId = 155,
                             Title = "Enim eos."
                         },
@@ -1345,12 +1345,12 @@ namespace API.Data.Migrations
                             Id = 257,
                             AuthorId = 59,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 6, 13, 33, 325, DateTimeKind.Local).AddTicks(6157),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 6, 46, 19, 166, DateTimeKind.Local).AddTicks(5177),
                             CoverImage = "https://picsum.photos/id/446",
                             Description = "Corrupti unde consectetur. Dolorum vitae id similique omnis sint mollitia corporis aut ut. Libero tempora harum ipsa repellendus sit mollitia eveniet aperiam ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 440,
-                            PublicationDate = new DateTime(1990, 5, 8, 9, 39, 32, 383, DateTimeKind.Local).AddTicks(2670),
+                            PublicationDate = new DateTime(1990, 5, 9, 10, 12, 18, 224, DateTimeKind.Local).AddTicks(1692),
                             PublisherId = 199,
                             Title = "Alias nemo consequatur."
                         },
@@ -1363,7 +1363,7 @@ namespace API.Data.Migrations
                             Description = "Minus quae culpa. Saepe et sequi non qui fugit mollitia accusamus ut et. Qui cum est.",
                             ISBN = "System.Int32[]",
                             PageCount = 212,
-                            PublicationDate = new DateTime(1975, 5, 7, 8, 20, 25, 367, DateTimeKind.Local).AddTicks(5974),
+                            PublicationDate = new DateTime(1975, 5, 8, 8, 53, 11, 208, DateTimeKind.Local).AddTicks(5024),
                             PublisherId = 157,
                             Title = "Repudiandae omnis."
                         },
@@ -1376,7 +1376,7 @@ namespace API.Data.Migrations
                             Description = "Est natus debitis nam labore dolorem sapiente quia corporis animi. Nihil mollitia tenetur numquam ipsa molestiae facere optio. Quas quaerat fuga sed dignissimos ea quasi necessitatibus quod eos.",
                             ISBN = "System.Int32[]",
                             PageCount = 370,
-                            PublicationDate = new DateTime(1994, 6, 25, 21, 34, 27, 562, DateTimeKind.Local).AddTicks(1538),
+                            PublicationDate = new DateTime(1994, 6, 26, 22, 7, 13, 403, DateTimeKind.Local).AddTicks(438),
                             PublisherId = 186,
                             Title = "Nobis iure sint voluptas."
                         },
@@ -1389,7 +1389,7 @@ namespace API.Data.Migrations
                             Description = "Nisi modi fugiat possimus quasi totam odio incidunt repellat qui. Nihil nisi consequatur asperiores. Odit aliquid ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 185,
-                            PublicationDate = new DateTime(2015, 4, 29, 17, 58, 26, 491, DateTimeKind.Local).AddTicks(4206),
+                            PublicationDate = new DateTime(2015, 4, 30, 18, 31, 12, 332, DateTimeKind.Local).AddTicks(3076),
                             PublisherId = 198,
                             Title = "Perferendis voluptates voluptatem."
                         },
@@ -1398,12 +1398,12 @@ namespace API.Data.Migrations
                             Id = 261,
                             AuthorId = 150,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 6, 0, 24, 300, DateTimeKind.Local).AddTicks(4847),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 6, 33, 10, 141, DateTimeKind.Local).AddTicks(3666),
                             CoverImage = "https://picsum.photos/id/96",
                             Description = "Dolores alias aut ut magni sunt doloribus. Non aut iure facilis et et officiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 250,
-                            PublicationDate = new DateTime(1954, 9, 1, 3, 6, 4, 267, DateTimeKind.Local).AddTicks(6544),
+                            PublicationDate = new DateTime(1954, 9, 2, 3, 38, 50, 108, DateTimeKind.Local).AddTicks(5362),
                             PublisherId = 196,
                             Title = "Delectus qui temporibus nostrum et."
                         },
@@ -1416,7 +1416,7 @@ namespace API.Data.Migrations
                             Description = "Alias aut ducimus et fuga. Culpa mollitia reprehenderit et fugit quisquam dolorum porro eveniet sed. Voluptatum nobis et quidem. Aut aut nisi quia amet occaecati. Fuga et et blanditiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 288,
-                            PublicationDate = new DateTime(1933, 3, 19, 12, 58, 38, 17, DateTimeKind.Local).AddTicks(4172),
+                            PublicationDate = new DateTime(1933, 3, 20, 13, 31, 23, 858, DateTimeKind.Local).AddTicks(2922),
                             PublisherId = 189,
                             Title = "Alias ad placeat."
                         },
@@ -1425,12 +1425,12 @@ namespace API.Data.Migrations
                             Id = 263,
                             AuthorId = 94,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 6, 28, 8, 362, DateTimeKind.Local).AddTicks(8026),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 7, 0, 54, 203, DateTimeKind.Local).AddTicks(6206),
                             CoverImage = "https://picsum.photos/id/132",
                             Description = "Quo inventore velit voluptas ducimus corrupti. Alias earum mollitia impedit sit. Optio qui enim nesciunt sunt facere. Delectus accusantium et porro ut ut et alias tenetur.",
                             ISBN = "System.Int32[]",
                             PageCount = 403,
-                            PublicationDate = new DateTime(2007, 4, 15, 2, 20, 39, 238, DateTimeKind.Local).AddTicks(5882),
+                            PublicationDate = new DateTime(2007, 4, 16, 2, 53, 25, 79, DateTimeKind.Local).AddTicks(4072),
                             PublisherId = 166,
                             Title = "Nam excepturi repellat."
                         },
@@ -1443,7 +1443,7 @@ namespace API.Data.Migrations
                             Description = "Asperiores eligendi tempora aut quam voluptatem ab cum. Voluptatem ab eum nihil qui. Mollitia temporibus voluptatibus qui est.",
                             ISBN = "System.Int32[]",
                             PageCount = 236,
-                            PublicationDate = new DateTime(1992, 9, 19, 12, 34, 41, 310, DateTimeKind.Local).AddTicks(4584),
+                            PublicationDate = new DateTime(1992, 9, 20, 13, 7, 27, 151, DateTimeKind.Local).AddTicks(2774),
                             PublisherId = 161,
                             Title = "Aliquid molestiae soluta."
                         },
@@ -1456,7 +1456,7 @@ namespace API.Data.Migrations
                             Description = "Odio eos et possimus rerum cumque ea qui aut repellendus. Dignissimos qui eius consequuntur corrupti assumenda nihil est. Libero quo accusamus et aliquam odit et. Sed voluptatem est sint beatae occaecati.",
                             ISBN = "System.Int32[]",
                             PageCount = 410,
-                            PublicationDate = new DateTime(1938, 1, 8, 7, 27, 20, 222, DateTimeKind.Local).AddTicks(2680),
+                            PublicationDate = new DateTime(1938, 1, 9, 8, 0, 6, 63, DateTimeKind.Local).AddTicks(750),
                             PublisherId = 151,
                             Title = "Perspiciatis natus."
                         },
@@ -1465,12 +1465,12 @@ namespace API.Data.Migrations
                             Id = 266,
                             AuthorId = 51,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 22, 28, 10, 351, DateTimeKind.Local).AddTicks(7273),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 23, 0, 56, 192, DateTimeKind.Local).AddTicks(5263),
                             CoverImage = "https://picsum.photos/id/257",
                             Description = "Architecto tenetur consectetur et eos eius commodi. Laudantium quia doloribus. Consectetur id voluptatum labore consequuntur autem perspiciatis. Aut dolores deleniti quo corrupti.",
                             ISBN = "System.Int32[]",
                             PageCount = 114,
-                            PublicationDate = new DateTime(1991, 6, 17, 22, 30, 40, 567, DateTimeKind.Local).AddTicks(2054),
+                            PublicationDate = new DateTime(1991, 6, 18, 23, 3, 26, 408, DateTimeKind.Local).AddTicks(50),
                             PublisherId = 185,
                             Title = "Id enim."
                         },
@@ -1483,7 +1483,7 @@ namespace API.Data.Migrations
                             Description = "Voluptatum voluptatum praesentium. Cupiditate in rem ex. Fuga provident voluptate et. Reprehenderit et sapiente quos libero.",
                             ISBN = "System.Int32[]",
                             PageCount = 202,
-                            PublicationDate = new DateTime(1927, 10, 24, 16, 43, 32, 20, DateTimeKind.Local).AddTicks(3373),
+                            PublicationDate = new DateTime(1927, 10, 25, 17, 16, 17, 861, DateTimeKind.Local).AddTicks(1343),
                             PublisherId = 200,
                             Title = "Earum."
                         },
@@ -1496,7 +1496,7 @@ namespace API.Data.Migrations
                             Description = "Ipsum ea voluptate non. Qui natus voluptatem sunt. Dolorum modi quia omnis placeat temporibus. Et inventore quasi explicabo. Quidem dolores totam blanditiis ipsam enim facilis odit quasi.",
                             ISBN = "System.Int32[]",
                             PageCount = 350,
-                            PublicationDate = new DateTime(1985, 5, 20, 11, 57, 18, 187, DateTimeKind.Local).AddTicks(1186),
+                            PublicationDate = new DateTime(1985, 5, 21, 12, 30, 4, 27, DateTimeKind.Local).AddTicks(8912),
                             PublisherId = 174,
                             Title = "Soluta necessitatibus delectus."
                         },
@@ -1505,12 +1505,12 @@ namespace API.Data.Migrations
                             Id = 269,
                             AuthorId = 121,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 21, 31, 59, 929, DateTimeKind.Local).AddTicks(3205),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 22, 4, 45, 770, DateTimeKind.Local).AddTicks(989),
                             CoverImage = "https://picsum.photos/id/156",
                             Description = "Est enim quod quod eos dolore. Voluptatibus quis quasi possimus et placeat minima sint.",
                             ISBN = "System.Int32[]",
                             PageCount = 405,
-                            PublicationDate = new DateTime(1990, 8, 10, 20, 58, 31, 159, DateTimeKind.Local).AddTicks(2442),
+                            PublicationDate = new DateTime(1990, 8, 11, 21, 31, 17, 0, DateTimeKind.Local).AddTicks(228),
                             PublisherId = 184,
                             Title = "Magnam."
                         },
@@ -1523,7 +1523,7 @@ namespace API.Data.Migrations
                             Description = "Quia aperiam eos similique illo omnis officiis voluptas. Aliquid dolores ipsam provident itaque. Quia est dicta totam ducimus perspiciatis sint sed. Est asperiores ut ex sed excepturi. Veniam a occaecati est.",
                             ISBN = "System.Int32[]",
                             PageCount = 134,
-                            PublicationDate = new DateTime(2016, 8, 21, 18, 4, 7, 407, DateTimeKind.Local).AddTicks(9152),
+                            PublicationDate = new DateTime(2016, 8, 22, 18, 36, 53, 248, DateTimeKind.Local).AddTicks(6732),
                             PublisherId = 177,
                             Title = "Quia."
                         },
@@ -1536,7 +1536,7 @@ namespace API.Data.Migrations
                             Description = "Temporibus eos numquam non ex aut dolorem. Repellendus nulla atque maxime et ipsum ut odio inventore autem. Dolore quidem sed veniam ab commodi nihil velit consequatur. Qui eos ut eos.",
                             ISBN = "System.Int32[]",
                             PageCount = 123,
-                            PublicationDate = new DateTime(1958, 5, 12, 6, 24, 35, 701, DateTimeKind.Local).AddTicks(506),
+                            PublicationDate = new DateTime(1958, 5, 13, 6, 57, 21, 541, DateTimeKind.Local).AddTicks(8014),
                             PublisherId = 180,
                             Title = "Dolores qui autem."
                         },
@@ -1549,7 +1549,7 @@ namespace API.Data.Migrations
                             Description = "Mollitia quibusdam maxime facilis nihil earum id sit qui voluptatem. Eos dolorem ut est officiis atque ut. Amet occaecati voluptatum quas sequi aut. Et et esse voluptates. Quisquam ut eligendi fuga omnis sit doloribus cum distinctio sunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 336,
-                            PublicationDate = new DateTime(2008, 8, 20, 11, 21, 36, 891, DateTimeKind.Local).AddTicks(4700),
+                            PublicationDate = new DateTime(2008, 8, 21, 11, 54, 22, 732, DateTimeKind.Local).AddTicks(2080),
                             PublisherId = 168,
                             Title = "Aut tempore in."
                         },
@@ -1562,7 +1562,7 @@ namespace API.Data.Migrations
                             Description = "At quos modi temporibus laborum rerum consequuntur distinctio et voluptas. Atque voluptatem ea quisquam ut. Soluta veniam quas. Molestiae voluptatem odit a voluptas expedita. Voluptas tempore sapiente commodi voluptas quisquam nesciunt cumque.",
                             ISBN = "System.Int32[]",
                             PageCount = 176,
-                            PublicationDate = new DateTime(1965, 7, 25, 18, 17, 26, 734, DateTimeKind.Local).AddTicks(2296),
+                            PublicationDate = new DateTime(1965, 7, 26, 18, 50, 12, 574, DateTimeKind.Local).AddTicks(9496),
                             PublisherId = 197,
                             Title = "Sint tempore beatae fugiat sint."
                         },
@@ -1575,7 +1575,7 @@ namespace API.Data.Migrations
                             Description = "Reiciendis consequatur itaque rerum molestiae dolore sit vel architecto harum. Excepturi quo quos quidem quo maxime aut eos est. Nulla consequuntur ipsum et ut minus ex laboriosam aspernatur sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 474,
-                            PublicationDate = new DateTime(1995, 3, 15, 2, 36, 54, 227, DateTimeKind.Local).AddTicks(84),
+                            PublicationDate = new DateTime(1995, 3, 16, 3, 9, 40, 67, DateTimeKind.Local).AddTicks(7294),
                             PublisherId = 178,
                             Title = "Fugit eum nulla."
                         },
@@ -1584,12 +1584,12 @@ namespace API.Data.Migrations
                             Id = 275,
                             AuthorId = 127,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 1, 23, 10, 899, DateTimeKind.Local).AddTicks(252),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 1, 55, 56, 739, DateTimeKind.Local).AddTicks(7343),
                             CoverImage = "https://picsum.photos/id/86",
                             Description = "Sint nam rem reiciendis. Rerum ut aspernatur provident corrupti quas.",
                             ISBN = "System.Int32[]",
                             PageCount = 427,
-                            PublicationDate = new DateTime(2004, 10, 3, 22, 3, 54, 4, DateTimeKind.Local).AddTicks(9910),
+                            PublicationDate = new DateTime(2004, 10, 4, 22, 36, 39, 845, DateTimeKind.Local).AddTicks(7010),
                             PublisherId = 195,
                             Title = "Voluptatem est itaque dolores labore."
                         },
@@ -1602,7 +1602,7 @@ namespace API.Data.Migrations
                             Description = "Id non occaecati ea eius est repudiandae at minima. Maiores ipsa enim ut tempore excepturi porro aut velit sapiente. Et voluptatem exercitationem impedit culpa itaque aut vel sed occaecati. Voluptatem voluptatem veritatis id consequuntur qui. Quis aut laborum maxime aut illum.",
                             ISBN = "System.Int32[]",
                             PageCount = 142,
-                            PublicationDate = new DateTime(1928, 8, 9, 14, 25, 14, 548, DateTimeKind.Local).AddTicks(8920),
+                            PublicationDate = new DateTime(1928, 8, 10, 14, 58, 0, 389, DateTimeKind.Local).AddTicks(6000),
                             PublisherId = 180,
                             Title = "Commodi et facere enim."
                         },
@@ -1615,7 +1615,7 @@ namespace API.Data.Migrations
                             Description = "Quia vero nisi officiis enim deleniti molestiae. Laboriosam fugit quaerat dicta quaerat nemo quas sit earum dolorem. Cumque quibusdam blanditiis asperiores sunt qui laudantium quaerat inventore et.",
                             ISBN = "System.Int32[]",
                             PageCount = 130,
-                            PublicationDate = new DateTime(1940, 6, 25, 4, 10, 54, 355, DateTimeKind.Local).AddTicks(1379),
+                            PublicationDate = new DateTime(1940, 6, 26, 4, 43, 40, 195, DateTimeKind.Local).AddTicks(8239),
                             PublisherId = 182,
                             Title = "Est neque et et."
                         },
@@ -1628,7 +1628,7 @@ namespace API.Data.Migrations
                             Description = "Quis consequatur modi et omnis est quos explicabo autem. Ipsam unde eos optio voluptatem sequi recusandae. Sapiente alias autem molestias. Consequatur voluptas id est eum. Vitae eveniet voluptas explicabo cumque a cumque cupiditate.",
                             ISBN = "System.Int32[]",
                             PageCount = 444,
-                            PublicationDate = new DateTime(2022, 6, 10, 15, 32, 46, 216, DateTimeKind.Local).AddTicks(6940),
+                            PublicationDate = new DateTime(2022, 6, 11, 16, 5, 32, 56, DateTimeKind.Local).AddTicks(2498),
                             PublisherId = 155,
                             Title = "Delectus et corrupti fuga dolor."
                         },
@@ -1641,7 +1641,7 @@ namespace API.Data.Migrations
                             Description = "Nostrum soluta doloribus qui nesciunt id. Et aperiam quae fugit et odit consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 160,
-                            PublicationDate = new DateTime(2017, 1, 2, 13, 22, 45, 143, DateTimeKind.Local).AddTicks(3716),
+                            PublicationDate = new DateTime(2017, 1, 3, 13, 55, 30, 982, DateTimeKind.Local).AddTicks(9398),
                             PublisherId = 154,
                             Title = "Accusantium hic."
                         },
@@ -1650,12 +1650,12 @@ namespace API.Data.Migrations
                             Id = 280,
                             AuthorId = 131,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 5, 48, 4, 346, DateTimeKind.Local).AddTicks(4149),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 6, 20, 50, 185, DateTimeKind.Local).AddTicks(9679),
                             CoverImage = "https://picsum.photos/id/202",
                             Description = "Cumque distinctio deserunt deserunt ex. Ut dolor ratione eos enim laudantium est et ut. Quis numquam odio natus quam quia. Saepe consectetur odit quo.",
                             ISBN = "System.Int32[]",
                             PageCount = 105,
-                            PublicationDate = new DateTime(2008, 5, 22, 18, 46, 14, 199, DateTimeKind.Local).AddTicks(6446),
+                            PublicationDate = new DateTime(2008, 5, 23, 19, 19, 0, 39, DateTimeKind.Local).AddTicks(1986),
                             PublisherId = 191,
                             Title = "Ut hic eius."
                         },
@@ -1668,7 +1668,7 @@ namespace API.Data.Migrations
                             Description = "Ut rerum vel et optio. Magnam aperiam similique sapiente accusantium repudiandae.",
                             ISBN = "System.Int32[]",
                             PageCount = 355,
-                            PublicationDate = new DateTime(2014, 2, 24, 9, 59, 20, 149, DateTimeKind.Local).AddTicks(1286),
+                            PublicationDate = new DateTime(2014, 2, 25, 10, 32, 5, 988, DateTimeKind.Local).AddTicks(7956),
                             PublisherId = 177,
                             Title = "Molestias corrupti."
                         },
@@ -1681,7 +1681,7 @@ namespace API.Data.Migrations
                             Description = "Rerum qui dolores aut aliquid et magnam dolor laboriosam. Ut libero dolor dolorum aut eius ex rerum. Saepe qui tempore et atque aut accusantium qui. Sequi itaque assumenda porro.",
                             ISBN = "System.Int32[]",
                             PageCount = 254,
-                            PublicationDate = new DateTime(1929, 8, 7, 3, 28, 25, 163, DateTimeKind.Local).AddTicks(8865),
+                            PublicationDate = new DateTime(1929, 8, 8, 4, 1, 11, 3, DateTimeKind.Local).AddTicks(6686),
                             PublisherId = 189,
                             Title = "Praesentium tenetur ut ut incidunt aut."
                         },
@@ -1694,7 +1694,7 @@ namespace API.Data.Migrations
                             Description = "Fuga in aut. Sapiente aut voluptates quia amet nemo itaque. Repellendus ut fugit eaque quia cumque ut magnam voluptas.",
                             ISBN = "System.Int32[]",
                             PageCount = 418,
-                            PublicationDate = new DateTime(1955, 6, 29, 5, 28, 27, 623, DateTimeKind.Local).AddTicks(1786),
+                            PublicationDate = new DateTime(1955, 6, 30, 6, 1, 13, 462, DateTimeKind.Local).AddTicks(9548),
                             PublisherId = 153,
                             Title = "Id quam ut qui est magni."
                         },
@@ -1703,12 +1703,12 @@ namespace API.Data.Migrations
                             Id = 284,
                             AuthorId = 108,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 10, 52, 13, 595, DateTimeKind.Local).AddTicks(8234),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 11, 24, 59, 435, DateTimeKind.Local).AddTicks(5883),
                             CoverImage = "https://picsum.photos/id/212",
                             Description = "Hic aut vero. Rem molestiae reiciendis sunt sit cupiditate nisi ut placeat. Distinctio ipsum deserunt consequatur reprehenderit natus qui cumque enim a.",
                             ISBN = "System.Int32[]",
                             PageCount = 260,
-                            PublicationDate = new DateTime(1962, 7, 21, 6, 0, 31, 558, DateTimeKind.Local).AddTicks(1370),
+                            PublicationDate = new DateTime(1962, 7, 22, 6, 33, 17, 397, DateTimeKind.Local).AddTicks(9014),
                             PublisherId = 170,
                             Title = "Eos."
                         },
@@ -1721,7 +1721,7 @@ namespace API.Data.Migrations
                             Description = "Quo optio magnam sunt. Ea sunt eaque ullam voluptatem in minima at quas architecto.",
                             ISBN = "System.Int32[]",
                             PageCount = 224,
-                            PublicationDate = new DateTime(1943, 4, 24, 10, 6, 22, 71, DateTimeKind.Local).AddTicks(2365),
+                            PublicationDate = new DateTime(1943, 4, 25, 10, 39, 7, 910, DateTimeKind.Local).AddTicks(9933),
                             PublisherId = 160,
                             Title = "Architecto ipsa voluptatem aut aliquam."
                         },
@@ -1730,12 +1730,12 @@ namespace API.Data.Migrations
                             Id = 286,
                             AuthorId = 61,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 20, 28, 52, 50, DateTimeKind.Local).AddTicks(594),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 21, 1, 37, 889, DateTimeKind.Local).AddTicks(8066),
                             CoverImage = "https://picsum.photos/id/483",
                             Description = "Molestiae sapiente sunt ut aliquid qui delectus. Sequi minima cum soluta qui ut possimus aut facere.",
                             ISBN = "System.Int32[]",
                             PageCount = 219,
-                            PublicationDate = new DateTime(1942, 1, 4, 15, 20, 49, 939, DateTimeKind.Local).AddTicks(1531),
+                            PublicationDate = new DateTime(1942, 1, 5, 15, 53, 35, 778, DateTimeKind.Local).AddTicks(9011),
                             PublisherId = 182,
                             Title = "Est eveniet voluptatibus deserunt illum qui."
                         },
@@ -1748,7 +1748,7 @@ namespace API.Data.Migrations
                             Description = "Non exercitationem quia. Tempora culpa et corrupti rem molestiae velit suscipit esse ad.",
                             ISBN = "System.Int32[]",
                             PageCount = 133,
-                            PublicationDate = new DateTime(1985, 9, 24, 8, 59, 47, 87, DateTimeKind.Local).AddTicks(1968),
+                            PublicationDate = new DateTime(1985, 9, 25, 9, 32, 32, 926, DateTimeKind.Local).AddTicks(9346),
                             PublisherId = 158,
                             Title = "Quisquam pariatur id."
                         },
@@ -1761,7 +1761,7 @@ namespace API.Data.Migrations
                             Description = "Rem rerum voluptas assumenda quas et error. Rerum optio sapiente sed voluptates. Dolorem consequuntur et ut nobis et est. Quibusdam enim ut et quasi. Sequi qui enim inventore et.",
                             ISBN = "System.Int32[]",
                             PageCount = 197,
-                            PublicationDate = new DateTime(1967, 4, 13, 15, 2, 52, 900, DateTimeKind.Local).AddTicks(7988),
+                            PublicationDate = new DateTime(1967, 4, 14, 15, 35, 38, 740, DateTimeKind.Local).AddTicks(5178),
                             PublisherId = 166,
                             Title = "Et officiis quis beatae totam."
                         },
@@ -1774,7 +1774,7 @@ namespace API.Data.Migrations
                             Description = "Ipsum ea eum ut laboriosam. Sed ut quia nulla laborum et error ut sed rerum. Deserunt rerum repellendus in.",
                             ISBN = "System.Int32[]",
                             PageCount = 178,
-                            PublicationDate = new DateTime(2021, 8, 14, 22, 46, 17, 195, DateTimeKind.Local).AddTicks(4458),
+                            PublicationDate = new DateTime(2021, 8, 15, 23, 19, 3, 35, DateTimeKind.Local).AddTicks(1598),
                             PublisherId = 158,
                             Title = "Eveniet magni dicta similique et."
                         },
@@ -1783,12 +1783,12 @@ namespace API.Data.Migrations
                             Id = 290,
                             AuthorId = 117,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 4, 17, 58, 67, DateTimeKind.Local).AddTicks(5522),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 4, 50, 43, 907, DateTimeKind.Local).AddTicks(2522),
                             CoverImage = "https://picsum.photos/id/349",
                             Description = "Qui enim commodi facilis. Quaerat sed adipisci dolor consectetur maxime voluptatem quisquam. Ut aut ut neque hic quam ex reiciendis fuga. Cumque est voluptas sunt soluta adipisci asperiores rem. Reiciendis asperiores libero consequatur consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 438,
-                            PublicationDate = new DateTime(1966, 5, 27, 15, 51, 25, 827, DateTimeKind.Local).AddTicks(6044),
+                            PublicationDate = new DateTime(1966, 5, 28, 16, 24, 11, 667, DateTimeKind.Local).AddTicks(3054),
                             PublisherId = 152,
                             Title = "Quasi qui excepturi non sequi."
                         },
@@ -1801,7 +1801,7 @@ namespace API.Data.Migrations
                             Description = "Autem incidunt excepturi ut totam et voluptas voluptatem. Voluptas esse quidem est natus saepe ab perferendis alias omnis. Dolores sunt voluptatem distinctio et voluptas est hic. Aperiam qui ut exercitationem laboriosam corrupti ducimus sed rerum. Temporibus nam qui praesentium aut nostrum nemo.",
                             ISBN = "System.Int32[]",
                             PageCount = 181,
-                            PublicationDate = new DateTime(2016, 11, 23, 9, 56, 50, 807, DateTimeKind.Local).AddTicks(4152),
+                            PublicationDate = new DateTime(2016, 11, 24, 10, 29, 36, 647, DateTimeKind.Local).AddTicks(862),
                             PublisherId = 193,
                             Title = "Non esse et sint voluptatibus adipisci."
                         },
@@ -1814,7 +1814,7 @@ namespace API.Data.Migrations
                             Description = "Ut beatae enim fugit numquam quis. Non facere non ex et reprehenderit praesentium. Minus enim labore ut ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 218,
-                            PublicationDate = new DateTime(1935, 2, 22, 19, 12, 6, 595, DateTimeKind.Local).AddTicks(1641),
+                            PublicationDate = new DateTime(1935, 2, 23, 19, 44, 52, 434, DateTimeKind.Local).AddTicks(8262),
                             PublisherId = 174,
                             Title = "Ut quasi dignissimos."
                         },
@@ -1823,12 +1823,12 @@ namespace API.Data.Migrations
                             Id = 293,
                             AuthorId = 107,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 5, 55, 9, 116, DateTimeKind.Local).AddTicks(6349),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 6, 27, 54, 956, DateTimeKind.Local).AddTicks(1940),
                             CoverImage = "https://picsum.photos/id/493",
                             Description = "Vero et voluptatibus quasi et et quia nam ea. Dolores nemo eligendi in libero cupiditate officia quidem. Sint dolorem totam libero et voluptatem odio neque dolore temporibus. Et voluptates dicta assumenda cum nobis et eveniet ad.",
                             ISBN = "System.Int32[]",
                             PageCount = 257,
-                            PublicationDate = new DateTime(1944, 5, 3, 9, 10, 30, 511, DateTimeKind.Local).AddTicks(5988),
+                            PublicationDate = new DateTime(1944, 5, 4, 9, 43, 16, 351, DateTimeKind.Local).AddTicks(1606),
                             PublisherId = 155,
                             Title = "Quia."
                         },
@@ -1841,7 +1841,7 @@ namespace API.Data.Migrations
                             Description = "Qui eius molestiae eveniet maiores distinctio eligendi commodi reiciendis eum. Enim mollitia debitis cum quo quidem sint fugiat voluptatem sed. Voluptatem placeat quis atque et. Explicabo ut magni maiores.",
                             ISBN = "System.Int32[]",
                             PageCount = 129,
-                            PublicationDate = new DateTime(1958, 8, 28, 10, 8, 27, 106, DateTimeKind.Local).AddTicks(9056),
+                            PublicationDate = new DateTime(1958, 8, 29, 10, 41, 12, 946, DateTimeKind.Local).AddTicks(2818),
                             PublisherId = 154,
                             Title = "Quidem a."
                         },
@@ -1850,12 +1850,12 @@ namespace API.Data.Migrations
                             Id = 295,
                             AuthorId = 138,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 20, 15, 14, 536, DateTimeKind.Local).AddTicks(440),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 20, 48, 0, 375, DateTimeKind.Local).AddTicks(3980),
                             CoverImage = "https://picsum.photos/id/471",
                             Description = "Dolor laborum et vero unde ut et cumque reiciendis et. Quam aliquam nesciunt consequatur in sed atque. Eligendi iure est dolorem rerum dolorum architecto possimus ut sunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 405,
-                            PublicationDate = new DateTime(2006, 3, 12, 10, 41, 4, 781, DateTimeKind.Local).AddTicks(4636),
+                            PublicationDate = new DateTime(2006, 3, 13, 11, 13, 50, 620, DateTimeKind.Local).AddTicks(8178),
                             PublisherId = 171,
                             Title = "Incidunt."
                         },
@@ -1864,12 +1864,12 @@ namespace API.Data.Migrations
                             Id = 296,
                             AuthorId = 109,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 9, 15, 34, 561, DateTimeKind.Local).AddTicks(5269),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 9, 48, 20, 400, DateTimeKind.Local).AddTicks(8609),
                             CoverImage = "https://picsum.photos/id/6",
                             Description = "Dignissimos et labore voluptatum excepturi veniam. Aperiam eius quia ut minus distinctio maiores. Explicabo velit ipsa cumque sequi id tempore aut. Aliquam in ut et molestiae nam ut id aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 267,
-                            PublicationDate = new DateTime(1979, 7, 18, 8, 1, 19, 837, DateTimeKind.Local).AddTicks(4260),
+                            PublicationDate = new DateTime(1979, 7, 19, 8, 34, 5, 676, DateTimeKind.Local).AddTicks(7610),
                             PublisherId = 179,
                             Title = "Excepturi placeat recusandae."
                         },
@@ -1882,7 +1882,7 @@ namespace API.Data.Migrations
                             Description = "Recusandae maiores est iste inventore harum quisquam est velit molestias. Eum et asperiores provident iste in quae sit ipsum illo.",
                             ISBN = "System.Int32[]",
                             PageCount = 387,
-                            PublicationDate = new DateTime(1994, 5, 27, 17, 8, 13, 992, DateTimeKind.Local).AddTicks(8530),
+                            PublicationDate = new DateTime(1994, 5, 28, 17, 40, 59, 832, DateTimeKind.Local).AddTicks(1814),
                             PublisherId = 195,
                             Title = "Rerum est consequatur."
                         },
@@ -1895,7 +1895,7 @@ namespace API.Data.Migrations
                             Description = "Omnis quae quae rerum animi. Mollitia dignissimos soluta. Architecto cupiditate laborum sunt et autem adipisci modi eveniet fugit.",
                             ISBN = "System.Int32[]",
                             PageCount = 318,
-                            PublicationDate = new DateTime(1981, 8, 1, 6, 2, 25, 399, DateTimeKind.Local).AddTicks(6108),
+                            PublicationDate = new DateTime(1981, 8, 2, 6, 35, 11, 238, DateTimeKind.Local).AddTicks(9208),
                             PublisherId = 168,
                             Title = "Animi modi cupiditate neque labore rerum."
                         },
@@ -1904,12 +1904,12 @@ namespace API.Data.Migrations
                             Id = 299,
                             AuthorId = 64,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 20, 46, 50, 245, DateTimeKind.Local).AddTicks(859),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 21, 19, 36, 84, DateTimeKind.Local).AddTicks(3899),
                             CoverImage = "https://picsum.photos/id/145",
                             Description = "Ipsa distinctio non non est. Est ut cumque eos velit aut. Perspiciatis architecto magnam est sit iusto.",
                             ISBN = "System.Int32[]",
                             PageCount = 169,
-                            PublicationDate = new DateTime(2013, 11, 16, 15, 16, 57, 989, DateTimeKind.Local).AddTicks(6456),
+                            PublicationDate = new DateTime(2013, 11, 17, 15, 49, 43, 828, DateTimeKind.Local).AddTicks(9498),
                             PublisherId = 163,
                             Title = "Ad sit voluptatibus quis ut maiores."
                         },
@@ -1918,12 +1918,12 @@ namespace API.Data.Migrations
                             Id = 300,
                             AuthorId = 137,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 17, 25, 41, 110, DateTimeKind.Local).AddTicks(3195),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 17, 58, 26, 949, DateTimeKind.Local).AddTicks(6165),
                             CoverImage = "https://picsum.photos/id/472",
                             Description = "Id dolor rem voluptates. Dolorum aut cumque. Consequuntur esse est in.",
                             ISBN = "System.Int32[]",
                             PageCount = 147,
-                            PublicationDate = new DateTime(2018, 2, 11, 8, 29, 28, 194, DateTimeKind.Local).AddTicks(4472),
+                            PublicationDate = new DateTime(2018, 2, 12, 9, 2, 14, 33, DateTimeKind.Local).AddTicks(7442),
                             PublisherId = 165,
                             Title = "Ipsum enim."
                         },
@@ -1936,7 +1936,7 @@ namespace API.Data.Migrations
                             Description = "Numquam rerum nulla vero qui soluta. Voluptatem facilis blanditiis neque voluptatem animi alias. Ut expedita et accusantium. Cum deleniti commodi.",
                             ISBN = "System.Int32[]",
                             PageCount = 407,
-                            PublicationDate = new DateTime(1958, 2, 20, 14, 20, 33, 870, DateTimeKind.Local).AddTicks(856),
+                            PublicationDate = new DateTime(1958, 2, 21, 14, 53, 19, 709, DateTimeKind.Local).AddTicks(3716),
                             PublisherId = 153,
                             Title = "Provident fuga."
                         },
@@ -1949,7 +1949,7 @@ namespace API.Data.Migrations
                             Description = "Ut consequatur minus qui suscipit aut quaerat voluptatem optio. Ut quibusdam itaque esse vel aliquid aperiam et et qui. Tempore quidem maiores quis voluptatum. At et voluptas voluptate provident eveniet iure veritatis velit et. Est quam quia quod quidem vitae voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 262,
-                            PublicationDate = new DateTime(1936, 7, 3, 14, 20, 6, 634, DateTimeKind.Local).AddTicks(1806),
+                            PublicationDate = new DateTime(1936, 7, 4, 14, 52, 52, 473, DateTimeKind.Local).AddTicks(3334),
                             PublisherId = 155,
                             Title = "Doloremque aspernatur suscipit facere ut hic."
                         },
@@ -1962,7 +1962,7 @@ namespace API.Data.Migrations
                             Description = "Consectetur sint aperiam. Quisquam sit eum ad eveniet et illum. Dicta sed illum consectetur labore quia quis eum. Et fuga ut provident natus exercitationem perspiciatis.",
                             ISBN = "System.Int32[]",
                             PageCount = 321,
-                            PublicationDate = new DateTime(2009, 4, 27, 17, 1, 34, 525, DateTimeKind.Local).AddTicks(2698),
+                            PublicationDate = new DateTime(2009, 4, 28, 17, 34, 20, 364, DateTimeKind.Local).AddTicks(3984),
                             PublisherId = 200,
                             Title = "Eveniet unde ex delectus molestiae."
                         },
@@ -1971,12 +1971,12 @@ namespace API.Data.Migrations
                             Id = 304,
                             AuthorId = 94,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 9, 50, 25, 292, DateTimeKind.Local).AddTicks(263),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 10, 23, 11, 130, DateTimeKind.Local).AddTicks(7923),
                             CoverImage = "https://picsum.photos/id/406",
                             Description = "Voluptas accusantium nesciunt rerum voluptas tenetur et cupiditate voluptas omnis. Ea voluptas ex dolorum ratione nisi aliquid alias. Alias quo nobis rerum recusandae.",
                             ISBN = "System.Int32[]",
                             PageCount = 137,
-                            PublicationDate = new DateTime(2003, 6, 10, 22, 51, 43, 832, DateTimeKind.Local).AddTicks(5692),
+                            PublicationDate = new DateTime(2003, 6, 11, 23, 24, 29, 671, DateTimeKind.Local).AddTicks(3520),
                             PublisherId = 158,
                             Title = "Neque qui aliquam vitae qui."
                         },
@@ -1985,12 +1985,12 @@ namespace API.Data.Migrations
                             Id = 305,
                             AuthorId = 131,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 11, 42, 34, 890, DateTimeKind.Local).AddTicks(2007),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 12, 15, 20, 728, DateTimeKind.Local).AddTicks(9427),
                             CoverImage = "https://picsum.photos/id/108",
                             Description = "Quod vel odio. Necessitatibus illo laboriosam.",
                             ISBN = "System.Int32[]",
                             PageCount = 254,
-                            PublicationDate = new DateTime(1993, 8, 19, 22, 19, 8, 489, DateTimeKind.Local).AddTicks(3294),
+                            PublicationDate = new DateTime(1993, 8, 20, 22, 51, 54, 328, DateTimeKind.Local).AddTicks(724),
                             PublisherId = 198,
                             Title = "Ut."
                         },
@@ -2003,7 +2003,7 @@ namespace API.Data.Migrations
                             Description = "Incidunt ipsa iste est ut sit magnam. Amet est qui a quis repellat neque corporis.",
                             ISBN = "System.Int32[]",
                             PageCount = 294,
-                            PublicationDate = new DateTime(1944, 2, 28, 6, 46, 0, 909, DateTimeKind.Local).AddTicks(9003),
+                            PublicationDate = new DateTime(1944, 2, 29, 7, 18, 46, 748, DateTimeKind.Local).AddTicks(6142),
                             PublisherId = 169,
                             Title = "Voluptatibus non nulla."
                         },
@@ -2016,7 +2016,7 @@ namespace API.Data.Migrations
                             Description = "Et aut aut natus minus dolorum non tempora soluta. Deleniti dolorem beatae dolor eligendi autem quas. Quis necessitatibus ullam esse neque.",
                             ISBN = "System.Int32[]",
                             PageCount = 244,
-                            PublicationDate = new DateTime(1944, 8, 14, 17, 21, 49, 742, DateTimeKind.Local).AddTicks(6165),
+                            PublicationDate = new DateTime(1944, 8, 15, 17, 54, 35, 581, DateTimeKind.Local).AddTicks(3145),
                             PublisherId = 169,
                             Title = "Necessitatibus."
                         },
@@ -2029,7 +2029,7 @@ namespace API.Data.Migrations
                             Description = "Id quae vel voluptatum non pariatur cum. Aliquam non quos nesciunt. Sapiente qui similique est qui neque. Aut est non est in eos rerum quisquam possimus.",
                             ISBN = "System.Int32[]",
                             PageCount = 326,
-                            PublicationDate = new DateTime(1931, 11, 20, 23, 3, 10, 797, DateTimeKind.Local).AddTicks(4344),
+                            PublicationDate = new DateTime(1931, 11, 21, 23, 35, 56, 635, DateTimeKind.Local).AddTicks(8892),
                             PublisherId = 184,
                             Title = "Nihil dolorum voluptate esse."
                         },
@@ -2042,7 +2042,7 @@ namespace API.Data.Migrations
                             Description = "Deserunt repellat sed eligendi eveniet ut non tenetur nihil consectetur. Et aut aut doloremque rem eligendi rerum mollitia atque. Cumque consectetur aspernatur reiciendis aut temporibus beatae rem impedit iusto. Et qui consequatur recusandae eos amet recusandae quidem rem.",
                             ISBN = "System.Int32[]",
                             PageCount = 108,
-                            PublicationDate = new DateTime(1995, 11, 17, 1, 13, 1, 450, DateTimeKind.Local).AddTicks(554),
+                            PublicationDate = new DateTime(1995, 11, 18, 1, 45, 47, 288, DateTimeKind.Local).AddTicks(3582),
                             PublisherId = 195,
                             Title = "Harum."
                         },
@@ -2055,7 +2055,7 @@ namespace API.Data.Migrations
                             Description = "Illo ex debitis. Laborum molestias perferendis. Aut asperiores qui sapiente quia amet magnam animi unde est. Maxime et facilis rem sed. Quo rem quae beatae.",
                             ISBN = "System.Int32[]",
                             PageCount = 440,
-                            PublicationDate = new DateTime(2014, 6, 17, 23, 27, 27, 591, DateTimeKind.Local).AddTicks(4334),
+                            PublicationDate = new DateTime(2014, 6, 19, 0, 0, 13, 429, DateTimeKind.Local).AddTicks(7116),
                             PublisherId = 173,
                             Title = "Atque."
                         },
@@ -2068,7 +2068,7 @@ namespace API.Data.Migrations
                             Description = "Est aperiam delectus aut libero perspiciatis et atque voluptatem qui. Quis fugit occaecati quas quasi nisi iusto atque ab. Earum rerum velit sed omnis. Aut totam qui voluptas cupiditate iste totam qui. Impedit iure ut odio esse commodi placeat architecto autem.",
                             ISBN = "System.Int32[]",
                             PageCount = 439,
-                            PublicationDate = new DateTime(1926, 3, 30, 10, 30, 1, 204, DateTimeKind.Local).AddTicks(4413),
+                            PublicationDate = new DateTime(1926, 3, 31, 11, 2, 47, 42, DateTimeKind.Local).AddTicks(6933),
                             PublisherId = 174,
                             Title = "Culpa autem commodi consequatur iure voluptate."
                         },
@@ -2081,7 +2081,7 @@ namespace API.Data.Migrations
                             Description = "Tenetur eveniet quae quidem repudiandae. Accusamus et dignissimos ullam. Rerum provident sed ex consequuntur pariatur. Natus qui sequi fuga harum unde similique ut sit.",
                             ISBN = "System.Int32[]",
                             PageCount = 344,
-                            PublicationDate = new DateTime(1976, 1, 1, 1, 15, 35, 739, DateTimeKind.Local).AddTicks(234),
+                            PublicationDate = new DateTime(1976, 1, 2, 1, 48, 21, 577, DateTimeKind.Local).AddTicks(2594),
                             PublisherId = 174,
                             Title = "Qui est."
                         },
@@ -2094,7 +2094,7 @@ namespace API.Data.Migrations
                             Description = "Error sapiente quia sit voluptatem dolores et error aut. Ratione et deleniti incidunt omnis tenetur dignissimos veniam est dolor. Sint excepturi numquam nemo voluptatem aperiam libero eos voluptatem consectetur. Et earum culpa non quis. Vel vero alias numquam harum ullam autem illum magni.",
                             ISBN = "System.Int32[]",
                             PageCount = 443,
-                            PublicationDate = new DateTime(1997, 1, 26, 21, 35, 22, 754, DateTimeKind.Local).AddTicks(6476),
+                            PublicationDate = new DateTime(1997, 1, 27, 22, 8, 8, 592, DateTimeKind.Local).AddTicks(8588),
                             PublisherId = 157,
                             Title = "Voluptas."
                         },
@@ -2107,7 +2107,7 @@ namespace API.Data.Migrations
                             Description = "Omnis quis non nihil corrupti saepe placeat ut sit. Impedit eos ut veritatis itaque omnis vel. Similique reprehenderit animi excepturi omnis in non eum. Harum natus hic ut aut et voluptatem. Ea ut similique.",
                             ISBN = "System.Int32[]",
                             PageCount = 170,
-                            PublicationDate = new DateTime(1951, 5, 2, 5, 17, 32, 162, DateTimeKind.Local).AddTicks(9061),
+                            PublicationDate = new DateTime(1951, 5, 3, 5, 50, 18, 1, DateTimeKind.Local).AddTicks(889),
                             PublisherId = 168,
                             Title = "Est error qui nobis."
                         },
@@ -2120,7 +2120,7 @@ namespace API.Data.Migrations
                             Description = "Optio commodi et a in cupiditate vel velit. Cum maxime eos corrupti. Molestiae et aut et facere maxime tenetur.",
                             ISBN = "System.Int32[]",
                             PageCount = 308,
-                            PublicationDate = new DateTime(1938, 1, 19, 14, 52, 45, 11, DateTimeKind.Local).AddTicks(2344),
+                            PublicationDate = new DateTime(1938, 1, 20, 15, 25, 30, 849, DateTimeKind.Local).AddTicks(4032),
                             PublisherId = 199,
                             Title = "Aut corporis sed."
                         },
@@ -2133,7 +2133,7 @@ namespace API.Data.Migrations
                             Description = "Consectetur velit tempora quidem. Officia reprehenderit excepturi quia est molestiae quod voluptas. Vitae et qui et. Quis aut deserunt repellendus.",
                             ISBN = "System.Int32[]",
                             PageCount = 393,
-                            PublicationDate = new DateTime(1949, 6, 6, 2, 8, 51, 110, DateTimeKind.Local).AddTicks(5054),
+                            PublicationDate = new DateTime(1949, 6, 7, 2, 41, 36, 948, DateTimeKind.Local).AddTicks(6592),
                             PublisherId = 168,
                             Title = "Soluta pariatur et magni sit."
                         },
@@ -2146,7 +2146,7 @@ namespace API.Data.Migrations
                             Description = "Maiores sequi quo minima quasi animi velit. Minima et nesciunt ut et quam necessitatibus ea ut. Enim nobis eius repellendus hic molestias ipsa. Adipisci autem sed impedit tempora repudiandae aliquid qui porro. Nobis tempora sit quaerat maiores saepe beatae esse.",
                             ISBN = "System.Int32[]",
                             PageCount = 262,
-                            PublicationDate = new DateTime(1928, 5, 17, 11, 22, 41, 412, DateTimeKind.Local).AddTicks(3264),
+                            PublicationDate = new DateTime(1928, 5, 18, 11, 55, 27, 250, DateTimeKind.Local).AddTicks(4454),
                             PublisherId = 200,
                             Title = "Ex est voluptatibus."
                         },
@@ -2159,7 +2159,7 @@ namespace API.Data.Migrations
                             Description = "Quisquam consequatur sit ab. Voluptas impedit provident recusandae inventore enim numquam vero. Nostrum omnis porro ut. Sint rem aliquid doloribus sint at rerum quaerat quas.",
                             ISBN = "System.Int32[]",
                             PageCount = 481,
-                            PublicationDate = new DateTime(1943, 8, 31, 16, 35, 53, 489, DateTimeKind.Local).AddTicks(1516),
+                            PublicationDate = new DateTime(1943, 9, 1, 17, 8, 39, 327, DateTimeKind.Local).AddTicks(2595),
                             PublisherId = 167,
                             Title = "Et repudiandae."
                         },
@@ -2172,7 +2172,7 @@ namespace API.Data.Migrations
                             Description = "Quod consequatur perferendis esse. Facere et quia iure. Asperiores rem itaque unde recusandae rerum et. Debitis omnis accusantium quibusdam a vel delectus. Voluptas autem modi quidem et quam reiciendis sunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 452,
-                            PublicationDate = new DateTime(2020, 10, 18, 20, 54, 4, 436, DateTimeKind.Local).AddTicks(9208),
+                            PublicationDate = new DateTime(2020, 10, 19, 21, 26, 50, 275, DateTimeKind.Local).AddTicks(70),
                             PublisherId = 194,
                             Title = "Molestias non."
                         },
@@ -2185,7 +2185,7 @@ namespace API.Data.Migrations
                             Description = "Sed maiores ad voluptatibus facere aut. Quos nulla reiciendis quasi corrupti voluptates et.",
                             ISBN = "System.Int32[]",
                             PageCount = 351,
-                            PublicationDate = new DateTime(1970, 1, 21, 23, 36, 51, 409, DateTimeKind.Local).AddTicks(7580),
+                            PublicationDate = new DateTime(1970, 1, 23, 0, 9, 37, 247, DateTimeKind.Local).AddTicks(8340),
                             PublisherId = 192,
                             Title = "Earum."
                         },
@@ -2198,7 +2198,7 @@ namespace API.Data.Migrations
                             Description = "Maiores voluptate expedita praesentium et ut ut. Aliquam esse molestiae et in sapiente quia. Perferendis sequi repellat delectus molestiae animi repudiandae aliquid et. Quidem velit deserunt sequi iusto. Dolor sit et alias rem et et repellendus quos sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 439,
-                            PublicationDate = new DateTime(1985, 6, 15, 17, 11, 18, 337, DateTimeKind.Local).AddTicks(6046),
+                            PublicationDate = new DateTime(1985, 6, 16, 17, 44, 4, 175, DateTimeKind.Local).AddTicks(6522),
                             PublisherId = 176,
                             Title = "Est tempore corporis."
                         },
@@ -2211,7 +2211,7 @@ namespace API.Data.Migrations
                             Description = "Ut non rem aut. Qui voluptatem ea soluta voluptas et aut dolores quis odio. Suscipit aut excepturi dolorem.",
                             ISBN = "System.Int32[]",
                             PageCount = 320,
-                            PublicationDate = new DateTime(2012, 3, 15, 10, 29, 4, 775, DateTimeKind.Local).AddTicks(5088),
+                            PublicationDate = new DateTime(2012, 3, 16, 11, 1, 50, 613, DateTimeKind.Local).AddTicks(5354),
                             PublisherId = 166,
                             Title = "Aut reiciendis qui et natus laudantium."
                         },
@@ -2224,7 +2224,7 @@ namespace API.Data.Migrations
                             Description = "Magni est eligendi aut. Tempora aliquid est modi voluptatem et possimus magni dolorum molestiae.",
                             ISBN = "System.Int32[]",
                             PageCount = 253,
-                            PublicationDate = new DateTime(1969, 7, 20, 22, 21, 15, 189, DateTimeKind.Local).AddTicks(402),
+                            PublicationDate = new DateTime(1969, 7, 21, 22, 54, 1, 27, DateTimeKind.Local).AddTicks(628),
                             PublisherId = 171,
                             Title = "Odio."
                         },
@@ -2237,7 +2237,7 @@ namespace API.Data.Migrations
                             Description = "Similique quam aliquam repellat ut placeat dolor corporis cupiditate excepturi. Iste voluptatem saepe nemo assumenda libero adipisci non.",
                             ISBN = "System.Int32[]",
                             PageCount = 174,
-                            PublicationDate = new DateTime(1944, 9, 20, 7, 40, 9, 897, DateTimeKind.Local).AddTicks(1481),
+                            PublicationDate = new DateTime(1944, 9, 21, 8, 12, 55, 735, DateTimeKind.Local).AddTicks(1581),
                             PublisherId = 177,
                             Title = "Nulla id incidunt fugiat dolores natus."
                         },
@@ -2250,7 +2250,7 @@ namespace API.Data.Migrations
                             Description = "Consequatur non nulla et et. Consequatur ut et qui voluptatem eum est dolores eius. Ratione excepturi ut. Molestias est itaque ut quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 200,
-                            PublicationDate = new DateTime(1968, 2, 27, 21, 5, 10, 945, DateTimeKind.Local).AddTicks(90),
+                            PublicationDate = new DateTime(1968, 2, 28, 21, 37, 56, 783, DateTimeKind.Local).AddTicks(94),
                             PublisherId = 200,
                             Title = "Suscipit beatae."
                         },
@@ -2263,7 +2263,7 @@ namespace API.Data.Migrations
                             Description = "Illum soluta officia dolores. Et nulla aliquid voluptatem sit doloribus aut recusandae ducimus. Qui voluptatem eaque temporibus eum.",
                             ISBN = "System.Int32[]",
                             PageCount = 460,
-                            PublicationDate = new DateTime(1957, 5, 23, 2, 18, 51, 865, DateTimeKind.Local).AddTicks(134),
+                            PublicationDate = new DateTime(1957, 5, 24, 2, 51, 37, 702, DateTimeKind.Local).AddTicks(9120),
                             PublisherId = 163,
                             Title = "Excepturi consectetur sapiente quia amet."
                         },
@@ -2276,7 +2276,7 @@ namespace API.Data.Migrations
                             Description = "Et veritatis dolorem incidunt repudiandae ratione. Alias quo natus molestiae culpa molestiae voluptatum dignissimos ab. Dolore temporibus aspernatur rerum minus. Repudiandae eum recusandae. Error quasi vitae doloremque fugiat quasi nam blanditiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 493,
-                            PublicationDate = new DateTime(1987, 7, 13, 10, 13, 58, 336, DateTimeKind.Local).AddTicks(9896),
+                            PublicationDate = new DateTime(1987, 7, 14, 10, 46, 44, 174, DateTimeKind.Local).AddTicks(7178),
                             PublisherId = 199,
                             Title = "Qui incidunt."
                         },
@@ -2289,7 +2289,7 @@ namespace API.Data.Migrations
                             Description = "Quam numquam non et non deserunt molestias omnis voluptatem qui. Rem reprehenderit nihil. Necessitatibus dolore neque rerum excepturi aperiam saepe dolor consequatur non.",
                             ISBN = "System.Int32[]",
                             PageCount = 155,
-                            PublicationDate = new DateTime(2005, 12, 1, 17, 35, 56, 449, DateTimeKind.Local).AddTicks(1014),
+                            PublicationDate = new DateTime(2005, 12, 2, 18, 8, 42, 286, DateTimeKind.Local).AddTicks(7108),
                             PublisherId = 161,
                             Title = "Aperiam."
                         },
@@ -2302,7 +2302,7 @@ namespace API.Data.Migrations
                             Description = "Hic non iusto sed cumque deleniti iure minima laborum optio. Accusantium quae sint quae beatae qui.",
                             ISBN = "System.Int32[]",
                             PageCount = 316,
-                            PublicationDate = new DateTime(2017, 2, 15, 13, 31, 8, 442, DateTimeKind.Local).AddTicks(3140),
+                            PublicationDate = new DateTime(2017, 2, 16, 14, 3, 54, 279, DateTimeKind.Local).AddTicks(7668),
                             PublisherId = 192,
                             Title = "Deserunt et vero et rerum."
                         },
@@ -2315,7 +2315,7 @@ namespace API.Data.Migrations
                             Description = "Beatae debitis dolor aut et eaque sunt amet. Ducimus voluptatibus corrupti.",
                             ISBN = "System.Int32[]",
                             PageCount = 168,
-                            PublicationDate = new DateTime(1961, 2, 6, 22, 38, 0, 369, DateTimeKind.Local).AddTicks(260),
+                            PublicationDate = new DateTime(1961, 2, 7, 23, 10, 46, 206, DateTimeKind.Local).AddTicks(4658),
                             PublisherId = 152,
                             Title = "Nesciunt pariatur quae provident non fugit."
                         },
@@ -2328,7 +2328,7 @@ namespace API.Data.Migrations
                             Description = "Quae blanditiis ex accusamus nobis atque praesentium cumque dolorem itaque. Odio vero nihil nesciunt dolores corrupti delectus. Non enim inventore dolorem. Eligendi corrupti ea.",
                             ISBN = "System.Int32[]",
                             PageCount = 287,
-                            PublicationDate = new DateTime(1979, 7, 6, 4, 27, 18, 885, DateTimeKind.Local).AddTicks(2042),
+                            PublicationDate = new DateTime(1979, 7, 7, 5, 0, 4, 722, DateTimeKind.Local).AddTicks(6272),
                             PublisherId = 193,
                             Title = "Est vel ea."
                         },
@@ -2341,7 +2341,7 @@ namespace API.Data.Migrations
                             Description = "Temporibus nam maiores nostrum laboriosam dolor. Quia qui pariatur sit. Corporis architecto sed inventore.",
                             ISBN = "System.Int32[]",
                             PageCount = 207,
-                            PublicationDate = new DateTime(2013, 9, 29, 14, 7, 4, 143, DateTimeKind.Local).AddTicks(6360),
+                            PublicationDate = new DateTime(2013, 9, 30, 14, 39, 49, 981, DateTimeKind.Local).AddTicks(500),
                             PublisherId = 200,
                             Title = "Voluptatem voluptatum."
                         },
@@ -2350,12 +2350,12 @@ namespace API.Data.Migrations
                             Id = 333,
                             AuthorId = 53,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 1, 2, 18, 910, DateTimeKind.Local).AddTicks(9252),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 1, 35, 4, 748, DateTimeKind.Local).AddTicks(3262),
                             CoverImage = "https://picsum.photos/id/481",
                             Description = "Soluta ut incidunt et pariatur sunt eos cumque quos consequuntur. Eum ad molestiae vitae deserunt officiis velit illum.",
                             ISBN = "System.Int32[]",
                             PageCount = 474,
-                            PublicationDate = new DateTime(1971, 2, 8, 23, 20, 38, 726, DateTimeKind.Local).AddTicks(2656),
+                            PublicationDate = new DateTime(1971, 2, 9, 23, 53, 24, 563, DateTimeKind.Local).AddTicks(6676),
                             PublisherId = 189,
                             Title = "Dolore vel ut."
                         },
@@ -2368,7 +2368,7 @@ namespace API.Data.Migrations
                             Description = "Nostrum et itaque magni non ipsa velit quia. Voluptatem fugiat ex eligendi blanditiis voluptas quia. Reiciendis ut est eos ratione consequuntur et dolores aut itaque.",
                             ISBN = "System.Int32[]",
                             PageCount = 180,
-                            PublicationDate = new DateTime(1963, 6, 23, 5, 26, 10, 414, DateTimeKind.Local).AddTicks(2642),
+                            PublicationDate = new DateTime(1963, 6, 24, 5, 58, 56, 251, DateTimeKind.Local).AddTicks(6532),
                             PublisherId = 180,
                             Title = "Voluptatem maiores aut fuga in."
                         },
@@ -2381,7 +2381,7 @@ namespace API.Data.Migrations
                             Description = "Qui cupiditate quis harum velit odit nihil laborum id. Molestiae nesciunt perspiciatis et est explicabo et rem ex. Consequatur possimus molestiae voluptatem recusandae. Consequatur fugit doloremque beatae quibusdam placeat et minima dolore adipisci.",
                             ISBN = "System.Int32[]",
                             PageCount = 421,
-                            PublicationDate = new DateTime(1945, 6, 30, 19, 42, 3, 691, DateTimeKind.Local).AddTicks(3694),
+                            PublicationDate = new DateTime(1945, 7, 1, 20, 14, 49, 528, DateTimeKind.Local).AddTicks(7355),
                             PublisherId = 174,
                             Title = "Distinctio natus qui mollitia."
                         },
@@ -2394,7 +2394,7 @@ namespace API.Data.Migrations
                             Description = "Quasi quia perspiciatis ut illum velit voluptatem suscipit. Totam odio omnis aspernatur. Et provident quia et veritatis error voluptatem. Rerum ea quam vero mollitia et voluptas repellat.",
                             ISBN = "System.Int32[]",
                             PageCount = 215,
-                            PublicationDate = new DateTime(1925, 1, 18, 9, 54, 7, 629, DateTimeKind.Local).AddTicks(2952),
+                            PublicationDate = new DateTime(1925, 1, 19, 10, 26, 53, 466, DateTimeKind.Local).AddTicks(6482),
                             PublisherId = 182,
                             Title = "Voluptatem cumque nemo id."
                         },
@@ -2407,7 +2407,7 @@ namespace API.Data.Migrations
                             Description = "Illum incidunt similique ipsum enim illum aut aut sit excepturi. Sit dolor nihil magnam natus est laborum quidem. Similique deserunt optio mollitia perferendis. Vel facilis corrupti et veritatis. Blanditiis est qui dicta voluptatem dolor voluptatem tenetur.",
                             ISBN = "System.Int32[]",
                             PageCount = 314,
-                            PublicationDate = new DateTime(2021, 10, 2, 6, 15, 7, 387, DateTimeKind.Local).AddTicks(3060),
+                            PublicationDate = new DateTime(2021, 10, 3, 6, 47, 53, 224, DateTimeKind.Local).AddTicks(6362),
                             PublisherId = 160,
                             Title = "Accusamus et sit molestias qui tempora."
                         },
@@ -2420,7 +2420,7 @@ namespace API.Data.Migrations
                             Description = "Qui animi dolorem ut earum officia nobis. Eum sint voluptatibus aut ab. Natus officiis ut adipisci dignissimos numquam molestiae. Mollitia omnis ab et asperiores. Ut sunt quia voluptatem perspiciatis ea et.",
                             ISBN = "System.Int32[]",
                             PageCount = 209,
-                            PublicationDate = new DateTime(1925, 1, 28, 7, 15, 58, 999, DateTimeKind.Local).AddTicks(6759),
+                            PublicationDate = new DateTime(1925, 1, 29, 7, 48, 44, 836, DateTimeKind.Local).AddTicks(9989),
                             PublisherId = 181,
                             Title = "Praesentium laborum totam."
                         },
@@ -2433,7 +2433,7 @@ namespace API.Data.Migrations
                             Description = "Mollitia dolorem omnis vel quo. Natus facilis ut laboriosam enim magni laudantium esse. Quo sit quis alias dolor occaecati.",
                             ISBN = "System.Int32[]",
                             PageCount = 176,
-                            PublicationDate = new DateTime(1983, 12, 27, 7, 6, 7, 45, DateTimeKind.Local).AddTicks(6022),
+                            PublicationDate = new DateTime(1983, 12, 28, 7, 38, 52, 882, DateTimeKind.Local).AddTicks(9136),
                             PublisherId = 182,
                             Title = "Consequatur."
                         },
@@ -2446,7 +2446,7 @@ namespace API.Data.Migrations
                             Description = "Laboriosam et dolor porro laborum enim autem. Provident qui voluptatem. Laudantium facere debitis modi quia veniam non quae voluptatibus. Minima qui eligendi ipsum accusamus inventore blanditiis explicabo. Iste quia libero laudantium pariatur nisi dolores autem.",
                             ISBN = "System.Int32[]",
                             PageCount = 339,
-                            PublicationDate = new DateTime(1988, 6, 9, 14, 19, 6, 548, DateTimeKind.Local).AddTicks(7948),
+                            PublicationDate = new DateTime(1988, 6, 10, 14, 51, 52, 386, DateTimeKind.Local).AddTicks(834),
                             PublisherId = 182,
                             Title = "Explicabo ut enim."
                         },
@@ -2459,7 +2459,7 @@ namespace API.Data.Migrations
                             Description = "Expedita autem nostrum accusantium debitis fuga voluptates animi quam. Fuga libero enim aut aut enim rem.",
                             ISBN = "System.Int32[]",
                             PageCount = 143,
-                            PublicationDate = new DateTime(1940, 2, 29, 18, 36, 47, 688, DateTimeKind.Local).AddTicks(940),
+                            PublicationDate = new DateTime(1940, 3, 1, 19, 9, 33, 525, DateTimeKind.Local).AddTicks(3790),
                             PublisherId = 184,
                             Title = "Odio minus qui."
                         },
@@ -2472,7 +2472,7 @@ namespace API.Data.Migrations
                             Description = "Ut quis qui quidem magni quaerat alias possimus iste itaque. Qui nihil illum quia voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 120,
-                            PublicationDate = new DateTime(2013, 11, 16, 4, 20, 42, 330, DateTimeKind.Local).AddTicks(8902),
+                            PublicationDate = new DateTime(2013, 11, 17, 4, 53, 28, 168, DateTimeKind.Local).AddTicks(1672),
                             PublisherId = 172,
                             Title = "Asperiores autem sed dolores."
                         },
@@ -2485,7 +2485,7 @@ namespace API.Data.Migrations
                             Description = "Debitis ipsum vero nulla voluptas quod illum rerum ratione nihil. Modi aperiam id non quam voluptate dicta nisi voluptate. Inventore dolore quis cum provident in voluptas qui cum. Eveniet doloribus perferendis ex doloribus et. Sed dolor est et ex maiores.",
                             ISBN = "System.Int32[]",
                             PageCount = 165,
-                            PublicationDate = new DateTime(2022, 3, 1, 23, 46, 3, 273, DateTimeKind.Local).AddTicks(6140),
+                            PublicationDate = new DateTime(2022, 3, 3, 0, 18, 49, 110, DateTimeKind.Local).AddTicks(8730),
                             PublisherId = 192,
                             Title = "Exercitationem ipsa."
                         },
@@ -2498,7 +2498,7 @@ namespace API.Data.Migrations
                             Description = "Omnis accusantium rerum dolorem. Harum nihil voluptatem sunt pariatur tempore architecto quisquam. Temporibus et est mollitia delectus sed et exercitationem eius necessitatibus.",
                             ISBN = "System.Int32[]",
                             PageCount = 145,
-                            PublicationDate = new DateTime(1990, 8, 17, 18, 11, 5, 138, DateTimeKind.Local).AddTicks(5486),
+                            PublicationDate = new DateTime(1990, 8, 18, 18, 43, 50, 975, DateTimeKind.Local).AddTicks(7936),
                             PublisherId = 190,
                             Title = "Et incidunt."
                         },
@@ -2511,7 +2511,7 @@ namespace API.Data.Migrations
                             Description = "Illo nulla sequi quaerat consequatur asperiores voluptatem voluptas. Illum deserunt qui magnam. Tenetur illum iste non ea quos voluptas perspiciatis nihil.",
                             ISBN = "System.Int32[]",
                             PageCount = 131,
-                            PublicationDate = new DateTime(2021, 5, 3, 4, 4, 19, 420, DateTimeKind.Local).AddTicks(3972),
+                            PublicationDate = new DateTime(2021, 5, 4, 4, 37, 5, 257, DateTimeKind.Local).AddTicks(6382),
                             PublisherId = 191,
                             Title = "Sunt aliquam voluptates cum."
                         },
@@ -2524,7 +2524,7 @@ namespace API.Data.Migrations
                             Description = "Odio aliquid placeat non. Quibusdam molestias nihil maxime dignissimos voluptates maxime tempora ullam. Est consequatur vero nostrum quae cum et praesentium. Veniam cupiditate molestiae laboriosam consequuntur laboriosam sequi fugiat odio. Aut nesciunt laudantium aliquam eos neque ad at alias.",
                             ISBN = "System.Int32[]",
                             PageCount = 220,
-                            PublicationDate = new DateTime(2011, 8, 4, 8, 44, 40, 434, DateTimeKind.Local).AddTicks(4202),
+                            PublicationDate = new DateTime(2011, 8, 5, 9, 17, 26, 271, DateTimeKind.Local).AddTicks(6422),
                             PublisherId = 158,
                             Title = "Et distinctio."
                         },
@@ -2537,7 +2537,7 @@ namespace API.Data.Migrations
                             Description = "Qui iste quisquam consequuntur assumenda qui veritatis. Qui hic dolor enim dolorem odio vitae ex inventore.",
                             ISBN = "System.Int32[]",
                             PageCount = 490,
-                            PublicationDate = new DateTime(1979, 1, 27, 4, 35, 45, 382, DateTimeKind.Local).AddTicks(4292),
+                            PublicationDate = new DateTime(1979, 1, 28, 5, 8, 31, 219, DateTimeKind.Local).AddTicks(6432),
                             PublisherId = 167,
                             Title = "Quis architecto nemo."
                         },
@@ -2550,7 +2550,7 @@ namespace API.Data.Migrations
                             Description = "Natus nisi vero quia recusandae sit harum. Laudantium enim iste. Aut fugiat nam voluptatem totam odio expedita.",
                             ISBN = "System.Int32[]",
                             PageCount = 405,
-                            PublicationDate = new DateTime(1994, 10, 25, 23, 54, 25, 42, DateTimeKind.Local).AddTicks(6316),
+                            PublicationDate = new DateTime(1994, 10, 27, 0, 27, 10, 879, DateTimeKind.Local).AddTicks(8296),
                             PublisherId = 174,
                             Title = "Asperiores rerum nemo dicta."
                         },
@@ -2563,7 +2563,7 @@ namespace API.Data.Migrations
                             Description = "Doloribus nesciunt velit vel voluptas autem quo facilis. Consequatur ipsa nam quos sapiente earum. Id tenetur quam eaque sunt fugit eum natus. Et natus adipisci. Animi sed minima.",
                             ISBN = "System.Int32[]",
                             PageCount = 232,
-                            PublicationDate = new DateTime(2001, 12, 16, 18, 55, 5, 57, DateTimeKind.Local).AddTicks(6686),
+                            PublicationDate = new DateTime(2001, 12, 17, 19, 27, 50, 894, DateTimeKind.Local).AddTicks(8542),
                             PublisherId = 158,
                             Title = "Iure."
                         },
@@ -2576,7 +2576,7 @@ namespace API.Data.Migrations
                             Description = "Facilis quidem necessitatibus fugiat omnis porro nisi inventore porro. Consequatur animi odit qui iste neque atque. Accusantium quidem qui et ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 241,
-                            PublicationDate = new DateTime(2017, 4, 16, 1, 11, 5, 751, DateTimeKind.Local).AddTicks(9560),
+                            PublicationDate = new DateTime(2017, 4, 17, 1, 43, 51, 589, DateTimeKind.Local).AddTicks(1296),
                             PublisherId = 156,
                             Title = "Repudiandae laborum officiis voluptas quidem."
                         },
@@ -2589,7 +2589,7 @@ namespace API.Data.Migrations
                             Description = "Quo voluptas ex. Temporibus repellat dolor in quod qui quaerat nobis. Doloremque qui eos sed tempore laborum molestias expedita aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 155,
-                            PublicationDate = new DateTime(1974, 6, 9, 11, 59, 34, 763, DateTimeKind.Local).AddTicks(2964),
+                            PublicationDate = new DateTime(1974, 6, 10, 12, 32, 20, 600, DateTimeKind.Local).AddTicks(3640),
                             PublisherId = 189,
                             Title = "Ducimus fugiat."
                         },
@@ -2602,7 +2602,7 @@ namespace API.Data.Migrations
                             Description = "Temporibus illo voluptas nesciunt inventore hic in est. Officia perferendis vitae at non ea aperiam laudantium nihil.",
                             ISBN = "System.Int32[]",
                             PageCount = 286,
-                            PublicationDate = new DateTime(2023, 4, 24, 4, 14, 44, 832, DateTimeKind.Local).AddTicks(2404),
+                            PublicationDate = new DateTime(2023, 4, 25, 4, 47, 30, 669, DateTimeKind.Local).AddTicks(2850),
                             PublisherId = 167,
                             Title = "Dolor quaerat."
                         },
@@ -2611,12 +2611,12 @@ namespace API.Data.Migrations
                             Id = 353,
                             AuthorId = 69,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 17, 16, 16, 431, DateTimeKind.Local).AddTicks(8589),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 17, 49, 2, 268, DateTimeKind.Local).AddTicks(8879),
                             CoverImage = "https://picsum.photos/id/474",
                             Description = "Quidem qui quis voluptatem fugiat omnis temporibus recusandae. Alias voluptate fuga.",
                             ISBN = "System.Int32[]",
                             PageCount = 101,
-                            PublicationDate = new DateTime(1983, 3, 9, 10, 11, 22, 598, DateTimeKind.Local).AddTicks(2082),
+                            PublicationDate = new DateTime(1983, 3, 10, 10, 44, 8, 435, DateTimeKind.Local).AddTicks(2382),
                             PublisherId = 181,
                             Title = "Dolorum beatae impedit sit dolores."
                         },
@@ -2629,7 +2629,7 @@ namespace API.Data.Migrations
                             Description = "Qui et natus dignissimos maiores delectus atque eum. Quo rerum dolores. Dolor error veniam sunt assumenda et. Amet inventore provident non iusto dignissimos cum voluptatem voluptatum saepe. Voluptas illum voluptate omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 199,
-                            PublicationDate = new DateTime(2011, 8, 25, 8, 52, 35, 298, DateTimeKind.Local).AddTicks(9276),
+                            PublicationDate = new DateTime(2011, 8, 26, 9, 25, 21, 135, DateTimeKind.Local).AddTicks(9328),
                             PublisherId = 190,
                             Title = "Totam quo sit."
                         },
@@ -2642,7 +2642,7 @@ namespace API.Data.Migrations
                             Description = "Aliquid quia et natus soluta. Et officiis atque. Iure recusandae explicabo commodi culpa fugit vel ut corporis consequuntur.",
                             ISBN = "System.Int32[]",
                             PageCount = 422,
-                            PublicationDate = new DateTime(1980, 2, 15, 3, 23, 17, 371, DateTimeKind.Local).AddTicks(9000),
+                            PublicationDate = new DateTime(1980, 2, 16, 3, 56, 3, 208, DateTimeKind.Local).AddTicks(8244),
                             PublisherId = 165,
                             Title = "Enim harum consequatur."
                         },
@@ -2655,7 +2655,7 @@ namespace API.Data.Migrations
                             Description = "Qui distinctio ut dolorem. Inventore quis rerum. Assumenda vitae totam. Ipsam laboriosam perspiciatis sed iste saepe. Nemo aliquam itaque ipsum.",
                             ISBN = "System.Int32[]",
                             PageCount = 494,
-                            PublicationDate = new DateTime(1940, 11, 12, 4, 52, 12, 388, DateTimeKind.Local).AddTicks(9937),
+                            PublicationDate = new DateTime(1940, 11, 13, 5, 24, 58, 225, DateTimeKind.Local).AddTicks(4915),
                             PublisherId = 160,
                             Title = "Eaque cumque consectetur eos recusandae consequatur."
                         },
@@ -2668,7 +2668,7 @@ namespace API.Data.Migrations
                             Description = "Ipsam in aliquam tempora deserunt pariatur error quisquam et. Eveniet totam consequatur non officia nam veniam consequuntur sit ut. Itaque corporis aut atque labore ratione.",
                             ISBN = "System.Int32[]",
                             PageCount = 207,
-                            PublicationDate = new DateTime(1979, 1, 25, 2, 41, 56, 245, DateTimeKind.Local).AddTicks(9164),
+                            PublicationDate = new DateTime(1979, 1, 26, 3, 14, 42, 82, DateTimeKind.Local).AddTicks(3804),
                             PublisherId = 165,
                             Title = "Blanditiis."
                         },
@@ -2681,7 +2681,7 @@ namespace API.Data.Migrations
                             Description = "Autem aspernatur qui maxime aliquid cumque. Nihil earum modi quis quaerat aut minus totam illum. Quis voluptas amet nesciunt in aperiam similique ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 423,
-                            PublicationDate = new DateTime(1984, 4, 19, 1, 41, 57, 476, DateTimeKind.Local).AddTicks(9402),
+                            PublicationDate = new DateTime(1984, 4, 20, 2, 14, 43, 313, DateTimeKind.Local).AddTicks(2624),
                             PublisherId = 176,
                             Title = "Eos aut voluptas sit."
                         },
@@ -2694,7 +2694,7 @@ namespace API.Data.Migrations
                             Description = "Enim reiciendis veritatis in. Nostrum consectetur vel aspernatur. Aut vitae totam eos enim dignissimos fugit. Aut ab nesciunt aliquid et maiores nemo vero doloribus est.",
                             ISBN = "System.Int32[]",
                             PageCount = 196,
-                            PublicationDate = new DateTime(1942, 1, 26, 12, 2, 18, 413, DateTimeKind.Local).AddTicks(8217),
+                            PublicationDate = new DateTime(1942, 1, 27, 12, 35, 4, 250, DateTimeKind.Local).AddTicks(1327),
                             PublisherId = 159,
                             Title = "Architecto ut qui sequi illo."
                         },
@@ -2707,7 +2707,7 @@ namespace API.Data.Migrations
                             Description = "Quia architecto ut nisi ullam qui ut molestiae veniam ut. Ut non et atque doloribus aliquam et.",
                             ISBN = "System.Int32[]",
                             PageCount = 208,
-                            PublicationDate = new DateTime(2012, 12, 31, 11, 53, 22, 410, DateTimeKind.Local).AddTicks(7490),
+                            PublicationDate = new DateTime(2013, 1, 1, 12, 26, 8, 247, DateTimeKind.Local).AddTicks(568),
                             PublisherId = 198,
                             Title = "Tenetur eaque ipsum voluptatibus."
                         },
@@ -2720,7 +2720,7 @@ namespace API.Data.Migrations
                             Description = "Est rem quae sint sed. Quia voluptatem eum. Dolores cumque cupiditate similique tempore.",
                             ISBN = "System.Int32[]",
                             PageCount = 289,
-                            PublicationDate = new DateTime(1957, 10, 1, 18, 13, 35, 586, DateTimeKind.Local).AddTicks(5798),
+                            PublicationDate = new DateTime(1957, 10, 2, 18, 46, 21, 422, DateTimeKind.Local).AddTicks(8748),
                             PublisherId = 158,
                             Title = "Itaque hic repellendus qui necessitatibus."
                         },
@@ -2733,7 +2733,7 @@ namespace API.Data.Migrations
                             Description = "Autem expedita rerum iste quisquam culpa quis quis minima asperiores. Perferendis magni voluptates sit magni officiis repudiandae. Et totam consequuntur praesentium quia rem distinctio consequatur aperiam veniam.",
                             ISBN = "System.Int32[]",
                             PageCount = 437,
-                            PublicationDate = new DateTime(1958, 12, 22, 4, 1, 18, 841, DateTimeKind.Local).AddTicks(8544),
+                            PublicationDate = new DateTime(1958, 12, 23, 4, 34, 4, 678, DateTimeKind.Local).AddTicks(1524),
                             PublisherId = 186,
                             Title = "Dicta."
                         },
@@ -2746,7 +2746,7 @@ namespace API.Data.Migrations
                             Description = "Qui dolore adipisci error vitae. Non aliquam dicta. Exercitationem rerum dolores occaecati aut doloremque quam eum.",
                             ISBN = "System.Int32[]",
                             PageCount = 162,
-                            PublicationDate = new DateTime(2002, 6, 11, 5, 44, 24, 794, DateTimeKind.Local).AddTicks(3234),
+                            PublicationDate = new DateTime(2002, 6, 12, 6, 17, 10, 630, DateTimeKind.Local).AddTicks(5718),
                             PublisherId = 178,
                             Title = "Dolore."
                         },
@@ -2759,7 +2759,7 @@ namespace API.Data.Migrations
                             Description = "Perspiciatis magni quod esse cum qui asperiores sed quo. Est qui maxime voluptatem eum delectus nihil. Reiciendis voluptatem commodi aut et enim officiis ratione ea.",
                             ISBN = "System.Int32[]",
                             PageCount = 306,
-                            PublicationDate = new DateTime(1966, 11, 25, 6, 33, 25, 243, DateTimeKind.Local).AddTicks(3282),
+                            PublicationDate = new DateTime(1966, 11, 26, 7, 6, 11, 79, DateTimeKind.Local).AddTicks(5004),
                             PublisherId = 156,
                             Title = "Aliquid sit sint magni doloribus similique."
                         },
@@ -2772,7 +2772,7 @@ namespace API.Data.Migrations
                             Description = "Totam perspiciatis non consequatur. Vitae quam natus minus. Magnam eos rerum culpa.",
                             ISBN = "System.Int32[]",
                             PageCount = 182,
-                            PublicationDate = new DateTime(1927, 12, 31, 14, 54, 41, 413, DateTimeKind.Local).AddTicks(9368),
+                            PublicationDate = new DateTime(1928, 1, 1, 15, 27, 27, 250, DateTimeKind.Local).AddTicks(458),
                             PublisherId = 196,
                             Title = "Dolores dolorem similique et accusamus vitae."
                         },
@@ -2785,7 +2785,7 @@ namespace API.Data.Migrations
                             Description = "Ea inventore quos officia aperiam. Eum ab quae minima aut fuga sit doloribus molestiae error. Sunt voluptas laborum a. Eveniet fugit nam consectetur.",
                             ISBN = "System.Int32[]",
                             PageCount = 496,
-                            PublicationDate = new DateTime(1993, 1, 5, 5, 3, 4, 959, DateTimeKind.Local).AddTicks(9616),
+                            PublicationDate = new DateTime(1993, 1, 6, 5, 35, 50, 795, DateTimeKind.Local).AddTicks(6706),
                             PublisherId = 174,
                             Title = "Nisi voluptatem similique voluptatem accusamus occaecati."
                         },
@@ -2798,7 +2798,7 @@ namespace API.Data.Migrations
                             Description = "Rerum et beatae eum qui nesciunt vel et. Quis aliquid quae et quidem aliquid totam neque vel. Voluptate assumenda omnis reiciendis ipsam aut tempora.",
                             ISBN = "System.Int32[]",
                             PageCount = 488,
-                            PublicationDate = new DateTime(1930, 9, 10, 11, 22, 15, 476, DateTimeKind.Local).AddTicks(9563),
+                            PublicationDate = new DateTime(1930, 9, 11, 11, 55, 1, 312, DateTimeKind.Local).AddTicks(4463),
                             PublisherId = 170,
                             Title = "Sit."
                         },
@@ -2811,7 +2811,7 @@ namespace API.Data.Migrations
                             Description = "Illo ut amet. Omnis culpa sint rerum doloribus omnis vel voluptatem. Quas eligendi earum cupiditate iure non omnis. Fuga voluptas autem sint autem.",
                             ISBN = "System.Int32[]",
                             PageCount = 416,
-                            PublicationDate = new DateTime(2013, 8, 17, 19, 58, 44, 344, DateTimeKind.Local).AddTicks(4466),
+                            PublicationDate = new DateTime(2013, 8, 18, 20, 31, 30, 179, DateTimeKind.Local).AddTicks(8390),
                             PublisherId = 187,
                             Title = "Ab autem dolorem."
                         },
@@ -2824,7 +2824,7 @@ namespace API.Data.Migrations
                             Description = "Quod omnis molestiae facilis qui minus. Aut dolor dolor reiciendis alias dolor. Dolor perferendis at et ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 484,
-                            PublicationDate = new DateTime(1930, 9, 13, 0, 21, 56, 326, DateTimeKind.Local).AddTicks(577),
+                            PublicationDate = new DateTime(1930, 9, 14, 0, 54, 42, 161, DateTimeKind.Local).AddTicks(3916),
                             PublisherId = 174,
                             Title = "Id quibusdam odit."
                         },
@@ -2837,7 +2837,7 @@ namespace API.Data.Migrations
                             Description = "Autem assumenda facilis officia earum cum quas commodi asperiores dicta. Deserunt quia omnis vero odio repellendus ut quisquam. Necessitatibus numquam ut qui tenetur distinctio voluptatem ut ratione. Quo ut accusantium unde quaerat. Nemo molestias alias.",
                             ISBN = "System.Int32[]",
                             PageCount = 165,
-                            PublicationDate = new DateTime(1974, 11, 18, 2, 21, 29, 113, DateTimeKind.Local).AddTicks(130),
+                            PublicationDate = new DateTime(1974, 11, 19, 2, 54, 14, 948, DateTimeKind.Local).AddTicks(3400),
                             PublisherId = 183,
                             Title = "Molestiae ipsum earum."
                         },
@@ -2850,7 +2850,7 @@ namespace API.Data.Migrations
                             Description = "Adipisci error distinctio quas placeat magni. Incidunt nisi neque qui facilis. Animi deleniti tempore delectus ipsam. Sint alias omnis aperiam omnis explicabo id atque.",
                             ISBN = "System.Int32[]",
                             PageCount = 433,
-                            PublicationDate = new DateTime(2009, 10, 29, 6, 17, 39, 331, DateTimeKind.Local).AddTicks(5764),
+                            PublicationDate = new DateTime(2009, 10, 30, 6, 50, 25, 166, DateTimeKind.Local).AddTicks(8974),
                             PublisherId = 187,
                             Title = "Ex animi."
                         },
@@ -2859,12 +2859,12 @@ namespace API.Data.Migrations
                             Id = 372,
                             AuthorId = 89,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 9, 54, 50, 890, DateTimeKind.Local).AddTicks(432),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 10, 27, 36, 725, DateTimeKind.Local).AddTicks(3622),
                             CoverImage = "https://picsum.photos/id/101",
                             Description = "Est autem et provident aut voluptate qui. Velit excepturi voluptatem aut et omnis aut sunt. Ut sed voluptatum ullam vel cupiditate voluptas.",
                             ISBN = "System.Int32[]",
                             PageCount = 378,
-                            PublicationDate = new DateTime(1995, 8, 29, 22, 15, 2, 393, DateTimeKind.Local).AddTicks(6110),
+                            PublicationDate = new DateTime(1995, 8, 30, 22, 47, 48, 228, DateTimeKind.Local).AddTicks(9292),
                             PublisherId = 185,
                             Title = "Sequi est."
                         },
@@ -2873,12 +2873,12 @@ namespace API.Data.Migrations
                             Id = 373,
                             AuthorId = 74,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 7, 38, 18, 659, DateTimeKind.Local).AddTicks(3053),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 8, 11, 4, 494, DateTimeKind.Local).AddTicks(6213),
                             CoverImage = "https://picsum.photos/id/243",
                             Description = "Est culpa quaerat enim consequatur. Sapiente pariatur odit sit velit. Optio eum optio qui nobis sit et et quidem. Sed dolores cum dolor officia sed iste quia rem praesentium. Aspernatur et dolores vero commodi sapiente cumque voluptatem ipsam.",
                             ISBN = "System.Int32[]",
                             PageCount = 337,
-                            PublicationDate = new DateTime(1927, 7, 11, 11, 21, 48, 891, DateTimeKind.Local).AddTicks(3404),
+                            PublicationDate = new DateTime(1927, 7, 12, 11, 54, 34, 726, DateTimeKind.Local).AddTicks(6564),
                             PublisherId = 153,
                             Title = "Qui."
                         },
@@ -2891,7 +2891,7 @@ namespace API.Data.Migrations
                             Description = "Voluptas error ut voluptatem quis hic quas. Dolores nesciunt suscipit et dolor.",
                             ISBN = "System.Int32[]",
                             PageCount = 334,
-                            PublicationDate = new DateTime(1943, 3, 5, 17, 15, 54, 283, DateTimeKind.Local).AddTicks(9948),
+                            PublicationDate = new DateTime(1943, 3, 6, 17, 48, 40, 119, DateTimeKind.Local).AddTicks(3058),
                             PublisherId = 157,
                             Title = "Eveniet vero."
                         },
@@ -2900,12 +2900,12 @@ namespace API.Data.Migrations
                             Id = 375,
                             AuthorId = 62,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 21, 4, 29, 460, DateTimeKind.Local).AddTicks(6795),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 21, 37, 15, 295, DateTimeKind.Local).AddTicks(9945),
                             CoverImage = "https://picsum.photos/id/405",
                             Description = "Id qui ipsum eius temporibus non magnam esse. Enim consequuntur dolor beatae exercitationem eius illum aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 195,
-                            PublicationDate = new DateTime(1935, 10, 15, 9, 9, 4, 175, DateTimeKind.Local).AddTicks(1210),
+                            PublicationDate = new DateTime(1935, 10, 16, 9, 41, 50, 10, DateTimeKind.Local).AddTicks(4360),
                             PublisherId = 178,
                             Title = "Natus et doloremque."
                         },
@@ -2914,12 +2914,12 @@ namespace API.Data.Migrations
                             Id = 376,
                             AuthorId = 109,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 22, 9, 50, 491, DateTimeKind.Local).AddTicks(8515),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 22, 42, 36, 327, DateTimeKind.Local).AddTicks(1645),
                             CoverImage = "https://picsum.photos/id/178",
                             Description = "Ea est nemo sit maxime fuga. Similique qui quo voluptate. Quaerat magnam corporis. Accusamus quisquam aperiam.",
                             ISBN = "System.Int32[]",
                             PageCount = 386,
-                            PublicationDate = new DateTime(1940, 2, 29, 1, 23, 6, 798, DateTimeKind.Local).AddTicks(8624),
+                            PublicationDate = new DateTime(1940, 3, 1, 1, 55, 52, 634, DateTimeKind.Local).AddTicks(1754),
                             PublisherId = 174,
                             Title = "Earum et soluta est."
                         },
@@ -2932,7 +2932,7 @@ namespace API.Data.Migrations
                             Description = "Nihil necessitatibus occaecati quis rerum dolor vel. Unde ea doloribus cum recusandae quia tenetur nihil ex ea. Eum in quibusdam excepturi consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 478,
-                            PublicationDate = new DateTime(1966, 12, 20, 12, 55, 2, 572, DateTimeKind.Local).AddTicks(4358),
+                            PublicationDate = new DateTime(1966, 12, 21, 13, 27, 48, 407, DateTimeKind.Local).AddTicks(7406),
                             PublisherId = 180,
                             Title = "Minus."
                         },
@@ -2941,12 +2941,12 @@ namespace API.Data.Migrations
                             Id = 378,
                             AuthorId = 75,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 18, 53, 24, 53, DateTimeKind.Local).AddTicks(1398),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 19, 26, 9, 888, DateTimeKind.Local).AddTicks(4418),
                             CoverImage = "https://picsum.photos/id/186",
                             Description = "Autem dolorem quidem consequuntur voluptates autem impedit id. Ut eos consequuntur. Minus est esse dolorum facilis laborum dolor.",
                             ISBN = "System.Int32[]",
                             PageCount = 351,
-                            PublicationDate = new DateTime(1943, 1, 18, 9, 2, 16, 651, DateTimeKind.Local).AddTicks(9769),
+                            PublicationDate = new DateTime(1943, 1, 19, 9, 35, 2, 487, DateTimeKind.Local).AddTicks(2799),
                             PublisherId = 157,
                             Title = "Necessitatibus dolor doloremque."
                         },
@@ -2959,7 +2959,7 @@ namespace API.Data.Migrations
                             Description = "Voluptatum neque eum et quasi suscipit labore eligendi placeat. Quia dicta commodi consequatur. Reprehenderit impedit laborum corporis.",
                             ISBN = "System.Int32[]",
                             PageCount = 357,
-                            PublicationDate = new DateTime(1973, 10, 2, 12, 36, 13, 870, DateTimeKind.Local).AddTicks(4452),
+                            PublicationDate = new DateTime(1973, 10, 3, 13, 8, 59, 705, DateTimeKind.Local).AddTicks(7428),
                             PublisherId = 153,
                             Title = "Vel ipsum eos et ullam."
                         },
@@ -2972,7 +2972,7 @@ namespace API.Data.Migrations
                             Description = "Totam sunt est amet consequatur quibusdam est qui nemo reiciendis. Nisi ad quam nam voluptatum non nostrum accusamus. Est eveniet voluptates ipsum commodi voluptatum. Voluptates ea soluta omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 276,
-                            PublicationDate = new DateTime(1946, 2, 23, 4, 37, 14, 351, DateTimeKind.Local).AddTicks(2659),
+                            PublicationDate = new DateTime(1946, 2, 24, 5, 10, 0, 186, DateTimeKind.Local).AddTicks(5539),
                             PublisherId = 171,
                             Title = "Aut eos debitis doloremque qui debitis."
                         },
@@ -2985,7 +2985,7 @@ namespace API.Data.Migrations
                             Description = "Provident animi dolor quia et sed repellendus molestiae incidunt. Libero corrupti accusamus et ipsum eos eligendi. Dicta molestiae est quod possimus eligendi pariatur numquam. Suscipit nisi minus ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 135,
-                            PublicationDate = new DateTime(1965, 9, 3, 20, 11, 2, 475, DateTimeKind.Local).AddTicks(1314),
+                            PublicationDate = new DateTime(1965, 9, 4, 20, 43, 48, 310, DateTimeKind.Local).AddTicks(4214),
                             PublisherId = 174,
                             Title = "Culpa beatae enim similique."
                         },
@@ -2998,7 +2998,7 @@ namespace API.Data.Migrations
                             Description = "Ducimus culpa dolores. Eos sit quidem labore architecto perferendis. Nesciunt totam voluptatum.",
                             ISBN = "System.Int32[]",
                             PageCount = 404,
-                            PublicationDate = new DateTime(1936, 6, 9, 3, 59, 50, 504, DateTimeKind.Local).AddTicks(5699),
+                            PublicationDate = new DateTime(1936, 6, 10, 4, 32, 36, 339, DateTimeKind.Local).AddTicks(8529),
                             PublisherId = 162,
                             Title = "Explicabo sunt ab autem nulla sunt."
                         },
@@ -3007,12 +3007,12 @@ namespace API.Data.Migrations
                             Id = 383,
                             AuthorId = 55,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 8, 16, 43, 542, DateTimeKind.Local).AddTicks(6650),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 8, 49, 29, 377, DateTimeKind.Local).AddTicks(9495),
                             CoverImage = "https://picsum.photos/id/347",
                             Description = "Laboriosam sed occaecati optio fuga et rerum natus sint. Est autem repudiandae cupiditate blanditiis eum repellat qui rerum ducimus. Qui aliquam voluptatibus perferendis et ut sit modi deleniti. Quod expedita magnam officia et deserunt. Sunt voluptas labore voluptates suscipit illum et ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 234,
-                            PublicationDate = new DateTime(1968, 3, 24, 4, 25, 24, 826, DateTimeKind.Local).AddTicks(7078),
+                            PublicationDate = new DateTime(1968, 3, 25, 4, 58, 10, 661, DateTimeKind.Local).AddTicks(9922),
                             PublisherId = 200,
                             Title = "Dicta aut ducimus nobis."
                         },
@@ -3021,12 +3021,12 @@ namespace API.Data.Migrations
                             Id = 384,
                             AuthorId = 144,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 9, 8, 2, 69, DateTimeKind.Local).AddTicks(9458),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 9, 40, 47, 905, DateTimeKind.Local).AddTicks(2268),
                             CoverImage = "https://picsum.photos/id/420",
                             Description = "Enim ab officiis non eos atque iusto unde libero. Maiores iure mollitia doloremque. Suscipit ratione quia et aut illo consequatur sit sed nemo. Eveniet suscipit atque non doloremque quae explicabo.",
                             ISBN = "System.Int32[]",
                             PageCount = 345,
-                            PublicationDate = new DateTime(2023, 8, 21, 11, 30, 15, 969, DateTimeKind.Local).AddTicks(4668),
+                            PublicationDate = new DateTime(2023, 8, 22, 12, 3, 1, 804, DateTimeKind.Local).AddTicks(7478),
                             PublisherId = 157,
                             Title = "Distinctio."
                         },
@@ -3039,7 +3039,7 @@ namespace API.Data.Migrations
                             Description = "Aspernatur et blanditiis eos earum nostrum possimus. Et et nulla a aperiam praesentium et asperiores quod praesentium. Fugiat quos est officiis modi perspiciatis dolor provident aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 158,
-                            PublicationDate = new DateTime(1977, 10, 4, 0, 21, 12, 724, DateTimeKind.Local).AddTicks(2850),
+                            PublicationDate = new DateTime(1977, 10, 5, 0, 53, 58, 559, DateTimeKind.Local).AddTicks(5570),
                             PublisherId = 189,
                             Title = "Minus corporis quisquam facere."
                         },
@@ -3052,7 +3052,7 @@ namespace API.Data.Migrations
                             Description = "Ut mollitia voluptas omnis. Illo distinctio voluptatem dignissimos doloremque officia quae qui. Nostrum quod sint nulla aut facilis.",
                             ISBN = "System.Int32[]",
                             PageCount = 483,
-                            PublicationDate = new DateTime(1973, 9, 1, 19, 43, 26, 384, DateTimeKind.Local).AddTicks(2342),
+                            PublicationDate = new DateTime(1973, 9, 2, 20, 16, 12, 219, DateTimeKind.Local).AddTicks(5066),
                             PublisherId = 154,
                             Title = "Nemo voluptatibus nostrum dolores blanditiis."
                         },
@@ -3065,7 +3065,7 @@ namespace API.Data.Migrations
                             Description = "Accusamus eligendi omnis dolorum est sed soluta. Nesciunt qui quam sit.",
                             ISBN = "System.Int32[]",
                             PageCount = 210,
-                            PublicationDate = new DateTime(1962, 1, 26, 5, 51, 20, 549, DateTimeKind.Local).AddTicks(2932),
+                            PublicationDate = new DateTime(1962, 1, 27, 6, 24, 6, 384, DateTimeKind.Local).AddTicks(5600),
                             PublisherId = 177,
                             Title = "Temporibus cumque quas."
                         },
@@ -3078,7 +3078,7 @@ namespace API.Data.Migrations
                             Description = "Ut voluptate est neque enim sed nesciunt fugit non. Quaerat occaecati rerum perferendis aut quia possimus. Voluptas mollitia explicabo id molestias. Repellendus beatae quia sapiente enim officiis omnis deserunt sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 414,
-                            PublicationDate = new DateTime(2014, 7, 3, 15, 44, 40, 565, DateTimeKind.Local).AddTicks(5654),
+                            PublicationDate = new DateTime(2014, 7, 4, 16, 17, 26, 400, DateTimeKind.Local).AddTicks(8412),
                             PublisherId = 200,
                             Title = "Et expedita aspernatur."
                         },
@@ -3091,7 +3091,7 @@ namespace API.Data.Migrations
                             Description = "Vel adipisci non velit aut inventore illum nam voluptatibus. Perferendis iste voluptas aut. Excepturi minus optio. Non eum non. Et optio non aut itaque quam quos.",
                             ISBN = "System.Int32[]",
                             PageCount = 283,
-                            PublicationDate = new DateTime(1934, 2, 13, 10, 14, 2, 565, DateTimeKind.Local).AddTicks(9566),
+                            PublicationDate = new DateTime(1934, 2, 14, 10, 46, 48, 401, DateTimeKind.Local).AddTicks(2326),
                             PublisherId = 169,
                             Title = "Voluptas."
                         },
@@ -3104,7 +3104,7 @@ namespace API.Data.Migrations
                             Description = "Soluta delectus et ad vitae aut. Quos enim facilis et. Incidunt sed rem et aut. Ipsum voluptatum illo adipisci dolor voluptatibus. Aut amet possimus.",
                             ISBN = "System.Int32[]",
                             PageCount = 423,
-                            PublicationDate = new DateTime(1941, 6, 28, 15, 31, 0, 686, DateTimeKind.Local).AddTicks(5639),
+                            PublicationDate = new DateTime(1941, 6, 29, 16, 3, 46, 521, DateTimeKind.Local).AddTicks(8379),
                             PublisherId = 194,
                             Title = "Et est."
                         },
@@ -3117,7 +3117,7 @@ namespace API.Data.Migrations
                             Description = "Qui corrupti temporibus occaecati quia sed. Corrupti enim dignissimos rerum tempora dolor fugit dolorem. Ut repellendus ab exercitationem consequatur tempore. Possimus quia ut sit. Error recusandae ut est debitis expedita quisquam.",
                             ISBN = "System.Int32[]",
                             PageCount = 172,
-                            PublicationDate = new DateTime(1931, 1, 17, 13, 35, 21, 68, DateTimeKind.Local).AddTicks(4238),
+                            PublicationDate = new DateTime(1931, 1, 18, 14, 8, 6, 903, DateTimeKind.Local).AddTicks(6918),
                             PublisherId = 165,
                             Title = "Dolore delectus."
                         },
@@ -3126,12 +3126,12 @@ namespace API.Data.Migrations
                             Id = 392,
                             AuthorId = 65,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 7, 17, 39, 678, DateTimeKind.Local).AddTicks(6622),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 7, 50, 25, 513, DateTimeKind.Local).AddTicks(9232),
                             CoverImage = "https://picsum.photos/id/406",
                             Description = "Perspiciatis labore aliquid occaecati reprehenderit voluptatem. Aliquam libero aut. Placeat id fuga. Mollitia voluptates ut placeat. Officia quisquam culpa autem in repellat molestias aliquam corporis.",
                             ISBN = "System.Int32[]",
                             PageCount = 234,
-                            PublicationDate = new DateTime(1936, 9, 16, 2, 23, 51, 628, DateTimeKind.Local).AddTicks(2215),
+                            PublicationDate = new DateTime(1936, 9, 17, 2, 56, 37, 463, DateTimeKind.Local).AddTicks(4825),
                             PublisherId = 153,
                             Title = "Ullam doloremque nisi corporis amet."
                         },
@@ -3144,7 +3144,7 @@ namespace API.Data.Migrations
                             Description = "Rerum qui sint pariatur tenetur vero maxime architecto illo repudiandae. Molestiae consequatur odio voluptates delectus vitae dolores. Quia voluptatibus labore officiis. Ducimus iste quam qui facilis ut saepe velit rerum.",
                             ISBN = "System.Int32[]",
                             PageCount = 272,
-                            PublicationDate = new DateTime(1931, 11, 20, 9, 33, 31, 566, DateTimeKind.Local).AddTicks(4322),
+                            PublicationDate = new DateTime(1931, 11, 21, 10, 6, 17, 401, DateTimeKind.Local).AddTicks(6912),
                             PublisherId = 177,
                             Title = "Reprehenderit sint qui sequi autem."
                         },
@@ -3153,12 +3153,12 @@ namespace API.Data.Migrations
                             Id = 394,
                             AuthorId = 119,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 8, 50, 51, 883, DateTimeKind.Local).AddTicks(8551),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 9, 23, 37, 719, DateTimeKind.Local).AddTicks(1121),
                             CoverImage = "https://picsum.photos/id/384",
                             Description = "Odio id et excepturi voluptatem voluptate. Sed sint rerum optio et. Iste consequatur nam a libero.",
                             ISBN = "System.Int32[]",
                             PageCount = 184,
-                            PublicationDate = new DateTime(2015, 5, 15, 20, 31, 21, 613, DateTimeKind.Local).AddTicks(9390),
+                            PublicationDate = new DateTime(2015, 5, 16, 21, 4, 7, 449, DateTimeKind.Local).AddTicks(1960),
                             PublisherId = 179,
                             Title = "Asperiores nihil occaecati."
                         },
@@ -3167,12 +3167,12 @@ namespace API.Data.Migrations
                             Id = 395,
                             AuthorId = 76,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 10, 37, 6, 227, DateTimeKind.Local).AddTicks(8883),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 11, 9, 52, 63, DateTimeKind.Local).AddTicks(1442),
                             CoverImage = "https://picsum.photos/id/426",
                             Description = "Minus eum itaque. Cupiditate sit placeat.",
                             ISBN = "System.Int32[]",
                             PageCount = 349,
-                            PublicationDate = new DateTime(1958, 11, 16, 19, 52, 10, 313, DateTimeKind.Local).AddTicks(10),
+                            PublicationDate = new DateTime(1958, 11, 17, 20, 24, 56, 148, DateTimeKind.Local).AddTicks(2570),
                             PublisherId = 196,
                             Title = "Expedita animi."
                         },
@@ -3185,7 +3185,7 @@ namespace API.Data.Migrations
                             Description = "Quasi deleniti quidem distinctio cupiditate dolor. Quasi deserunt libero mollitia cupiditate labore iusto libero quisquam possimus. Fuga in recusandae iste fuga sit ipsam porro fuga. Iste consequatur aut officiis exercitationem perspiciatis ea. Voluptate voluptas corporis adipisci non doloremque repudiandae odio.",
                             ISBN = "System.Int32[]",
                             PageCount = 163,
-                            PublicationDate = new DateTime(1962, 5, 24, 14, 9, 11, 450, DateTimeKind.Local).AddTicks(7898),
+                            PublicationDate = new DateTime(1962, 5, 25, 14, 41, 57, 286, DateTimeKind.Local).AddTicks(398),
                             PublisherId = 155,
                             Title = "Atque aut."
                         },
@@ -3198,7 +3198,7 @@ namespace API.Data.Migrations
                             Description = "Rem ut facilis sit consequatur eius. Nesciunt odio sunt quidem non non est. Saepe debitis temporibus. Dolores eaque omnis occaecati est in.",
                             ISBN = "System.Int32[]",
                             PageCount = 500,
-                            PublicationDate = new DateTime(2018, 5, 31, 20, 17, 43, 826, DateTimeKind.Local).AddTicks(6790),
+                            PublicationDate = new DateTime(2018, 6, 1, 20, 50, 29, 661, DateTimeKind.Local).AddTicks(9212),
                             PublisherId = 194,
                             Title = "Est incidunt optio doloremque recusandae ipsam."
                         },
@@ -3211,7 +3211,7 @@ namespace API.Data.Migrations
                             Description = "Similique aperiam reprehenderit sint eum tenetur id. Aliquid velit quisquam voluptatem itaque.",
                             ISBN = "System.Int32[]",
                             PageCount = 263,
-                            PublicationDate = new DateTime(2000, 7, 7, 8, 45, 35, 13, DateTimeKind.Local).AddTicks(606),
+                            PublicationDate = new DateTime(2000, 7, 8, 9, 18, 20, 848, DateTimeKind.Local).AddTicks(3076),
                             PublisherId = 190,
                             Title = "Adipisci blanditiis et."
                         },
@@ -3224,7 +3224,7 @@ namespace API.Data.Migrations
                             Description = "Corrupti est repellat. Cum atque est omnis culpa. Sed fugit pariatur perspiciatis enim id ex corporis. Pariatur commodi doloremque earum odio. Dolores enim qui et explicabo officia.",
                             ISBN = "System.Int32[]",
                             PageCount = 132,
-                            PublicationDate = new DateTime(2014, 8, 29, 17, 58, 40, 16, DateTimeKind.Local).AddTicks(872),
+                            PublicationDate = new DateTime(2014, 8, 30, 18, 31, 25, 851, DateTimeKind.Local).AddTicks(3222),
                             PublisherId = 156,
                             Title = "Ipsum quo occaecati dolores."
                         },
@@ -3237,7 +3237,7 @@ namespace API.Data.Migrations
                             Description = "Ipsum sapiente atque atque ratione sapiente consequatur. Illo maxime iusto mollitia consequatur libero iusto tempore. Enim aut labore eos incidunt. Dicta non omnis enim ipsa nihil eaque eligendi maxime. Qui dignissimos blanditiis quia tempora cupiditate mollitia dolor iste accusantium.",
                             ISBN = "System.Int32[]",
                             PageCount = 255,
-                            PublicationDate = new DateTime(1989, 9, 2, 9, 1, 1, 854, DateTimeKind.Local).AddTicks(4716),
+                            PublicationDate = new DateTime(1989, 9, 3, 9, 33, 47, 689, DateTimeKind.Local).AddTicks(7092),
                             PublisherId = 178,
                             Title = "Molestiae et impedit blanditiis eum."
                         },
@@ -3250,7 +3250,7 @@ namespace API.Data.Migrations
                             Description = "Modi voluptatibus totam explicabo maxime quis inventore nemo sed tempore. Ea ullam illo voluptate eum ut dolores. Quis quo quas. Aut libero eos rerum non.",
                             ISBN = "System.Int32[]",
                             PageCount = 443,
-                            PublicationDate = new DateTime(1944, 2, 29, 7, 21, 9, 819, DateTimeKind.Local).AddTicks(3583),
+                            PublicationDate = new DateTime(1944, 3, 1, 7, 53, 55, 654, DateTimeKind.Local).AddTicks(5933),
                             PublisherId = 151,
                             Title = "Ab."
                         },
@@ -3263,7 +3263,7 @@ namespace API.Data.Migrations
                             Description = "Distinctio distinctio nihil est nisi pariatur quae adipisci. Nobis atque illum sit omnis consequatur eos. Soluta est laboriosam voluptas eos.",
                             ISBN = "System.Int32[]",
                             PageCount = 118,
-                            PublicationDate = new DateTime(1995, 8, 7, 20, 47, 56, 437, DateTimeKind.Local).AddTicks(1846),
+                            PublicationDate = new DateTime(1995, 8, 8, 21, 20, 42, 272, DateTimeKind.Local).AddTicks(4146),
                             PublisherId = 174,
                             Title = "Repudiandae fugit repudiandae dolorum."
                         },
@@ -3276,7 +3276,7 @@ namespace API.Data.Migrations
                             Description = "Soluta sint tenetur et impedit hic iste asperiores adipisci cumque. Vel ducimus perferendis officia cumque. Eveniet dolore sed quidem sit perferendis modi delectus dolor. Dolor voluptas at et rerum mollitia ullam temporibus nemo.",
                             ISBN = "System.Int32[]",
                             PageCount = 102,
-                            PublicationDate = new DateTime(1971, 12, 26, 3, 18, 27, 225, DateTimeKind.Local).AddTicks(3138),
+                            PublicationDate = new DateTime(1971, 12, 27, 3, 51, 13, 60, DateTimeKind.Local).AddTicks(5452),
                             PublisherId = 160,
                             Title = "Ipsum quo enim culpa quibusdam aut."
                         },
@@ -3289,7 +3289,7 @@ namespace API.Data.Migrations
                             Description = "Dolor voluptatem modi veniam laboriosam culpa eligendi qui. Qui et iure voluptatibus qui inventore. Aspernatur necessitatibus dolorem.",
                             ISBN = "System.Int32[]",
                             PageCount = 329,
-                            PublicationDate = new DateTime(1972, 5, 13, 20, 6, 6, 297, DateTimeKind.Local).AddTicks(6314),
+                            PublicationDate = new DateTime(1972, 5, 14, 20, 38, 52, 132, DateTimeKind.Local).AddTicks(8580),
                             PublisherId = 182,
                             Title = "Qui fugiat non consectetur omnis incidunt."
                         },
@@ -3298,12 +3298,12 @@ namespace API.Data.Migrations
                             Id = 405,
                             AuthorId = 122,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 18, 6, 48, 589, DateTimeKind.Local).AddTicks(8944),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 18, 39, 34, 425, DateTimeKind.Local).AddTicks(1193),
                             CoverImage = "https://picsum.photos/id/112",
                             Description = "Placeat vel accusamus magni soluta laboriosam excepturi. Accusantium distinctio sequi aspernatur aut nihil.",
                             ISBN = "System.Int32[]",
                             PageCount = 147,
-                            PublicationDate = new DateTime(1952, 3, 7, 16, 38, 9, 468, DateTimeKind.Local).AddTicks(6716),
+                            PublicationDate = new DateTime(1952, 3, 8, 17, 10, 55, 303, DateTimeKind.Local).AddTicks(8966),
                             PublisherId = 171,
                             Title = "Excepturi nihil alias."
                         },
@@ -3316,7 +3316,7 @@ namespace API.Data.Migrations
                             Description = "Quam vel occaecati. Tempora sunt enim ea a quo ullam ut distinctio. Unde reiciendis doloribus dolores necessitatibus vel. Debitis dolores repellat illum dolore perferendis assumenda.",
                             ISBN = "System.Int32[]",
                             PageCount = 333,
-                            PublicationDate = new DateTime(1978, 4, 23, 5, 16, 24, 80, DateTimeKind.Local).AddTicks(1688),
+                            PublicationDate = new DateTime(1978, 4, 24, 5, 49, 9, 915, DateTimeKind.Local).AddTicks(3884),
                             PublisherId = 164,
                             Title = "Reiciendis ea nisi consectetur deleniti distinctio."
                         },
@@ -3329,7 +3329,7 @@ namespace API.Data.Migrations
                             Description = "Occaecati perferendis voluptatibus beatae. Doloribus cum ipsum eum molestias aut voluptatem. Et rem maiores blanditiis repudiandae. Natus consequatur esse minima non asperiores reiciendis velit temporibus.",
                             ISBN = "System.Int32[]",
                             PageCount = 221,
-                            PublicationDate = new DateTime(1994, 8, 2, 20, 14, 25, 16, DateTimeKind.Local).AddTicks(4838),
+                            PublicationDate = new DateTime(1994, 8, 3, 20, 47, 10, 851, DateTimeKind.Local).AddTicks(6998),
                             PublisherId = 181,
                             Title = "Non quos cupiditate vero quod."
                         },
@@ -3342,7 +3342,7 @@ namespace API.Data.Migrations
                             Description = "Voluptatibus labore aut minus ab vitae natus autem. Accusantium numquam voluptate necessitatibus autem qui eos ut vel aspernatur. Aspernatur sint ab nam magnam et exercitationem. Temporibus voluptas id numquam enim quam unde. Iste assumenda quia ad et recusandae placeat non.",
                             ISBN = "System.Int32[]",
                             PageCount = 416,
-                            PublicationDate = new DateTime(1927, 5, 13, 7, 44, 15, 155, DateTimeKind.Local).AddTicks(6560),
+                            PublicationDate = new DateTime(1927, 5, 14, 8, 17, 0, 990, DateTimeKind.Local).AddTicks(8700),
                             PublisherId = 182,
                             Title = "Ut."
                         },
@@ -3355,7 +3355,7 @@ namespace API.Data.Migrations
                             Description = "Velit eligendi qui placeat dolorem ipsum sed. Fuga numquam iure. Sint quo aut voluptates asperiores illum. Occaecati sed veniam optio atque est.",
                             ISBN = "System.Int32[]",
                             PageCount = 226,
-                            PublicationDate = new DateTime(2010, 4, 15, 16, 2, 0, 713, DateTimeKind.Local).AddTicks(4308),
+                            PublicationDate = new DateTime(2010, 4, 16, 16, 34, 46, 548, DateTimeKind.Local).AddTicks(6456),
                             PublisherId = 182,
                             Title = "Alias dolores rem."
                         },
@@ -3368,7 +3368,7 @@ namespace API.Data.Migrations
                             Description = "Nesciunt totam repudiandae asperiores suscipit reiciendis labore perspiciatis est. Dolores enim quisquam sed eum eos at. Totam vel deserunt ducimus et molestiae. Vitae incidunt odio numquam delectus ducimus.",
                             ISBN = "System.Int32[]",
                             PageCount = 270,
-                            PublicationDate = new DateTime(1990, 9, 17, 3, 20, 27, 929, DateTimeKind.Local).AddTicks(6838),
+                            PublicationDate = new DateTime(1990, 9, 18, 3, 53, 13, 764, DateTimeKind.Local).AddTicks(8962),
                             PublisherId = 165,
                             Title = "Corrupti velit perspiciatis sunt."
                         },
@@ -3377,12 +3377,12 @@ namespace API.Data.Migrations
                             Id = 411,
                             AuthorId = 117,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 15, 12, 49, 542, DateTimeKind.Local).AddTicks(297),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 15, 45, 35, 377, DateTimeKind.Local).AddTicks(2377),
                             CoverImage = "https://picsum.photos/id/402",
                             Description = "Aliquam placeat et voluptas facilis eos dolor. Illum voluptates id molestiae illum veniam et dolor dolore maiores. Nihil unde in.",
                             ISBN = "System.Int32[]",
                             PageCount = 428,
-                            PublicationDate = new DateTime(1983, 5, 12, 23, 45, 55, 52, DateTimeKind.Local).AddTicks(3498),
+                            PublicationDate = new DateTime(1983, 5, 14, 0, 18, 40, 887, DateTimeKind.Local).AddTicks(5568),
                             PublisherId = 189,
                             Title = "Libero ad dolorem quo."
                         },
@@ -3395,7 +3395,7 @@ namespace API.Data.Migrations
                             Description = "Officia dolor a at rerum voluptatem distinctio consequatur. Aspernatur ut beatae quam quae. Nostrum reprehenderit sed dolor tempora neque. Assumenda deserunt sed quis quisquam quae. In recusandae repudiandae illum voluptas ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 352,
-                            PublicationDate = new DateTime(1956, 1, 26, 6, 4, 19, 788, DateTimeKind.Local).AddTicks(1358),
+                            PublicationDate = new DateTime(1956, 1, 27, 6, 37, 5, 623, DateTimeKind.Local).AddTicks(3338),
                             PublisherId = 179,
                             Title = "Sint illo dolorum officiis eum placeat."
                         },
@@ -3408,7 +3408,7 @@ namespace API.Data.Migrations
                             Description = "Corporis et delectus sapiente neque inventore voluptatem et. Aut quisquam ex. Voluptate accusamus quo quaerat molestiae.",
                             ISBN = "System.Int32[]",
                             PageCount = 129,
-                            PublicationDate = new DateTime(1998, 10, 12, 2, 57, 52, 730, DateTimeKind.Local).AddTicks(5364),
+                            PublicationDate = new DateTime(1998, 10, 13, 3, 30, 38, 565, DateTimeKind.Local).AddTicks(7374),
                             PublisherId = 188,
                             Title = "Perferendis."
                         },
@@ -3417,12 +3417,12 @@ namespace API.Data.Migrations
                             Id = 414,
                             AuthorId = 137,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 12, 10, 24, 467, DateTimeKind.Local).AddTicks(5554),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 12, 43, 10, 302, DateTimeKind.Local).AddTicks(7527),
                             CoverImage = "https://picsum.photos/id/116",
                             Description = "Voluptates dolorem at nulla dicta. Error laudantium officia porro ratione omnis vero praesentium qui. Quia voluptatem excepturi quidem et sit. Tempora doloribus magnam cum.",
                             ISBN = "System.Int32[]",
                             PageCount = 110,
-                            PublicationDate = new DateTime(1958, 6, 3, 15, 50, 54, 202, DateTimeKind.Local).AddTicks(778),
+                            PublicationDate = new DateTime(1958, 6, 4, 16, 23, 40, 37, DateTimeKind.Local).AddTicks(2758),
                             PublisherId = 188,
                             Title = "Non occaecati dignissimos recusandae nisi."
                         },
@@ -3431,12 +3431,12 @@ namespace API.Data.Migrations
                             Id = 415,
                             AuthorId = 70,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 7, 19, 48, 929, DateTimeKind.Local).AddTicks(620),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 7, 52, 34, 764, DateTimeKind.Local).AddTicks(2580),
                             CoverImage = "https://picsum.photos/id/139",
                             Description = "Corporis in cumque et at quo dicta suscipit quo consequatur. Consectetur dolor sint assumenda. Odit amet culpa et deleniti voluptas pariatur aut rerum.",
                             ISBN = "System.Int32[]",
                             PageCount = 429,
-                            PublicationDate = new DateTime(1926, 8, 30, 18, 43, 12, 274, DateTimeKind.Local).AddTicks(1673),
+                            PublicationDate = new DateTime(1926, 8, 31, 19, 15, 58, 109, DateTimeKind.Local).AddTicks(3633),
                             PublisherId = 172,
                             Title = "Vel doloribus est."
                         },
@@ -3449,7 +3449,7 @@ namespace API.Data.Migrations
                             Description = "Rerum ut laborum veniam occaecati aut qui. Quod in ea aut atque a possimus. Officia consequatur minima expedita aliquam iure perferendis nulla impedit. Nemo quia labore quod nisi provident et quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 324,
-                            PublicationDate = new DateTime(2017, 7, 31, 1, 11, 20, 184, DateTimeKind.Local).AddTicks(3374),
+                            PublicationDate = new DateTime(2017, 8, 1, 1, 44, 6, 19, DateTimeKind.Local).AddTicks(5304),
                             PublisherId = 176,
                             Title = "Recusandae."
                         },
@@ -3462,7 +3462,7 @@ namespace API.Data.Migrations
                             Description = "Nam iste ea repellat incidunt officiis vel nesciunt vitae. Quae ut placeat et. Voluptatem voluptate nihil sint tempora. Et quaerat ipsum sit velit.",
                             ISBN = "System.Int32[]",
                             PageCount = 493,
-                            PublicationDate = new DateTime(1992, 2, 11, 8, 32, 29, 933, DateTimeKind.Local).AddTicks(9316),
+                            PublicationDate = new DateTime(1992, 2, 12, 9, 5, 15, 769, DateTimeKind.Local).AddTicks(1232),
                             PublisherId = 173,
                             Title = "Dolores cupiditate."
                         },
@@ -3471,12 +3471,12 @@ namespace API.Data.Migrations
                             Id = 418,
                             AuthorId = 51,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 2, 29, 12, 672, DateTimeKind.Local).AddTicks(2025),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 3, 1, 58, 507, DateTimeKind.Local).AddTicks(3925),
                             CoverImage = "https://picsum.photos/id/52",
                             Description = "Magnam ut unde. Exercitationem consectetur illum qui sapiente molestiae.",
                             ISBN = "System.Int32[]",
                             PageCount = 161,
-                            PublicationDate = new DateTime(2013, 9, 10, 21, 1, 16, 678, DateTimeKind.Local).AddTicks(6550),
+                            PublicationDate = new DateTime(2013, 9, 11, 21, 34, 2, 513, DateTimeKind.Local).AddTicks(8450),
                             PublisherId = 186,
                             Title = "Alias est."
                         },
@@ -3489,7 +3489,7 @@ namespace API.Data.Migrations
                             Description = "Dignissimos neque ut dolores ipsum vitae ad. Tenetur voluptas qui iure sit vel. Ipsa consectetur numquam esse nesciunt quo eaque molestiae. Ab dolore inventore esse ex suscipit magni.",
                             ISBN = "System.Int32[]",
                             PageCount = 367,
-                            PublicationDate = new DateTime(1987, 5, 31, 1, 50, 49, 517, DateTimeKind.Local).AddTicks(4610),
+                            PublicationDate = new DateTime(1987, 6, 1, 2, 23, 35, 352, DateTimeKind.Local).AddTicks(6490),
                             PublisherId = 152,
                             Title = "Quae quis necessitatibus qui qui."
                         },
@@ -3502,7 +3502,7 @@ namespace API.Data.Migrations
                             Description = "Tenetur dignissimos et accusantium. Quasi et harum corporis ex esse adipisci qui cupiditate. Aliquam commodi quia natus quo et quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 150,
-                            PublicationDate = new DateTime(1933, 2, 6, 9, 8, 9, 616, DateTimeKind.Local).AddTicks(1220),
+                            PublicationDate = new DateTime(1933, 2, 7, 9, 40, 55, 451, DateTimeKind.Local).AddTicks(3049),
                             PublisherId = 195,
                             Title = "Molestiae quam."
                         },
@@ -3511,12 +3511,12 @@ namespace API.Data.Migrations
                             Id = 421,
                             AuthorId = 144,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 18, 41, 19, 119, DateTimeKind.Local).AddTicks(7442),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 19, 14, 4, 954, DateTimeKind.Local).AddTicks(9245),
                             CoverImage = "https://picsum.photos/id/184",
                             Description = "Voluptas sint molestiae et. Quaerat similique iusto dolor. Accusantium harum quasi error dolorem soluta non quod quia esse.",
                             ISBN = "System.Int32[]",
                             PageCount = 111,
-                            PublicationDate = new DateTime(1927, 3, 18, 12, 37, 44, 775, DateTimeKind.Local).AddTicks(95),
+                            PublicationDate = new DateTime(1927, 3, 19, 13, 10, 30, 610, DateTimeKind.Local).AddTicks(1905),
                             PublisherId = 198,
                             Title = "Dolorem."
                         },
@@ -3525,12 +3525,12 @@ namespace API.Data.Migrations
                             Id = 422,
                             AuthorId = 71,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 22, 52, 2, 540, DateTimeKind.Local).AddTicks(9671),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 23, 24, 48, 376, DateTimeKind.Local).AddTicks(1411),
                             CoverImage = "https://picsum.photos/id/393",
                             Description = "Illo cupiditate possimus vel ut molestiae. Illo et consequatur esse impedit minus velit.",
                             ISBN = "System.Int32[]",
                             PageCount = 170,
-                            PublicationDate = new DateTime(1953, 10, 11, 22, 21, 43, 101, DateTimeKind.Local).AddTicks(8702),
+                            PublicationDate = new DateTime(1953, 10, 12, 22, 54, 28, 937, DateTimeKind.Local).AddTicks(440),
                             PublisherId = 166,
                             Title = "Officia dolor."
                         },
@@ -3543,7 +3543,7 @@ namespace API.Data.Migrations
                             Description = "Praesentium voluptatem exercitationem ipsum ab ut praesentium veritatis expedita. Soluta sed eos aut nesciunt porro inventore consequuntur pariatur sunt. Consequuntur molestias autem sed. Aut quidem iste dolorum porro pariatur eum sunt quos.",
                             ISBN = "System.Int32[]",
                             PageCount = 190,
-                            PublicationDate = new DateTime(1926, 4, 9, 15, 10, 36, 6, DateTimeKind.Local).AddTicks(5759),
+                            PublicationDate = new DateTime(1926, 4, 10, 15, 43, 21, 841, DateTimeKind.Local).AddTicks(7529),
                             PublisherId = 195,
                             Title = "Hic quas dolores neque recusandae aliquid."
                         },
@@ -3552,12 +3552,12 @@ namespace API.Data.Migrations
                             Id = 424,
                             AuthorId = 147,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 1, 58, 27, 372, DateTimeKind.Local).AddTicks(1095),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 2, 31, 13, 207, DateTimeKind.Local).AddTicks(2825),
                             CoverImage = "https://picsum.photos/id/414",
                             Description = "Dolorem quas aperiam. Eum impedit similique ipsam.",
                             ISBN = "System.Int32[]",
                             PageCount = 296,
-                            PublicationDate = new DateTime(2007, 11, 8, 9, 51, 28, 802, DateTimeKind.Local).AddTicks(8106),
+                            PublicationDate = new DateTime(2007, 11, 9, 10, 24, 14, 637, DateTimeKind.Local).AddTicks(9836),
                             PublisherId = 192,
                             Title = "Vel quas."
                         },
@@ -3570,7 +3570,7 @@ namespace API.Data.Migrations
                             Description = "Quia quos est animi. Et placeat et.",
                             ISBN = "System.Int32[]",
                             PageCount = 216,
-                            PublicationDate = new DateTime(1998, 9, 23, 15, 50, 47, 782, DateTimeKind.Local).AddTicks(6946),
+                            PublicationDate = new DateTime(1998, 9, 24, 16, 23, 33, 617, DateTimeKind.Local).AddTicks(8726),
                             PublisherId = 176,
                             Title = "Occaecati."
                         },
@@ -3583,7 +3583,7 @@ namespace API.Data.Migrations
                             Description = "Rem rerum tempora aut asperiores. Minus temporibus quas est tenetur ea in velit enim. Esse perferendis accusantium modi delectus eius enim veniam iusto enim.",
                             ISBN = "System.Int32[]",
                             PageCount = 455,
-                            PublicationDate = new DateTime(1981, 3, 5, 5, 42, 59, 774, DateTimeKind.Local).AddTicks(5896),
+                            PublicationDate = new DateTime(1981, 3, 6, 6, 15, 45, 609, DateTimeKind.Local).AddTicks(7586),
                             PublisherId = 161,
                             Title = "Nesciunt nemo dignissimos dolorum."
                         },
@@ -3596,7 +3596,7 @@ namespace API.Data.Migrations
                             Description = "Id dignissimos fugit. Aliquam in earum nam quisquam. Excepturi deserunt suscipit voluptas.",
                             ISBN = "System.Int32[]",
                             PageCount = 269,
-                            PublicationDate = new DateTime(1961, 10, 14, 2, 1, 34, 123, DateTimeKind.Local).AddTicks(6240),
+                            PublicationDate = new DateTime(1961, 10, 15, 2, 34, 19, 958, DateTimeKind.Local).AddTicks(7950),
                             PublisherId = 162,
                             Title = "Quia."
                         },
@@ -3609,7 +3609,7 @@ namespace API.Data.Migrations
                             Description = "Quaerat quod ratione unde labore eveniet velit. Et quos qui atque.",
                             ISBN = "System.Int32[]",
                             PageCount = 348,
-                            PublicationDate = new DateTime(1976, 11, 2, 0, 47, 34, 960, DateTimeKind.Local).AddTicks(3730),
+                            PublicationDate = new DateTime(1976, 11, 3, 1, 20, 20, 795, DateTimeKind.Local).AddTicks(3536),
                             PublisherId = 192,
                             Title = "Dolorum sit incidunt illum vel."
                         },
@@ -3622,7 +3622,7 @@ namespace API.Data.Migrations
                             Description = "Animi reprehenderit delectus iste aut quia expedita. Repellendus accusamus ratione saepe unde rerum laboriosam aut non animi. Ex impedit fuga sed id nisi. Dolores qui sed deleniti et alias eos. Pariatur voluptatum error quia quaerat.",
                             ISBN = "System.Int32[]",
                             PageCount = 490,
-                            PublicationDate = new DateTime(1943, 3, 10, 1, 41, 28, 619, DateTimeKind.Local).AddTicks(2728),
+                            PublicationDate = new DateTime(1943, 3, 11, 2, 14, 14, 454, DateTimeKind.Local).AddTicks(2396),
                             PublisherId = 177,
                             Title = "Veniam aliquid tempora."
                         },
@@ -3635,7 +3635,7 @@ namespace API.Data.Migrations
                             Description = "Possimus eius aspernatur et. Ex nisi temporibus vel ratione eos. Magni porro sunt non eos incidunt expedita ullam quia. Sed officiis quis sed sapiente eveniet doloribus voluptatem. Sit iure sit.",
                             ISBN = "System.Int32[]",
                             PageCount = 251,
-                            PublicationDate = new DateTime(1944, 11, 24, 22, 9, 0, 418, DateTimeKind.Local).AddTicks(5935),
+                            PublicationDate = new DateTime(1944, 11, 25, 22, 41, 46, 253, DateTimeKind.Local).AddTicks(5506),
                             PublisherId = 161,
                             Title = "Fuga sint iusto."
                         },
@@ -3648,7 +3648,7 @@ namespace API.Data.Migrations
                             Description = "Temporibus accusantium a deleniti et nulla aut accusantium alias. Consectetur sit iusto aspernatur rerum. Ut aut totam.",
                             ISBN = "System.Int32[]",
                             PageCount = 349,
-                            PublicationDate = new DateTime(2012, 6, 27, 2, 24, 37, 202, DateTimeKind.Local).AddTicks(5776),
+                            PublicationDate = new DateTime(2012, 6, 28, 2, 57, 23, 37, DateTimeKind.Local).AddTicks(5374),
                             PublisherId = 179,
                             Title = "Ipsa nobis modi in non."
                         },
@@ -3661,7 +3661,7 @@ namespace API.Data.Migrations
                             Description = "Rerum quibusdam amet id ut molestiae. Eius ratione aut nihil quod quis perferendis ex veritatis. Et aut sit nisi ad voluptatem. Dolores perspiciatis vel labore.",
                             ISBN = "System.Int32[]",
                             PageCount = 283,
-                            PublicationDate = new DateTime(1934, 5, 19, 13, 5, 2, 276, DateTimeKind.Local).AddTicks(3686),
+                            PublicationDate = new DateTime(1934, 5, 20, 13, 37, 48, 111, DateTimeKind.Local).AddTicks(3054),
                             PublisherId = 164,
                             Title = "Iure iure autem et."
                         },
@@ -3674,7 +3674,7 @@ namespace API.Data.Migrations
                             Description = "Ducimus eaque libero provident doloremque. Eligendi aut culpa doloremque debitis ab.",
                             ISBN = "System.Int32[]",
                             PageCount = 169,
-                            PublicationDate = new DateTime(1945, 1, 4, 7, 52, 11, 168, DateTimeKind.Local).AddTicks(2152),
+                            PublicationDate = new DateTime(1945, 1, 5, 8, 24, 57, 3, DateTimeKind.Local).AddTicks(670),
                             PublisherId = 182,
                             Title = "Voluptas."
                         },
@@ -3687,7 +3687,7 @@ namespace API.Data.Migrations
                             Description = "Odio voluptas et. Aut rem maiores molestias voluptate ipsa. Aut iure veniam error architecto repellendus. Odio quis itaque autem dolorem. Quia laborum sapiente veritatis sint molestiae ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 252,
-                            PublicationDate = new DateTime(1977, 9, 5, 19, 15, 46, 609, DateTimeKind.Local).AddTicks(4998),
+                            PublicationDate = new DateTime(1977, 9, 6, 19, 48, 32, 444, DateTimeKind.Local).AddTicks(3208),
                             PublisherId = 173,
                             Title = "Minus nam explicabo numquam velit maxime."
                         },
@@ -3700,7 +3700,7 @@ namespace API.Data.Migrations
                             Description = "Voluptatem et molestias molestiae deserunt. Et blanditiis similique totam error recusandae minima excepturi quod officiis. Ad in nisi tempore vel ut qui non omnis. Quia tenetur aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 445,
-                            PublicationDate = new DateTime(2014, 7, 3, 19, 45, 6, 798, DateTimeKind.Local).AddTicks(1358),
+                            PublicationDate = new DateTime(2014, 7, 4, 20, 17, 52, 632, DateTimeKind.Local).AddTicks(9428),
                             PublisherId = 183,
                             Title = "Quae rem aut."
                         },
@@ -3709,12 +3709,12 @@ namespace API.Data.Migrations
                             Id = 436,
                             AuthorId = 139,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 5, 3, 28, 102, DateTimeKind.Local).AddTicks(79),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 5, 36, 13, 936, DateTimeKind.Local).AddTicks(7930),
                             CoverImage = "https://picsum.photos/id/60",
                             Description = "Qui vel sapiente autem quas deserunt et et reiciendis id. Et illum autem velit omnis voluptatem aliquam.",
                             ISBN = "System.Int32[]",
                             PageCount = 140,
-                            PublicationDate = new DateTime(1950, 8, 22, 0, 34, 23, 362, DateTimeKind.Local).AddTicks(4110),
+                            PublicationDate = new DateTime(1950, 8, 23, 1, 7, 9, 197, DateTimeKind.Local).AddTicks(1972),
                             PublisherId = 170,
                             Title = "Eum corrupti sit qui."
                         },
@@ -3727,7 +3727,7 @@ namespace API.Data.Migrations
                             Description = "Et qui nemo sit. Quo sequi laudantium eveniet nulla non quisquam modi nam. Ex omnis quis autem soluta ad itaque et.",
                             ISBN = "System.Int32[]",
                             PageCount = 107,
-                            PublicationDate = new DateTime(2022, 7, 31, 3, 23, 30, 239, DateTimeKind.Local).AddTicks(7326),
+                            PublicationDate = new DateTime(2022, 8, 1, 3, 56, 16, 74, DateTimeKind.Local).AddTicks(5098),
                             PublisherId = 167,
                             Title = "Libero modi voluptates dolorum consequuntur in."
                         },
@@ -3740,7 +3740,7 @@ namespace API.Data.Migrations
                             Description = "Ipsum ut ut accusantium tempora cum a. Dolorem incidunt doloribus ipsam libero ullam voluptatem odit. Quas exercitationem dicta nemo.",
                             ISBN = "System.Int32[]",
                             PageCount = 377,
-                            PublicationDate = new DateTime(1944, 6, 11, 8, 46, 49, 469, DateTimeKind.Local).AddTicks(76),
+                            PublicationDate = new DateTime(1944, 6, 12, 9, 19, 35, 303, DateTimeKind.Local).AddTicks(7674),
                             PublisherId = 153,
                             Title = "Perferendis."
                         },
@@ -3749,12 +3749,12 @@ namespace API.Data.Migrations
                             Id = 439,
                             AuthorId = 119,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 16, 22, 52, 582, DateTimeKind.Local).AddTicks(1468),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 16, 55, 38, 417, DateTimeKind.Local).AddTicks(398),
                             CoverImage = "https://picsum.photos/id/317",
                             Description = "Debitis excepturi saepe ea magnam. Tempora velit sit qui reiciendis voluptatem aut molestiae dolorem. Nemo ab laborum odit nam iusto corporis unde ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 198,
-                            PublicationDate = new DateTime(1992, 3, 19, 10, 36, 10, 658, DateTimeKind.Local).AddTicks(3134),
+                            PublicationDate = new DateTime(1992, 3, 20, 11, 8, 56, 493, DateTimeKind.Local).AddTicks(2056),
                             PublisherId = 185,
                             Title = "Et vitae quidem ab aliquid."
                         },
@@ -3763,12 +3763,12 @@ namespace API.Data.Migrations
                             Id = 440,
                             AuthorId = 57,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 13, 34, 42, 540, DateTimeKind.Local).AddTicks(3459),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 14, 7, 28, 375, DateTimeKind.Local).AddTicks(2462),
                             CoverImage = "https://picsum.photos/id/37",
                             Description = "Dignissimos non ut blanditiis et sit ut. Inventore voluptatem a dolorem autem et et officia. Nobis autem quis quam omnis iste est eaque.",
                             ISBN = "System.Int32[]",
                             PageCount = 324,
-                            PublicationDate = new DateTime(1986, 7, 12, 20, 11, 26, 642, DateTimeKind.Local).AddTicks(7022),
+                            PublicationDate = new DateTime(1986, 7, 13, 20, 44, 12, 477, DateTimeKind.Local).AddTicks(6032),
                             PublisherId = 200,
                             Title = "Natus est sint autem maxime ullam."
                         },
@@ -3781,7 +3781,7 @@ namespace API.Data.Migrations
                             Description = "Quia soluta expedita. Quam perspiciatis amet incidunt ut voluptas saepe. Iure quasi voluptas.",
                             ISBN = "System.Int32[]",
                             PageCount = 306,
-                            PublicationDate = new DateTime(1992, 2, 13, 16, 52, 58, 309, DateTimeKind.Local).AddTicks(6458),
+                            PublicationDate = new DateTime(1992, 2, 14, 17, 25, 44, 144, DateTimeKind.Local).AddTicks(5374),
                             PublisherId = 185,
                             Title = "Voluptas repellendus ullam quia sunt."
                         },
@@ -3794,7 +3794,7 @@ namespace API.Data.Migrations
                             Description = "Consequatur enim optio blanditiis accusantium occaecati et soluta fugit. Ipsam perspiciatis dolorem et vitae. Aut quos blanditiis porro. Sit cumque occaecati et officia ex. Est impedit esse ut commodi repellat voluptatem doloremque.",
                             ISBN = "System.Int32[]",
                             PageCount = 153,
-                            PublicationDate = new DateTime(1930, 9, 20, 17, 16, 18, 821, DateTimeKind.Local).AddTicks(9941),
+                            PublicationDate = new DateTime(1930, 9, 21, 17, 49, 4, 656, DateTimeKind.Local).AddTicks(8601),
                             PublisherId = 188,
                             Title = "Nobis sit est quia qui voluptatem."
                         },
@@ -3807,7 +3807,7 @@ namespace API.Data.Migrations
                             Description = "Recusandae quae dolor dolorem totam illo. Eius omnis totam eius perspiciatis est commodi quis. Qui rerum repellat. Incidunt officia dolores ullam unde cum quam et qui. Qui natus aut sequi ea.",
                             ISBN = "System.Int32[]",
                             PageCount = 311,
-                            PublicationDate = new DateTime(2018, 7, 21, 13, 36, 56, 982, DateTimeKind.Local).AddTicks(682),
+                            PublicationDate = new DateTime(2018, 7, 22, 14, 9, 42, 816, DateTimeKind.Local).AddTicks(8944),
                             PublisherId = 159,
                             Title = "Dolor accusantium iusto dolorem."
                         },
@@ -3820,7 +3820,7 @@ namespace API.Data.Migrations
                             Description = "Quos et facilis expedita. Et a aspernatur et optio qui ea voluptate. Sed laudantium blanditiis rerum aut quia ut omnis sunt exercitationem. Nobis voluptatibus inventore enim exercitationem possimus blanditiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 423,
-                            PublicationDate = new DateTime(1969, 6, 28, 20, 27, 46, 569, DateTimeKind.Local).AddTicks(3954),
+                            PublicationDate = new DateTime(1969, 6, 29, 21, 0, 32, 404, DateTimeKind.Local).AddTicks(2070),
                             PublisherId = 158,
                             Title = "Repudiandae debitis minima."
                         },
@@ -3833,7 +3833,7 @@ namespace API.Data.Migrations
                             Description = "Eveniet eum est itaque earum ex magnam quia. Dignissimos ut qui rerum rerum placeat minus error neque ipsa. Repellendus magnam qui accusamus quia quidem unde quas illo fuga. Sequi enim qui reprehenderit delectus iusto architecto consectetur. Sed asperiores qui consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 423,
-                            PublicationDate = new DateTime(1999, 4, 13, 0, 17, 34, 281, DateTimeKind.Local).AddTicks(4300),
+                            PublicationDate = new DateTime(1999, 4, 14, 0, 50, 20, 116, DateTimeKind.Local).AddTicks(2160),
                             PublisherId = 162,
                             Title = "Praesentium est quo molestiae aliquid."
                         },
@@ -3846,7 +3846,7 @@ namespace API.Data.Migrations
                             Description = "Vel ex autem et illum quo rerum nihil aut id. Quaerat atque neque. Id maxime a optio.",
                             ISBN = "System.Int32[]",
                             PageCount = 389,
-                            PublicationDate = new DateTime(1930, 4, 27, 11, 29, 20, 343, DateTimeKind.Local).AddTicks(7311),
+                            PublicationDate = new DateTime(1930, 4, 28, 12, 2, 6, 178, DateTimeKind.Local).AddTicks(4940),
                             PublisherId = 195,
                             Title = "Aut consequuntur et dolores repellendus."
                         },
@@ -3859,7 +3859,7 @@ namespace API.Data.Migrations
                             Description = "Architecto aut quis hic. Eum facere dolorem animi ut dicta reprehenderit error hic reiciendis. Libero assumenda sed ut atque qui iure. Voluptatibus totam perspiciatis provident assumenda. Voluptas veniam officia est voluptas ex rerum explicabo.",
                             ISBN = "System.Int32[]",
                             PageCount = 364,
-                            PublicationDate = new DateTime(1992, 9, 6, 9, 33, 2, 914, DateTimeKind.Local).AddTicks(6636),
+                            PublicationDate = new DateTime(1992, 9, 7, 10, 5, 48, 749, DateTimeKind.Local).AddTicks(4086),
                             PublisherId = 184,
                             Title = "Non."
                         },
@@ -3868,12 +3868,12 @@ namespace API.Data.Migrations
                             Id = 448,
                             AuthorId = 131,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 10, 32, 49, 866, DateTimeKind.Local).AddTicks(4512),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 11, 5, 35, 701, DateTimeKind.Local).AddTicks(1702),
                             CoverImage = "https://picsum.photos/id/389",
                             Description = "Amet fuga harum in deserunt provident culpa consectetur enim placeat. Adipisci enim odio ullam. Voluptatem dolorem rerum distinctio. Dicta rerum non quia quo iure aut et sequi minus. Voluptatibus labore et est aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 157,
-                            PublicationDate = new DateTime(2017, 8, 24, 23, 44, 47, 729, DateTimeKind.Local).AddTicks(2304),
+                            PublicationDate = new DateTime(2017, 8, 26, 0, 17, 33, 563, DateTimeKind.Local).AddTicks(9514),
                             PublisherId = 179,
                             Title = "Totam veniam eius illo molestiae et."
                         },
@@ -3886,7 +3886,7 @@ namespace API.Data.Migrations
                             Description = "Numquam architecto sint est amet ut mollitia sit enim. Quo tempore illo aliquid iste perspiciatis sit.",
                             ISBN = "System.Int32[]",
                             PageCount = 123,
-                            PublicationDate = new DateTime(1980, 5, 29, 15, 2, 47, 635, DateTimeKind.Local).AddTicks(4762),
+                            PublicationDate = new DateTime(1980, 5, 30, 15, 35, 33, 470, DateTimeKind.Local).AddTicks(1802),
                             PublisherId = 178,
                             Title = "Qui aut ratione voluptatum hic."
                         },
@@ -3895,12 +3895,12 @@ namespace API.Data.Migrations
                             Id = 450,
                             AuthorId = 65,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 23, 50, 36, 560, DateTimeKind.Local).AddTicks(5642),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 0, 23, 22, 395, DateTimeKind.Local).AddTicks(2442),
                             CoverImage = "https://picsum.photos/id/310",
                             Description = "Velit eum enim est aut voluptas id exercitationem animi. Accusantium velit autem voluptas optio veritatis sint. Voluptates exercitationem iusto alias. Est asperiores autem rem numquam hic facilis. Nulla et consequatur eveniet iusto ipsam.",
                             ISBN = "System.Int32[]",
                             PageCount = 342,
-                            PublicationDate = new DateTime(1964, 2, 26, 5, 15, 33, 108, DateTimeKind.Local).AddTicks(8146),
+                            PublicationDate = new DateTime(1964, 2, 27, 5, 48, 18, 943, DateTimeKind.Local).AddTicks(4952),
                             PublisherId = 162,
                             Title = "Nihil quasi."
                         },
@@ -3913,7 +3913,7 @@ namespace API.Data.Migrations
                             Description = "Sit voluptates consequatur accusamus. Maxime ullam doloribus omnis dolor. Vitae eveniet aut ut est sequi qui omnis eos. Laborum eveniet laborum atque omnis minus sapiente. Quas qui incidunt delectus totam quod id illum ducimus quis.",
                             ISBN = "System.Int32[]",
                             PageCount = 327,
-                            PublicationDate = new DateTime(1925, 12, 24, 17, 56, 46, 934, DateTimeKind.Local).AddTicks(6083),
+                            PublicationDate = new DateTime(1925, 12, 25, 18, 29, 32, 769, DateTimeKind.Local).AddTicks(2673),
                             PublisherId = 175,
                             Title = "Expedita nemo at iure."
                         },
@@ -3926,7 +3926,7 @@ namespace API.Data.Migrations
                             Description = "Et est autem impedit non ex. Possimus non rem architecto sequi error.",
                             ISBN = "System.Int32[]",
                             PageCount = 355,
-                            PublicationDate = new DateTime(2021, 12, 15, 9, 4, 37, 250, DateTimeKind.Local).AddTicks(2314),
+                            PublicationDate = new DateTime(2021, 12, 16, 9, 37, 23, 84, DateTimeKind.Local).AddTicks(8776),
                             PublisherId = 183,
                             Title = "Perferendis laboriosam beatae quae qui."
                         },
@@ -3939,7 +3939,7 @@ namespace API.Data.Migrations
                             Description = "Omnis quidem perspiciatis nobis incidunt qui veritatis nobis. Labore non sapiente labore atque saepe rerum minus est.",
                             ISBN = "System.Int32[]",
                             PageCount = 175,
-                            PublicationDate = new DateTime(1977, 12, 4, 10, 38, 11, 617, DateTimeKind.Local).AddTicks(4788),
+                            PublicationDate = new DateTime(1977, 12, 5, 11, 10, 57, 452, DateTimeKind.Local).AddTicks(1052),
                             PublisherId = 198,
                             Title = "Quo cumque et doloribus."
                         },
@@ -3952,7 +3952,7 @@ namespace API.Data.Migrations
                             Description = "Quasi qui vel quia nisi quae enim voluptatum temporibus nisi. Occaecati nostrum magni. Qui omnis molestiae adipisci sint beatae exercitationem ea impedit. Qui sit animi omnis ipsa. Ab numquam delectus earum esse qui dolores rem veniam dolor.",
                             ISBN = "System.Int32[]",
                             PageCount = 141,
-                            PublicationDate = new DateTime(2006, 8, 30, 23, 0, 46, 285, DateTimeKind.Local).AddTicks(8684),
+                            PublicationDate = new DateTime(2006, 8, 31, 23, 33, 32, 120, DateTimeKind.Local).AddTicks(4794),
                             PublisherId = 170,
                             Title = "Cupiditate nisi praesentium molestiae qui."
                         },
@@ -3965,7 +3965,7 @@ namespace API.Data.Migrations
                             Description = "Officia esse a voluptates laboriosam iure. Ipsum in dolores veniam fuga vitae ab nam non quibusdam.",
                             ISBN = "System.Int32[]",
                             PageCount = 143,
-                            PublicationDate = new DateTime(1938, 7, 10, 7, 26, 59, 186, DateTimeKind.Local).AddTicks(2708),
+                            PublicationDate = new DateTime(1938, 7, 11, 7, 59, 45, 20, DateTimeKind.Local).AddTicks(8627),
                             PublisherId = 154,
                             Title = "Optio placeat dignissimos repellat nemo."
                         },
@@ -3978,7 +3978,7 @@ namespace API.Data.Migrations
                             Description = "Et voluptate officia est vitae. Sed non aliquam accusantium blanditiis unde aut. Expedita eum qui. Nihil dignissimos hic et.",
                             ISBN = "System.Int32[]",
                             PageCount = 328,
-                            PublicationDate = new DateTime(1947, 7, 21, 16, 21, 33, 733, DateTimeKind.Local).AddTicks(4804),
+                            PublicationDate = new DateTime(1947, 7, 22, 16, 54, 19, 568, DateTimeKind.Local).AddTicks(584),
                             PublisherId = 199,
                             Title = "Sunt molestias aut."
                         },
@@ -3991,7 +3991,7 @@ namespace API.Data.Migrations
                             Description = "Et dicta quis quia doloribus laborum id autem. Placeat quo est maxime autem ipsa aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 281,
-                            PublicationDate = new DateTime(1989, 5, 13, 13, 17, 15, 290, DateTimeKind.Local).AddTicks(8154),
+                            PublicationDate = new DateTime(1989, 5, 14, 13, 50, 1, 125, DateTimeKind.Local).AddTicks(3754),
                             PublisherId = 191,
                             Title = "Dolor et officia vero consequatur est."
                         },
@@ -4004,7 +4004,7 @@ namespace API.Data.Migrations
                             Description = "Sit enim iusto vero. Placeat nihil aut aliquid inventore a tempore. Dignissimos quasi placeat quis esse provident nobis. Voluptate ut aspernatur repellat et dolores assumenda rerum animi dignissimos.",
                             ISBN = "System.Int32[]",
                             PageCount = 169,
-                            PublicationDate = new DateTime(1970, 10, 12, 21, 46, 9, 126, DateTimeKind.Local).AddTicks(8942),
+                            PublicationDate = new DateTime(1970, 10, 13, 22, 18, 54, 961, DateTimeKind.Local).AddTicks(4368),
                             PublisherId = 179,
                             Title = "Provident eos enim est."
                         },
@@ -4017,7 +4017,7 @@ namespace API.Data.Migrations
                             Description = "Laboriosam vero non. Itaque itaque facere laborum rem. Dolore cumque labore. Illum facilis et voluptatum aspernatur sit voluptas ea officiis assumenda. Nemo fugiat in magnam dolorem.",
                             ISBN = "System.Int32[]",
                             PageCount = 190,
-                            PublicationDate = new DateTime(1941, 4, 2, 4, 8, 31, 352, DateTimeKind.Local).AddTicks(8156),
+                            PublicationDate = new DateTime(1941, 4, 3, 4, 41, 17, 187, DateTimeKind.Local).AddTicks(4128),
                             PublisherId = 157,
                             Title = "Distinctio hic."
                         },
@@ -4026,12 +4026,12 @@ namespace API.Data.Migrations
                             Id = 460,
                             AuthorId = 95,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 3, 12, 59, 318, DateTimeKind.Local).AddTicks(3277),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 3, 45, 45, 152, DateTimeKind.Local).AddTicks(9967),
                             CoverImage = "https://picsum.photos/id/29",
                             Description = "Voluptatibus neque recusandae harum odit quia commodi est dolores sed. Odio voluptatum quia et officia quia sequi consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 371,
-                            PublicationDate = new DateTime(2015, 11, 19, 21, 21, 57, 911, DateTimeKind.Local).AddTicks(6136),
+                            PublicationDate = new DateTime(2015, 11, 20, 21, 54, 43, 746, DateTimeKind.Local).AddTicks(2818),
                             PublisherId = 160,
                             Title = "Rem aspernatur."
                         },
@@ -4044,7 +4044,7 @@ namespace API.Data.Migrations
                             Description = "Quod repellendus est repellat placeat facilis. Rerum odio eos maxime quia. Vitae omnis odio aut nam illo ea dicta non voluptas. Qui consequuntur tempore similique ipsam at rerum laborum nisi soluta.",
                             ISBN = "System.Int32[]",
                             PageCount = 237,
-                            PublicationDate = new DateTime(2000, 2, 15, 7, 10, 54, 463, DateTimeKind.Local).AddTicks(2726),
+                            PublicationDate = new DateTime(2000, 2, 16, 7, 43, 40, 297, DateTimeKind.Local).AddTicks(9396),
                             PublisherId = 165,
                             Title = "Quam."
                         },
@@ -4057,7 +4057,7 @@ namespace API.Data.Migrations
                             Description = "Cumque et officia et dolores dolor ipsam aut aliquam laudantium. Impedit aut corrupti repellat magni vel. Vitae dignissimos voluptas deleniti. Excepturi aut explicabo sit veniam culpa aliquid incidunt a sit.",
                             ISBN = "System.Int32[]",
                             PageCount = 258,
-                            PublicationDate = new DateTime(1981, 2, 25, 3, 5, 45, 757, DateTimeKind.Local).AddTicks(6506),
+                            PublicationDate = new DateTime(1981, 2, 26, 3, 38, 31, 592, DateTimeKind.Local).AddTicks(3986),
                             PublisherId = 159,
                             Title = "Non rerum maxime."
                         },
@@ -4070,7 +4070,7 @@ namespace API.Data.Migrations
                             Description = "Eaque mollitia aperiam reprehenderit ut ut rem. Quia ipsam ut rerum esse et.",
                             ISBN = "System.Int32[]",
                             PageCount = 480,
-                            PublicationDate = new DateTime(1999, 3, 8, 21, 47, 41, 477, DateTimeKind.Local).AddTicks(688),
+                            PublicationDate = new DateTime(1999, 3, 9, 22, 20, 27, 311, DateTimeKind.Local).AddTicks(8186),
                             PublisherId = 154,
                             Title = "Consequuntur modi."
                         },
@@ -4083,7 +4083,7 @@ namespace API.Data.Migrations
                             Description = "Exercitationem ea eos possimus voluptatem explicabo aut aspernatur. In minus rem dolor. Dicta voluptatem quia sed mollitia.",
                             ISBN = "System.Int32[]",
                             PageCount = 160,
-                            PublicationDate = new DateTime(1926, 10, 23, 15, 38, 44, 638, DateTimeKind.Local).AddTicks(7220),
+                            PublicationDate = new DateTime(1926, 10, 24, 16, 11, 30, 473, DateTimeKind.Local).AddTicks(4620),
                             PublisherId = 162,
                             Title = "Quia suscipit totam non."
                         },
@@ -4096,7 +4096,7 @@ namespace API.Data.Migrations
                             Description = "Aliquam eaque sit voluptatem consequatur aut officia. Doloremque doloribus et sed beatae non. Ex dolorum vero qui nemo est aut recusandae. Omnis deleniti illo adipisci. Unde repellat dolor ad.",
                             ISBN = "System.Int32[]",
                             PageCount = 379,
-                            PublicationDate = new DateTime(1933, 12, 21, 4, 31, 54, 157, DateTimeKind.Local).AddTicks(6262),
+                            PublicationDate = new DateTime(1933, 12, 22, 5, 4, 39, 992, DateTimeKind.Local).AddTicks(3672),
                             PublisherId = 182,
                             Title = "Et illo porro quis."
                         },
@@ -4105,12 +4105,12 @@ namespace API.Data.Migrations
                             Id = 466,
                             AuthorId = 99,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 10, 25, 9, 539, DateTimeKind.Local).AddTicks(9130),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 10, 57, 55, 374, DateTimeKind.Local).AddTicks(6460),
                             CoverImage = "https://picsum.photos/id/110",
                             Description = "Qui ad deleniti. Quis voluptatem similique qui ut quibusdam commodi tenetur minima minus. Dolorum est ipsum aut et quisquam minima rem blanditiis atque.",
                             ISBN = "System.Int32[]",
                             PageCount = 400,
-                            PublicationDate = new DateTime(1961, 9, 23, 22, 13, 3, 487, DateTimeKind.Local).AddTicks(194),
+                            PublicationDate = new DateTime(1961, 9, 24, 22, 45, 49, 321, DateTimeKind.Local).AddTicks(7530),
                             PublisherId = 182,
                             Title = "Tenetur veniam aut inventore."
                         },
@@ -4123,7 +4123,7 @@ namespace API.Data.Migrations
                             Description = "Voluptate sit fugit et accusantium molestias et. Sit labore dignissimos exercitationem deserunt autem voluptatem. Et placeat id et magnam non ut. In est molestiae recusandae minus atque nobis assumenda et dolorem. Autem veritatis et nulla.",
                             ISBN = "System.Int32[]",
                             PageCount = 291,
-                            PublicationDate = new DateTime(1960, 10, 20, 10, 55, 6, 571, DateTimeKind.Local).AddTicks(7288),
+                            PublicationDate = new DateTime(1960, 10, 21, 11, 27, 52, 406, DateTimeKind.Local).AddTicks(4498),
                             PublisherId = 181,
                             Title = "Veniam et quasi distinctio."
                         },
@@ -4136,7 +4136,7 @@ namespace API.Data.Migrations
                             Description = "Cum cum molestiae non ea quos dolor. Rerum saepe labore a blanditiis voluptatibus ut officia quod et. Nulla est quae incidunt consequatur est. Vero molestiae perspiciatis architecto rem sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 202,
-                            PublicationDate = new DateTime(1996, 1, 2, 22, 23, 13, 9, DateTimeKind.Local).AddTicks(3166),
+                            PublicationDate = new DateTime(1996, 1, 3, 22, 55, 58, 844, DateTimeKind.Local).AddTicks(638),
                             PublisherId = 198,
                             Title = "Qui dolores."
                         },
@@ -4149,7 +4149,7 @@ namespace API.Data.Migrations
                             Description = "Quidem ex ea accusamus nihil quia sint et minus quae. Assumenda accusantium non doloribus voluptas ut id optio dolorem non. Ipsum eum ut eos laborum facere quia dolorum. Explicabo qui nulla modi quas est.",
                             ISBN = "System.Int32[]",
                             PageCount = 241,
-                            PublicationDate = new DateTime(1964, 9, 18, 1, 49, 40, 252, DateTimeKind.Local).AddTicks(970),
+                            PublicationDate = new DateTime(1964, 9, 19, 2, 22, 26, 86, DateTimeKind.Local).AddTicks(8398),
                             PublisherId = 154,
                             Title = "Est dolor harum ducimus."
                         },
@@ -4158,12 +4158,12 @@ namespace API.Data.Migrations
                             Id = 470,
                             AuthorId = 83,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 5, 33, 27, 519, DateTimeKind.Local).AddTicks(4306),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 6, 6, 13, 354, DateTimeKind.Local).AddTicks(1686),
                             CoverImage = "https://picsum.photos/id/319",
                             Description = "Dolor ipsam sit nemo atque fugit ex. Nihil neque quia qui sapiente doloribus nesciunt fugiat.",
                             ISBN = "System.Int32[]",
                             PageCount = 252,
-                            PublicationDate = new DateTime(1988, 9, 15, 23, 25, 0, 583, DateTimeKind.Local).AddTicks(5250),
+                            PublicationDate = new DateTime(1988, 9, 16, 23, 57, 46, 418, DateTimeKind.Local).AddTicks(2634),
                             PublisherId = 153,
                             Title = "Quidem quis molestias voluptas."
                         },
@@ -4172,12 +4172,12 @@ namespace API.Data.Migrations
                             Id = 471,
                             AuthorId = 72,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 10, 5, 49, 274, DateTimeKind.Local).AddTicks(5400),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 10, 38, 35, 109, DateTimeKind.Local).AddTicks(2650),
                             CoverImage = "https://picsum.photos/id/400",
                             Description = "Eaque numquam amet. Vero eius sed voluptatum blanditiis. Quo ipsum vero et id numquam id dicta neque. Beatae saepe eius et quae omnis voluptatem recusandae in impedit. Quo magnam dolore qui sapiente repudiandae dolorem commodi aut qui.",
                             ISBN = "System.Int32[]",
                             PageCount = 206,
-                            PublicationDate = new DateTime(1947, 11, 8, 19, 54, 56, 485, DateTimeKind.Local).AddTicks(1228),
+                            PublicationDate = new DateTime(1947, 11, 9, 20, 27, 42, 319, DateTimeKind.Local).AddTicks(8478),
                             PublisherId = 167,
                             Title = "Libero."
                         },
@@ -4190,7 +4190,7 @@ namespace API.Data.Migrations
                             Description = "Rerum corporis sunt. Veritatis velit minima similique est qui qui labore. Voluptatum vero quia eum temporibus nisi. Culpa delectus est recusandae ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 331,
-                            PublicationDate = new DateTime(1963, 6, 5, 11, 27, 24, 539, DateTimeKind.Local).AddTicks(6346),
+                            PublicationDate = new DateTime(1963, 6, 6, 12, 0, 10, 374, DateTimeKind.Local).AddTicks(3474),
                             PublisherId = 199,
                             Title = "Architecto placeat et officiis."
                         },
@@ -4203,7 +4203,7 @@ namespace API.Data.Migrations
                             Description = "Cum expedita rerum praesentium eos iusto. Repellat ut id sequi quia quo nam. Molestias cupiditate aut nulla tempore alias in.",
                             ISBN = "System.Int32[]",
                             PageCount = 149,
-                            PublicationDate = new DateTime(1930, 12, 15, 12, 47, 20, 279, DateTimeKind.Local).AddTicks(8966),
+                            PublicationDate = new DateTime(1930, 12, 16, 13, 20, 6, 114, DateTimeKind.Local).AddTicks(6086),
                             PublisherId = 193,
                             Title = "Quam consequuntur eius molestiae cupiditate vitae."
                         },
@@ -4216,7 +4216,7 @@ namespace API.Data.Migrations
                             Description = "Sint repellat ad minus et quos aspernatur. Et ab vitae qui ab pariatur quisquam neque maxime eligendi. Cupiditate doloremque suscipit consequuntur soluta dolor.",
                             ISBN = "System.Int32[]",
                             PageCount = 383,
-                            PublicationDate = new DateTime(1961, 10, 22, 2, 42, 35, 294, DateTimeKind.Local).AddTicks(2994),
+                            PublicationDate = new DateTime(1961, 10, 23, 3, 15, 21, 128, DateTimeKind.Local).AddTicks(6452),
                             PublisherId = 172,
                             Title = "Dolores itaque sed."
                         },
@@ -4225,12 +4225,12 @@ namespace API.Data.Migrations
                             Id = 475,
                             AuthorId = 148,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 6, 47, 15, 490, DateTimeKind.Local).AddTicks(4743),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 7, 20, 1, 324, DateTimeKind.Local).AddTicks(8123),
                             CoverImage = "https://picsum.photos/id/4",
                             Description = "Enim itaque in culpa accusamus deserunt hic aperiam quasi. Labore eveniet dolor.",
                             ISBN = "System.Int32[]",
                             PageCount = 376,
-                            PublicationDate = new DateTime(1956, 12, 9, 2, 28, 9, 51, DateTimeKind.Local).AddTicks(4352),
+                            PublicationDate = new DateTime(1956, 12, 10, 3, 0, 54, 885, DateTimeKind.Local).AddTicks(7732),
                             PublisherId = 160,
                             Title = "Ipsa minus voluptas."
                         },
@@ -4239,12 +4239,12 @@ namespace API.Data.Migrations
                             Id = 476,
                             AuthorId = 95,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 15, 11, 20, 437, DateTimeKind.Local).AddTicks(550),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 15, 44, 6, 271, DateTimeKind.Local).AddTicks(3957),
                             CoverImage = "https://picsum.photos/id/226",
                             Description = "Ipsam nihil qui reiciendis porro accusantium totam voluptatum. Aperiam veniam necessitatibus aut. Aut quia neque et.",
                             ISBN = "System.Int32[]",
                             PageCount = 187,
-                            PublicationDate = new DateTime(1940, 4, 26, 21, 51, 21, 255, DateTimeKind.Local).AddTicks(3855),
+                            PublicationDate = new DateTime(1940, 4, 27, 22, 24, 7, 89, DateTimeKind.Local).AddTicks(7255),
                             PublisherId = 163,
                             Title = "Aut."
                         },
@@ -4253,12 +4253,12 @@ namespace API.Data.Migrations
                             Id = 477,
                             AuthorId = 115,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 16, 10, 46, 467, DateTimeKind.Local).AddTicks(3860),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 16, 43, 32, 301, DateTimeKind.Local).AddTicks(7340),
                             CoverImage = "https://picsum.photos/id/393",
                             Description = "Iste officia et. Asperiores quasi accusantium tempora. Beatae atque suscipit nisi ut exercitationem perferendis fugiat provident. Dolores perferendis tenetur.",
                             ISBN = "System.Int32[]",
                             PageCount = 403,
-                            PublicationDate = new DateTime(1999, 11, 15, 7, 1, 23, 718, DateTimeKind.Local).AddTicks(8634),
+                            PublicationDate = new DateTime(1999, 11, 16, 7, 34, 9, 553, DateTimeKind.Local).AddTicks(2104),
                             PublisherId = 174,
                             Title = "Praesentium at corrupti laborum est sit."
                         },
@@ -4271,7 +4271,7 @@ namespace API.Data.Migrations
                             Description = "Mollitia omnis corrupti culpa. Beatae id aut voluptate molestias alias. Eveniet facere voluptate ducimus harum provident maxime necessitatibus. Minus illum omnis ipsam consectetur accusantium unde cupiditate. Beatae officiis ducimus itaque.",
                             ISBN = "System.Int32[]",
                             PageCount = 334,
-                            PublicationDate = new DateTime(1931, 8, 14, 23, 10, 8, 143, DateTimeKind.Local).AddTicks(5385),
+                            PublicationDate = new DateTime(1931, 8, 15, 23, 42, 53, 977, DateTimeKind.Local).AddTicks(8845),
                             PublisherId = 179,
                             Title = "Quaerat eius animi."
                         },
@@ -4284,7 +4284,7 @@ namespace API.Data.Migrations
                             Description = "Illo minima neque. Magni eius sapiente debitis quo nemo. Ipsum tempora atque repudiandae at.",
                             ISBN = "System.Int32[]",
                             PageCount = 143,
-                            PublicationDate = new DateTime(1971, 4, 15, 20, 19, 10, 706, DateTimeKind.Local).AddTicks(4066),
+                            PublicationDate = new DateTime(1971, 4, 16, 20, 51, 56, 540, DateTimeKind.Local).AddTicks(7626),
                             PublisherId = 152,
                             Title = "Et a quo."
                         },
@@ -4293,12 +4293,12 @@ namespace API.Data.Migrations
                             Id = 480,
                             AuthorId = 67,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 22, 26, 58, 48, DateTimeKind.Local).AddTicks(3081),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 22, 59, 43, 882, DateTimeKind.Local).AddTicks(6641),
                             CoverImage = "https://picsum.photos/id/184",
                             Description = "Ut qui culpa culpa. Facilis est eaque. Voluptatem molestias error. Nihil et fugiat sint accusamus tempora officiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 424,
-                            PublicationDate = new DateTime(2010, 8, 8, 23, 15, 38, 98, DateTimeKind.Local).AddTicks(4126),
+                            PublicationDate = new DateTime(2010, 8, 9, 23, 48, 23, 932, DateTimeKind.Local).AddTicks(7684),
                             PublisherId = 154,
                             Title = "Architecto dolorum eos sunt ea."
                         },
@@ -4311,7 +4311,7 @@ namespace API.Data.Migrations
                             Description = "Doloremque sunt quos recusandae et pariatur voluptas eum ducimus dolor. Ea quis libero veritatis fugiat sed aliquid et voluptatem. Voluptatem expedita accusamus quaerat dolores. Veritatis iste quis praesentium recusandae deserunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 249,
-                            PublicationDate = new DateTime(1997, 2, 3, 2, 56, 58, 547, DateTimeKind.Local).AddTicks(2770),
+                            PublicationDate = new DateTime(1997, 2, 4, 3, 29, 44, 381, DateTimeKind.Local).AddTicks(5942),
                             PublisherId = 167,
                             Title = "Sapiente repellat quia nulla rerum."
                         },
@@ -4320,12 +4320,12 @@ namespace API.Data.Migrations
                             Id = 482,
                             AuthorId = 142,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 15, 18, 22, 747, DateTimeKind.Local).AddTicks(1348),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 15, 51, 8, 581, DateTimeKind.Local).AddTicks(4428),
                             CoverImage = "https://picsum.photos/id/43",
                             Description = "Dolores dignissimos omnis dolorem neque quisquam itaque consequatur. Voluptas qui saepe nam est voluptatum illo ullam distinctio aut. Eligendi cum aut magni sit natus et temporibus. Eligendi suscipit error ipsam omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 267,
-                            PublicationDate = new DateTime(1958, 11, 21, 14, 43, 45, 460, DateTimeKind.Local).AddTicks(2702),
+                            PublicationDate = new DateTime(1958, 11, 22, 15, 16, 31, 294, DateTimeKind.Local).AddTicks(5782),
                             PublisherId = 158,
                             Title = "Porro consequatur."
                         },
@@ -4338,7 +4338,7 @@ namespace API.Data.Migrations
                             Description = "Asperiores voluptatem in necessitatibus. Sit error voluptatem laudantium perferendis unde itaque aspernatur. Repellendus cumque et quae. Asperiores ad doloribus.",
                             ISBN = "System.Int32[]",
                             PageCount = 153,
-                            PublicationDate = new DateTime(1958, 4, 7, 11, 25, 30, 805, DateTimeKind.Local).AddTicks(784),
+                            PublicationDate = new DateTime(1958, 4, 8, 11, 58, 16, 639, DateTimeKind.Local).AddTicks(3814),
                             PublisherId = 172,
                             Title = "Qui suscipit facilis facilis animi at."
                         },
@@ -4347,12 +4347,12 @@ namespace API.Data.Migrations
                             Id = 484,
                             AuthorId = 145,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 9, 0, 54, 657, DateTimeKind.Local).AddTicks(5484),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 9, 33, 40, 491, DateTimeKind.Local).AddTicks(8654),
                             CoverImage = "https://picsum.photos/id/399",
                             Description = "Doloremque omnis voluptates consequatur in qui explicabo nihil occaecati. Est et et molestias est nihil quia praesentium.",
                             ISBN = "System.Int32[]",
                             PageCount = 104,
-                            PublicationDate = new DateTime(1990, 9, 30, 6, 47, 15, 530, DateTimeKind.Local).AddTicks(2084),
+                            PublicationDate = new DateTime(1990, 10, 1, 7, 20, 1, 364, DateTimeKind.Local).AddTicks(5254),
                             PublisherId = 167,
                             Title = "Molestiae suscipit ipsa quisquam consectetur eos."
                         },
@@ -4361,12 +4361,12 @@ namespace API.Data.Migrations
                             Id = 485,
                             AuthorId = 52,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 0, 16, 18, 876, DateTimeKind.Local).AddTicks(7636),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 0, 49, 4, 711, DateTimeKind.Local).AddTicks(806),
                             CoverImage = "https://picsum.photos/id/249",
                             Description = "Voluptatem sit sit ea ratione assumenda saepe dolore ut. Saepe nihil ipsa laboriosam debitis et minus sunt commodi animi.",
                             ISBN = "System.Int32[]",
                             PageCount = 339,
-                            PublicationDate = new DateTime(1982, 8, 25, 23, 30, 57, 861, DateTimeKind.Local).AddTicks(634),
+                            PublicationDate = new DateTime(1982, 8, 27, 0, 3, 43, 695, DateTimeKind.Local).AddTicks(3804),
                             PublisherId = 154,
                             Title = "Voluptas beatae quo vel asperiores et."
                         },
@@ -4379,7 +4379,7 @@ namespace API.Data.Migrations
                             Description = "Id fugiat voluptates quaerat non et quam voluptas. Et vel et fugit sint.",
                             ISBN = "System.Int32[]",
                             PageCount = 352,
-                            PublicationDate = new DateTime(1938, 3, 17, 20, 7, 3, 40, DateTimeKind.Local).AddTicks(2652),
+                            PublicationDate = new DateTime(1938, 3, 18, 20, 39, 48, 874, DateTimeKind.Local).AddTicks(5762),
                             PublisherId = 164,
                             Title = "Voluptas reprehenderit officia."
                         },
@@ -4392,7 +4392,7 @@ namespace API.Data.Migrations
                             Description = "Sit est repellendus quo corporis numquam porro corrupti esse beatae. Consectetur a fugiat deleniti id. Pariatur accusantium tempora.",
                             ISBN = "System.Int32[]",
                             PageCount = 309,
-                            PublicationDate = new DateTime(1968, 7, 9, 19, 49, 44, 220, DateTimeKind.Local).AddTicks(3732),
+                            PublicationDate = new DateTime(1968, 7, 10, 20, 22, 30, 54, DateTimeKind.Local).AddTicks(6854),
                             PublisherId = 180,
                             Title = "Quis inventore aperiam et."
                         },
@@ -4401,12 +4401,12 @@ namespace API.Data.Migrations
                             Id = 488,
                             AuthorId = 137,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 1, 0, 13, 616, DateTimeKind.Local).AddTicks(4450),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 1, 32, 59, 450, DateTimeKind.Local).AddTicks(7490),
                             CoverImage = "https://picsum.photos/id/250",
                             Description = "Soluta necessitatibus blanditiis non perferendis. Accusantium aliquid animi omnis aut neque.",
                             ISBN = "System.Int32[]",
                             PageCount = 242,
-                            PublicationDate = new DateTime(1957, 1, 29, 20, 25, 39, 208, DateTimeKind.Local).AddTicks(2286),
+                            PublicationDate = new DateTime(1957, 1, 30, 20, 58, 25, 42, DateTimeKind.Local).AddTicks(5326),
                             PublisherId = 161,
                             Title = "Et aliquam omnis."
                         },
@@ -4419,7 +4419,7 @@ namespace API.Data.Migrations
                             Description = "Hic placeat laudantium quia beatae velit ad debitis. Vitae ut temporibus sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 454,
-                            PublicationDate = new DateTime(2020, 11, 23, 20, 2, 13, 1, DateTimeKind.Local).AddTicks(9118),
+                            PublicationDate = new DateTime(2020, 11, 24, 20, 34, 58, 836, DateTimeKind.Local).AddTicks(2238),
                             PublisherId = 186,
                             Title = "Blanditiis voluptas et."
                         },
@@ -4432,7 +4432,7 @@ namespace API.Data.Migrations
                             Description = "Voluptate tempore eum sed et nulla quo. Possimus reprehenderit reprehenderit facere. Qui voluptatum laudantium.",
                             ISBN = "System.Int32[]",
                             PageCount = 451,
-                            PublicationDate = new DateTime(2018, 4, 22, 2, 10, 14, 441, DateTimeKind.Local).AddTicks(5758),
+                            PublicationDate = new DateTime(2018, 4, 23, 2, 43, 0, 275, DateTimeKind.Local).AddTicks(8888),
                             PublisherId = 158,
                             Title = "A nam soluta maiores est."
                         },
@@ -4445,7 +4445,7 @@ namespace API.Data.Migrations
                             Description = "Fugit optio quo vel consectetur numquam dolores. Natus at assumenda dicta iste sint adipisci.",
                             ISBN = "System.Int32[]",
                             PageCount = 114,
-                            PublicationDate = new DateTime(1943, 6, 14, 12, 39, 23, 914, DateTimeKind.Local).AddTicks(704),
+                            PublicationDate = new DateTime(1943, 6, 15, 13, 12, 9, 748, DateTimeKind.Local).AddTicks(3836),
                             PublisherId = 192,
                             Title = "Id et blanditiis doloremque."
                         },
@@ -4454,12 +4454,12 @@ namespace API.Data.Migrations
                             Id = 492,
                             AuthorId = 95,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 1, 21, 49, 47, DateTimeKind.Local).AddTicks(7372),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 1, 54, 34, 882, DateTimeKind.Local).AddTicks(468),
                             CoverImage = "https://picsum.photos/id/426",
                             Description = "Voluptatem dolorem enim quae. Perspiciatis dolore et commodi quasi a ducimus molestiae. Iste quasi voluptatem commodi accusantium et voluptates ut minus. Aut similique iste in est vel esse est deleniti unde.",
                             ISBN = "System.Int32[]",
                             PageCount = 313,
-                            PublicationDate = new DateTime(2019, 1, 10, 22, 6, 40, 32, DateTimeKind.Local).AddTicks(5452),
+                            PublicationDate = new DateTime(2019, 1, 11, 22, 39, 25, 866, DateTimeKind.Local).AddTicks(8542),
                             PublisherId = 200,
                             Title = "Id consectetur at nemo."
                         },
@@ -4468,12 +4468,12 @@ namespace API.Data.Migrations
                             Id = 493,
                             AuthorId = 92,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 1, 32, 10, 610, DateTimeKind.Local).AddTicks(8291),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 2, 4, 56, 445, DateTimeKind.Local).AddTicks(1511),
                             CoverImage = "https://picsum.photos/id/229",
                             Description = "Maiores libero ut unde. Ut ut aut aut sunt harum dolores quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 170,
-                            PublicationDate = new DateTime(1979, 8, 18, 22, 22, 45, 878, DateTimeKind.Local).AddTicks(4610),
+                            PublicationDate = new DateTime(1979, 8, 19, 22, 55, 31, 712, DateTimeKind.Local).AddTicks(7820),
                             PublisherId = 172,
                             Title = "Cum iusto."
                         },
@@ -4482,12 +4482,12 @@ namespace API.Data.Migrations
                             Id = 494,
                             AuthorId = 131,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 19, 33, 48, 648, DateTimeKind.Local).AddTicks(3238),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 20, 6, 34, 482, DateTimeKind.Local).AddTicks(6470),
                             CoverImage = "https://picsum.photos/id/181",
                             Description = "Enim repellat consequuntur ipsa nulla deleniti corrupti. Id delectus corporis.",
                             ISBN = "System.Int32[]",
                             PageCount = 343,
-                            PublicationDate = new DateTime(1995, 10, 19, 6, 12, 38, 96, DateTimeKind.Local).AddTicks(9270),
+                            PublicationDate = new DateTime(1995, 10, 20, 6, 45, 23, 931, DateTimeKind.Local).AddTicks(2510),
                             PublisherId = 174,
                             Title = "Culpa."
                         },
@@ -4496,12 +4496,12 @@ namespace API.Data.Migrations
                             Id = 495,
                             AuthorId = 129,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 13, 31, 54, 395, DateTimeKind.Local).AddTicks(213),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 14, 4, 40, 229, DateTimeKind.Local).AddTicks(3034),
                             CoverImage = "https://picsum.photos/id/203",
                             Description = "Ab eaque et minus sit odio hic nihil aut veniam. Omnis sit nam fuga quia magni veritatis ut. Ab praesentium aut quia error sunt. Iste eos numquam quasi laboriosam debitis commodi sunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 344,
-                            PublicationDate = new DateTime(2012, 10, 20, 2, 59, 32, 348, DateTimeKind.Local).AddTicks(4586),
+                            PublicationDate = new DateTime(2012, 10, 21, 3, 32, 18, 182, DateTimeKind.Local).AddTicks(7414),
                             PublisherId = 152,
                             Title = "Aut est blanditiis tempore."
                         },
@@ -4510,12 +4510,12 @@ namespace API.Data.Migrations
                             Id = 496,
                             AuthorId = 128,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 6, 21, 35, 646, DateTimeKind.Local).AddTicks(4494),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 6, 54, 21, 480, DateTimeKind.Local).AddTicks(7267),
                             CoverImage = "https://picsum.photos/id/125",
                             Description = "Libero non voluptatem tempore delectus sunt eius ullam nobis. Sed eos a voluptatem iste enim. Perspiciatis cumque autem in necessitatibus praesentium praesentium facere cupiditate et.",
                             ISBN = "System.Int32[]",
                             PageCount = 160,
-                            PublicationDate = new DateTime(2001, 2, 9, 17, 52, 17, 754, DateTimeKind.Local).AddTicks(4936),
+                            PublicationDate = new DateTime(2001, 2, 10, 18, 25, 3, 588, DateTimeKind.Local).AddTicks(7716),
                             PublisherId = 156,
                             Title = "Sequi et ipsum labore."
                         },
@@ -4528,7 +4528,7 @@ namespace API.Data.Migrations
                             Description = "Sit voluptatem omnis. Vero sint dignissimos architecto ut velit voluptate aspernatur aut. Cumque at odio sed maiores delectus nemo velit. Magnam enim eligendi corrupti quidem tempora est.",
                             ISBN = "System.Int32[]",
                             PageCount = 365,
-                            PublicationDate = new DateTime(1987, 4, 19, 1, 10, 36, 154, DateTimeKind.Local).AddTicks(9312),
+                            PublicationDate = new DateTime(1987, 4, 20, 1, 43, 21, 989, DateTimeKind.Local).AddTicks(2032),
                             PublisherId = 153,
                             Title = "Animi et."
                         },
@@ -4541,7 +4541,7 @@ namespace API.Data.Migrations
                             Description = "Id libero cupiditate odio dolorem molestiae aut nulla voluptatem. Commodi et nesciunt iusto quo neque beatae distinctio. Fugiat voluptatibus quam consequatur voluptatem quaerat doloremque eos blanditiis consequatur. Suscipit quibusdam itaque sit mollitia quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 219,
-                            PublicationDate = new DateTime(2013, 10, 23, 9, 36, 20, 789, DateTimeKind.Local).AddTicks(3134),
+                            PublicationDate = new DateTime(2013, 10, 24, 10, 9, 6, 623, DateTimeKind.Local).AddTicks(5774),
                             PublisherId = 197,
                             Title = "Sed."
                         },
@@ -4550,12 +4550,12 @@ namespace API.Data.Migrations
                             Id = 499,
                             AuthorId = 134,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 11, 40, 31, 826, DateTimeKind.Local).AddTicks(9464),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 12, 13, 17, 661, DateTimeKind.Local).AddTicks(2049),
                             CoverImage = "https://picsum.photos/id/201",
                             Description = "Quos aut quo iure repellat sequi hic. Molestias molestias placeat assumenda sequi. Cupiditate libero maiores omnis voluptate officiis et quae.",
                             ISBN = "System.Int32[]",
                             PageCount = 204,
-                            PublicationDate = new DateTime(2017, 6, 18, 4, 50, 59, 698, DateTimeKind.Local).AddTicks(4154),
+                            PublicationDate = new DateTime(2017, 6, 19, 5, 23, 45, 532, DateTimeKind.Local).AddTicks(6744),
                             PublisherId = 171,
                             Title = "Quas dolor dolores error aliquid eaque."
                         },
@@ -4568,7 +4568,7 @@ namespace API.Data.Migrations
                             Description = "Eveniet commodi atque nihil ut veritatis dignissimos. Molestiae molestiae suscipit voluptate autem ullam provident. Voluptates ratione at. Asperiores ipsam et nostrum deleniti consequatur perspiciatis.",
                             ISBN = "System.Int32[]",
                             PageCount = 163,
-                            PublicationDate = new DateTime(2017, 4, 5, 1, 16, 58, 261, DateTimeKind.Local).AddTicks(4804),
+                            PublicationDate = new DateTime(2017, 4, 6, 1, 49, 44, 95, DateTimeKind.Local).AddTicks(7344),
                             PublisherId = 157,
                             Title = "Enim iusto sunt."
                         },
@@ -4581,7 +4581,7 @@ namespace API.Data.Migrations
                             Description = "Culpa blanditiis consectetur rerum ipsum occaecati dolor. Qui unde sit velit esse voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 273,
-                            PublicationDate = new DateTime(2007, 2, 5, 21, 43, 12, 668, DateTimeKind.Local).AddTicks(9048),
+                            PublicationDate = new DateTime(2007, 2, 6, 22, 15, 58, 503, DateTimeKind.Local).AddTicks(1568),
                             PublisherId = 156,
                             Title = "At velit non earum."
                         },
@@ -4594,7 +4594,7 @@ namespace API.Data.Migrations
                             Description = "Rem est voluptates quia porro molestias recusandae. Eaque rerum officiis. Culpa amet impedit eum. Earum harum aut sint consequatur fugit consectetur perferendis architecto culpa. Ea sit ratione ut recusandae non sint eos blanditiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 471,
-                            PublicationDate = new DateTime(2024, 2, 4, 18, 11, 26, 699, DateTimeKind.Local).AddTicks(8030),
+                            PublicationDate = new DateTime(2024, 2, 5, 18, 44, 12, 534, DateTimeKind.Local).AddTicks(442),
                             PublisherId = 176,
                             Title = "Nesciunt omnis rem repudiandae."
                         },
@@ -4607,7 +4607,7 @@ namespace API.Data.Migrations
                             Description = "Aliquam illo enim similique quis ex molestiae aliquam aspernatur nam. Similique labore voluptatem ipsam sed enim molestiae. Ipsum illum aut provident qui facilis id. Accusamus ducimus cumque magni qui.",
                             ISBN = "System.Int32[]",
                             PageCount = 232,
-                            PublicationDate = new DateTime(1997, 3, 11, 14, 13, 55, 471, DateTimeKind.Local).AddTicks(4466),
+                            PublicationDate = new DateTime(1997, 3, 12, 14, 46, 41, 305, DateTimeKind.Local).AddTicks(6646),
                             PublisherId = 200,
                             Title = "Nemo facilis non quia quisquam."
                         },
@@ -4620,7 +4620,7 @@ namespace API.Data.Migrations
                             Description = "Quidem voluptatem iste consequatur in provident velit possimus quaerat veniam. Sunt iusto accusamus voluptate fuga doloribus sit. In quisquam aliquam quae. Quisquam quo quo repudiandae et dolorem corrupti. Nostrum tenetur molestiae odit.",
                             ISBN = "System.Int32[]",
                             PageCount = 228,
-                            PublicationDate = new DateTime(1948, 11, 21, 1, 19, 31, 357, DateTimeKind.Local).AddTicks(8051),
+                            PublicationDate = new DateTime(1948, 11, 22, 1, 52, 17, 191, DateTimeKind.Local).AddTicks(3260),
                             PublisherId = 151,
                             Title = "Similique sequi dolore."
                         },
@@ -4629,12 +4629,12 @@ namespace API.Data.Migrations
                             Id = 505,
                             AuthorId = 94,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 3, 35, 59, 706, DateTimeKind.Local).AddTicks(5503),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 4, 8, 45, 539, DateTimeKind.Local).AddTicks(9013),
                             CoverImage = "https://picsum.photos/id/499",
                             Description = "Et atque rerum corporis harum ut. In ut unde aperiam quae vel dicta velit esse. Ullam nam nihil et quae placeat perspiciatis consequuntur ut. Et odit iure distinctio autem sed corporis fugiat earum deleniti. Enim adipisci enim sint laboriosam expedita nisi recusandae sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 306,
-                            PublicationDate = new DateTime(2013, 6, 9, 20, 4, 56, 74, DateTimeKind.Local).AddTicks(3718),
+                            PublicationDate = new DateTime(2013, 6, 10, 20, 37, 41, 907, DateTimeKind.Local).AddTicks(7248),
                             PublisherId = 158,
                             Title = "Sit dicta error eligendi quis excepturi."
                         },
@@ -4647,7 +4647,7 @@ namespace API.Data.Migrations
                             Description = "Rerum nihil sunt. Adipisci voluptas itaque quo. Rerum dignissimos accusantium fugiat maxime beatae quia vitae mollitia.",
                             ISBN = "System.Int32[]",
                             PageCount = 344,
-                            PublicationDate = new DateTime(1929, 7, 9, 18, 22, 1, 967, DateTimeKind.Local).AddTicks(9021),
+                            PublicationDate = new DateTime(1929, 7, 10, 18, 54, 47, 801, DateTimeKind.Local).AddTicks(901),
                             PublisherId = 158,
                             Title = "Aliquam totam recusandae quasi."
                         },
@@ -4660,7 +4660,7 @@ namespace API.Data.Migrations
                             Description = "Dolor quaerat at voluptatum suscipit ipsam eligendi quia aut. Aspernatur aut beatae adipisci accusantium.",
                             ISBN = "System.Int32[]",
                             PageCount = 455,
-                            PublicationDate = new DateTime(1932, 9, 18, 8, 22, 40, 155, DateTimeKind.Local).AddTicks(3710),
+                            PublicationDate = new DateTime(1932, 9, 19, 8, 55, 25, 988, DateTimeKind.Local).AddTicks(5440),
                             PublisherId = 179,
                             Title = "Saepe aut dolor totam sunt dignissimos."
                         },
@@ -4673,7 +4673,7 @@ namespace API.Data.Migrations
                             Description = "Dolorem quia aut debitis illum. Voluptatem maiores repellat tempora corrupti iusto harum voluptatem eligendi ut. Culpa quaerat qui ipsum et repellat non voluptatem sequi. Animi doloribus cum voluptas maxime consequatur at vero.",
                             ISBN = "System.Int32[]",
                             PageCount = 223,
-                            PublicationDate = new DateTime(1996, 11, 25, 5, 42, 54, 302, DateTimeKind.Local).AddTicks(4402),
+                            PublicationDate = new DateTime(1996, 11, 26, 6, 15, 40, 135, DateTimeKind.Local).AddTicks(5858),
                             PublisherId = 190,
                             Title = "Quos saepe necessitatibus."
                         },
@@ -4686,7 +4686,7 @@ namespace API.Data.Migrations
                             Description = "Voluptatem eveniet maxime et dolor nostrum qui consectetur consequuntur facilis. Ea alias quis. Vel autem et eius accusamus totam est sit voluptatem necessitatibus. Voluptatem sint necessitatibus rerum enim officiis perspiciatis ipsum.",
                             ISBN = "System.Int32[]",
                             PageCount = 291,
-                            PublicationDate = new DateTime(2004, 8, 3, 6, 59, 6, 852, DateTimeKind.Local).AddTicks(5794),
+                            PublicationDate = new DateTime(2004, 8, 4, 7, 31, 52, 685, DateTimeKind.Local).AddTicks(6974),
                             PublisherId = 160,
                             Title = "Voluptas necessitatibus at nam."
                         },
@@ -4699,7 +4699,7 @@ namespace API.Data.Migrations
                             Description = "Ullam labore quis labore illum eum iusto. Neque neque aliquid aut deserunt dolores quod ex. Magni dolorum voluptatem corrupti illum voluptate. Illum et facilis voluptatem voluptatem non. Totam qui quod aperiam nam nostrum quis earum.",
                             ISBN = "System.Int32[]",
                             PageCount = 293,
-                            PublicationDate = new DateTime(2007, 10, 27, 19, 12, 55, 644, DateTimeKind.Local).AddTicks(8338),
+                            PublicationDate = new DateTime(2007, 10, 28, 19, 45, 41, 477, DateTimeKind.Local).AddTicks(9100),
                             PublisherId = 187,
                             Title = "Tempore debitis quisquam perspiciatis."
                         },
@@ -4712,7 +4712,7 @@ namespace API.Data.Migrations
                             Description = "Architecto et eaque. Suscipit nihil possimus ut. Accusantium eos dolor. Sit quibusdam et quaerat. Quia eligendi unde.",
                             ISBN = "System.Int32[]",
                             PageCount = 189,
-                            PublicationDate = new DateTime(1933, 2, 6, 23, 12, 39, 976, DateTimeKind.Local).AddTicks(5567),
+                            PublicationDate = new DateTime(1933, 2, 7, 23, 45, 25, 809, DateTimeKind.Local).AddTicks(5987),
                             PublisherId = 170,
                             Title = "Amet quia vel incidunt corrupti rerum."
                         },
@@ -4725,7 +4725,7 @@ namespace API.Data.Migrations
                             Description = "Laborum tempora voluptas quidem sequi omnis labore. Explicabo velit labore accusamus voluptate modi voluptatem laudantium. Perspiciatis a voluptatum laboriosam nisi eaque sapiente et ea. Explicabo sint eum illum neque quo assumenda et animi quisquam. Beatae id et repellendus dolor.",
                             ISBN = "System.Int32[]",
                             PageCount = 402,
-                            PublicationDate = new DateTime(1982, 11, 12, 4, 55, 49, 456, DateTimeKind.Local).AddTicks(7314),
+                            PublicationDate = new DateTime(1982, 11, 13, 5, 28, 35, 289, DateTimeKind.Local).AddTicks(5870),
                             PublisherId = 193,
                             Title = "Quod officiis error ipsum."
                         },
@@ -4734,12 +4734,12 @@ namespace API.Data.Migrations
                             Id = 513,
                             AuthorId = 117,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 21, 14, 53, 221, DateTimeKind.Local).AddTicks(9343),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 21, 47, 39, 54, DateTimeKind.Local).AddTicks(7853),
                             CoverImage = "https://picsum.photos/id/124",
                             Description = "Laudantium eius vero omnis dolorem perferendis aut. Occaecati laborum et odit est consectetur. Nisi non quibusdam velit. Facilis voluptas sequi totam et totam facilis est autem.",
                             ISBN = "System.Int32[]",
                             PageCount = 120,
-                            PublicationDate = new DateTime(1926, 12, 21, 10, 22, 30, 293, DateTimeKind.Local).AddTicks(1290),
+                            PublicationDate = new DateTime(1926, 12, 22, 10, 55, 16, 125, DateTimeKind.Local).AddTicks(9800),
                             PublisherId = 161,
                             Title = "Vel architecto sequi quidem sequi."
                         },
@@ -4752,7 +4752,7 @@ namespace API.Data.Migrations
                             Description = "Molestiae optio consequatur laboriosam sit ad. Consequatur odio et doloremque molestiae eum.",
                             ISBN = "System.Int32[]",
                             PageCount = 406,
-                            PublicationDate = new DateTime(1957, 1, 12, 18, 43, 44, 946, DateTimeKind.Local).AddTicks(5886),
+                            PublicationDate = new DateTime(1957, 1, 13, 19, 16, 30, 779, DateTimeKind.Local).AddTicks(4276),
                             PublisherId = 185,
                             Title = "Aut ea aliquam et eos."
                         },
@@ -4765,7 +4765,7 @@ namespace API.Data.Migrations
                             Description = "Corporis a natus quisquam laborum cupiditate. Laudantium voluptatibus enim nam. Fugiat sed quae. Ducimus aliquid aliquam repudiandae blanditiis blanditiis dolores similique magnam cum. Consequatur minus impedit beatae.",
                             ISBN = "System.Int32[]",
                             PageCount = 415,
-                            PublicationDate = new DateTime(2022, 3, 9, 15, 44, 30, 872, DateTimeKind.Local).AddTicks(6190),
+                            PublicationDate = new DateTime(2022, 3, 10, 16, 17, 16, 705, DateTimeKind.Local).AddTicks(4570),
                             PublisherId = 172,
                             Title = "Omnis."
                         },
@@ -4778,7 +4778,7 @@ namespace API.Data.Migrations
                             Description = "Totam itaque aliquid sequi qui ad consectetur quis animi adipisci. Repudiandae quaerat incidunt reprehenderit suscipit et aperiam. Ut iure quisquam maxime iure doloremque molestiae aperiam libero qui. Distinctio quia enim et placeat voluptatem similique. Eligendi corporis cum consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 148,
-                            PublicationDate = new DateTime(2004, 12, 16, 4, 50, 13, 939, DateTimeKind.Local).AddTicks(890),
+                            PublicationDate = new DateTime(2004, 12, 17, 5, 22, 59, 771, DateTimeKind.Local).AddTicks(9060),
                             PublisherId = 187,
                             Title = "Voluptatem eveniet reiciendis."
                         },
@@ -4787,12 +4787,12 @@ namespace API.Data.Migrations
                             Id = 517,
                             AuthorId = 84,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 10, 40, 11, 75, DateTimeKind.Local).AddTicks(6649),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 11, 12, 56, 908, DateTimeKind.Local).AddTicks(4629),
                             CoverImage = "https://picsum.photos/id/466",
                             Description = "Atque consequatur voluptas rem nisi in deserunt in. Aut sed delectus quis deserunt et voluptas et porro. Facere voluptatem repellat eum. Voluptatem rerum veritatis voluptatem culpa at sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 360,
-                            PublicationDate = new DateTime(2011, 10, 8, 17, 36, 21, 612, DateTimeKind.Local).AddTicks(2104),
+                            PublicationDate = new DateTime(2011, 10, 9, 18, 9, 7, 445, DateTimeKind.Local).AddTicks(96),
                             PublisherId = 174,
                             Title = "Beatae provident."
                         },
@@ -4801,12 +4801,12 @@ namespace API.Data.Migrations
                             Id = 518,
                             AuthorId = 67,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 0, 20, 45, 294, DateTimeKind.Local).AddTicks(4717),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 0, 53, 31, 126, DateTimeKind.Local).AddTicks(2627),
                             CoverImage = "https://picsum.photos/id/9",
                             Description = "Excepturi odio repellat itaque aut amet. Ducimus harum alias veniam iusto fugit illum. Doloribus ipsa facilis omnis et blanditiis esse minima cum.",
                             ISBN = "System.Int32[]",
                             PageCount = 360,
-                            PublicationDate = new DateTime(2022, 10, 17, 14, 19, 42, 910, DateTimeKind.Local).AddTicks(6154),
+                            PublicationDate = new DateTime(2022, 10, 18, 14, 52, 28, 742, DateTimeKind.Local).AddTicks(4094),
                             PublisherId = 170,
                             Title = "Magni pariatur est atque ut."
                         },
@@ -4815,12 +4815,12 @@ namespace API.Data.Migrations
                             Id = 519,
                             AuthorId = 112,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 4, 37, 38, 995, DateTimeKind.Local).AddTicks(3857),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 5, 10, 24, 827, DateTimeKind.Local).AddTicks(1199),
                             CoverImage = "https://picsum.photos/id/30",
                             Description = "In officia repellat aspernatur nesciunt voluptatem et quam eum necessitatibus. Neque saepe qui beatae. Itaque ut a sit ut aut numquam rem in velit.",
                             ISBN = "System.Int32[]",
                             PageCount = 210,
-                            PublicationDate = new DateTime(2000, 7, 20, 0, 2, 31, 62, DateTimeKind.Local).AddTicks(4254),
+                            PublicationDate = new DateTime(2000, 7, 21, 0, 35, 16, 894, DateTimeKind.Local).AddTicks(1614),
                             PublisherId = 181,
                             Title = "Ea cumque ipsam inventore."
                         },
@@ -4833,7 +4833,7 @@ namespace API.Data.Migrations
                             Description = "Quis cupiditate cumque placeat quaerat. Minus eveniet sit et dolores. Voluptates enim qui sequi eveniet et sint corporis. Blanditiis fuga perspiciatis iusto quo nostrum tenetur aut voluptas.",
                             ISBN = "System.Int32[]",
                             PageCount = 225,
-                            PublicationDate = new DateTime(1925, 11, 13, 1, 6, 12, 998, DateTimeKind.Local).AddTicks(8106),
+                            PublicationDate = new DateTime(1925, 11, 14, 1, 38, 58, 830, DateTimeKind.Local).AddTicks(4396),
                             PublisherId = 181,
                             Title = "Modi quia minus autem autem distinctio."
                         },
@@ -4846,7 +4846,7 @@ namespace API.Data.Migrations
                             Description = "Perferendis omnis temporibus similique iure non. Quisquam repudiandae velit. Minima repellendus quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 389,
-                            PublicationDate = new DateTime(2017, 2, 24, 20, 51, 50, 790, DateTimeKind.Local).AddTicks(5904),
+                            PublicationDate = new DateTime(2017, 2, 25, 21, 24, 36, 621, DateTimeKind.Local).AddTicks(9862),
                             PublisherId = 173,
                             Title = "Esse molestias quia rem sint ut."
                         },
@@ -4855,12 +4855,12 @@ namespace API.Data.Migrations
                             Id = 522,
                             AuthorId = 71,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 4, 19, 16, 401, DateTimeKind.Local).AddTicks(3397),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 4, 52, 2, 232, DateTimeKind.Local).AddTicks(5886),
                             CoverImage = "https://picsum.photos/id/85",
                             Description = "Porro ratione laborum. Eum dolore accusantium necessitatibus cumque sit ipsum saepe. Id eveniet eligendi omnis et fugiat consequatur et. Voluptatem aut placeat nisi fuga at.",
                             ISBN = "System.Int32[]",
                             PageCount = 155,
-                            PublicationDate = new DateTime(1938, 8, 24, 17, 48, 2, 561, DateTimeKind.Local).AddTicks(6072),
+                            PublicationDate = new DateTime(1938, 8, 25, 18, 20, 48, 392, DateTimeKind.Local).AddTicks(8579),
                             PublisherId = 159,
                             Title = "Qui deserunt eos aperiam consectetur."
                         },
@@ -4873,7 +4873,7 @@ namespace API.Data.Migrations
                             Description = "Rerum aut ipsa fuga quia quisquam non cumque tempora a. Velit sequi et assumenda quisquam illum voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 349,
-                            PublicationDate = new DateTime(1935, 12, 31, 23, 28, 24, 857, DateTimeKind.Local).AddTicks(8651),
+                            PublicationDate = new DateTime(1936, 1, 2, 0, 1, 10, 689, DateTimeKind.Local).AddTicks(369),
                             PublisherId = 173,
                             Title = "Dolorem enim possimus consequatur qui."
                         },
@@ -4886,7 +4886,7 @@ namespace API.Data.Migrations
                             Description = "Sed minus quas eaque unde. Dolorem dolor dignissimos consequatur enim. Quo perferendis porro et dolorem et est ipsa.",
                             ISBN = "System.Int32[]",
                             PageCount = 259,
-                            PublicationDate = new DateTime(2008, 1, 18, 8, 48, 17, 823, DateTimeKind.Local).AddTicks(7928),
+                            PublicationDate = new DateTime(2008, 1, 19, 9, 21, 3, 653, DateTimeKind.Local).AddTicks(9174),
                             PublisherId = 171,
                             Title = "Officiis quos saepe repudiandae."
                         },
@@ -4899,7 +4899,7 @@ namespace API.Data.Migrations
                             Description = "Eos quasi quaerat in. Voluptatibus quia et pariatur doloribus sed. At qui repellendus rerum voluptas hic. Iure ducimus incidunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 239,
-                            PublicationDate = new DateTime(1986, 9, 8, 2, 51, 39, 731, DateTimeKind.Local).AddTicks(2344),
+                            PublicationDate = new DateTime(1986, 9, 9, 3, 24, 25, 561, DateTimeKind.Local).AddTicks(1494),
                             PublisherId = 182,
                             Title = "Nemo ullam vel nulla molestiae."
                         },
@@ -4912,7 +4912,7 @@ namespace API.Data.Migrations
                             Description = "Alias aut similique fugit nihil harum beatae et illo aspernatur. Perferendis molestiae eaque accusamus consequatur nesciunt ipsa quisquam adipisci tempora. Animi corrupti rerum odit soluta ratione est saepe occaecati provident. Quasi aut ratione sit consectetur aut totam.",
                             ISBN = "System.Int32[]",
                             PageCount = 250,
-                            PublicationDate = new DateTime(1932, 9, 11, 2, 25, 37, 985, DateTimeKind.Local).AddTicks(7995),
+                            PublicationDate = new DateTime(1932, 9, 12, 2, 58, 23, 815, DateTimeKind.Local).AddTicks(623),
                             PublisherId = 152,
                             Title = "Voluptas et fuga fugiat."
                         },
@@ -4925,7 +4925,7 @@ namespace API.Data.Migrations
                             Description = "Amet delectus non magnam nobis consectetur adipisci aliquid. In nobis ipsum quia consectetur molestiae est voluptas ad.",
                             ISBN = "System.Int32[]",
                             PageCount = 240,
-                            PublicationDate = new DateTime(1974, 10, 6, 5, 4, 16, 419, DateTimeKind.Local).AddTicks(2266),
+                            PublicationDate = new DateTime(1974, 10, 7, 5, 37, 2, 248, DateTimeKind.Local).AddTicks(4692),
                             PublisherId = 190,
                             Title = "Recusandae et nesciunt culpa iusto esse."
                         },
@@ -4938,7 +4938,7 @@ namespace API.Data.Migrations
                             Description = "Omnis porro minus at tempore qui corrupti iusto hic. Consequatur nihil minus. Et iste soluta. Voluptas quia saepe et voluptas molestiae et. Rerum eos reiciendis placeat.",
                             ISBN = "System.Int32[]",
                             PageCount = 413,
-                            PublicationDate = new DateTime(1977, 4, 3, 10, 11, 34, 252, DateTimeKind.Local).AddTicks(4854),
+                            PublicationDate = new DateTime(1977, 4, 4, 10, 44, 20, 81, DateTimeKind.Local).AddTicks(7034),
                             PublisherId = 157,
                             Title = "Molestias illum accusantium dolore."
                         },
@@ -4947,12 +4947,12 @@ namespace API.Data.Migrations
                             Id = 529,
                             AuthorId = 139,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 23, 59, 19, 547, DateTimeKind.Local).AddTicks(1991),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 0, 32, 5, 376, DateTimeKind.Local).AddTicks(3891),
                             CoverImage = "https://picsum.photos/id/17",
                             Description = "Consequatur maiores nihil quas et praesentium sed incidunt accusamus eum. Nostrum et est et architecto in quae illo et in. Nihil totam fugit esse quo ea. Harum et vero reiciendis. Aspernatur eum sed molestiae ducimus vel aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 483,
-                            PublicationDate = new DateTime(1963, 7, 31, 9, 46, 47, 360, DateTimeKind.Local).AddTicks(1714),
+                            PublicationDate = new DateTime(1963, 8, 1, 10, 19, 33, 189, DateTimeKind.Local).AddTicks(3630),
                             PublisherId = 182,
                             Title = "Et quas autem."
                         },
@@ -4965,7 +4965,7 @@ namespace API.Data.Migrations
                             Description = "Tenetur ut animi. Sint ut et consequatur cum officiis fuga explicabo. Libero non inventore doloremque possimus ut porro ut neque aperiam. Harum corporis accusantium iure.",
                             ISBN = "System.Int32[]",
                             PageCount = 335,
-                            PublicationDate = new DateTime(1989, 10, 10, 19, 23, 17, 659, DateTimeKind.Local).AddTicks(5880),
+                            PublicationDate = new DateTime(1989, 10, 11, 19, 56, 3, 488, DateTimeKind.Local).AddTicks(8068),
                             PublisherId = 183,
                             Title = "Consequatur labore accusantium magni enim."
                         },
@@ -4974,12 +4974,12 @@ namespace API.Data.Migrations
                             Id = 531,
                             AuthorId = 127,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 5, 51, 19, 135, DateTimeKind.Local).AddTicks(6953),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 6, 24, 4, 964, DateTimeKind.Local).AddTicks(9153),
                             CoverImage = "https://picsum.photos/id/85",
                             Description = "Commodi ipsa numquam sint velit modi sit hic tenetur accusantium. Quasi qui repudiandae debitis ab deleniti. Excepturi rerum occaecati est. Molestiae est cum dolorum iste quis autem labore cum consequatur. Omnis aut dolores et.",
                             ISBN = "System.Int32[]",
                             PageCount = 266,
-                            PublicationDate = new DateTime(1996, 2, 12, 0, 46, 18, 46, DateTimeKind.Local).AddTicks(1764),
+                            PublicationDate = new DateTime(1996, 2, 13, 1, 19, 3, 875, DateTimeKind.Local).AddTicks(3964),
                             PublisherId = 177,
                             Title = "Ut aut iste aut eum."
                         },
@@ -4992,7 +4992,7 @@ namespace API.Data.Migrations
                             Description = "Adipisci dolores voluptas omnis ut. Maiores fuga tenetur sit ex doloremque quam ex error suscipit. Iure perspiciatis nihil ut dolor veritatis ab impedit esse. Et quibusdam doloribus rem fugiat mollitia. Quia sint praesentium.",
                             ISBN = "System.Int32[]",
                             PageCount = 251,
-                            PublicationDate = new DateTime(1960, 4, 4, 7, 35, 16, 346, DateTimeKind.Local).AddTicks(4102),
+                            PublicationDate = new DateTime(1960, 4, 5, 8, 8, 2, 175, DateTimeKind.Local).AddTicks(6166),
                             PublisherId = 159,
                             Title = "Id id praesentium in neque."
                         },
@@ -5005,7 +5005,7 @@ namespace API.Data.Migrations
                             Description = "Iusto velit ut est officiis repudiandae modi. Sequi fuga quia commodi ut a aut illo aut. Ad cumque officia eius et impedit nulla maxime. Aliquid consectetur quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 247,
-                            PublicationDate = new DateTime(2013, 5, 31, 20, 3, 16, 271, DateTimeKind.Local).AddTicks(8142),
+                            PublicationDate = new DateTime(2013, 6, 1, 20, 36, 2, 101, DateTimeKind.Local).AddTicks(232),
                             PublisherId = 175,
                             Title = "Nulla illum provident veritatis eum."
                         },
@@ -5018,7 +5018,7 @@ namespace API.Data.Migrations
                             Description = "Possimus non et magni. Officiis et rerum quia eum quia neque rerum perferendis. Corrupti esse voluptatum voluptatem neque asperiores sint et eos vel. Perspiciatis quo accusantium nostrum. Enim aliquam aut labore et deserunt quia asperiores cum.",
                             ISBN = "System.Int32[]",
                             PageCount = 464,
-                            PublicationDate = new DateTime(1990, 10, 20, 17, 40, 46, 673, DateTimeKind.Local).AddTicks(2172),
+                            PublicationDate = new DateTime(1990, 10, 21, 18, 13, 32, 502, DateTimeKind.Local).AddTicks(4132),
                             PublisherId = 164,
                             Title = "Nesciunt est."
                         },
@@ -5027,12 +5027,12 @@ namespace API.Data.Migrations
                             Id = 535,
                             AuthorId = 139,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 10, 1, 1, 301, DateTimeKind.Local).AddTicks(5519),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 10, 33, 47, 130, DateTimeKind.Local).AddTicks(7409),
                             CoverImage = "https://picsum.photos/id/74",
                             Description = "Voluptates ut omnis exercitationem saepe nostrum deleniti rem consequatur porro. Ea quidem quia ut placeat.",
                             ISBN = "System.Int32[]",
                             PageCount = 194,
-                            PublicationDate = new DateTime(1984, 9, 12, 2, 25, 21, 324, DateTimeKind.Local).AddTicks(9062),
+                            PublicationDate = new DateTime(1984, 9, 13, 2, 58, 7, 154, DateTimeKind.Local).AddTicks(954),
                             PublisherId = 167,
                             Title = "Repudiandae sint."
                         },
@@ -5041,12 +5041,12 @@ namespace API.Data.Migrations
                             Id = 536,
                             AuthorId = 130,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 22, 3, 13, 962, DateTimeKind.Local).AddTicks(4848),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 22, 35, 59, 791, DateTimeKind.Local).AddTicks(5910),
                             CoverImage = "https://picsum.photos/id/178",
                             Description = "Modi in molestias deleniti omnis voluptatem in et. Voluptas qui sit et veniam nihil distinctio. Officia sapiente sint quasi quia deleniti.",
                             ISBN = "System.Int32[]",
                             PageCount = 463,
-                            PublicationDate = new DateTime(2004, 3, 21, 5, 26, 23, 597, DateTimeKind.Local).AddTicks(2296),
+                            PublicationDate = new DateTime(2004, 3, 22, 5, 59, 9, 426, DateTimeKind.Local).AddTicks(3366),
                             PublisherId = 185,
                             Title = "Enim."
                         },
@@ -5059,7 +5059,7 @@ namespace API.Data.Migrations
                             Description = "Officiis ab rerum nobis quo. Expedita aut sint voluptatem quibusdam molestiae maiores. Ex voluptas necessitatibus ab incidunt similique necessitatibus suscipit. Blanditiis et illo quia ad. Commodi culpa suscipit voluptatem porro.",
                             ISBN = "System.Int32[]",
                             PageCount = 190,
-                            PublicationDate = new DateTime(1997, 1, 30, 7, 6, 4, 393, DateTimeKind.Local).AddTicks(8378),
+                            PublicationDate = new DateTime(1997, 1, 31, 7, 38, 50, 223, DateTimeKind.Local).AddTicks(928),
                             PublisherId = 161,
                             Title = "Omnis."
                         },
@@ -5068,12 +5068,12 @@ namespace API.Data.Migrations
                             Id = 538,
                             AuthorId = 76,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 1, 18, 42, 665, DateTimeKind.Local).AddTicks(3240),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 1, 51, 28, 494, DateTimeKind.Local).AddTicks(2110),
                             CoverImage = "https://picsum.photos/id/145",
                             Description = "Eum facere iste sunt praesentium aut. Eligendi voluptatem placeat cumque ex. Commodi mollitia ipsum et sit nihil dolores accusantium. Nihil eos at eius dicta quis totam dignissimos repudiandae. Repudiandae neque qui ut laborum est nam et et ea.",
                             ISBN = "System.Int32[]",
                             PageCount = 388,
-                            PublicationDate = new DateTime(1948, 11, 11, 7, 10, 25, 78, DateTimeKind.Local).AddTicks(3702),
+                            PublicationDate = new DateTime(1948, 11, 12, 7, 43, 10, 907, DateTimeKind.Local).AddTicks(2579),
                             PublisherId = 160,
                             Title = "Sed voluptas sit."
                         },
@@ -5086,7 +5086,7 @@ namespace API.Data.Migrations
                             Description = "Perspiciatis inventore iste quam libero dicta. Dolorum unde labore laborum atque possimus. Qui aspernatur maxime et.",
                             ISBN = "System.Int32[]",
                             PageCount = 230,
-                            PublicationDate = new DateTime(2002, 4, 3, 6, 1, 30, 465, DateTimeKind.Local).AddTicks(578),
+                            PublicationDate = new DateTime(2002, 4, 4, 6, 34, 16, 293, DateTimeKind.Local).AddTicks(9472),
                             PublisherId = 164,
                             Title = "Impedit fugiat."
                         },
@@ -5099,7 +5099,7 @@ namespace API.Data.Migrations
                             Description = "Aut ut atque. Non consequuntur sapiente assumenda quis dolor quo ut nulla. Quos magnam quos vel odio. Saepe nulla iste autem necessitatibus cum nostrum totam rerum non. Sit ad quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 488,
-                            PublicationDate = new DateTime(1959, 11, 8, 5, 25, 45, 394, DateTimeKind.Local).AddTicks(7968),
+                            PublicationDate = new DateTime(1959, 11, 9, 5, 58, 31, 223, DateTimeKind.Local).AddTicks(7102),
                             PublisherId = 185,
                             Title = "Praesentium dolorem."
                         },
@@ -5108,12 +5108,12 @@ namespace API.Data.Migrations
                             Id = 541,
                             AuthorId = 120,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 15, 35, 22, 953, DateTimeKind.Local).AddTicks(7789),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 16, 8, 8, 782, DateTimeKind.Local).AddTicks(7060),
                             CoverImage = "https://picsum.photos/id/134",
                             Description = "Fugiat quos aut odio vitae optio asperiores est aut. Ipsam cumque cum eum aliquid enim qui consequatur ut. Maxime voluptas nobis tenetur a maxime eligendi dolore molestiae. Aut et officiis veniam eius quia. Tenetur nam iste et quia voluptatum voluptatibus et.",
                             ISBN = "System.Int32[]",
                             PageCount = 399,
-                            PublicationDate = new DateTime(2004, 7, 16, 6, 1, 46, 961, DateTimeKind.Local).AddTicks(9206),
+                            PublicationDate = new DateTime(2004, 7, 17, 6, 34, 32, 790, DateTimeKind.Local).AddTicks(8456),
                             PublisherId = 184,
                             Title = "A soluta."
                         },
@@ -5126,7 +5126,7 @@ namespace API.Data.Migrations
                             Description = "Laborum dolores qui voluptatibus. Ut consequatur nihil laboriosam eligendi et facere similique eaque.",
                             ISBN = "System.Int32[]",
                             PageCount = 276,
-                            PublicationDate = new DateTime(1953, 4, 14, 2, 18, 12, 54, DateTimeKind.Local).AddTicks(3048),
+                            PublicationDate = new DateTime(1953, 4, 15, 2, 50, 57, 883, DateTimeKind.Local).AddTicks(2276),
                             PublisherId = 158,
                             Title = "Eum."
                         },
@@ -5139,7 +5139,7 @@ namespace API.Data.Migrations
                             Description = "Et aut officia temporibus enim magnam dolor. Dolorum est voluptatibus aperiam numquam itaque voluptates quo voluptatem. Molestiae qui dolores et excepturi autem magnam omnis reiciendis.",
                             ISBN = "System.Int32[]",
                             PageCount = 317,
-                            PublicationDate = new DateTime(1981, 2, 5, 15, 19, 44, 138, DateTimeKind.Local).AddTicks(6580),
+                            PublicationDate = new DateTime(1981, 2, 6, 15, 52, 29, 967, DateTimeKind.Local).AddTicks(5810),
                             PublisherId = 189,
                             Title = "Aut est."
                         },
@@ -5152,7 +5152,7 @@ namespace API.Data.Migrations
                             Description = "Autem sed dolores enim veritatis asperiores nihil. Inventore omnis est suscipit.",
                             ISBN = "System.Int32[]",
                             PageCount = 302,
-                            PublicationDate = new DateTime(1942, 9, 1, 22, 33, 31, 141, DateTimeKind.Local).AddTicks(6654),
+                            PublicationDate = new DateTime(1942, 9, 2, 23, 6, 16, 970, DateTimeKind.Local).AddTicks(4340),
                             PublisherId = 183,
                             Title = "Ut odio maiores voluptates quod vero."
                         },
@@ -5165,7 +5165,7 @@ namespace API.Data.Migrations
                             Description = "Est est nemo. At praesentium et voluptas temporibus est qui.",
                             ISBN = "System.Int32[]",
                             PageCount = 473,
-                            PublicationDate = new DateTime(1931, 12, 4, 22, 5, 1, 344, DateTimeKind.Local).AddTicks(2201),
+                            PublicationDate = new DateTime(1931, 12, 5, 22, 37, 47, 173, DateTimeKind.Local).AddTicks(221),
                             PublisherId = 178,
                             Title = "Fuga reprehenderit ratione."
                         },
@@ -5178,7 +5178,7 @@ namespace API.Data.Migrations
                             Description = "Quisquam asperiores dolore quidem id sed minima commodi. Beatae modi sit alias dolorem praesentium est. Mollitia voluptatibus eum in et molestiae sit sunt assumenda provident. Recusandae occaecati enim aut similique a.",
                             ISBN = "System.Int32[]",
                             PageCount = 177,
-                            PublicationDate = new DateTime(1988, 6, 24, 8, 10, 17, 912, DateTimeKind.Local).AddTicks(4018),
+                            PublicationDate = new DateTime(1988, 6, 25, 8, 43, 3, 741, DateTimeKind.Local).AddTicks(462),
                             PublisherId = 185,
                             Title = "Explicabo ut."
                         },
@@ -5187,12 +5187,12 @@ namespace API.Data.Migrations
                             Id = 547,
                             AuthorId = 57,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 9, 8, 1, 750, DateTimeKind.Local).AddTicks(635),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 9, 40, 47, 578, DateTimeKind.Local).AddTicks(6925),
                             CoverImage = "https://picsum.photos/id/383",
                             Description = "Delectus consequatur dolorem. Quae assumenda aut voluptas quae reiciendis.",
                             ISBN = "System.Int32[]",
                             PageCount = 369,
-                            PublicationDate = new DateTime(1949, 9, 15, 19, 14, 53, 982, DateTimeKind.Local).AddTicks(1886),
+                            PublicationDate = new DateTime(1949, 9, 16, 19, 47, 39, 810, DateTimeKind.Local).AddTicks(8176),
                             PublisherId = 162,
                             Title = "Explicabo."
                         },
@@ -5201,12 +5201,12 @@ namespace API.Data.Migrations
                             Id = 548,
                             AuthorId = 118,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 4, 20, 11, 472, DateTimeKind.Local).AddTicks(5944),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 4, 52, 57, 301, DateTimeKind.Local).AddTicks(747),
                             CoverImage = "https://picsum.photos/id/319",
                             Description = "Beatae odit quo accusantium praesentium. Quia temporibus temporibus aut ut aut dolor maiores molestiae explicabo. Repudiandae odit molestiae quisquam aspernatur. Debitis dolor modi eos repudiandae reiciendis quasi est expedita. Ab alias eligendi dolores libero.",
                             ISBN = "System.Int32[]",
                             PageCount = 317,
-                            PublicationDate = new DateTime(2022, 7, 19, 8, 42, 31, 825, DateTimeKind.Local).AddTicks(398),
+                            PublicationDate = new DateTime(2022, 7, 20, 9, 15, 17, 653, DateTimeKind.Local).AddTicks(5236),
                             PublisherId = 188,
                             Title = "Et ipsam molestiae dolor quia."
                         },
@@ -5219,7 +5219,7 @@ namespace API.Data.Migrations
                             Description = "Maiores minus sapiente animi ad aliquid harum sit. Et suscipit consectetur magnam. Voluptatem facilis natus sint dicta aliquam. Voluptatem dignissimos quia qui ea et alias.",
                             ISBN = "System.Int32[]",
                             PageCount = 350,
-                            PublicationDate = new DateTime(1990, 5, 23, 2, 10, 14, 925, DateTimeKind.Local).AddTicks(6124),
+                            PublicationDate = new DateTime(1990, 5, 24, 2, 43, 0, 754, DateTimeKind.Local).AddTicks(822),
                             PublisherId = 159,
                             Title = "Ut eum nostrum consequatur quisquam veniam."
                         },
@@ -5232,7 +5232,7 @@ namespace API.Data.Migrations
                             Description = "Eius sapiente nostrum repellendus omnis. Et harum praesentium illo expedita corrupti illum consequatur voluptas. Ad facilis culpa accusamus debitis voluptatem quaerat vel omnis. Nihil officia minus natus.",
                             ISBN = "System.Int32[]",
                             PageCount = 437,
-                            PublicationDate = new DateTime(2021, 12, 28, 21, 8, 18, 976, DateTimeKind.Local).AddTicks(9990),
+                            PublicationDate = new DateTime(2021, 12, 29, 21, 41, 4, 805, DateTimeKind.Local).AddTicks(4630),
                             PublisherId = 160,
                             Title = "Dolorem neque."
                         },
@@ -5241,12 +5241,12 @@ namespace API.Data.Migrations
                             Id = 551,
                             AuthorId = 98,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 15, 19, 7, 181, DateTimeKind.Local).AddTicks(8065),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 15, 51, 53, 10, DateTimeKind.Local).AddTicks(875),
                             CoverImage = "https://picsum.photos/id/277",
                             Description = "Ducimus nulla eveniet eveniet illo laudantium dolore. Maiores ratione alias eligendi excepturi excepturi dicta magni dolore.",
                             ISBN = "System.Int32[]",
                             PageCount = 308,
-                            PublicationDate = new DateTime(1986, 4, 26, 22, 58, 12, 789, DateTimeKind.Local).AddTicks(1564),
+                            PublicationDate = new DateTime(1986, 4, 27, 23, 30, 58, 617, DateTimeKind.Local).AddTicks(4394),
                             PublisherId = 192,
                             Title = "Sint consectetur id deleniti quasi nihil."
                         },
@@ -5255,12 +5255,12 @@ namespace API.Data.Migrations
                             Id = 552,
                             AuthorId = 101,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 19, 2, 18, 473, DateTimeKind.Local).AddTicks(8842),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 19, 35, 4, 302, DateTimeKind.Local).AddTicks(844),
                             CoverImage = "https://picsum.photos/id/468",
                             Description = "Doloribus ut qui. Alias cum est aliquid. Voluptatem rerum qui nostrum alias placeat similique tempora sunt. Quod ut aperiam sequi et nisi. Saepe ratione veniam dolore ut sit cupiditate veniam blanditiis placeat.",
                             ISBN = "System.Int32[]",
                             PageCount = 119,
-                            PublicationDate = new DateTime(1939, 7, 6, 15, 9, 5, 783, DateTimeKind.Local).AddTicks(8892),
+                            PublicationDate = new DateTime(1939, 7, 7, 15, 41, 51, 612, DateTimeKind.Local).AddTicks(910),
                             PublisherId = 174,
                             Title = "Et."
                         },
@@ -5273,7 +5273,7 @@ namespace API.Data.Migrations
                             Description = "Et in magnam enim ullam consequatur perspiciatis. Harum placeat sunt. Rerum vitae et ipsam. Illum omnis minima a alias totam qui veniam autem. Et natus sequi dolorum totam perspiciatis aliquid.",
                             ISBN = "System.Int32[]",
                             PageCount = 465,
-                            PublicationDate = new DateTime(1928, 2, 23, 15, 21, 22, 480, DateTimeKind.Local).AddTicks(7380),
+                            PublicationDate = new DateTime(1928, 2, 24, 15, 54, 8, 308, DateTimeKind.Local).AddTicks(8647),
                             PublisherId = 178,
                             Title = "Dolor at."
                         },
@@ -5286,7 +5286,7 @@ namespace API.Data.Migrations
                             Description = "Dignissimos deleniti magni. Officia provident delectus aliquid est et officia. Sed assumenda ex dignissimos eum consequatur aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 168,
-                            PublicationDate = new DateTime(2014, 3, 28, 23, 4, 36, 156, DateTimeKind.Local).AddTicks(6322),
+                            PublicationDate = new DateTime(2014, 3, 29, 23, 37, 21, 984, DateTimeKind.Local).AddTicks(7464),
                             PublisherId = 173,
                             Title = "Et odit molestiae accusantium."
                         },
@@ -5295,12 +5295,12 @@ namespace API.Data.Migrations
                             Id = 555,
                             AuthorId = 122,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 20, 53, 40, 89, DateTimeKind.Local).AddTicks(3458),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 21, 26, 25, 917, DateTimeKind.Local).AddTicks(4748),
                             CoverImage = "https://picsum.photos/id/231",
                             Description = "Impedit nam mollitia distinctio vel libero mollitia possimus ut. Ea perspiciatis qui repudiandae voluptates error voluptatem. Vel ipsum accusantium sit unde.",
                             ISBN = "System.Int32[]",
                             PageCount = 123,
-                            PublicationDate = new DateTime(1968, 3, 16, 15, 11, 26, 512, DateTimeKind.Local).AddTicks(2650),
+                            PublicationDate = new DateTime(1968, 3, 17, 15, 44, 12, 340, DateTimeKind.Local).AddTicks(4044),
                             PublisherId = 153,
                             Title = "Quisquam cumque ratione deleniti ducimus."
                         },
@@ -5313,7 +5313,7 @@ namespace API.Data.Migrations
                             Description = "Blanditiis neque eveniet magni facere cupiditate sed. Dolorum iusto error pariatur. Rem ea saepe et. Sunt magni repellat ad quibusdam possimus minus eaque. Adipisci quos quaerat autem ullam.",
                             ISBN = "System.Int32[]",
                             PageCount = 480,
-                            PublicationDate = new DateTime(1931, 12, 10, 5, 48, 4, 750, DateTimeKind.Local).AddTicks(8716),
+                            PublicationDate = new DateTime(1931, 12, 11, 6, 20, 50, 578, DateTimeKind.Local).AddTicks(9746),
                             PublisherId = 198,
                             Title = "Delectus dolor alias."
                         },
@@ -5322,12 +5322,12 @@ namespace API.Data.Migrations
                             Id = 557,
                             AuthorId = 69,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 15, 34, 16, 457, DateTimeKind.Local).AddTicks(3245),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 16, 7, 2, 285, DateTimeKind.Local).AddTicks(3730),
                             CoverImage = "https://picsum.photos/id/73",
                             Description = "Qui quo ad et. Ea veritatis ut saepe voluptatem dolorem nihil veniam. Et possimus laudantium error.",
                             ISBN = "System.Int32[]",
                             PageCount = 188,
-                            PublicationDate = new DateTime(1980, 9, 25, 12, 10, 10, 716, DateTimeKind.Local).AddTicks(5768),
+                            PublicationDate = new DateTime(1980, 9, 26, 12, 42, 56, 544, DateTimeKind.Local).AddTicks(6258),
                             PublisherId = 188,
                             Title = "Distinctio officia."
                         },
@@ -5340,7 +5340,7 @@ namespace API.Data.Migrations
                             Description = "Autem accusamus deleniti adipisci voluptatem eaque fuga aut dolore. Atque soluta modi vitae maiores sed. Eveniet ipsa vel consequatur delectus accusamus numquam. Omnis autem placeat doloremque qui assumenda dolores quisquam.",
                             ISBN = "System.Int32[]",
                             PageCount = 111,
-                            PublicationDate = new DateTime(1934, 7, 14, 15, 55, 32, 634, DateTimeKind.Local).AddTicks(8270),
+                            PublicationDate = new DateTime(1934, 7, 15, 16, 28, 18, 462, DateTimeKind.Local).AddTicks(8680),
                             PublisherId = 175,
                             Title = "Assumenda asperiores incidunt optio quas."
                         },
@@ -5353,7 +5353,7 @@ namespace API.Data.Migrations
                             Description = "Pariatur quibusdam libero doloribus a deserunt mollitia omnis dolorum. Omnis a dolorem modi asperiores maxime. Distinctio non nobis quod. Aliquid neque dolore.",
                             ISBN = "System.Int32[]",
                             PageCount = 193,
-                            PublicationDate = new DateTime(1965, 6, 8, 6, 10, 18, 613, DateTimeKind.Local).AddTicks(3648),
+                            PublicationDate = new DateTime(1965, 6, 9, 6, 43, 4, 441, DateTimeKind.Local).AddTicks(3548),
                             PublisherId = 183,
                             Title = "Voluptatibus dolorem repellat ut rem."
                         },
@@ -5362,12 +5362,12 @@ namespace API.Data.Migrations
                             Id = 560,
                             AuthorId = 134,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 20, 27, 46, 428, DateTimeKind.Local).AddTicks(1869),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 21, 0, 32, 256, DateTimeKind.Local).AddTicks(1689),
                             CoverImage = "https://picsum.photos/id/148",
                             Description = "Consequatur eaque reiciendis. Pariatur ducimus molestias quod. Rerum recusandae error corporis officiis qui sed impedit atque illum.",
                             ISBN = "System.Int32[]",
                             PageCount = 124,
-                            PublicationDate = new DateTime(1968, 11, 12, 20, 40, 49, 432, DateTimeKind.Local).AddTicks(8700),
+                            PublicationDate = new DateTime(1968, 11, 13, 21, 13, 35, 260, DateTimeKind.Local).AddTicks(8524),
                             PublisherId = 155,
                             Title = "Rerum possimus."
                         },
@@ -5380,7 +5380,7 @@ namespace API.Data.Migrations
                             Description = "Animi possimus dolor ad aut a voluptatem magnam. Eum dolorum aliquam optio in temporibus eum inventore aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 304,
-                            PublicationDate = new DateTime(1944, 6, 9, 13, 2, 8, 876, DateTimeKind.Local).AddTicks(9903),
+                            PublicationDate = new DateTime(1944, 6, 10, 13, 34, 54, 704, DateTimeKind.Local).AddTicks(4050),
                             PublisherId = 155,
                             Title = "Rerum voluptas voluptatem accusantium nesciunt."
                         },
@@ -5389,12 +5389,12 @@ namespace API.Data.Migrations
                             Id = 562,
                             AuthorId = 87,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 21, 14, 48, 818, DateTimeKind.Local).AddTicks(1584),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 21, 47, 34, 645, DateTimeKind.Local).AddTicks(4964),
                             CoverImage = "https://picsum.photos/id/65",
                             Description = "Perspiciatis ut quia. Illo illo aut libero quia distinctio qui soluta et est. Nulla officia hic omnis assumenda. Necessitatibus officia rerum ducimus veniam laborum voluptates dolores.",
                             ISBN = "System.Int32[]",
                             PageCount = 473,
-                            PublicationDate = new DateTime(2014, 6, 21, 0, 30, 36, 468, DateTimeKind.Local).AddTicks(7446),
+                            PublicationDate = new DateTime(2014, 6, 22, 1, 3, 22, 296, DateTimeKind.Local).AddTicks(844),
                             PublisherId = 152,
                             Title = "Repellat sit error voluptatem inventore."
                         },
@@ -5407,7 +5407,7 @@ namespace API.Data.Migrations
                             Description = "Occaecati est dignissimos aut quia beatae. Vitae quisquam eos et ipsa omnis nisi sunt. Exercitationem voluptas officia ab reprehenderit sint eum modi doloribus est. Non repellendus aspernatur nihil voluptatem enim. Est id ut quis quia modi repudiandae voluptate.",
                             ISBN = "System.Int32[]",
                             PageCount = 144,
-                            PublicationDate = new DateTime(1964, 10, 23, 4, 25, 30, 159, DateTimeKind.Local).AddTicks(6488),
+                            PublicationDate = new DateTime(1964, 10, 24, 4, 58, 15, 986, DateTimeKind.Local).AddTicks(9768),
                             PublisherId = 152,
                             Title = "Tempore odit culpa eos ex."
                         },
@@ -5416,12 +5416,12 @@ namespace API.Data.Migrations
                             Id = 564,
                             AuthorId = 116,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 20, 21, 57, 824, DateTimeKind.Local).AddTicks(3950),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 20, 54, 43, 651, DateTimeKind.Local).AddTicks(7140),
                             CoverImage = "https://picsum.photos/id/32",
                             Description = "Dolorum ut facilis. Sequi consequatur eos voluptatibus corporis ut quidem fugit vel consequuntur. Adipisci non soluta vitae quis mollitia. Numquam consequuntur voluptatem est mollitia numquam aut officia. Recusandae aut nulla impedit error rerum est officiis cumque omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 307,
-                            PublicationDate = new DateTime(1990, 5, 30, 22, 7, 50, 865, DateTimeKind.Local).AddTicks(930),
+                            PublicationDate = new DateTime(1990, 5, 31, 22, 40, 36, 692, DateTimeKind.Local).AddTicks(4112),
                             PublisherId = 186,
                             Title = "Dolorum sequi."
                         },
@@ -5434,7 +5434,7 @@ namespace API.Data.Migrations
                             Description = "Aut aut eum est sed. Quia perspiciatis ut. Aut repudiandae consequatur dolores. Consequatur cumque sit consequatur vel molestiae. Quos non quo consectetur maiores culpa debitis maiores dolorum vitae.",
                             ISBN = "System.Int32[]",
                             PageCount = 122,
-                            PublicationDate = new DateTime(1957, 12, 23, 23, 11, 34, 416, DateTimeKind.Local).AddTicks(6002),
+                            PublicationDate = new DateTime(1957, 12, 24, 23, 44, 20, 243, DateTimeKind.Local).AddTicks(9112),
                             PublisherId = 193,
                             Title = "Officiis quo laudantium cumque aut delectus."
                         },
@@ -5447,7 +5447,7 @@ namespace API.Data.Migrations
                             Description = "Doloremque mollitia libero veniam natus. Odio sequi quis. Amet et ut molestiae labore qui mollitia nostrum. Eum quia est cupiditate perspiciatis. Voluptatibus rem praesentium doloremque ipsam ea qui voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 248,
-                            PublicationDate = new DateTime(1954, 5, 24, 6, 30, 6, 516, DateTimeKind.Local).AddTicks(7456),
+                            PublicationDate = new DateTime(1954, 5, 25, 7, 2, 52, 344, DateTimeKind.Local).AddTicks(436),
                             PublisherId = 193,
                             Title = "Perferendis dolorem saepe enim."
                         },
@@ -5456,12 +5456,12 @@ namespace API.Data.Migrations
                             Id = 567,
                             AuthorId = 105,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 8, 43, 27, 334, DateTimeKind.Local).AddTicks(6273),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 9, 16, 13, 161, DateTimeKind.Local).AddTicks(9253),
                             CoverImage = "https://picsum.photos/id/296",
                             Description = "Aut vel blanditiis. Impedit architecto aliquam ratione corrupti et laborum aliquam est nulla. Qui enim eligendi autem. Expedita perferendis suscipit sed beatae et mollitia voluptates. Quas veritatis aspernatur mollitia.",
                             ISBN = "System.Int32[]",
                             PageCount = 391,
-                            PublicationDate = new DateTime(1958, 4, 18, 9, 55, 48, 160, DateTimeKind.Local).AddTicks(7708),
+                            PublicationDate = new DateTime(1958, 4, 19, 10, 28, 33, 988, DateTimeKind.Local).AddTicks(680),
                             PublisherId = 198,
                             Title = "Voluptatem quaerat quasi quia est in."
                         },
@@ -5474,7 +5474,7 @@ namespace API.Data.Migrations
                             Description = "Explicabo deleniti nisi sapiente voluptatibus deserunt excepturi distinctio sit. Ut nihil facere fugit sit dolorem et sed ut tenetur. Sed sit quae praesentium dolorem quia. Corporis quia asperiores eveniet assumenda. Atque consequuntur quia quaerat eum est et accusantium.",
                             ISBN = "System.Int32[]",
                             PageCount = 302,
-                            PublicationDate = new DateTime(2006, 5, 7, 6, 54, 26, 957, DateTimeKind.Local).AddTicks(8190),
+                            PublicationDate = new DateTime(2006, 5, 8, 7, 27, 12, 784, DateTimeKind.Local).AddTicks(9218),
                             PublisherId = 176,
                             Title = "Totam a."
                         },
@@ -5483,12 +5483,12 @@ namespace API.Data.Migrations
                             Id = 569,
                             AuthorId = 144,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 14, 40, 56, 374, DateTimeKind.Local).AddTicks(1964),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 15, 13, 42, 201, DateTimeKind.Local).AddTicks(2743),
                             CoverImage = "https://picsum.photos/id/412",
                             Description = "Inventore doloribus ipsum autem adipisci necessitatibus commodi consequatur. Qui iusto culpa ea est dolor dicta labore.",
                             ISBN = "System.Int32[]",
                             PageCount = 157,
-                            PublicationDate = new DateTime(1976, 1, 11, 4, 10, 45, 759, DateTimeKind.Local).AddTicks(9920),
+                            PublicationDate = new DateTime(1976, 1, 12, 4, 43, 31, 587, DateTimeKind.Local).AddTicks(700),
                             PublisherId = 191,
                             Title = "Eveniet ut quis."
                         },
@@ -5501,7 +5501,7 @@ namespace API.Data.Migrations
                             Description = "Quasi ut aut in quia consequatur nam unde magni. Aperiam tempora aut esse commodi quo asperiores optio enim. Incidunt ut ipsa. Quaerat quae modi vero rerum.",
                             ISBN = "System.Int32[]",
                             PageCount = 216,
-                            PublicationDate = new DateTime(1927, 1, 1, 11, 50, 52, 492, DateTimeKind.Local).AddTicks(3812),
+                            PublicationDate = new DateTime(1927, 1, 2, 12, 23, 38, 319, DateTimeKind.Local).AddTicks(4562),
                             PublisherId = 162,
                             Title = "Debitis beatae inventore."
                         },
@@ -5514,7 +5514,7 @@ namespace API.Data.Migrations
                             Description = "Laborum quisquam adipisci placeat eos magni qui. Id voluptate provident cupiditate accusantium architecto qui officia quos. Sed dolorum sunt iste iure ut. Ut voluptatem omnis voluptas. Quidem et id laborum nihil delectus culpa mollitia ex commodi.",
                             ISBN = "System.Int32[]",
                             PageCount = 233,
-                            PublicationDate = new DateTime(2017, 6, 10, 17, 40, 13, 43, DateTimeKind.Local).AddTicks(5576),
+                            PublicationDate = new DateTime(2017, 6, 11, 18, 12, 58, 870, DateTimeKind.Local).AddTicks(6316),
                             PublisherId = 158,
                             Title = "Dicta."
                         },
@@ -5527,7 +5527,7 @@ namespace API.Data.Migrations
                             Description = "Nam temporibus velit et voluptas aut eveniet eos quo. Earum corrupti voluptas sit similique nihil quasi. Velit ea quae. Qui sed commodi harum et repellat sit aliquam.",
                             ISBN = "System.Int32[]",
                             PageCount = 298,
-                            PublicationDate = new DateTime(2015, 7, 27, 23, 3, 22, 101, DateTimeKind.Local).AddTicks(4932),
+                            PublicationDate = new DateTime(2015, 7, 28, 23, 36, 7, 928, DateTimeKind.Local).AddTicks(6532),
                             PublisherId = 160,
                             Title = "Aut."
                         },
@@ -5540,7 +5540,7 @@ namespace API.Data.Migrations
                             Description = "A sed exercitationem quis magni ea ut tenetur. Non possimus fugit et iusto assumenda at. Aut asperiores quo mollitia eum earum error autem eos.",
                             ISBN = "System.Int32[]",
                             PageCount = 397,
-                            PublicationDate = new DateTime(1967, 8, 19, 22, 22, 21, 997, DateTimeKind.Local).AddTicks(1032),
+                            PublicationDate = new DateTime(1967, 8, 20, 22, 55, 7, 824, DateTimeKind.Local).AddTicks(2678),
                             PublisherId = 199,
                             Title = "Placeat."
                         },
@@ -5553,7 +5553,7 @@ namespace API.Data.Migrations
                             Description = "Fuga magni in voluptatem minus quos asperiores. Itaque labore commodi expedita consequuntur beatae perferendis. Quia ullam possimus minima recusandae delectus aspernatur rerum excepturi. Laboriosam impedit ut cumque aut tenetur et architecto velit.",
                             ISBN = "System.Int32[]",
                             PageCount = 225,
-                            PublicationDate = new DateTime(1975, 8, 6, 18, 54, 49, 197, DateTimeKind.Local).AddTicks(2640),
+                            PublicationDate = new DateTime(1975, 8, 7, 19, 27, 35, 24, DateTimeKind.Local).AddTicks(3444),
                             PublisherId = 153,
                             Title = "Rem voluptatem laborum."
                         },
@@ -5562,12 +5562,12 @@ namespace API.Data.Migrations
                             Id = 575,
                             AuthorId = 66,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 3, 36, 33, 456, DateTimeKind.Local).AddTicks(855),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 4, 9, 19, 283, DateTimeKind.Local).AddTicks(1695),
                             CoverImage = "https://picsum.photos/id/270",
                             Description = "Ut dolores voluptate facere illo. Explicabo assumenda nulla deleniti incidunt ducimus quos sequi. Voluptatem id aspernatur a nostrum est laborum temporibus dignissimos.",
                             ISBN = "System.Int32[]",
                             PageCount = 228,
-                            PublicationDate = new DateTime(2013, 9, 17, 3, 21, 12, 712, DateTimeKind.Local).AddTicks(3752),
+                            PublicationDate = new DateTime(2013, 9, 18, 3, 53, 58, 539, DateTimeKind.Local).AddTicks(4592),
                             PublisherId = 173,
                             Title = "Doloremque recusandae facere delectus."
                         },
@@ -5576,12 +5576,12 @@ namespace API.Data.Migrations
                             Id = 576,
                             AuthorId = 101,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 3, 49, 46, 350, DateTimeKind.Local).AddTicks(3147),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 4, 22, 32, 177, DateTimeKind.Local).AddTicks(2999),
                             CoverImage = "https://picsum.photos/id/135",
                             Description = "Sit accusamus adipisci asperiores id fuga ut delectus. Id repudiandae quia et.",
                             ISBN = "System.Int32[]",
                             PageCount = 347,
-                            PublicationDate = new DateTime(1956, 7, 26, 8, 42, 57, 228, DateTimeKind.Local).AddTicks(9552),
+                            PublicationDate = new DateTime(1956, 7, 27, 9, 15, 43, 55, DateTimeKind.Local).AddTicks(9426),
                             PublisherId = 182,
                             Title = "Et magni."
                         },
@@ -5594,7 +5594,7 @@ namespace API.Data.Migrations
                             Description = "Omnis alias consequatur aut et fugit ut aut sed esse. Minus molestiae totam. Ullam eum tenetur voluptatem voluptatem magnam.",
                             ISBN = "System.Int32[]",
                             PageCount = 289,
-                            PublicationDate = new DateTime(1968, 6, 19, 4, 55, 4, 247, DateTimeKind.Local).AddTicks(1720),
+                            PublicationDate = new DateTime(1968, 6, 20, 5, 27, 50, 73, DateTimeKind.Local).AddTicks(9256),
                             PublisherId = 191,
                             Title = "Natus voluptatibus quia."
                         },
@@ -5603,12 +5603,12 @@ namespace API.Data.Migrations
                             Id = 578,
                             AuthorId = 109,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 3, 5, 52, 946, DateTimeKind.Local).AddTicks(5921),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 3, 38, 38, 773, DateTimeKind.Local).AddTicks(1711),
                             CoverImage = "https://picsum.photos/id/261",
                             Description = "Veritatis quaerat animi eius. Suscipit optio reprehenderit velit numquam qui magni. Voluptatem voluptatem iste qui est eligendi exercitationem.",
                             ISBN = "System.Int32[]",
                             PageCount = 118,
-                            PublicationDate = new DateTime(1971, 5, 27, 22, 1, 24, 895, DateTimeKind.Local).AddTicks(7176),
+                            PublicationDate = new DateTime(1971, 5, 28, 22, 34, 10, 722, DateTimeKind.Local).AddTicks(2980),
                             PublisherId = 155,
                             Title = "Possimus maxime est."
                         },
@@ -5617,12 +5617,12 @@ namespace API.Data.Migrations
                             Id = 579,
                             AuthorId = 96,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 8, 22, 9, 540, DateTimeKind.Local).AddTicks(4941),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 8, 54, 55, 367, DateTimeKind.Local).AddTicks(411),
                             CoverImage = "https://picsum.photos/id/73",
                             Description = "Sit a saepe voluptatem. Aut accusamus est cumque commodi quibusdam voluptas omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 184,
-                            PublicationDate = new DateTime(2015, 8, 9, 19, 44, 6, 606, DateTimeKind.Local).AddTicks(5248),
+                            PublicationDate = new DateTime(2015, 8, 10, 20, 16, 52, 433, DateTimeKind.Local).AddTicks(728),
                             PublisherId = 162,
                             Title = "Iste sunt optio maxime nemo magnam."
                         },
@@ -5631,12 +5631,12 @@ namespace API.Data.Migrations
                             Id = 580,
                             AuthorId = 84,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 7, 25, 23, 164, DateTimeKind.Local).AddTicks(9386),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 7, 58, 8, 991, DateTimeKind.Local).AddTicks(4196),
                             CoverImage = "https://picsum.photos/id/119",
                             Description = "Culpa ea voluptas voluptatum. Sunt autem rerum rem porro non voluptates officia voluptatem eligendi. Ratione et expedita placeat aut ipsum occaecati quos qui. Quia suscipit odit consectetur tempora ducimus temporibus est.",
                             ISBN = "System.Int32[]",
                             PageCount = 455,
-                            PublicationDate = new DateTime(2014, 4, 8, 23, 26, 28, 616, DateTimeKind.Local).AddTicks(7778),
+                            PublicationDate = new DateTime(2014, 4, 9, 23, 59, 14, 443, DateTimeKind.Local).AddTicks(2586),
                             PublisherId = 158,
                             Title = "Eaque doloremque aut."
                         },
@@ -5649,7 +5649,7 @@ namespace API.Data.Migrations
                             Description = "Delectus blanditiis voluptas minima. Beatae quia eveniet vitae ut quaerat.",
                             ISBN = "System.Int32[]",
                             PageCount = 495,
-                            PublicationDate = new DateTime(1972, 10, 4, 9, 18, 26, 5, DateTimeKind.Local).AddTicks(7252),
+                            PublicationDate = new DateTime(1972, 10, 5, 9, 51, 11, 832, DateTimeKind.Local).AddTicks(1986),
                             PublisherId = 192,
                             Title = "Voluptate quo."
                         },
@@ -5662,7 +5662,7 @@ namespace API.Data.Migrations
                             Description = "Hic sapiente id debitis. Quia consectetur accusantium beatae et nostrum modi. Laudantium voluptas laudantium sunt reiciendis. At sit ut nesciunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 258,
-                            PublicationDate = new DateTime(1965, 8, 23, 1, 7, 49, 745, DateTimeKind.Local).AddTicks(3194),
+                            PublicationDate = new DateTime(1965, 8, 24, 1, 40, 35, 571, DateTimeKind.Local).AddTicks(8154),
                             PublisherId = 157,
                             Title = "Ipsam debitis."
                         },
@@ -5671,12 +5671,12 @@ namespace API.Data.Migrations
                             Id = 583,
                             AuthorId = 70,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 11, 1, 57, 614, DateTimeKind.Local).AddTicks(1641),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 11, 34, 43, 440, DateTimeKind.Local).AddTicks(5508),
                             CoverImage = "https://picsum.photos/id/178",
                             Description = "Omnis quod ut inventore et adipisci reiciendis. Corporis quod sit quasi delectus doloribus qui sed numquam. Qui laudantium distinctio quaerat repellat.",
                             ISBN = "System.Int32[]",
                             PageCount = 304,
-                            PublicationDate = new DateTime(1926, 8, 15, 15, 43, 57, 595, DateTimeKind.Local).AddTicks(2554),
+                            PublicationDate = new DateTime(1926, 8, 16, 16, 16, 43, 421, DateTimeKind.Local).AddTicks(6434),
                             PublisherId = 193,
                             Title = "Atque omnis."
                         },
@@ -5685,12 +5685,12 @@ namespace API.Data.Migrations
                             Id = 584,
                             AuthorId = 65,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 21, 59, 38, 234, DateTimeKind.Local).AddTicks(2561),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 22, 32, 24, 60, DateTimeKind.Local).AddTicks(6394),
                             CoverImage = "https://picsum.photos/id/35",
                             Description = "Est ut rerum et maxime perspiciatis. Nihil ut ut voluptates. Consequatur a sit veniam quo fugiat.",
                             ISBN = "System.Int32[]",
                             PageCount = 347,
-                            PublicationDate = new DateTime(2023, 2, 1, 17, 36, 58, 278, DateTimeKind.Local).AddTicks(7720),
+                            PublicationDate = new DateTime(2023, 2, 2, 18, 9, 44, 105, DateTimeKind.Local).AddTicks(1560),
                             PublisherId = 160,
                             Title = "Odio voluptas ducimus aut facilis."
                         },
@@ -5703,7 +5703,7 @@ namespace API.Data.Migrations
                             Description = "Temporibus qui esse laudantium atque qui dolorem. Vel beatae architecto. Provident blanditiis provident. Culpa harum soluta molestiae.",
                             ISBN = "System.Int32[]",
                             PageCount = 477,
-                            PublicationDate = new DateTime(1995, 1, 8, 1, 8, 25, 278, DateTimeKind.Local).AddTicks(1092),
+                            PublicationDate = new DateTime(1995, 1, 9, 1, 41, 11, 104, DateTimeKind.Local).AddTicks(5510),
                             PublisherId = 157,
                             Title = "Quas."
                         },
@@ -5716,7 +5716,7 @@ namespace API.Data.Migrations
                             Description = "Quidem molestiae accusamus magni ratione. Et labore deleniti quasi qui earum soluta neque doloribus excepturi. Ut repellat et sunt velit officiis sed ullam. Tempora pariatur atque laudantium dignissimos aliquam libero.",
                             ISBN = "System.Int32[]",
                             PageCount = 164,
-                            PublicationDate = new DateTime(2003, 2, 26, 2, 2, 5, 340, DateTimeKind.Local).AddTicks(7168),
+                            PublicationDate = new DateTime(2003, 2, 27, 2, 34, 51, 167, DateTimeKind.Local).AddTicks(1088),
                             PublisherId = 165,
                             Title = "Quia quis tempore voluptatum hic."
                         },
@@ -5725,12 +5725,12 @@ namespace API.Data.Migrations
                             Id = 587,
                             AuthorId = 105,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 16, 23, 13, 301, DateTimeKind.Local).AddTicks(4389),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 16, 55, 59, 127, DateTimeKind.Local).AddTicks(8799),
                             CoverImage = "https://picsum.photos/id/64",
                             Description = "Facere sit et rerum ad blanditiis et deserunt illum. Qui blanditiis quibusdam at id labore. Vero ducimus et omnis quia cum qui dolorem earum provident. Voluptas voluptatem molestiae aut dolor velit ut dignissimos consequatur. Dolorem eligendi exercitationem nihil nisi ex.",
                             ISBN = "System.Int32[]",
                             PageCount = 470,
-                            PublicationDate = new DateTime(1924, 12, 6, 0, 21, 19, 522, DateTimeKind.Local).AddTicks(778),
+                            PublicationDate = new DateTime(1924, 12, 7, 0, 54, 5, 348, DateTimeKind.Local).AddTicks(5158),
                             PublisherId = 182,
                             Title = "Est iusto iste libero eum."
                         },
@@ -5743,7 +5743,7 @@ namespace API.Data.Migrations
                             Description = "Nostrum ut excepturi eligendi facere est nulla voluptatibus quia animi. Consequatur eligendi nesciunt non ut blanditiis alias. Earum ut odit. Soluta fugiat est.",
                             ISBN = "System.Int32[]",
                             PageCount = 107,
-                            PublicationDate = new DateTime(1954, 4, 21, 16, 13, 16, 605, DateTimeKind.Local).AddTicks(5674),
+                            PublicationDate = new DateTime(1954, 4, 22, 16, 46, 2, 432, DateTimeKind.Local).AddTicks(408),
                             PublisherId = 198,
                             Title = "Atque."
                         },
@@ -5756,7 +5756,7 @@ namespace API.Data.Migrations
                             Description = "Officia et laboriosam amet magni eum. Voluptatibus deleniti rerum iusto ut a culpa tempore id. Qui sit dolor expedita dolorem provident aspernatur dicta consequatur. Molestias ut ducimus id sit aut neque.",
                             ISBN = "System.Int32[]",
                             PageCount = 137,
-                            PublicationDate = new DateTime(2001, 6, 16, 2, 52, 54, 171, DateTimeKind.Local).AddTicks(1778),
+                            PublicationDate = new DateTime(2001, 6, 17, 3, 25, 39, 997, DateTimeKind.Local).AddTicks(6582),
                             PublisherId = 185,
                             Title = "Nulla eius."
                         },
@@ -5769,7 +5769,7 @@ namespace API.Data.Migrations
                             Description = "Doloremque voluptatem quam dolorem autem numquam. Quia non quas id omnis nostrum quisquam aut sunt eaque. Ut at ab ex ut molestias.",
                             ISBN = "System.Int32[]",
                             PageCount = 365,
-                            PublicationDate = new DateTime(1961, 6, 30, 17, 15, 52, 878, DateTimeKind.Local).AddTicks(72),
+                            PublicationDate = new DateTime(1961, 7, 1, 17, 48, 38, 704, DateTimeKind.Local).AddTicks(4748),
                             PublisherId = 167,
                             Title = "Nihil sed et aut quia."
                         },
@@ -5782,7 +5782,7 @@ namespace API.Data.Migrations
                             Description = "Reprehenderit cum dolor repudiandae minus blanditiis ut. Placeat voluptate debitis excepturi cumque consequatur. Quidem quas sequi et occaecati.",
                             ISBN = "System.Int32[]",
                             PageCount = 177,
-                            PublicationDate = new DateTime(1991, 12, 12, 1, 9, 52, 536, DateTimeKind.Local).AddTicks(3270),
+                            PublicationDate = new DateTime(1991, 12, 13, 1, 42, 38, 362, DateTimeKind.Local).AddTicks(6866),
                             PublisherId = 184,
                             Title = "Est provident cumque aut voluptatem et."
                         },
@@ -5795,7 +5795,7 @@ namespace API.Data.Migrations
                             Description = "Reprehenderit voluptates dolorem reprehenderit rem facilis. Non et enim quo rerum voluptatum enim et et voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 226,
-                            PublicationDate = new DateTime(1945, 4, 30, 14, 41, 42, 711, DateTimeKind.Local).AddTicks(5810),
+                            PublicationDate = new DateTime(1945, 5, 1, 15, 14, 28, 537, DateTimeKind.Local).AddTicks(8380),
                             PublisherId = 177,
                             Title = "Incidunt."
                         },
@@ -5808,7 +5808,7 @@ namespace API.Data.Migrations
                             Description = "Commodi dolore iusto aspernatur dolore sunt consequatur veniam. Est suscipit qui doloremque vel voluptates aspernatur. Ut est quaerat neque aut maiores sit. Consequatur tenetur quia ut. Rerum aut porro.",
                             ISBN = "System.Int32[]",
                             PageCount = 397,
-                            PublicationDate = new DateTime(1950, 1, 28, 17, 54, 26, 304, DateTimeKind.Local).AddTicks(1975),
+                            PublicationDate = new DateTime(1950, 1, 29, 18, 27, 12, 130, DateTimeKind.Local).AddTicks(4325),
                             PublisherId = 174,
                             Title = "Reiciendis in ratione voluptas omnis magnam."
                         },
@@ -5821,7 +5821,7 @@ namespace API.Data.Migrations
                             Description = "Id sit blanditiis rerum. Odit nemo nisi nesciunt cumque.",
                             ISBN = "System.Int32[]",
                             PageCount = 148,
-                            PublicationDate = new DateTime(1941, 6, 12, 13, 51, 30, 600, DateTimeKind.Local).AddTicks(5631),
+                            PublicationDate = new DateTime(1941, 6, 13, 14, 24, 16, 426, DateTimeKind.Local).AddTicks(7299),
                             PublisherId = 182,
                             Title = "Iste quaerat voluptatem quam."
                         },
@@ -5834,7 +5834,7 @@ namespace API.Data.Migrations
                             Description = "Quidem quam beatae ipsa illo enim dolores nesciunt nihil illum. Nihil quibusdam sit rerum harum dolores. Et atque maiores eos dolores nam quisquam. Dolorem voluptas tempora sed ut in minus sed nihil. Saepe deleniti omnis impedit nisi delectus maxime reprehenderit et.",
                             ISBN = "System.Int32[]",
                             PageCount = 362,
-                            PublicationDate = new DateTime(2017, 9, 16, 23, 18, 37, 341, DateTimeKind.Local).AddTicks(9302),
+                            PublicationDate = new DateTime(2017, 9, 17, 23, 51, 23, 167, DateTimeKind.Local).AddTicks(9940),
                             PublisherId = 179,
                             Title = "Quis totam quo numquam perferendis sed."
                         },
@@ -5847,7 +5847,7 @@ namespace API.Data.Migrations
                             Description = "Voluptatem qui quod animi. Magnam aut rerum facilis mollitia expedita.",
                             ISBN = "System.Int32[]",
                             PageCount = 310,
-                            PublicationDate = new DateTime(1996, 7, 7, 2, 16, 27, 193, DateTimeKind.Local).AddTicks(5894),
+                            PublicationDate = new DateTime(1996, 7, 8, 2, 49, 13, 19, DateTimeKind.Local).AddTicks(5786),
                             PublisherId = 162,
                             Title = "Aut mollitia omnis quia quod perferendis."
                         },
@@ -5860,7 +5860,7 @@ namespace API.Data.Migrations
                             Description = "Tempora impedit quis impedit molestiae fuga id suscipit quo est. At exercitationem deserunt blanditiis doloribus. Non autem voluptatem ad ex tempora aut explicabo molestiae veritatis. Laboriosam qui earum tempore nostrum in vel reiciendis maxime qui. Mollitia natus facilis est aperiam qui et iusto sunt ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 333,
-                            PublicationDate = new DateTime(1980, 10, 7, 9, 47, 20, 837, DateTimeKind.Local).AddTicks(6700),
+                            PublicationDate = new DateTime(1980, 10, 8, 10, 20, 6, 663, DateTimeKind.Local).AddTicks(6396),
                             PublisherId = 158,
                             Title = "Neque ex et aut perspiciatis."
                         },
@@ -5869,12 +5869,12 @@ namespace API.Data.Migrations
                             Id = 598,
                             AuthorId = 129,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 21, 20, 15, 679, DateTimeKind.Local).AddTicks(3100),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 21, 53, 1, 505, DateTimeKind.Local).AddTicks(2620),
                             CoverImage = "https://picsum.photos/id/87",
                             Description = "Nam adipisci eius dignissimos corrupti quos voluptatibus ea. Sit labore in officiis molestias et ut aut. Aperiam impedit est cum quis alias sunt quo ea molestiae. Repudiandae similique et consequuntur architecto quia veniam quaerat.",
                             ISBN = "System.Int32[]",
                             PageCount = 453,
-                            PublicationDate = new DateTime(2022, 6, 6, 23, 35, 53, 296, DateTimeKind.Local).AddTicks(9720),
+                            PublicationDate = new DateTime(2022, 6, 8, 0, 8, 39, 122, DateTimeKind.Local).AddTicks(9240),
                             PublisherId = 176,
                             Title = "Et incidunt ipsa."
                         },
@@ -5887,7 +5887,7 @@ namespace API.Data.Migrations
                             Description = "Omnis omnis qui ducimus et corporis numquam consequatur. Vel a fugiat inventore laboriosam officiis expedita aut et et. Porro autem velit et et explicabo. Vel ipsa illum minus.",
                             ISBN = "System.Int32[]",
                             PageCount = 360,
-                            PublicationDate = new DateTime(1927, 10, 5, 9, 16, 4, 89, DateTimeKind.Local).AddTicks(4400),
+                            PublicationDate = new DateTime(1927, 10, 6, 9, 48, 49, 915, DateTimeKind.Local).AddTicks(3620),
                             PublisherId = 166,
                             Title = "Ex omnis."
                         },
@@ -5896,12 +5896,12 @@ namespace API.Data.Migrations
                             Id = 600,
                             AuthorId = 71,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 8, 58, 8, 335, DateTimeKind.Local).AddTicks(1072),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 9, 30, 54, 161, DateTimeKind.Local).AddTicks(172),
                             CoverImage = "https://picsum.photos/id/284",
                             Description = "Quo sapiente sed. Perferendis occaecati quia voluptas modi saepe error illum. Eligendi placeat laborum harum fugit. Quia error ut deleniti.",
                             ISBN = "System.Int32[]",
                             PageCount = 311,
-                            PublicationDate = new DateTime(1998, 12, 27, 4, 25, 42, 70, DateTimeKind.Local).AddTicks(6334),
+                            PublicationDate = new DateTime(1998, 12, 28, 4, 58, 27, 896, DateTimeKind.Local).AddTicks(5434),
                             PublisherId = 192,
                             Title = "Deleniti odit asperiores delectus aliquid cum."
                         },
@@ -5910,12 +5910,12 @@ namespace API.Data.Migrations
                             Id = 601,
                             AuthorId = 75,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 14, 16, 11, 952, DateTimeKind.Local).AddTicks(5136),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 14, 48, 57, 778, DateTimeKind.Local).AddTicks(3996),
                             CoverImage = "https://picsum.photos/id/438",
                             Description = "Error aut provident occaecati quos atque omnis qui. Nemo quis sequi et consequatur tempora voluptatum. Est quod unde et laboriosam libero molestiae cum sed vel.",
                             ISBN = "System.Int32[]",
                             PageCount = 188,
-                            PublicationDate = new DateTime(1970, 3, 6, 17, 32, 2, 251, DateTimeKind.Local).AddTicks(5664),
+                            PublicationDate = new DateTime(1970, 3, 7, 18, 4, 48, 77, DateTimeKind.Local).AddTicks(4534),
                             PublisherId = 187,
                             Title = "Est explicabo tempora velit."
                         },
@@ -5928,7 +5928,7 @@ namespace API.Data.Migrations
                             Description = "Odit nulla a libero cum. Ipsam molestias facilis.",
                             ISBN = "System.Int32[]",
                             PageCount = 265,
-                            PublicationDate = new DateTime(1935, 3, 27, 17, 2, 43, 708, DateTimeKind.Local).AddTicks(9661),
+                            PublicationDate = new DateTime(1935, 3, 28, 17, 35, 29, 534, DateTimeKind.Local).AddTicks(8511),
                             PublisherId = 167,
                             Title = "Laudantium dolorum nostrum rerum quas aut."
                         },
@@ -5937,12 +5937,12 @@ namespace API.Data.Migrations
                             Id = 603,
                             AuthorId = 88,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 23, 8, 13, 513, DateTimeKind.Local).AddTicks(1277),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 23, 40, 59, 339, DateTimeKind.Local).AddTicks(97),
                             CoverImage = "https://picsum.photos/id/449",
                             Description = "Nihil hic rem at quo numquam voluptates quo vel eum. Error natus tenetur voluptatem exercitationem veniam assumenda. Odit saepe magni.",
                             ISBN = "System.Int32[]",
                             PageCount = 180,
-                            PublicationDate = new DateTime(2021, 12, 30, 23, 44, 12, 746, DateTimeKind.Local).AddTicks(3162),
+                            PublicationDate = new DateTime(2022, 1, 1, 0, 16, 58, 572, DateTimeKind.Local).AddTicks(1980),
                             PublisherId = 166,
                             Title = "Ducimus."
                         },
@@ -5955,7 +5955,7 @@ namespace API.Data.Migrations
                             Description = "Sequi autem et vero cum ut consectetur sunt sunt. Neque qui sunt. Perspiciatis commodi nemo autem.",
                             ISBN = "System.Int32[]",
                             PageCount = 434,
-                            PublicationDate = new DateTime(1981, 12, 4, 22, 59, 13, 461, DateTimeKind.Local).AddTicks(7312),
+                            PublicationDate = new DateTime(1981, 12, 5, 23, 31, 59, 287, DateTimeKind.Local).AddTicks(6010),
                             PublisherId = 179,
                             Title = "Sed."
                         },
@@ -5968,7 +5968,7 @@ namespace API.Data.Migrations
                             Description = "Placeat distinctio quis at quod quos qui quia. Fugiat dignissimos itaque aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 338,
-                            PublicationDate = new DateTime(2007, 2, 5, 11, 16, 18, 968, DateTimeKind.Local).AddTicks(3798),
+                            PublicationDate = new DateTime(2007, 2, 6, 11, 49, 4, 794, DateTimeKind.Local).AddTicks(2534),
                             PublisherId = 165,
                             Title = "Laborum et dolorem reprehenderit dolores."
                         },
@@ -5977,12 +5977,12 @@ namespace API.Data.Migrations
                             Id = 606,
                             AuthorId = 100,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 17, 25, 12, 378, DateTimeKind.Local).AddTicks(4834),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 17, 57, 58, 204, DateTimeKind.Local).AddTicks(3464),
                             CoverImage = "https://picsum.photos/id/24",
                             Description = "Quod quae nihil nam ipsam excepturi saepe autem. Est qui laudantium ex eligendi dolores amet qui molestias.",
                             ISBN = "System.Int32[]",
                             PageCount = 191,
-                            PublicationDate = new DateTime(2007, 8, 21, 15, 22, 49, 797, DateTimeKind.Local).AddTicks(1022),
+                            PublicationDate = new DateTime(2007, 8, 22, 15, 55, 35, 622, DateTimeKind.Local).AddTicks(9652),
                             PublisherId = 170,
                             Title = "Corporis labore repellendus sed eaque qui."
                         },
@@ -5995,7 +5995,7 @@ namespace API.Data.Migrations
                             Description = "Unde quis non eveniet eius ducimus vel aspernatur minus enim. Et voluptatem laudantium maxime enim fuga. Veritatis molestias harum laudantium libero incidunt quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 351,
-                            PublicationDate = new DateTime(1973, 12, 14, 1, 58, 28, 371, DateTimeKind.Local).AddTicks(7384),
+                            PublicationDate = new DateTime(1973, 12, 15, 2, 31, 14, 197, DateTimeKind.Local).AddTicks(5974),
                             PublisherId = 190,
                             Title = "Quaerat molestiae et sapiente recusandae."
                         },
@@ -6004,12 +6004,12 @@ namespace API.Data.Migrations
                             Id = 608,
                             AuthorId = 100,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 0, 49, 6, 104, DateTimeKind.Local).AddTicks(8678),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 1, 21, 51, 930, DateTimeKind.Local).AddTicks(7158),
                             CoverImage = "https://picsum.photos/id/486",
                             Description = "Labore aut enim vitae dolorum. Est eum distinctio aliquid voluptas est excepturi non. Enim delectus necessitatibus omnis veniam sunt sit commodi consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 361,
-                            PublicationDate = new DateTime(1985, 7, 5, 3, 3, 34, 86, DateTimeKind.Local).AddTicks(3760),
+                            PublicationDate = new DateTime(1985, 7, 6, 3, 36, 19, 912, DateTimeKind.Local).AddTicks(2236),
                             PublisherId = 158,
                             Title = "Ut autem dolor."
                         },
@@ -6022,7 +6022,7 @@ namespace API.Data.Migrations
                             Description = "Eum nostrum minus. Aut illo est. Fugit voluptatum sapiente sint necessitatibus. Quasi ab maiores sunt eum explicabo sed unde.",
                             ISBN = "System.Int32[]",
                             PageCount = 348,
-                            PublicationDate = new DateTime(1988, 10, 14, 13, 14, 46, 95, DateTimeKind.Local).AddTicks(9552),
+                            PublicationDate = new DateTime(1988, 10, 15, 13, 47, 31, 921, DateTimeKind.Local).AddTicks(8122),
                             PublisherId = 196,
                             Title = "Aut consequatur."
                         },
@@ -6031,12 +6031,12 @@ namespace API.Data.Migrations
                             Id = 610,
                             AuthorId = 124,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 7, 33, 58, 928, DateTimeKind.Local).AddTicks(696),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 8, 6, 44, 753, DateTimeKind.Local).AddTicks(9157),
                             CoverImage = "https://picsum.photos/id/253",
                             Description = "Quisquam dolore illum sint eos non ut. Quidem qui nihil voluptas sunt. Deserunt rerum sit. Assumenda voluptatum quas beatae.",
                             ISBN = "System.Int32[]",
                             PageCount = 355,
-                            PublicationDate = new DateTime(1986, 10, 9, 3, 30, 29, 161, DateTimeKind.Local).AddTicks(4798),
+                            PublicationDate = new DateTime(1986, 10, 10, 4, 3, 14, 987, DateTimeKind.Local).AddTicks(3258),
                             PublisherId = 167,
                             Title = "Omnis necessitatibus."
                         },
@@ -6049,7 +6049,7 @@ namespace API.Data.Migrations
                             Description = "Ex molestiae nihil delectus et quae facilis maxime deleniti. Hic sed odio aperiam maxime aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 468,
-                            PublicationDate = new DateTime(1950, 9, 25, 9, 9, 2, 992, DateTimeKind.Local).AddTicks(6291),
+                            PublicationDate = new DateTime(1950, 9, 26, 9, 41, 48, 818, DateTimeKind.Local).AddTicks(4791),
                             PublisherId = 181,
                             Title = "Est modi omnis."
                         },
@@ -6058,12 +6058,12 @@ namespace API.Data.Migrations
                             Id = 612,
                             AuthorId = 87,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 13, 57, 59, 513, DateTimeKind.Local).AddTicks(3151),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 14, 30, 45, 339, DateTimeKind.Local).AddTicks(1551),
                             CoverImage = "https://picsum.photos/id/323",
                             Description = "Accusamus omnis nobis dicta iusto nulla est sint. Dolor officiis rerum impedit omnis quia sequi illum.",
                             ISBN = "System.Int32[]",
                             PageCount = 265,
-                            PublicationDate = new DateTime(1997, 4, 8, 10, 57, 29, 762, DateTimeKind.Local).AddTicks(4740),
+                            PublicationDate = new DateTime(1997, 4, 9, 11, 30, 15, 588, DateTimeKind.Local).AddTicks(3146),
                             PublisherId = 172,
                             Title = "Recusandae repellat."
                         },
@@ -6072,12 +6072,12 @@ namespace API.Data.Migrations
                             Id = 613,
                             AuthorId = 128,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 10, 39, 42, 564, DateTimeKind.Local).AddTicks(8829),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 11, 12, 28, 390, DateTimeKind.Local).AddTicks(6948),
                             CoverImage = "https://picsum.photos/id/186",
                             Description = "Esse excepturi omnis aperiam omnis magni eos nesciunt fugit. Rerum quis possimus et voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 359,
-                            PublicationDate = new DateTime(2005, 6, 18, 12, 41, 19, 753, DateTimeKind.Local).AddTicks(254),
+                            PublicationDate = new DateTime(2005, 6, 19, 13, 14, 5, 578, DateTimeKind.Local).AddTicks(8376),
                             PublisherId = 174,
                             Title = "Neque."
                         },
@@ -6090,7 +6090,7 @@ namespace API.Data.Migrations
                             Description = "Sit deleniti magnam commodi. Expedita tempora nemo quos mollitia et architecto temporibus.",
                             ISBN = "System.Int32[]",
                             PageCount = 427,
-                            PublicationDate = new DateTime(2012, 10, 2, 16, 2, 53, 576, DateTimeKind.Local).AddTicks(5734),
+                            PublicationDate = new DateTime(2012, 10, 3, 16, 35, 39, 402, DateTimeKind.Local).AddTicks(3782),
                             PublisherId = 166,
                             Title = "Omnis qui."
                         },
@@ -6103,7 +6103,7 @@ namespace API.Data.Migrations
                             Description = "Quidem aut est autem. In sunt sit nam.",
                             ISBN = "System.Int32[]",
                             PageCount = 385,
-                            PublicationDate = new DateTime(1951, 8, 31, 13, 5, 42, 482, DateTimeKind.Local).AddTicks(75),
+                            PublicationDate = new DateTime(1951, 9, 1, 13, 38, 28, 307, DateTimeKind.Local).AddTicks(8025),
                             PublisherId = 166,
                             Title = "Explicabo dolorum."
                         },
@@ -6116,7 +6116,7 @@ namespace API.Data.Migrations
                             Description = "Praesentium beatae velit exercitationem est. Doloribus et voluptatum praesentium quam enim. Dolor harum et rerum dolores consequatur quidem consequuntur nesciunt. Ducimus corporis sit.",
                             ISBN = "System.Int32[]",
                             PageCount = 121,
-                            PublicationDate = new DateTime(1946, 6, 23, 11, 18, 22, 453, DateTimeKind.Local).AddTicks(2057),
+                            PublicationDate = new DateTime(1946, 6, 24, 11, 51, 8, 278, DateTimeKind.Local).AddTicks(9837),
                             PublisherId = 167,
                             Title = "Eligendi laborum asperiores."
                         },
@@ -6125,12 +6125,12 @@ namespace API.Data.Migrations
                             Id = 617,
                             AuthorId = 136,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 9, 8, 36, 930, DateTimeKind.Local).AddTicks(1951),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 9, 41, 22, 755, DateTimeKind.Local).AddTicks(9101),
                             CoverImage = "https://picsum.photos/id/173",
                             Description = "Neque ullam a placeat asperiores perspiciatis quae nam a dolor. Eos non dolores. Magnam sunt et autem magnam fuga ex odit. Sequi corporis iste reiciendis et possimus voluptatem molestias nam possimus. Et nihil quia sunt et impedit.",
                             ISBN = "System.Int32[]",
                             PageCount = 124,
-                            PublicationDate = new DateTime(1983, 12, 10, 15, 9, 44, 502, DateTimeKind.Local).AddTicks(3964),
+                            PublicationDate = new DateTime(1983, 12, 11, 15, 42, 30, 328, DateTimeKind.Local).AddTicks(1140),
                             PublisherId = 191,
                             Title = "Et impedit adipisci libero."
                         },
@@ -6143,7 +6143,7 @@ namespace API.Data.Migrations
                             Description = "Adipisci est nam qui dolorem qui est. Ut minima perspiciatis quo est quisquam fugiat et amet nesciunt. Eius odio sit qui. Ab commodi qui ea vel rerum exercitationem laborum. Ut ut optio dolorem qui harum modi.",
                             ISBN = "System.Int32[]",
                             PageCount = 251,
-                            PublicationDate = new DateTime(2024, 6, 26, 17, 32, 32, 527, DateTimeKind.Local).AddTicks(8648),
+                            PublicationDate = new DateTime(2024, 6, 27, 18, 5, 18, 353, DateTimeKind.Local).AddTicks(5678),
                             PublisherId = 154,
                             Title = "Ab."
                         },
@@ -6156,7 +6156,7 @@ namespace API.Data.Migrations
                             Description = "Dolores labore autem cupiditate repudiandae amet. Repudiandae enim ea optio architecto.",
                             ISBN = "System.Int32[]",
                             PageCount = 181,
-                            PublicationDate = new DateTime(1934, 5, 20, 5, 57, 48, 217, DateTimeKind.Local).AddTicks(4649),
+                            PublicationDate = new DateTime(1934, 5, 21, 6, 30, 34, 43, DateTimeKind.Local).AddTicks(1579),
                             PublisherId = 178,
                             Title = "Quis sit ut maiores non."
                         },
@@ -6169,7 +6169,7 @@ namespace API.Data.Migrations
                             Description = "Quis voluptatem ex. Ut et mollitia est reprehenderit aut dolorem quis eos. Vel ea quo molestiae vel velit maxime. Quas non deleniti impedit numquam.",
                             ISBN = "System.Int32[]",
                             PageCount = 222,
-                            PublicationDate = new DateTime(2007, 11, 23, 7, 13, 4, 774, DateTimeKind.Local).AddTicks(1694),
+                            PublicationDate = new DateTime(2007, 11, 24, 7, 45, 50, 599, DateTimeKind.Local).AddTicks(8572),
                             PublisherId = 184,
                             Title = "Iure."
                         },
@@ -6182,7 +6182,7 @@ namespace API.Data.Migrations
                             Description = "Sit facilis dolorem nostrum iste. Non voluptatibus autem dolor alias beatae praesentium omnis reiciendis. Numquam quidem iste dolor ut sunt velit eligendi.",
                             ISBN = "System.Int32[]",
                             PageCount = 382,
-                            PublicationDate = new DateTime(1966, 1, 24, 8, 35, 58, 523, DateTimeKind.Local).AddTicks(7704),
+                            PublicationDate = new DateTime(1966, 1, 25, 9, 8, 44, 349, DateTimeKind.Local).AddTicks(4564),
                             PublisherId = 183,
                             Title = "Tenetur tempore eius sapiente."
                         },
@@ -6195,7 +6195,7 @@ namespace API.Data.Migrations
                             Description = "Explicabo doloribus dignissimos dignissimos magni. Repudiandae voluptatem velit maiores in esse. Qui quia ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 115,
-                            PublicationDate = new DateTime(1980, 12, 4, 19, 15, 42, 292, DateTimeKind.Local).AddTicks(356),
+                            PublicationDate = new DateTime(1980, 12, 5, 19, 48, 28, 117, DateTimeKind.Local).AddTicks(7230),
                             PublisherId = 198,
                             Title = "Cupiditate id sapiente reiciendis molestiae."
                         },
@@ -6208,7 +6208,7 @@ namespace API.Data.Migrations
                             Description = "Eum odit maxime vel deleniti quam. Ut sed et velit fuga inventore ad assumenda ut. Debitis velit ad.",
                             ISBN = "System.Int32[]",
                             PageCount = 147,
-                            PublicationDate = new DateTime(2022, 3, 17, 17, 23, 49, 498, DateTimeKind.Local).AddTicks(4166),
+                            PublicationDate = new DateTime(2022, 3, 18, 17, 56, 35, 324, DateTimeKind.Local).AddTicks(1054),
                             PublisherId = 190,
                             Title = "Enim expedita sint voluptatem."
                         },
@@ -6221,7 +6221,7 @@ namespace API.Data.Migrations
                             Description = "Ullam ut iure et dignissimos. Voluptatem excepturi ipsa qui modi beatae nihil qui voluptas.",
                             ISBN = "System.Int32[]",
                             PageCount = 162,
-                            PublicationDate = new DateTime(1932, 12, 19, 16, 7, 1, 280, DateTimeKind.Local).AddTicks(2172),
+                            PublicationDate = new DateTime(1932, 12, 20, 16, 39, 47, 105, DateTimeKind.Local).AddTicks(9072),
                             PublisherId = 158,
                             Title = "Aspernatur tempore sed."
                         },
@@ -6234,7 +6234,7 @@ namespace API.Data.Migrations
                             Description = "Ullam quo eveniet eveniet at et perspiciatis molestiae cupiditate veniam. Est quod commodi.",
                             ISBN = "System.Int32[]",
                             PageCount = 178,
-                            PublicationDate = new DateTime(1947, 5, 28, 17, 15, 56, 789, DateTimeKind.Local).AddTicks(6566),
+                            PublicationDate = new DateTime(1947, 5, 29, 17, 48, 42, 615, DateTimeKind.Local).AddTicks(3396),
                             PublisherId = 162,
                             Title = "Repudiandae aut rerum."
                         },
@@ -6247,7 +6247,7 @@ namespace API.Data.Migrations
                             Description = "Deserunt reiciendis vitae enim maxime nemo. Cum voluptatem sint. Accusantium corporis quis consequatur fugiat.",
                             ISBN = "System.Int32[]",
                             PageCount = 416,
-                            PublicationDate = new DateTime(1954, 1, 20, 7, 25, 44, 294, DateTimeKind.Local).AddTicks(6334),
+                            PublicationDate = new DateTime(1954, 1, 21, 7, 58, 30, 120, DateTimeKind.Local).AddTicks(3204),
                             PublisherId = 182,
                             Title = "Commodi aliquam dolor laudantium."
                         },
@@ -6260,7 +6260,7 @@ namespace API.Data.Migrations
                             Description = "Magnam quaerat asperiores nihil minima. Qui voluptatem est fugit necessitatibus labore dolorem error in. Optio quo pariatur. Ut aut eaque officiis pariatur eius neque laborum facilis. Maxime voluptate itaque modi non rem reiciendis.",
                             ISBN = "System.Int32[]",
                             PageCount = 141,
-                            PublicationDate = new DateTime(1927, 4, 28, 17, 15, 19, 78, DateTimeKind.Local).AddTicks(9918),
+                            PublicationDate = new DateTime(1927, 4, 29, 17, 48, 4, 904, DateTimeKind.Local).AddTicks(6838),
                             PublisherId = 167,
                             Title = "Nobis rem voluptatum et beatae qui."
                         },
@@ -6273,7 +6273,7 @@ namespace API.Data.Migrations
                             Description = "Et eos quis deleniti ullam id quidem. Beatae dolores eum. Molestiae impedit odio. Ut odit commodi aliquam quo ad sed qui culpa.",
                             ISBN = "System.Int32[]",
                             PageCount = 418,
-                            PublicationDate = new DateTime(1953, 10, 26, 15, 38, 57, 719, DateTimeKind.Local).AddTicks(6636),
+                            PublicationDate = new DateTime(1953, 10, 27, 16, 11, 43, 545, DateTimeKind.Local).AddTicks(3566),
                             PublisherId = 160,
                             Title = "Sunt."
                         },
@@ -6282,12 +6282,12 @@ namespace API.Data.Migrations
                             Id = 629,
                             AuthorId = 97,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 2, 56, 18, 788, DateTimeKind.Local).AddTicks(6417),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 3, 29, 4, 614, DateTimeKind.Local).AddTicks(3403),
                             CoverImage = "https://picsum.photos/id/285",
                             Description = "Illum nisi recusandae rerum ut totam. Hic vero modi voluptatem sed quo. Et aut ut qui distinctio aut voluptatibus. Voluptatibus tenetur explicabo voluptas nesciunt debitis aut voluptas consequatur occaecati.",
                             ISBN = "System.Int32[]",
                             PageCount = 307,
-                            PublicationDate = new DateTime(2003, 12, 5, 2, 16, 30, 568, DateTimeKind.Local).AddTicks(784),
+                            PublicationDate = new DateTime(2003, 12, 6, 2, 49, 16, 393, DateTimeKind.Local).AddTicks(7770),
                             PublisherId = 189,
                             Title = "Cum voluptatem et ea at."
                         },
@@ -6300,7 +6300,7 @@ namespace API.Data.Migrations
                             Description = "Sed et perferendis eius et. Quasi omnis ut molestias omnis et est.",
                             ISBN = "System.Int32[]",
                             PageCount = 180,
-                            PublicationDate = new DateTime(1976, 10, 5, 3, 42, 42, 219, DateTimeKind.Local).AddTicks(1468),
+                            PublicationDate = new DateTime(1976, 10, 6, 4, 15, 28, 44, DateTimeKind.Local).AddTicks(8478),
                             PublisherId = 183,
                             Title = "Officia molestiae ut commodi reiciendis."
                         },
@@ -6313,7 +6313,7 @@ namespace API.Data.Migrations
                             Description = "Perspiciatis veniam veniam cum repellendus sed voluptatem est et qui. Ut aliquid dolore. Reiciendis est et sint. Id nihil aperiam maiores aut quo voluptatem. In illo inventore eum est debitis occaecati beatae aut minus.",
                             ISBN = "System.Int32[]",
                             PageCount = 168,
-                            PublicationDate = new DateTime(1936, 7, 20, 5, 51, 34, 721, DateTimeKind.Local).AddTicks(5626),
+                            PublicationDate = new DateTime(1936, 7, 21, 6, 24, 20, 547, DateTimeKind.Local).AddTicks(2606),
                             PublisherId = 180,
                             Title = "Nemo quaerat molestiae at."
                         },
@@ -6326,7 +6326,7 @@ namespace API.Data.Migrations
                             Description = "Ea voluptatum qui aspernatur ipsum debitis velit quia. Ipsum eius quis officia velit odit id eum sed minus. Fugiat quia impedit.",
                             ISBN = "System.Int32[]",
                             PageCount = 277,
-                            PublicationDate = new DateTime(1976, 11, 13, 12, 56, 7, 357, DateTimeKind.Local).AddTicks(6424),
+                            PublicationDate = new DateTime(1976, 11, 14, 13, 28, 53, 183, DateTimeKind.Local).AddTicks(3320),
                             PublisherId = 192,
                             Title = "Hic aspernatur ea quis."
                         },
@@ -6339,7 +6339,7 @@ namespace API.Data.Migrations
                             Description = "Voluptas dolores non aliquam. Enim et sequi voluptas. Enim nam porro pariatur eum. Reiciendis aut recusandae non vitae pariatur repudiandae.",
                             ISBN = "System.Int32[]",
                             PageCount = 132,
-                            PublicationDate = new DateTime(1999, 11, 11, 16, 22, 22, 380, DateTimeKind.Local).AddTicks(216),
+                            PublicationDate = new DateTime(1999, 11, 12, 16, 55, 8, 205, DateTimeKind.Local).AddTicks(5434),
                             PublisherId = 151,
                             Title = "Ut."
                         },
@@ -6352,7 +6352,7 @@ namespace API.Data.Migrations
                             Description = "Accusantium voluptatem accusantium dolor vitae doloribus culpa qui et nulla. Corporis qui inventore fugiat in et est magni. Illum eaque soluta at quia et ea unde eaque.",
                             ISBN = "System.Int32[]",
                             PageCount = 280,
-                            PublicationDate = new DateTime(1997, 1, 28, 2, 1, 23, 331, DateTimeKind.Local).AddTicks(968),
+                            PublicationDate = new DateTime(1997, 1, 29, 2, 34, 9, 156, DateTimeKind.Local).AddTicks(6516),
                             PublisherId = 179,
                             Title = "Omnis ducimus est."
                         },
@@ -6365,7 +6365,7 @@ namespace API.Data.Migrations
                             Description = "Nisi ipsum id dolor harum aperiam eligendi soluta minima maxime. Et autem ea.",
                             ISBN = "System.Int32[]",
                             PageCount = 253,
-                            PublicationDate = new DateTime(1987, 11, 8, 0, 7, 28, 815, DateTimeKind.Local).AddTicks(5034),
+                            PublicationDate = new DateTime(1987, 11, 9, 0, 40, 14, 641, DateTimeKind.Local).AddTicks(684),
                             PublisherId = 193,
                             Title = "Culpa alias perspiciatis."
                         },
@@ -6378,7 +6378,7 @@ namespace API.Data.Migrations
                             Description = "Iure ea perferendis. Nam aliquid architecto. Quia consequatur id. Qui neque voluptatem facilis.",
                             ISBN = "System.Int32[]",
                             PageCount = 132,
-                            PublicationDate = new DateTime(1955, 2, 5, 21, 3, 26, 836, DateTimeKind.Local).AddTicks(482),
+                            PublicationDate = new DateTime(1955, 2, 6, 21, 36, 12, 661, DateTimeKind.Local).AddTicks(5906),
                             PublisherId = 187,
                             Title = "Tempore."
                         },
@@ -6387,12 +6387,12 @@ namespace API.Data.Migrations
                             Id = 637,
                             AuthorId = 88,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 13, 27, 14, 672, DateTimeKind.Local).AddTicks(516),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 14, 0, 0, 497, DateTimeKind.Local).AddTicks(5736),
                             CoverImage = "https://picsum.photos/id/188",
                             Description = "Nulla et dolore vel labore totam iure ab fugit. Provident id reprehenderit autem nisi enim ex corporis rerum magni.",
                             ISBN = "System.Int32[]",
                             PageCount = 282,
-                            PublicationDate = new DateTime(1958, 4, 10, 7, 22, 16, 43, DateTimeKind.Local).AddTicks(3644),
+                            PublicationDate = new DateTime(1958, 4, 11, 7, 55, 1, 868, DateTimeKind.Local).AddTicks(8864),
                             PublisherId = 198,
                             Title = "Aliquam omnis."
                         },
@@ -6405,7 +6405,7 @@ namespace API.Data.Migrations
                             Description = "Et sit eveniet voluptatum atque reiciendis dolores eveniet. Rerum enim in voluptas voluptatum id aliquid asperiores voluptatem nulla. Quia consectetur at sit dolor necessitatibus in. Quo asperiores qui omnis et dolores nulla exercitationem. Rem voluptatem repudiandae laboriosam ut eius molestias veritatis quisquam.",
                             ISBN = "System.Int32[]",
                             PageCount = 124,
-                            PublicationDate = new DateTime(2018, 10, 3, 10, 13, 30, 547, DateTimeKind.Local).AddTicks(492),
+                            PublicationDate = new DateTime(2018, 10, 4, 10, 46, 16, 372, DateTimeKind.Local).AddTicks(5838),
                             PublisherId = 154,
                             Title = "Harum aut itaque ut."
                         },
@@ -6414,12 +6414,12 @@ namespace API.Data.Migrations
                             Id = 639,
                             AuthorId = 99,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 11, 58, 41, 838, DateTimeKind.Local).AddTicks(4186),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 12, 31, 27, 663, DateTimeKind.Local).AddTicks(9696),
                             CoverImage = "https://picsum.photos/id/228",
                             Description = "Non eius itaque. Ut tenetur blanditiis modi dolores pariatur beatae ab sint quaerat. Illo delectus magni doloribus ipsum molestiae excepturi. Quia ad sapiente omnis et quo ducimus.",
                             ISBN = "System.Int32[]",
                             PageCount = 112,
-                            PublicationDate = new DateTime(1949, 10, 22, 0, 24, 0, 262, DateTimeKind.Local).AddTicks(1871),
+                            PublicationDate = new DateTime(1949, 10, 23, 0, 56, 46, 87, DateTimeKind.Local).AddTicks(7381),
                             PublisherId = 164,
                             Title = "Eum harum odio."
                         },
@@ -6432,7 +6432,7 @@ namespace API.Data.Migrations
                             Description = "Optio eum ea non eum ab reprehenderit aut. Quidem est molestiae iste inventore enim quasi voluptas. Id nobis modi. Non ullam sit veritatis dolor ratione.",
                             ISBN = "System.Int32[]",
                             PageCount = 325,
-                            PublicationDate = new DateTime(1973, 2, 20, 23, 37, 3, 80, DateTimeKind.Local).AddTicks(5190),
+                            PublicationDate = new DateTime(1973, 2, 22, 0, 9, 48, 906, DateTimeKind.Local).AddTicks(670),
                             PublisherId = 154,
                             Title = "Enim dolores aliquid sunt."
                         },
@@ -6445,7 +6445,7 @@ namespace API.Data.Migrations
                             Description = "Debitis voluptatem ut. Doloremque natus sit ut. Temporibus pariatur debitis omnis est et placeat quia quae quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 368,
-                            PublicationDate = new DateTime(1983, 8, 8, 13, 7, 48, 291, DateTimeKind.Local).AddTicks(8698),
+                            PublicationDate = new DateTime(1983, 8, 9, 13, 40, 34, 117, DateTimeKind.Local).AddTicks(5502),
                             PublisherId = 187,
                             Title = "Nihil voluptatem sint illum earum excepturi."
                         },
@@ -6458,7 +6458,7 @@ namespace API.Data.Migrations
                             Description = "Qui quasi voluptas laudantium consectetur. Consequatur doloremque voluptatum sunt aspernatur cum excepturi ut quia ut. Tenetur saepe qui non qui nesciunt repudiandae. Quam rem quo ad voluptate nihil accusantium atque quo laboriosam. Et autem impedit et ipsa.",
                             ISBN = "System.Int32[]",
                             PageCount = 442,
-                            PublicationDate = new DateTime(1980, 10, 6, 0, 47, 31, 103, DateTimeKind.Local).AddTicks(4152),
+                            PublicationDate = new DateTime(1980, 10, 7, 1, 20, 16, 929, DateTimeKind.Local).AddTicks(972),
                             PublisherId = 160,
                             Title = "Veritatis voluptatem sunt et facere."
                         },
@@ -6471,7 +6471,7 @@ namespace API.Data.Migrations
                             Description = "Earum perspiciatis id dolore. Aspernatur velit quia expedita placeat et tempora rerum eveniet. Molestias dolorum quibusdam. Nemo quis aliquid hic incidunt itaque dolorum reprehenderit reiciendis. Quo dicta ad.",
                             ISBN = "System.Int32[]",
                             PageCount = 382,
-                            PublicationDate = new DateTime(1980, 9, 9, 23, 28, 26, 547, DateTimeKind.Local).AddTicks(5002),
+                            PublicationDate = new DateTime(1980, 9, 11, 0, 1, 12, 373, DateTimeKind.Local).AddTicks(1742),
                             PublisherId = 167,
                             Title = "Facere quasi nam architecto."
                         },
@@ -6480,12 +6480,12 @@ namespace API.Data.Migrations
                             Id = 644,
                             AuthorId = 110,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 20, 0, 14, 47, DateTimeKind.Local).AddTicks(3100),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 20, 32, 59, 872, DateTimeKind.Local).AddTicks(9000),
                             CoverImage = "https://picsum.photos/id/454",
                             Description = "Quia impedit modi vitae qui. Sequi fugiat et accusantium consequatur nisi et in. Aut odio explicabo. Aspernatur qui quia quidem enim natus autem consequatur quo.",
                             ISBN = "System.Int32[]",
                             PageCount = 234,
-                            PublicationDate = new DateTime(1946, 4, 14, 21, 2, 6, 668, DateTimeKind.Local).AddTicks(6119),
+                            PublicationDate = new DateTime(1946, 4, 15, 21, 34, 52, 494, DateTimeKind.Local).AddTicks(2029),
                             PublisherId = 171,
                             Title = "Corrupti voluptates officia."
                         },
@@ -6498,7 +6498,7 @@ namespace API.Data.Migrations
                             Description = "Voluptates dicta quasi hic occaecati accusantium. Voluptatem molestiae velit quod veniam est illum quia sed. Tempore distinctio in. Est et voluptates. Nisi vel non occaecati occaecati hic autem suscipit magnam laboriosam.",
                             ISBN = "System.Int32[]",
                             PageCount = 419,
-                            PublicationDate = new DateTime(2007, 12, 14, 19, 23, 22, 992, DateTimeKind.Local).AddTicks(1630),
+                            PublicationDate = new DateTime(2007, 12, 15, 19, 56, 8, 817, DateTimeKind.Local).AddTicks(7620),
                             PublisherId = 193,
                             Title = "Iure rem."
                         },
@@ -6511,7 +6511,7 @@ namespace API.Data.Migrations
                             Description = "Molestiae quibusdam voluptate magnam. Rerum odio voluptatum aut aliquid vitae molestiae magnam vel laudantium.",
                             ISBN = "System.Int32[]",
                             PageCount = 108,
-                            PublicationDate = new DateTime(1931, 8, 3, 23, 15, 3, 350, DateTimeKind.Local).AddTicks(2696),
+                            PublicationDate = new DateTime(1931, 8, 4, 23, 47, 49, 175, DateTimeKind.Local).AddTicks(8606),
                             PublisherId = 179,
                             Title = "Voluptas neque."
                         },
@@ -6524,7 +6524,7 @@ namespace API.Data.Migrations
                             Description = "Quis qui sed illum. Veniam et magni ea error. Reprehenderit sequi aspernatur doloribus sapiente rem ea voluptas. Veritatis ex illo ratione id non magni aut. Est sapiente nobis facilis et dolor quis ducimus ratione.",
                             ISBN = "System.Int32[]",
                             PageCount = 149,
-                            PublicationDate = new DateTime(1926, 2, 21, 7, 52, 1, 711, DateTimeKind.Local).AddTicks(7549),
+                            PublicationDate = new DateTime(1926, 2, 22, 8, 24, 47, 537, DateTimeKind.Local).AddTicks(3269),
                             PublisherId = 199,
                             Title = "Autem et eaque aut sunt est."
                         },
@@ -6537,7 +6537,7 @@ namespace API.Data.Migrations
                             Description = "Id maiores maxime sunt voluptatem et excepturi voluptas. Eos modi dolorem est nihil voluptatem magni. Et quo et odit harum.",
                             ISBN = "System.Int32[]",
                             PageCount = 104,
-                            PublicationDate = new DateTime(1967, 6, 30, 21, 22, 31, 823, DateTimeKind.Local).AddTicks(6954),
+                            PublicationDate = new DateTime(1967, 7, 1, 21, 55, 17, 649, DateTimeKind.Local).AddTicks(2490),
                             PublisherId = 178,
                             Title = "Temporibus voluptatem."
                         },
@@ -6546,12 +6546,12 @@ namespace API.Data.Migrations
                             Id = 649,
                             AuthorId = 74,
                             CategoryId = 1,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 21, 51, 59, 41, DateTimeKind.Local).AddTicks(1290),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 22, 24, 44, 866, DateTimeKind.Local).AddTicks(6770),
                             CoverImage = "https://picsum.photos/id/198",
                             Description = "Aliquid cupiditate qui provident ut accusantium. Ratione iste omnis blanditiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 371,
-                            PublicationDate = new DateTime(2023, 8, 13, 7, 22, 2, 719, DateTimeKind.Local).AddTicks(5922),
+                            PublicationDate = new DateTime(2023, 8, 14, 7, 54, 48, 545, DateTimeKind.Local).AddTicks(1412),
                             PublisherId = 178,
                             Title = "Et officiis tenetur consequatur odit."
                         },
@@ -6560,12 +6560,12 @@ namespace API.Data.Migrations
                             Id = 650,
                             AuthorId = 104,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 23, 55, 4, 901, DateTimeKind.Local).AddTicks(1573),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 0, 27, 50, 726, DateTimeKind.Local).AddTicks(7453),
                             CoverImage = "https://picsum.photos/id/469",
                             Description = "Non maiores blanditiis et dolor eveniet eius fugiat minus voluptas. Quo aspernatur cum exercitationem natus sed id quisquam odit.",
                             ISBN = "System.Int32[]",
                             PageCount = 234,
-                            PublicationDate = new DateTime(1999, 11, 6, 10, 27, 44, 519, DateTimeKind.Local).AddTicks(2574),
+                            PublicationDate = new DateTime(1999, 11, 7, 11, 0, 30, 344, DateTimeKind.Local).AddTicks(8396),
                             PublisherId = 177,
                             Title = "Nulla provident deleniti natus vel."
                         },
@@ -6574,12 +6574,12 @@ namespace API.Data.Migrations
                             Id = 651,
                             AuthorId = 53,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 8, 3, 20, 6, 39, 529, DateTimeKind.Local).AddTicks(2714),
+                            CheckedOutUntil = new DateTime(2024, 8, 4, 20, 39, 25, 354, DateTimeKind.Local).AddTicks(9364),
                             CoverImage = "https://picsum.photos/id/281",
                             Description = "Ut sint odio beatae. Tenetur quae consequatur eum nostrum laborum ut ut quia. Sequi excepturi possimus autem earum. Aut tempora commodi molestiae consequatur laudantium soluta in corrupti.",
                             ISBN = "System.Int32[]",
                             PageCount = 326,
-                            PublicationDate = new DateTime(1968, 4, 16, 1, 16, 13, 349, DateTimeKind.Local).AddTicks(8366),
+                            PublicationDate = new DateTime(1968, 4, 17, 1, 48, 59, 175, DateTimeKind.Local).AddTicks(5016),
                             PublisherId = 152,
                             Title = "Quaerat earum nam animi."
                         },
@@ -6588,12 +6588,12 @@ namespace API.Data.Migrations
                             Id = 652,
                             AuthorId = 115,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 11, 15, 34, 720, DateTimeKind.Local).AddTicks(31),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 11, 48, 20, 545, DateTimeKind.Local).AddTicks(6486),
                             CoverImage = "https://picsum.photos/id/107",
                             Description = "Dolores est architecto voluptatem aut. Commodi et nisi qui officia dolorum. Molestiae rerum perferendis est provident doloribus dolorem molestiae id sit. Et et accusantium cumque. Suscipit porro autem qui consequatur facilis hic veritatis officia.",
                             ISBN = "System.Int32[]",
                             PageCount = 278,
-                            PublicationDate = new DateTime(1964, 3, 19, 19, 59, 38, 578, DateTimeKind.Local).AddTicks(682),
+                            PublicationDate = new DateTime(1964, 3, 20, 20, 32, 24, 403, DateTimeKind.Local).AddTicks(7152),
                             PublisherId = 195,
                             Title = "Nulla."
                         },
@@ -6606,7 +6606,7 @@ namespace API.Data.Migrations
                             Description = "Non voluptatum sapiente. Est hic amet voluptatem aspernatur beatae atque porro accusamus.",
                             ISBN = "System.Int32[]",
                             PageCount = 272,
-                            PublicationDate = new DateTime(1932, 12, 9, 9, 43, 37, 459, DateTimeKind.Local).AddTicks(1424),
+                            PublicationDate = new DateTime(1932, 12, 10, 10, 16, 23, 284, DateTimeKind.Local).AddTicks(8584),
                             PublisherId = 151,
                             Title = "Voluptas laudantium nam."
                         },
@@ -6615,12 +6615,12 @@ namespace API.Data.Migrations
                             Id = 654,
                             AuthorId = 114,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 0, 37, 34, 34, DateTimeKind.Local).AddTicks(6064),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 1, 10, 19, 859, DateTimeKind.Local).AddTicks(9553),
                             CoverImage = "https://picsum.photos/id/315",
                             Description = "Dolorem adipisci doloribus iste officiis sapiente soluta quidem. Dolores sed ducimus corporis.",
                             ISBN = "System.Int32[]",
                             PageCount = 232,
-                            PublicationDate = new DateTime(2007, 5, 14, 6, 42, 16, 568, DateTimeKind.Local).AddTicks(986),
+                            PublicationDate = new DateTime(2007, 5, 15, 7, 15, 2, 393, DateTimeKind.Local).AddTicks(4552),
                             PublisherId = 153,
                             Title = "Laboriosam quia."
                         },
@@ -6633,7 +6633,7 @@ namespace API.Data.Migrations
                             Description = "Doloremque deserunt sit reiciendis omnis ipsum delectus eligendi pariatur. Tempora est ea dicta aspernatur fugit necessitatibus aut ad voluptatibus. Pariatur libero aspernatur. Mollitia odio nostrum consectetur voluptatem aut et ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 219,
-                            PublicationDate = new DateTime(1952, 7, 14, 5, 4, 52, 163, DateTimeKind.Local).AddTicks(310),
+                            PublicationDate = new DateTime(1952, 7, 15, 5, 37, 37, 988, DateTimeKind.Local).AddTicks(2034),
                             PublisherId = 186,
                             Title = "Amet possimus esse dolorem ipsam."
                         },
@@ -6646,7 +6646,7 @@ namespace API.Data.Migrations
                             Description = "Tempore et non repudiandae molestiae quisquam delectus quis. Sunt velit nam omnis dolore velit quis.",
                             ISBN = "System.Int32[]",
                             PageCount = 113,
-                            PublicationDate = new DateTime(2002, 10, 16, 21, 44, 1, 836, DateTimeKind.Local).AddTicks(6510),
+                            PublicationDate = new DateTime(2002, 10, 17, 22, 16, 47, 661, DateTimeKind.Local).AddTicks(7854),
                             PublisherId = 166,
                             Title = "Id dolor molestiae incidunt."
                         },
@@ -6655,12 +6655,12 @@ namespace API.Data.Migrations
                             Id = 657,
                             AuthorId = 123,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 18, 29, 23, 930, DateTimeKind.Local).AddTicks(1834),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 19, 2, 9, 755, DateTimeKind.Local).AddTicks(2325),
                             CoverImage = "https://picsum.photos/id/475",
                             Description = "Natus laboriosam ut aut velit sint possimus necessitatibus reprehenderit. Est corrupti autem.",
                             ISBN = "System.Int32[]",
                             PageCount = 343,
-                            PublicationDate = new DateTime(1980, 12, 9, 3, 59, 50, 520, DateTimeKind.Local).AddTicks(6914),
+                            PublicationDate = new DateTime(1980, 12, 10, 4, 32, 36, 345, DateTimeKind.Local).AddTicks(7430),
                             PublisherId = 167,
                             Title = "Accusantium commodi vel suscipit minus et."
                         },
@@ -6673,7 +6673,7 @@ namespace API.Data.Migrations
                             Description = "Iure voluptatem voluptas praesentium. Esse quae architecto saepe illo rem magnam eos. Nesciunt quo eum et ut culpa recusandae. Voluptatum dignissimos non est doloremque nostrum aspernatur odit et.",
                             ISBN = "System.Int32[]",
                             PageCount = 234,
-                            PublicationDate = new DateTime(2013, 2, 14, 11, 22, 21, 426, DateTimeKind.Local).AddTicks(5620),
+                            PublicationDate = new DateTime(2013, 2, 15, 11, 55, 7, 251, DateTimeKind.Local).AddTicks(4462),
                             PublisherId = 161,
                             Title = "Sint quae neque qui eum."
                         },
@@ -6686,7 +6686,7 @@ namespace API.Data.Migrations
                             Description = "Possimus aut repellendus nihil est aperiam. Doloribus alias est nihil qui iusto ducimus ab.",
                             ISBN = "System.Int32[]",
                             PageCount = 110,
-                            PublicationDate = new DateTime(1925, 6, 4, 14, 42, 20, 881, DateTimeKind.Local).AddTicks(9163),
+                            PublicationDate = new DateTime(1925, 6, 5, 15, 15, 6, 706, DateTimeKind.Local).AddTicks(7603),
                             PublisherId = 199,
                             Title = "Molestiae doloremque non animi unde quia."
                         },
@@ -6699,7 +6699,7 @@ namespace API.Data.Migrations
                             Description = "Et doloribus qui neque non culpa in fugit veritatis est. Voluptas voluptatem cum quia nulla. Repellat reprehenderit voluptates in odio. Quasi eos ratione rerum distinctio. Repellat ut occaecati nulla.",
                             ISBN = "System.Int32[]",
                             PageCount = 434,
-                            PublicationDate = new DateTime(1985, 11, 9, 6, 50, 58, 484, DateTimeKind.Local).AddTicks(90),
+                            PublicationDate = new DateTime(1985, 11, 10, 7, 23, 44, 308, DateTimeKind.Local).AddTicks(5162),
                             PublisherId = 166,
                             Title = "Molestiae vitae dicta cum voluptatibus ut."
                         },
@@ -6712,7 +6712,7 @@ namespace API.Data.Migrations
                             Description = "Et laboriosam fugiat deleniti dolor commodi minus labore aliquam sed. Quod corrupti quos illum quae. Et deleniti maxime nemo eum repellat accusantium. Quia quia minus explicabo explicabo vitae suscipit dolore recusandae aut. Consectetur aut est.",
                             ISBN = "System.Int32[]",
                             PageCount = 373,
-                            PublicationDate = new DateTime(1958, 8, 19, 4, 21, 58, 19, DateTimeKind.Local).AddTicks(2974),
+                            PublicationDate = new DateTime(1958, 8, 20, 4, 54, 43, 843, DateTimeKind.Local).AddTicks(7780),
                             PublisherId = 159,
                             Title = "Occaecati asperiores impedit excepturi voluptatem vel."
                         },
@@ -6721,12 +6721,12 @@ namespace API.Data.Migrations
                             Id = 662,
                             AuthorId = 100,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 22, 54, 19, 819, DateTimeKind.Local).AddTicks(3285),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 23, 27, 5, 643, DateTimeKind.Local).AddTicks(7991),
                             CoverImage = "https://picsum.photos/id/392",
                             Description = "Optio vero blanditiis sint odio similique quo. Amet saepe et. Dolorem nulla harum et hic. Beatae voluptatem sed.",
                             ISBN = "System.Int32[]",
                             PageCount = 348,
-                            PublicationDate = new DateTime(2001, 11, 30, 2, 5, 17, 504, DateTimeKind.Local).AddTicks(6406),
+                            PublicationDate = new DateTime(2001, 12, 1, 2, 38, 3, 329, DateTimeKind.Local).AddTicks(1116),
                             PublisherId = 170,
                             Title = "Ipsa repellat qui nesciunt qui accusantium."
                         },
@@ -6735,12 +6735,12 @@ namespace API.Data.Migrations
                             Id = 663,
                             AuthorId = 73,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 1, 51, 30, 994, DateTimeKind.Local).AddTicks(2884),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 2, 24, 16, 818, DateTimeKind.Local).AddTicks(7405),
                             CoverImage = "https://picsum.photos/id/413",
                             Description = "Provident quas et esse nostrum velit voluptates. Aut facilis dignissimos iure quaerat dolorem.",
                             ISBN = "System.Int32[]",
                             PageCount = 223,
-                            PublicationDate = new DateTime(2002, 2, 10, 20, 31, 47, 777, DateTimeKind.Local).AddTicks(9106),
+                            PublicationDate = new DateTime(2002, 2, 11, 21, 4, 33, 602, DateTimeKind.Local).AddTicks(3638),
                             PublisherId = 190,
                             Title = "Sequi repudiandae qui error."
                         },
@@ -6753,7 +6753,7 @@ namespace API.Data.Migrations
                             Description = "Aut voluptas eius cumque. Voluptas magni officia placeat veniam quas corrupti sint quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 284,
-                            PublicationDate = new DateTime(1961, 4, 8, 3, 48, 42, 844, DateTimeKind.Local).AddTicks(6872),
+                            PublicationDate = new DateTime(1961, 4, 9, 4, 21, 28, 669, DateTimeKind.Local).AddTicks(1322),
                             PublisherId = 197,
                             Title = "Vero sed et sit voluptatum."
                         },
@@ -6766,7 +6766,7 @@ namespace API.Data.Migrations
                             Description = "Aliquam natus quos cupiditate qui. Soluta facilis corporis adipisci est alias dolores sunt rerum. Vero vel cum ea omnis nobis sed dolorem.",
                             ISBN = "System.Int32[]",
                             PageCount = 215,
-                            PublicationDate = new DateTime(2017, 11, 28, 11, 42, 4, 994, DateTimeKind.Local).AddTicks(5954),
+                            PublicationDate = new DateTime(2017, 11, 29, 12, 14, 50, 819, DateTimeKind.Local).AddTicks(274),
                             PublisherId = 180,
                             Title = "Sit quaerat id."
                         },
@@ -6779,7 +6779,7 @@ namespace API.Data.Migrations
                             Description = "Repellendus similique dignissimos libero iure vero voluptatem vero odit dolorum. Qui sit rem ullam eos deleniti accusantium excepturi enim.",
                             ISBN = "System.Int32[]",
                             PageCount = 234,
-                            PublicationDate = new DateTime(1975, 6, 25, 3, 14, 14, 987, DateTimeKind.Local).AddTicks(2486),
+                            PublicationDate = new DateTime(1975, 6, 26, 3, 47, 0, 811, DateTimeKind.Local).AddTicks(6586),
                             PublisherId = 181,
                             Title = "Consequatur possimus qui quo ea in."
                         },
@@ -6792,7 +6792,7 @@ namespace API.Data.Migrations
                             Description = "In ut quis explicabo at debitis autem. Omnis accusamus dolorem deleniti omnis optio et voluptatem. Placeat non laboriosam distinctio voluptas. Deserunt vitae non ut in molestias sit facilis autem aut. Sunt nihil omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 355,
-                            PublicationDate = new DateTime(2020, 8, 31, 18, 43, 36, 500, DateTimeKind.Local).AddTicks(8770),
+                            PublicationDate = new DateTime(2020, 9, 1, 19, 16, 22, 325, DateTimeKind.Local).AddTicks(2612),
                             PublisherId = 163,
                             Title = "Molestiae."
                         },
@@ -6805,7 +6805,7 @@ namespace API.Data.Migrations
                             Description = "Consequatur optio quia adipisci rem. Quos et iusto numquam sapiente.",
                             ISBN = "System.Int32[]",
                             PageCount = 473,
-                            PublicationDate = new DateTime(1963, 10, 14, 0, 30, 51, 806, DateTimeKind.Local).AddTicks(818),
+                            PublicationDate = new DateTime(1963, 10, 15, 1, 3, 37, 630, DateTimeKind.Local).AddTicks(4648),
                             PublisherId = 195,
                             Title = "Perferendis voluptas et quibusdam quia."
                         },
@@ -6818,7 +6818,7 @@ namespace API.Data.Migrations
                             Description = "Amet enim sed maxime aut natus. Cum autem placeat quae est velit voluptatem deleniti saepe. Dolorum eos et esse error ut voluptas. Ipsum eos unde delectus quasi totam fugit alias repudiandae omnis.",
                             ISBN = "System.Int32[]",
                             PageCount = 128,
-                            PublicationDate = new DateTime(1974, 6, 1, 23, 10, 3, 35, DateTimeKind.Local).AddTicks(4794),
+                            PublicationDate = new DateTime(1974, 6, 2, 23, 42, 48, 859, DateTimeKind.Local).AddTicks(8374),
                             PublisherId = 164,
                             Title = "Rerum suscipit autem aut eligendi."
                         },
@@ -6831,7 +6831,7 @@ namespace API.Data.Migrations
                             Description = "Corporis veniam recusandae nobis quis corrupti vero dolorum. Tempora rerum sunt dolorem. Deserunt ut nihil.",
                             ISBN = "System.Int32[]",
                             PageCount = 315,
-                            PublicationDate = new DateTime(1949, 7, 30, 16, 13, 36, 937, DateTimeKind.Local).AddTicks(2233),
+                            PublicationDate = new DateTime(1949, 7, 31, 16, 46, 22, 761, DateTimeKind.Local).AddTicks(5733),
                             PublisherId = 159,
                             Title = "Aperiam officiis assumenda earum."
                         },
@@ -6840,12 +6840,12 @@ namespace API.Data.Migrations
                             Id = 671,
                             AuthorId = 136,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 8, 1, 7, 18, 56, 711, DateTimeKind.Local).AddTicks(8153),
+                            CheckedOutUntil = new DateTime(2024, 8, 2, 7, 51, 42, 536, DateTimeKind.Local).AddTicks(1418),
                             CoverImage = "https://picsum.photos/id/135",
                             Description = "Et dignissimos id ut consequatur cupiditate sunt tempora occaecati necessitatibus. Qui nihil suscipit enim eius. Dolor nulla autem et possimus incidunt qui iste.",
                             ISBN = "System.Int32[]",
                             PageCount = 224,
-                            PublicationDate = new DateTime(1997, 8, 4, 2, 58, 5, 538, DateTimeKind.Local).AddTicks(9644),
+                            PublicationDate = new DateTime(1997, 8, 5, 3, 30, 51, 363, DateTimeKind.Local).AddTicks(2920),
                             PublisherId = 200,
                             Title = "Nemo velit asperiores eos quae voluptas."
                         },
@@ -6854,12 +6854,12 @@ namespace API.Data.Migrations
                             Id = 672,
                             AuthorId = 123,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 14, 20, 26, 391, DateTimeKind.Local).AddTicks(5021),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 14, 53, 12, 215, DateTimeKind.Local).AddTicks(8181),
                             CoverImage = "https://picsum.photos/id/380",
                             Description = "Veritatis perferendis sed aliquam eos non. Temporibus aspernatur perspiciatis officiis id dolor. Natus illum dignissimos et consequuntur. Esse optio similique officia ipsam accusantium.",
                             ISBN = "System.Int32[]",
                             PageCount = 495,
-                            PublicationDate = new DateTime(1997, 8, 9, 21, 21, 5, 908, DateTimeKind.Local).AddTicks(8868),
+                            PublicationDate = new DateTime(1997, 8, 10, 21, 53, 51, 733, DateTimeKind.Local).AddTicks(2030),
                             PublisherId = 167,
                             Title = "Aut eos."
                         },
@@ -6872,7 +6872,7 @@ namespace API.Data.Migrations
                             Description = "Dignissimos hic itaque fugiat qui. Sint impedit nihil ut. Et pariatur illum qui quisquam consequuntur consectetur explicabo. Quo voluptas aliquam laborum beatae dolorum vitae consequatur hic inventore. Possimus autem quia exercitationem minima repellendus.",
                             ISBN = "System.Int32[]",
                             PageCount = 101,
-                            PublicationDate = new DateTime(1989, 8, 11, 10, 59, 44, 253, DateTimeKind.Local).AddTicks(9588),
+                            PublicationDate = new DateTime(1989, 8, 12, 11, 32, 30, 78, DateTimeKind.Local).AddTicks(2542),
                             PublisherId = 175,
                             Title = "Eos dolore totam iusto veritatis mollitia."
                         },
@@ -6885,7 +6885,7 @@ namespace API.Data.Migrations
                             Description = "Consequatur cupiditate accusamus inventore est occaecati corporis recusandae quis. Eveniet eaque odio provident dolorem provident natus sit. Molestiae ut quia ut harum quis voluptatum eligendi. Praesentium dicta expedita ratione tempora sint itaque.",
                             ISBN = "System.Int32[]",
                             PageCount = 298,
-                            PublicationDate = new DateTime(1964, 4, 25, 12, 3, 42, 631, DateTimeKind.Local).AddTicks(2066),
+                            PublicationDate = new DateTime(1964, 4, 26, 12, 36, 28, 455, DateTimeKind.Local).AddTicks(4810),
                             PublisherId = 161,
                             Title = "Possimus eum."
                         },
@@ -6894,12 +6894,12 @@ namespace API.Data.Migrations
                             Id = 675,
                             AuthorId = 119,
                             CategoryId = 4,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 8, 13, 20, 763, DateTimeKind.Local).AddTicks(8090),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 8, 46, 6, 588, DateTimeKind.Local).AddTicks(759),
                             CoverImage = "https://picsum.photos/id/236",
                             Description = "Quisquam voluptatum sed ab placeat consequatur et mollitia sint. Odit voluptas quod ut blanditiis.",
                             ISBN = "System.Int32[]",
                             PageCount = 407,
-                            PublicationDate = new DateTime(1956, 4, 5, 12, 44, 27, 491, DateTimeKind.Local).AddTicks(1948),
+                            PublicationDate = new DateTime(1956, 4, 6, 13, 17, 13, 315, DateTimeKind.Local).AddTicks(4616),
                             PublisherId = 164,
                             Title = "Iste labore."
                         },
@@ -6908,12 +6908,12 @@ namespace API.Data.Migrations
                             Id = 676,
                             AuthorId = 98,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 4, 15, 19, 190, DateTimeKind.Local).AddTicks(2314),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 4, 48, 5, 14, DateTimeKind.Local).AddTicks(4872),
                             CoverImage = "https://picsum.photos/id/3",
                             Description = "Voluptatum tenetur totam sunt qui. Et quasi omnis quis quo quis maiores non.",
                             ISBN = "System.Int32[]",
                             PageCount = 348,
-                            PublicationDate = new DateTime(2016, 12, 13, 22, 7, 4, 491, DateTimeKind.Local).AddTicks(8368),
+                            PublicationDate = new DateTime(2016, 12, 14, 22, 39, 50, 316, DateTimeKind.Local).AddTicks(930),
                             PublisherId = 191,
                             Title = "Ducimus est."
                         },
@@ -6926,7 +6926,7 @@ namespace API.Data.Migrations
                             Description = "Explicabo perferendis et repudiandae quasi consequuntur. Sit accusamus at quos eos possimus. Temporibus ea similique reprehenderit odit facere. Asperiores earum sint facere nam. Eaque sit veritatis et laborum excepturi laudantium et ex aut.",
                             ISBN = "System.Int32[]",
                             PageCount = 119,
-                            PublicationDate = new DateTime(1939, 7, 29, 12, 9, 53, 859, DateTimeKind.Local).AddTicks(9784),
+                            PublicationDate = new DateTime(1939, 7, 30, 12, 42, 39, 684, DateTimeKind.Local).AddTicks(2124),
                             PublisherId = 175,
                             Title = "Omnis."
                         },
@@ -6939,7 +6939,7 @@ namespace API.Data.Migrations
                             Description = "Enim aut est debitis et exercitationem. Iusto ut in eveniet accusamus saepe nesciunt.",
                             ISBN = "System.Int32[]",
                             PageCount = 432,
-                            PublicationDate = new DateTime(1933, 9, 15, 13, 35, 30, 212, DateTimeKind.Local).AddTicks(9898),
+                            PublicationDate = new DateTime(1933, 9, 16, 14, 8, 16, 37, DateTimeKind.Local).AddTicks(2139),
                             PublisherId = 166,
                             Title = "Neque."
                         },
@@ -6952,7 +6952,7 @@ namespace API.Data.Migrations
                             Description = "Alias totam modi sequi doloribus. Omnis quod exercitationem animi maxime eos voluptates voluptatem qui ex.",
                             ISBN = "System.Int32[]",
                             PageCount = 323,
-                            PublicationDate = new DateTime(1938, 9, 23, 19, 33, 48, 32, DateTimeKind.Local).AddTicks(5530),
+                            PublicationDate = new DateTime(1938, 9, 24, 20, 6, 33, 856, DateTimeKind.Local).AddTicks(7441),
                             PublisherId = 200,
                             Title = "Voluptatibus accusantium dolor quaerat similique."
                         },
@@ -6965,7 +6965,7 @@ namespace API.Data.Migrations
                             Description = "Sed quos ad omnis eveniet. Exercitationem molestiae explicabo officia sed accusamus et aliquam. Autem cum quidem soluta atque voluptatem est commodi. Corporis voluptas fugiat voluptatem.",
                             ISBN = "System.Int32[]",
                             PageCount = 289,
-                            PublicationDate = new DateTime(1993, 4, 4, 10, 29, 58, 724, DateTimeKind.Local).AddTicks(8642),
+                            PublicationDate = new DateTime(1993, 4, 5, 11, 2, 44, 548, DateTimeKind.Local).AddTicks(7542),
                             PublisherId = 193,
                             Title = "Nemo quia."
                         },
@@ -6978,7 +6978,7 @@ namespace API.Data.Migrations
                             Description = "Sed dolore magni eum. Consequatur ut molestiae voluptatem et pariatur quae nisi aut maxime. Quia et numquam ipsum. Nobis et unde id similique eos tempora reiciendis. Deserunt quasi commodi amet qui soluta quia.",
                             ISBN = "System.Int32[]",
                             PageCount = 370,
-                            PublicationDate = new DateTime(1965, 10, 27, 21, 13, 20, 224, DateTimeKind.Local).AddTicks(9462),
+                            PublicationDate = new DateTime(1965, 10, 28, 21, 46, 6, 48, DateTimeKind.Local).AddTicks(8100),
                             PublisherId = 151,
                             Title = "Et harum nobis incidunt eaque."
                         },
@@ -6987,12 +6987,12 @@ namespace API.Data.Migrations
                             Id = 682,
                             AuthorId = 145,
                             CategoryId = 6,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 6, 5, 9, 411, DateTimeKind.Local).AddTicks(7826),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 6, 37, 55, 235, DateTimeKind.Local).AddTicks(5343),
                             CoverImage = "https://picsum.photos/id/8",
                             Description = "Dolor soluta nesciunt ex et eos qui quos. Necessitatibus asperiores voluptatum ipsum dolor nihil neque. Nisi deleniti sint. Minima est est.",
                             ISBN = "System.Int32[]",
                             PageCount = 384,
-                            PublicationDate = new DateTime(1929, 4, 21, 20, 55, 25, 464, DateTimeKind.Local).AddTicks(7000),
+                            PublicationDate = new DateTime(1929, 4, 22, 21, 28, 11, 288, DateTimeKind.Local).AddTicks(4540),
                             PublisherId = 153,
                             Title = "Modi voluptate incidunt consequatur."
                         },
@@ -7001,12 +7001,12 @@ namespace API.Data.Migrations
                             Id = 683,
                             AuthorId = 130,
                             CategoryId = 2,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 14, 52, 31, 76, DateTimeKind.Local).AddTicks(4476),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 15, 25, 16, 900, DateTimeKind.Local).AddTicks(1833),
                             CoverImage = "https://picsum.photos/id/37",
                             Description = "Distinctio rem quia mollitia. Asperiores eum laboriosam sit quia saepe necessitatibus.",
                             ISBN = "System.Int32[]",
                             PageCount = 122,
-                            PublicationDate = new DateTime(1983, 8, 19, 10, 6, 56, 105, DateTimeKind.Local).AddTicks(4084),
+                            PublicationDate = new DateTime(1983, 8, 20, 10, 39, 41, 929, DateTimeKind.Local).AddTicks(1448),
                             PublisherId = 181,
                             Title = "A praesentium ea."
                         },
@@ -7019,7 +7019,7 @@ namespace API.Data.Migrations
                             Description = "Quas et molestiae. Sint vel sequi consectetur ipsum adipisci ab dicta consequatur.",
                             ISBN = "System.Int32[]",
                             PageCount = 500,
-                            PublicationDate = new DateTime(2016, 10, 25, 6, 57, 34, 41, DateTimeKind.Local).AddTicks(3174),
+                            PublicationDate = new DateTime(2016, 10, 26, 7, 30, 19, 864, DateTimeKind.Local).AddTicks(9684),
                             PublisherId = 167,
                             Title = "Dolore laborum ullam."
                         },
@@ -7032,7 +7032,7 @@ namespace API.Data.Migrations
                             Description = "Dolorem minus nesciunt consequatur molestias cupiditate eum voluptatem exercitationem. Libero magni est deserunt velit quo. Autem qui fuga dolorum. Ipsum enim officia voluptates ullam. Quis quia velit nemo voluptatem quod.",
                             ISBN = "System.Int32[]",
                             PageCount = 375,
-                            PublicationDate = new DateTime(1959, 5, 20, 12, 3, 32, 456, DateTimeKind.Local).AddTicks(2452),
+                            PublicationDate = new DateTime(1959, 5, 21, 12, 36, 18, 279, DateTimeKind.Local).AddTicks(4516),
                             PublisherId = 169,
                             Title = "Esse quae eum est."
                         },
@@ -7041,12 +7041,12 @@ namespace API.Data.Migrations
                             Id = 686,
                             AuthorId = 139,
                             CategoryId = 5,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 3, 25, 13, 513, DateTimeKind.Local).AddTicks(9324),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 3, 57, 59, 336, DateTimeKind.Local).AddTicks(9354),
                             CoverImage = "https://picsum.photos/id/356",
                             Description = "Tempora quis minus ipsum et commodi consequatur. Molestiae ab ut et blanditiis totam voluptatem odit fugiat. Sit aliquam ut autem blanditiis beatae iusto veritatis.",
                             ISBN = "System.Int32[]",
                             PageCount = 499,
-                            PublicationDate = new DateTime(2019, 10, 18, 4, 13, 45, 995, DateTimeKind.Local).AddTicks(9008),
+                            PublicationDate = new DateTime(2019, 10, 19, 4, 46, 31, 818, DateTimeKind.Local).AddTicks(9050),
                             PublisherId = 198,
                             Title = "Praesentium natus."
                         },
@@ -7059,7 +7059,7 @@ namespace API.Data.Migrations
                             Description = "Repudiandae expedita minus alias et vero ex porro magnam. Alias magni iusto enim quia rem adipisci magni minus et.",
                             ISBN = "System.Int32[]",
                             PageCount = 352,
-                            PublicationDate = new DateTime(1969, 12, 8, 22, 56, 26, 13, DateTimeKind.Local).AddTicks(5006),
+                            PublicationDate = new DateTime(1969, 12, 9, 23, 29, 11, 836, DateTimeKind.Local).AddTicks(4864),
                             PublisherId = 176,
                             Title = "Consequuntur aut quia fuga voluptates accusamus."
                         },
@@ -7072,7 +7072,7 @@ namespace API.Data.Migrations
                             Description = "Fugiat et sequi porro quod et mollitia rem. Qui sed eum et aut delectus. Commodi debitis corporis illo. Adipisci velit voluptas quod necessitatibus. Enim aut et.",
                             ISBN = "System.Int32[]",
                             PageCount = 168,
-                            PublicationDate = new DateTime(1990, 6, 7, 7, 8, 9, 430, DateTimeKind.Local).AddTicks(4768),
+                            PublicationDate = new DateTime(1990, 6, 8, 7, 40, 55, 253, DateTimeKind.Local).AddTicks(5708),
                             PublisherId = 190,
                             Title = "Minima cumque magnam."
                         },
@@ -7081,12 +7081,12 @@ namespace API.Data.Migrations
                             Id = 689,
                             AuthorId = 94,
                             CategoryId = 3,
-                            CheckedOutUntil = new DateTime(2024, 8, 2, 6, 36, 43, 261, DateTimeKind.Local).AddTicks(3139),
+                            CheckedOutUntil = new DateTime(2024, 8, 3, 7, 9, 29, 84, DateTimeKind.Local).AddTicks(1499),
                             CoverImage = "https://picsum.photos/id/231",
                             Description = "Enim reiciendis pariatur consequatur veniam quis laborum. Voluptatem quam ipsum doloribus. Impedit amet quas aperiam in unde. Eveniet sit fugit quisquam ea itaque a.",
                             ISBN = "System.Int32[]",
                             PageCount = 182,
-                            PublicationDate = new DateTime(2024, 5, 18, 19, 25, 43, 191, DateTimeKind.Local).AddTicks(8324),
+                            PublicationDate = new DateTime(2024, 5, 19, 19, 58, 29, 14, DateTimeKind.Local).AddTicks(6732),
                             PublisherId = 161,
                             Title = "Autem excepturi nihil."
                         },
@@ -7099,7 +7099,7 @@ namespace API.Data.Migrations
                             Description = "Nihil voluptatibus eos. Sapiente ut velit voluptatem. Aperiam quo nihil. Qui mollitia doloribus reiciendis magni eum quia. Eum eos repudiandae est id rerum.",
                             ISBN = "System.Int32[]",
                             PageCount = 164,
-                            PublicationDate = new DateTime(1973, 10, 1, 18, 7, 45, 101, DateTimeKind.Local).AddTicks(2670),
+                            PublicationDate = new DateTime(1973, 10, 2, 18, 40, 30, 923, DateTimeKind.Local).AddTicks(9744),
                             PublisherId = 166,
                             Title = "Voluptatem officiis deleniti."
                         },
@@ -7112,7 +7112,7 @@ namespace API.Data.Migrations
                             Description = "Officiis nulla hic ea modi in necessitatibus. Est tempora dolores consequuntur sit aut laudantium expedita in. Provident veniam qui autem. Quam et soluta ut nobis sequi dignissimos blanditiis eum ut.",
                             ISBN = "System.Int32[]",
                             PageCount = 301,
-                            PublicationDate = new DateTime(1956, 3, 11, 3, 48, 35, 158, DateTimeKind.Local).AddTicks(1226),
+                            PublicationDate = new DateTime(1956, 3, 12, 4, 21, 20, 980, DateTimeKind.Local).AddTicks(7716),
                             PublisherId = 171,
                             Title = "Quo nesciunt saepe aliquid."
                         },
@@ -7125,7 +7125,7 @@ namespace API.Data.Migrations
                             Description = "Ab sed nobis et est nemo modi. Nihil dolor ut culpa totam vitae dolore cupiditate. Quae veritatis ut tenetur eos enim. Consequuntur nostrum et molestias et voluptas quam vero. Dolor in fugiat.",
                             ISBN = "System.Int32[]",
                             PageCount = 286,
-                            PublicationDate = new DateTime(1994, 12, 19, 4, 51, 42, 797, DateTimeKind.Local).AddTicks(8774),
+                            PublicationDate = new DateTime(1994, 12, 20, 5, 24, 28, 618, DateTimeKind.Local).AddTicks(1246),
                             PublisherId = 156,
                             Title = "Aperiam vitae accusamus."
                         },
@@ -7138,7 +7138,7 @@ namespace API.Data.Migrations
                             Description = "Omnis quis nobis esse voluptatem suscipit. Perferendis quia eveniet beatae sed esse reprehenderit mollitia atque ea. Nobis mollitia qui. Deserunt quia itaque laboriosam doloribus. Ea incidunt perferendis ea et dolorem amet voluptate.",
                             ISBN = "System.Int32[]",
                             PageCount = 378,
-                            PublicationDate = new DateTime(1941, 1, 25, 20, 21, 6, 63, DateTimeKind.Local).AddTicks(9000),
+                            PublicationDate = new DateTime(1941, 1, 26, 20, 53, 51, 884, DateTimeKind.Local).AddTicks(887),
                             PublisherId = 187,
                             Title = "Eaque sed deleniti est quo ipsa."
                         },
@@ -7147,12 +7147,12 @@ namespace API.Data.Migrations
                             Id = 694,
                             AuthorId = 116,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 18, 6, 42, 76, DateTimeKind.Local).AddTicks(7337),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 18, 39, 27, 896, DateTimeKind.Local).AddTicks(8587),
                             CoverImage = "https://picsum.photos/id/354",
                             Description = "Cum nobis officia sed amet ipsa fuga possimus vel nam. Earum et explicabo dolorem porro voluptatem temporibus sequi officiis dicta.",
                             ISBN = "System.Int32[]",
                             PageCount = 309,
-                            PublicationDate = new DateTime(1994, 8, 10, 22, 28, 28, 897, DateTimeKind.Local).AddTicks(8004),
+                            PublicationDate = new DateTime(1994, 8, 11, 23, 1, 14, 717, DateTimeKind.Local).AddTicks(9266),
                             PublisherId = 164,
                             Title = "Deleniti voluptatum vel ut numquam."
                         },
@@ -7165,7 +7165,7 @@ namespace API.Data.Migrations
                             Description = "Eum enim aspernatur dicta nihil et eius quibusdam ut. Est et rem beatae commodi quia. Rerum ratione expedita aut distinctio architecto.",
                             ISBN = "System.Int32[]",
                             PageCount = 219,
-                            PublicationDate = new DateTime(1931, 5, 12, 17, 59, 32, 368, DateTimeKind.Local).AddTicks(8560),
+                            PublicationDate = new DateTime(1931, 5, 13, 18, 32, 18, 188, DateTimeKind.Local).AddTicks(9679),
                             PublisherId = 187,
                             Title = "Enim et."
                         },
@@ -7174,12 +7174,12 @@ namespace API.Data.Migrations
                             Id = 696,
                             AuthorId = 147,
                             CategoryId = 8,
-                            CheckedOutUntil = new DateTime(2024, 7, 31, 1, 48, 50, 389, DateTimeKind.Local).AddTicks(5080),
+                            CheckedOutUntil = new DateTime(2024, 8, 1, 2, 21, 36, 209, DateTimeKind.Local).AddTicks(5910),
                             CoverImage = "https://picsum.photos/id/453",
                             Description = "Molestiae et est quisquam ut esse ut. Molestias beatae aut in est. Error perspiciatis dolores. Possimus iste est nulla officia explicabo. In quam praesentium vero.",
                             ISBN = "System.Int32[]",
                             PageCount = 457,
-                            PublicationDate = new DateTime(1927, 3, 15, 13, 47, 35, 406, DateTimeKind.Local).AddTicks(7501),
+                            PublicationDate = new DateTime(1927, 3, 16, 14, 20, 21, 226, DateTimeKind.Local).AddTicks(8351),
                             PublisherId = 189,
                             Title = "Quaerat minima incidunt dicta consequatur."
                         },
@@ -7192,7 +7192,7 @@ namespace API.Data.Migrations
                             Description = "Non quo repellat rerum voluptatum animi nemo. Et odio eius sint enim quidem optio quisquam aperiam est.",
                             ISBN = "System.Int32[]",
                             PageCount = 233,
-                            PublicationDate = new DateTime(2012, 4, 7, 8, 1, 31, 485, DateTimeKind.Local).AddTicks(4878),
+                            PublicationDate = new DateTime(2012, 4, 8, 8, 34, 17, 305, DateTimeKind.Local).AddTicks(4700),
                             PublisherId = 180,
                             Title = "Deserunt a non sit voluptates."
                         },
@@ -7201,12 +7201,12 @@ namespace API.Data.Migrations
                             Id = 698,
                             AuthorId = 133,
                             CategoryId = 7,
-                            CheckedOutUntil = new DateTime(2024, 7, 30, 7, 54, 14, 805, DateTimeKind.Local).AddTicks(9908),
+                            CheckedOutUntil = new DateTime(2024, 7, 31, 8, 27, 0, 625, DateTimeKind.Local).AddTicks(8968),
                             CoverImage = "https://picsum.photos/id/334",
                             Description = "Velit autem tenetur. Corrupti exercitationem modi voluptatem dignissimos. Modi laudantium aut qui ullam quis quos. Necessitatibus qui atque molestias.",
                             ISBN = "System.Int32[]",
                             PageCount = 201,
-                            PublicationDate = new DateTime(2012, 10, 29, 7, 45, 5, 328, DateTimeKind.Local).AddTicks(7836),
+                            PublicationDate = new DateTime(2012, 10, 30, 8, 17, 51, 148, DateTimeKind.Local).AddTicks(6910),
                             PublisherId = 166,
                             Title = "Consectetur soluta adipisci."
                         },
@@ -7219,7 +7219,7 @@ namespace API.Data.Migrations
                             Description = "Consectetur aut recusandae dignissimos cupiditate est nihil et odio consequatur. Sit nesciunt non pariatur quod soluta dolorum deserunt dolores non.",
                             ISBN = "System.Int32[]",
                             PageCount = 237,
-                            PublicationDate = new DateTime(1990, 9, 29, 15, 26, 14, 430, DateTimeKind.Local).AddTicks(4818),
+                            PublicationDate = new DateTime(1990, 9, 30, 15, 59, 0, 250, DateTimeKind.Local).AddTicks(3838),
                             PublisherId = 197,
                             Title = "Sit aut velit ut."
                         },
@@ -7232,7 +7232,7 @@ namespace API.Data.Migrations
                             Description = "Minus et eveniet nobis aut. Beatae molestiae vel placeat quod.",
                             ISBN = "System.Int32[]",
                             PageCount = 296,
-                            PublicationDate = new DateTime(1926, 6, 7, 16, 40, 58, 574, DateTimeKind.Local).AddTicks(7677),
+                            PublicationDate = new DateTime(1926, 6, 8, 17, 13, 44, 394, DateTimeKind.Local).AddTicks(4497),
                             PublisherId = 174,
                             Title = "Sed dignissimos doloribus veritatis omnis."
                         });
@@ -8283,323 +8283,652 @@ namespace API.Data.Migrations
                         });
                 });
 
+            modelBuilder.Entity("API.Models.Role", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NormalizedName")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("NormalizedName")
+                        .IsUnique()
+                        .HasDatabaseName("RoleNameIndex");
+
+                    b.ToTable("AspNetRoles", (string)null);
+                });
+
             modelBuilder.Entity("API.Models.User", b =>
                 {
                     b.Property<int>("Id")
                         .ValueGeneratedOnAdd()
                         .HasColumnType("INTEGER");
 
-                    b.Property<string>("Name")
-                        .IsRequired()
+                    b.Property<int>("AccessFailedCount")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ConcurrencyStamp")
+                        .IsConcurrencyToken()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("TypeId")
+                    b.Property<string>("Email")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("EmailConfirmed")
                         .HasColumnType("INTEGER");
+
+                    b.Property<bool>("LockoutEnabled")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<DateTimeOffset?>("LockoutEnd")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NormalizedEmail")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("NormalizedUserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PasswordHash")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("PhoneNumber")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("PhoneNumberConfirmed")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int?>("RoleId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("SecurityStamp")
+                        .HasColumnType("TEXT");
+
+                    b.Property<bool>("TwoFactorEnabled")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("UserName")
+                        .HasMaxLength(256)
+                        .HasColumnType("TEXT");
 
                     b.HasKey("Id");
 
-                    b.ToTable("Users");
+                    b.HasIndex("NormalizedEmail")
+                        .HasDatabaseName("EmailIndex");
+
+                    b.HasIndex("NormalizedUserName")
+                        .IsUnique()
+                        .HasDatabaseName("UserNameIndex");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUsers", (string)null);
 
                     b.HasData(
                         new
                         {
                             Id = 1,
-                            Name = "Trevor Legros",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "107b521b-9e84-43cf-b70f-b0d934822e7f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Trevor Legros"
                         },
                         new
                         {
                             Id = 2,
-                            Name = "Devyn Goyette",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "ae5036e4-160a-4aa2-8038-f51d89da7d51",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Devyn Goyette"
                         },
                         new
                         {
                             Id = 3,
-                            Name = "Uriel Lang",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "05799212-7dc8-4564-a19e-f1f0677c55da",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Uriel Lang"
                         },
                         new
                         {
                             Id = 4,
-                            Name = "Tracey Graham",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "a44eb8ad-1d8b-4026-a8c9-a00c6b246399",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Tracey Graham"
                         },
                         new
                         {
                             Id = 5,
-                            Name = "Rocio O'Conner",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "fb0394c3-d75a-480a-bd59-bd1aafdb1f84",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Rocio O'Conner"
                         },
                         new
                         {
                             Id = 6,
-                            Name = "Madonna Shanahan",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "3c331219-3c7a-4240-9657-940ee3ca3c6d",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Madonna Shanahan"
                         },
                         new
                         {
                             Id = 7,
-                            Name = "Florida Metz",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "76136728-50a0-40e9-9019-52929df3d1be",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Florida Metz"
                         },
                         new
                         {
                             Id = 8,
-                            Name = "Vivianne Greenfelder",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "3d9f680a-11f6-445e-a450-cee297890447",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Vivianne Greenfelder"
                         },
                         new
                         {
                             Id = 9,
-                            Name = "Allie Ziemann",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "0abd9def-ee9e-4f85-922f-6e05d0e5dccc",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Allie Ziemann"
                         },
                         new
                         {
                             Id = 10,
-                            Name = "Coy Von",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "8663450a-7656-4e52-ae3d-1c85578a246e",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Coy Von"
                         },
                         new
                         {
                             Id = 11,
-                            Name = "Dena Larson",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "889724a3-c766-4f53-894e-cf9be0515c71",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Dena Larson"
                         },
                         new
                         {
                             Id = 12,
-                            Name = "Jermain Purdy",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "2bfddef4-42f1-43fc-84fd-66881b499d40",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Jermain Purdy"
                         },
                         new
                         {
                             Id = 13,
-                            Name = "Maynard Carroll",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "de802bf1-89cb-4c88-ab15-17906f53ae87",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Maynard Carroll"
                         },
                         new
                         {
                             Id = 14,
-                            Name = "Raymundo Kulas",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "8168c37b-0171-4dfe-bac1-6864522f4d7f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Raymundo Kulas"
                         },
                         new
                         {
                             Id = 15,
-                            Name = "Madaline Rowe",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "63459f13-44a5-44bb-9a7d-98feecfdfdd0",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Madaline Rowe"
                         },
                         new
                         {
                             Id = 16,
-                            Name = "Oral Crona",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "2bd90319-e3f1-4249-89c5-39c2d66ca61d",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Oral Crona"
                         },
                         new
                         {
                             Id = 17,
-                            Name = "Flossie Ledner",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "251aa2bf-e17d-4a25-af49-332afef2c95f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Flossie Ledner"
                         },
                         new
                         {
                             Id = 18,
-                            Name = "Darion Kemmer",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "cfde57e8-cef3-4873-b60a-748a66866d1a",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Darion Kemmer"
                         },
                         new
                         {
                             Id = 19,
-                            Name = "Conrad Christiansen",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "79c0dc24-b7f1-4ded-b048-baa72f03ba72",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Conrad Christiansen"
                         },
                         new
                         {
                             Id = 20,
-                            Name = "Vladimir Stokes",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "ec1ced8c-76ad-48b7-af19-f69b3b3ca2c4",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Vladimir Stokes"
                         },
                         new
                         {
                             Id = 21,
-                            Name = "Fern Murazik",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "af153833-9b67-46b4-8343-5a8f0dc06a6f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Fern Murazik"
                         },
                         new
                         {
                             Id = 22,
-                            Name = "Claudine Steuber",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "cef2e897-4004-4286-942c-afd5e8dd803f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Claudine Steuber"
                         },
                         new
                         {
                             Id = 23,
-                            Name = "Judson Buckridge",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "ecadbb0e-4a00-47e3-b7b5-08da2ec3194f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Judson Buckridge"
                         },
                         new
                         {
                             Id = 24,
-                            Name = "Isai Greenfelder",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "25396a56-8f3d-4c94-8b7f-7d5b5645b3eb",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Isai Greenfelder"
                         },
                         new
                         {
                             Id = 25,
-                            Name = "Zackery Haag",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "51e2b0f6-8ad3-4bae-9a3b-c17546ff777d",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Zackery Haag"
                         },
                         new
                         {
                             Id = 26,
-                            Name = "Jessyca Bernhard",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "dbc2ca37-65bf-41da-8d96-ab5d6e6ad6b0",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Jessyca Bernhard"
                         },
                         new
                         {
                             Id = 27,
-                            Name = "Zoie Herman",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "b2336c00-ddf1-4600-86dd-ee17e9ccb341",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Zoie Herman"
                         },
                         new
                         {
                             Id = 28,
-                            Name = "Elsie Jones",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "b89c6a2c-7111-4c45-8151-f47b4c7008f0",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Elsie Jones"
                         },
                         new
                         {
                             Id = 29,
-                            Name = "Alexandrine Lynch",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "2972b359-6a7c-4e24-9656-893e1b6b7077",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Alexandrine Lynch"
                         },
                         new
                         {
                             Id = 30,
-                            Name = "Kirsten Sipes",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "470232c6-2014-48e0-9c3c-07e6a2a5519f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Kirsten Sipes"
                         },
                         new
                         {
                             Id = 31,
-                            Name = "Mason Kihn",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "d13a8af2-0faf-45c9-9980-c9118f9ff10a",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Mason Kihn"
                         },
                         new
                         {
                             Id = 32,
-                            Name = "London Blanda",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "98bb712e-1aae-42ca-a456-a1d4fd17c4d6",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "London Blanda"
                         },
                         new
                         {
                             Id = 33,
-                            Name = "Scarlett Kutch",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "e62bbca9-8eb0-4f42-99c1-c3b2ebae1290",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Scarlett Kutch"
                         },
                         new
                         {
                             Id = 34,
-                            Name = "Jamel Skiles",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "5a1ff981-4017-43ab-ac98-672f8eda298d",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Jamel Skiles"
                         },
                         new
                         {
                             Id = 35,
-                            Name = "Freda Leuschke",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "7f4c513c-c6cf-4260-8445-1150504c5e19",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Freda Leuschke"
                         },
                         new
                         {
                             Id = 36,
-                            Name = "Arvilla Veum",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "69e64716-3d78-4161-9740-ed01e0e5c019",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Arvilla Veum"
                         },
                         new
                         {
                             Id = 37,
-                            Name = "Alden Hermann",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "11db6d61-9eec-41f9-b242-57a9472cc1ff",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Alden Hermann"
                         },
                         new
                         {
                             Id = 38,
-                            Name = "Ken Muller",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "31c4c961-ebf1-4b19-97d9-2da00e53fc32",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Ken Muller"
                         },
                         new
                         {
                             Id = 39,
-                            Name = "Enrique Nikolaus",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "41d9be31-1732-4244-b452-2ce6ba92a40b",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Enrique Nikolaus"
                         },
                         new
                         {
                             Id = 40,
-                            Name = "Chesley McKenzie",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "6310655b-df35-48e3-a3fb-2a1d92c0d05a",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Chesley McKenzie"
                         },
                         new
                         {
                             Id = 41,
-                            Name = "Marcelo Leffler",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "011116ec-38f7-422e-ba36-b18283a8b876",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Marcelo Leffler"
                         },
                         new
                         {
                             Id = 42,
-                            Name = "Jesse Heidenreich",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "a9158e63-f0bb-4c6b-ac49-b3b1a085716a",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Jesse Heidenreich"
                         },
                         new
                         {
                             Id = 43,
-                            Name = "Devon Quigley",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "bfbd661a-2a6f-400d-b73c-0eeb68e52605",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Devon Quigley"
                         },
                         new
                         {
                             Id = 44,
-                            Name = "Carmela Adams",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "60027089-db94-4973-8129-abcf26ea20b8",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Carmela Adams"
                         },
                         new
                         {
                             Id = 45,
-                            Name = "Cristian Schowalter",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "98c4e8eb-07e6-421a-bdda-721917247bfd",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Cristian Schowalter"
                         },
                         new
                         {
                             Id = 46,
-                            Name = "Greg O'Connell",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "b3f9f3d2-4103-46f8-ab5d-30d69480e212",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Greg O'Connell"
                         },
                         new
                         {
                             Id = 47,
-                            Name = "Kay Conn",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "abffb576-242e-4c6f-8dd4-7110372cc0d0",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Kay Conn"
                         },
                         new
                         {
                             Id = 48,
-                            Name = "Catherine Vandervort",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "bf92f533-7f89-4d07-859f-cc8303fa0f32",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Catherine Vandervort"
                         },
                         new
                         {
                             Id = 49,
-                            Name = "Zetta Carroll",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "9de74b3a-710f-4b90-905f-3315da0346fb",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Zetta Carroll"
                         },
                         new
                         {
                             Id = 50,
-                            Name = "Willis Bailey",
-                            TypeId = 2
+                            AccessFailedCount = 0,
+                            ConcurrencyStamp = "76a9bc6d-8019-4c81-8ced-1cbed5b07a0f",
+                            EmailConfirmed = false,
+                            LockoutEnabled = false,
+                            PhoneNumberConfirmed = false,
+                            TwoFactorEnabled = false,
+                            UserName = "Willis Bailey"
                         });
                 });
 
@@ -8628,6 +8957,105 @@ namespace API.Data.Migrations
                             Id = 2,
                             Name = "Customer"
                         });
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetRoleClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<int>", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("ClaimType")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ClaimValue")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("Id");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserClaims", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<int>", b =>
+                {
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProviderKey")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("ProviderDisplayName")
+                        .HasColumnType("TEXT");
+
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("LoginProvider", "ProviderKey");
+
+                    b.HasIndex("UserId");
+
+                    b.ToTable("AspNetUserLogins", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<int>", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("RoleId")
+                        .HasColumnType("INTEGER");
+
+                    b.HasKey("UserId", "RoleId");
+
+                    b.HasIndex("RoleId");
+
+                    b.ToTable("AspNetUserRoles", (string)null);
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>
+                {
+                    b.Property<int>("UserId")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<string>("LoginProvider")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Name")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("Value")
+                        .HasColumnType("TEXT");
+
+                    b.HasKey("UserId", "LoginProvider", "Name");
+
+                    b.ToTable("AspNetUserTokens", (string)null);
                 });
 
             modelBuilder.Entity("API.Models.Book", b =>
@@ -8663,9 +9091,72 @@ namespace API.Data.Migrations
                     b.Navigation("Publisher");
                 });
 
+            modelBuilder.Entity("API.Models.User", b =>
+                {
+                    b.HasOne("API.Models.Role", null)
+                        .WithMany("Users")
+                        .HasForeignKey("RoleId");
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<int>", b =>
+                {
+                    b.HasOne("API.Models.Role", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserClaim<int>", b =>
+                {
+                    b.HasOne("API.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserLogin<int>", b =>
+                {
+                    b.HasOne("API.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserRole<int>", b =>
+                {
+                    b.HasOne("API.Models.Role", null)
+                        .WithMany()
+                        .HasForeignKey("RoleId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
+                    b.HasOne("API.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
+            modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityUserToken<int>", b =>
+                {
+                    b.HasOne("API.Models.User", null)
+                        .WithMany()
+                        .HasForeignKey("UserId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+                });
+
             modelBuilder.Entity("API.Models.Author", b =>
                 {
                     b.Navigation("Books");
+                });
+
+            modelBuilder.Entity("API.Models.Role", b =>
+                {
+                    b.Navigation("Users");
                 });
 #pragma warning restore 612, 618
         }

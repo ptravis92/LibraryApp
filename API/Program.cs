@@ -13,6 +13,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddScoped<BooksService>();
 builder.Services.AddScoped<BooksRepository>();
 builder.Services.AddScoped<TokenService>();
+builder.Services.AddAutoMapper(AppDomain.CurrentDomain.GetAssemblies());
 
 builder.Services.AddControllers();
 builder.Services.AddTransient<DataGenerator>();

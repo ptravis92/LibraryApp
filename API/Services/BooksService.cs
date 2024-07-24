@@ -22,7 +22,7 @@ public class BooksService(BooksRepository repository)
                 PublicationDate = book.PublicationDate,
                 ISBN = book.ISBN,
                 PageCount = book.PageCount,
-                CheckedOutUser = book.CheckedOutUser?.Name,
+                CheckedOutUser = book.CheckedOutUser?.UserName,
                 CheckedOutUntil = book.CheckedOutUntil,
                 AuthorId = book.AuthorId,
             });
@@ -44,7 +44,7 @@ public class BooksService(BooksRepository repository)
                 PublicationDate = book.PublicationDate,
                 ISBN = book.ISBN,
                 PageCount = book.PageCount,
-                CheckedOutUser = book.CheckedOutUser?.Name,
+                CheckedOutUser = book.CheckedOutUser?.UserName,
                 CheckedOutUntil = book.CheckedOutUntil,
                 AuthorId = book.AuthorId,
             };
